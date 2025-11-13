@@ -248,8 +248,8 @@
           {
             "voie": "IV",
             "unite": "mg",
-            "doseKg": 100,
-            "doseMax": 5000,
+            "doseKg": 80.0,
+            "doseMax": 5000.0,
             "preparation": "Reconstitution: eau ppi pour concentration 20 mg/mL (max 50 mg/mL). Dilution NaCl 0,9% exclusivement - IV lente 30 min (15 min si 50 mg/mL)"
           }
         ]
