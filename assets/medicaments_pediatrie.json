@@ -1080,7 +1080,7 @@
           {
             "voie": "Instillation endotrachéale",
             "unite": "mg",
-            "doseKg": 200,
+            "doseKg": 200.0,
             "preparation": "Le plus tôt possible après naissance. Doses supplémentaires possibles: 100 mg/kg à 6-12h de la 1ère dose puis à nouveau 12h après si persistance SDR (max total: 400 mg/kg)"
           }
         ]
