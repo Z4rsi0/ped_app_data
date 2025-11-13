@@ -212,6 +212,18 @@
             "doseMax": 300.0
           }
         ]
+      },
+      {
+        "label": "Trouble du rythme ventriculaire",
+        "posologies": [
+          {
+            "voie": "IV",
+            "unite": "mg",
+            "doseKg": 5.0,
+            "doseMax": 300.0,
+            "preparation": "sur 20 min à 1h"
+          }
+        ]
       }
     ]
   },
