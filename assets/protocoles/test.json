@@ -1,0 +1,24 @@
+{
+  "nom": "Test",
+  "description": "Fjj",
+  "etapes": [
+    {
+      "titre": "Test",
+      "elements": [
+        {
+          "type": "texte",
+          "texte": "ycyc"
+        },
+        {
+          "type": "medicament",
+          "medicament": {
+            "nom": "Paracétamol",
+            "indication": "Fièvre",
+            "voie": "IV"
+          }
+        }
+      ],
+      "temps": "b"
+    }
+  ]
+}
