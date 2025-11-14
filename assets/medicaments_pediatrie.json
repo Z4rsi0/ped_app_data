@@ -1387,14 +1387,15 @@
             "doseKg": 1.0
           },
           {
-            "voie": "IV",
+            "voie": "IVSE",
             "unite": "µg/kg/min",
             "doseKgMin": 0.1,
             "doseKgMax": 1.0
           }
         ]
       }
-    ]
+    ],
+    "contreIndications": "infarctus"
   },
   {
     "nom": "Kétoprofène injectable",
