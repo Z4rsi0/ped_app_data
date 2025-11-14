@@ -1374,6 +1374,29 @@
     "aSavoir": "Apport concomitant de K+ souvent nécessaire en acidocétose. Surveillance glycémie, kaliémie"
   },
   {
+    "nom": "Isoprénaline",
+    "galenique": "Solution injectable",
+    "nomCommercial": "ISUPREL",
+    "indications": [
+      {
+        "label": "Bradycardie",
+        "posologies": [
+          {
+            "voie": "IV",
+            "unite": "µg",
+            "doseKg": 1.0
+          },
+          {
+            "voie": "IV",
+            "unite": "µg/kg/min",
+            "doseKgMin": 0.1,
+            "doseKgMax": 1.0
+          }
+        ]
+      }
+    ]
+  },
+  {
     "nom": "Kétoprofène injectable",
     "galenique": "Solution injectable 100 mg/2 mL",
     "nomCommercial": "PROFENID",
