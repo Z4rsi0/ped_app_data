@@ -198,6 +198,37 @@
     "aSavoir": "Suivi thérapeutique: taux résiduel <5 mg/L, pic 15-20 mg/L (doses fractionnées) ou 40-50 mg/L (dose unique). Adaptation selon dosages et insuffisance rénale"
   },
   {
+    "nom": "Amiodarone",
+    "galenique": "Solution injectable",
+    "nomCommercial": "CORDARONE",
+    "indications": [
+      {
+        "label": "ACR",
+        "posologies": [
+          {
+            "voie": "IV",
+            "unite": "mg",
+            "doseKg": 5.0,
+            "doseMax": 300.0,
+            "preparation": "en flash"
+          }
+        ]
+      },
+      {
+        "label": "Trouble du rythme ventriculaire",
+        "posologies": [
+          {
+            "voie": "IV",
+            "unite": "mg",
+            "doseKg": 5.0,
+            "doseMax": 300.0,
+            "preparation": "sur 20 minutes à 1 heure"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "nom": "Amoxicilline",
     "galenique": "Poudre injectable 500 mg et 1 g",
     "nomCommercial": "CLAMOXYL",
