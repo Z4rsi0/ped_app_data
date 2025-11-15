@@ -13,7 +13,7 @@
           "type": "medicament",
           "medicament": {
             "nom": "Adrénaline",
-            "indication": "ACR",
+            "indication": "Arrêt cardiaque",
             "voie": "IV/IO"
           }
         }
