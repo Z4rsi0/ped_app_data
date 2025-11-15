@@ -12,7 +12,7 @@
         {
           "type": "medicament",
           "medicament": {
-            "nom": "Adrenaline",
+            "nom": "Adrénaline",
             "indication": "ACR",
             "voie": "IV"
           }
