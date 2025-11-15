@@ -1,0 +1,23 @@
+{
+  "nom": "Test",
+  "description": "Test",
+  "etapes": [
+    {
+      "titre": "Test",
+      "elements": [
+        {
+          "type": "texte",
+          "texte": "test"
+        },
+        {
+          "type": "medicament",
+          "medicament": {
+            "nom": "Adrenaline",
+            "indication": "ACR",
+            "voie": "IV"
+          }
+        }
+      ]
+    }
+  ]
+}
