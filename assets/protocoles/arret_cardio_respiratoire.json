@@ -4,13 +4,13 @@
   "etapes": [
     {
       "titre": "Reconnaissance de l'ACR",
-      "temps": "< 10 sec",
       "elements": [
         {
           "type": "texte",
           "texte": "• Absence de réponse aux stimulations\n• Absence de respiration normale (gasps = ACR)\n• Absence de pouls central (carotidien ou fémoral)\n\nSi doute sur le pouls après 10 sec → débuter RCP"
         }
       ],
+      "temps": "< 10 sec",
       "attention": "Ne pas perdre de temps - Débuter RCP immédiatement"
     },
     {
@@ -25,29 +25,28 @@
     },
     {
       "titre": "Monitoring et voie d'abord",
-      "temps": "Dès que possible",
       "elements": [
         {
           "type": "texte",
           "texte": "• Scope/défibrillateur: analyser rythme\n• SpO2, ETCO2 si disponible\n• Voie veineuse ou intra-osseuse\n• Si échec VVP après 2 tentatives ou 90 sec → IO immédiate\n\nSites IO:\n• Tibia proximal (préféré)\n• Fémur distal\n• Humérus proximal"
         }
       ],
+      "temps": "Dès que possible",
       "attention": "IO = équivalent IV - Ne pas retarder les drogues"
     },
     {
       "titre": "Analyse du rythme",
-      "temps": "Toutes les 2 min",
       "elements": [
         {
           "type": "texte",
           "texte": "2 RYTHMES POSSIBLES:\n\nA) Rythme CHOQUABLE (FV/TV sans pouls):\n   → Choc électrique + RCP\n\nB) Rythme NON CHOQUABLE (Asystolie/AESP):\n   → Adrénaline + RCP"
         }
       ],
+      "temps": "Toutes les 2 min",
       "attention": "Interrompre compressions < 5 sec pour analyser"
     },
     {
       "titre": "CHOQUABLE: Choc + Adrénaline",
-      "temps": "Si FV/TV",
       "elements": [
         {
           "type": "texte",
@@ -63,13 +62,20 @@
         {
           "type": "texte",
           "texte": "→ Après le 2ème choc, puis toutes les 2 cycles (3-5 min)\n\n• Amiodarone 5 mg/kg IV/IO après 3ème choc\n• 2ème dose Amiodarone possible"
+        },
+        {
+          "type": "medicament",
+          "medicament": {
+            "nom": "Amiodarone",
+            "indication": "ACR"
+          }
         }
       ],
+      "temps": "Si FV/TV",
       "attention": "SÉCURITÉ: s'écarter avant choc - Reprendre RCP sans délai"
     },
     {
       "titre": "NON CHOQUABLE: Adrénaline immédiate",
-      "temps": "Si Asystolie/AESP",
       "elements": [
         {
           "type": "medicament",
@@ -83,6 +89,7 @@
           "texte": "→ Immédiatement dès voie d'abord\n→ Puis toutes les 3-5 minutes\n\n• RCP continue 15:2\n• Réévaluation toutes les 2 minutes\n• Si rythme devient choquable → protocole choc"
         }
       ],
+      "temps": "Si Asystolie/AESP",
       "attention": "Adrénaline = pilier du traitement - Ne pas oublier doses répétées"
     },
     {
