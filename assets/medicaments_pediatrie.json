@@ -198,36 +198,6 @@
     "aSavoir": "Suivi thérapeutique: taux résiduel <5 mg/L, pic 15-20 mg/L (doses fractionnées) ou 40-50 mg/L (dose unique). Adaptation selon dosages et insuffisance rénale"
   },
   {
-    "nom": "Amiodarone",
-    "galenique": "Solution injectable",
-    "nomCommercial": "CORDARONE",
-    "indications": [
-      {
-        "label": "ACR",
-        "posologies": [
-          {
-            "voie": "IV",
-            "unite": "mg",
-            "doseKg": 5.0,
-            "doseMax": 300.0
-          }
-        ]
-      },
-      {
-        "label": "Trouble du rythme ventriculaire",
-        "posologies": [
-          {
-            "voie": "IV",
-            "unite": "mg",
-            "doseKg": 5.0,
-            "doseMax": 300.0,
-            "preparation": "sur 20 min à 1h"
-          }
-        ]
-      }
-    ]
-  },
-  {
     "nom": "Amoxicilline",
     "galenique": "Poudre injectable 500 mg et 1 g",
     "nomCommercial": "CLAMOXYL",
@@ -278,8 +248,8 @@
           {
             "voie": "IV",
             "unite": "mg",
-            "doseKg": 80.0,
-            "doseMax": 5000.0,
+            "doseKg": 100,
+            "doseMax": 5000,
             "preparation": "Reconstitution: eau ppi pour concentration 20 mg/mL (max 50 mg/mL). Dilution NaCl 0,9% exclusivement - IV lente 30 min (15 min si 50 mg/mL)"
           }
         ]
@@ -464,7 +434,7 @@
               {
                 "poidsMin": 0.4,
                 "poidsMax": 20.0,
-                "doseKg": 24.0
+                "doseKg": 10.0
               }
             ]
           }
@@ -1110,7 +1080,7 @@
           {
             "voie": "Instillation endotrachéale",
             "unite": "mg",
-            "doseKg": 200.0,
+            "doseKg": 200,
             "preparation": "Le plus tôt possible après naissance. Doses supplémentaires possibles: 100 mg/kg à 6-12h de la 1ère dose puis à nouveau 12h après si persistance SDR (max total: 400 mg/kg)"
           }
         ]
@@ -1372,30 +1342,6 @@
     "contreIndications": "Adsorption au PVC: rincer tubulure avant utilisation - Surveillance étroite: risque hypoglycémie et hypokaliémie",
     "surdosage": "Hypoglycémie: resucrage IV (G10-G30) si <0,6 g/L ou troubles conscience",
     "aSavoir": "Apport concomitant de K+ souvent nécessaire en acidocétose. Surveillance glycémie, kaliémie"
-  },
-  {
-    "nom": "Isoprénaline",
-    "galenique": "Solution injectable",
-    "nomCommercial": "ISUPREL",
-    "indications": [
-      {
-        "label": "Bradycardie",
-        "posologies": [
-          {
-            "voie": "IV",
-            "unite": "µg",
-            "doseKg": 1.0
-          },
-          {
-            "voie": "IVSE",
-            "unite": "µg/kg/min",
-            "doseKgMin": 0.1,
-            "doseKgMax": 1.0
-          }
-        ]
-      }
-    ],
-    "contreIndications": "infarctus"
   },
   {
     "nom": "Kétoprofène injectable",
