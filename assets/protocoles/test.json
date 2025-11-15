@@ -14,7 +14,7 @@
           "medicament": {
             "nom": "Adrénaline",
             "indication": "ACR",
-            "voie": "IV"
+            "voie": "IV/IO"
           }
         }
       ]
