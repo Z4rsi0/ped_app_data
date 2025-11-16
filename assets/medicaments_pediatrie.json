@@ -1375,6 +1375,64 @@
     "aSavoir": "Apport concomitant de K+ souvent nécessaire en acidocétose. Surveillance glycémie, kaliémie"
   },
   {
+    "nom": "Ketamine",
+    "galenique": "Solution injectable",
+    "nomCommercial": "KETALAR",
+    "indications": [
+      {
+        "label": "Sédation Analgésie",
+        "posologies": [
+          {
+            "voie": "Nasale",
+            "unite": "mg",
+            "doseKg": 1.0,
+            "doseMax": 20.0
+          },
+          {
+            "voie": "IV",
+            "unite": "mg",
+            "doseKgMin": 0.15,
+            "doseKgMax": 0.2
+          }
+        ]
+      },
+      {
+        "label": "ISR",
+        "posologies": [
+          {
+            "voie": "IV",
+            "unite": "mg",
+            "tranches": [
+              {
+                "poidsMin": 0.4,
+                "poidsMax": 11.9,
+                "doseKgMin": 3.0,
+                "doseKgMax": 4.0
+              },
+              {
+                "poidsMin": 12.0,
+                "poidsMax": 50.0,
+                "doseKgMin": 2.0,
+                "doseKgMax": 3.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Entretien anesthésique",
+        "posologies": [
+          {
+            "voie": "Perfusion continue",
+            "unite": "mg/kg/h",
+            "doseKgMin": 0.12,
+            "doseKgMax": 3.0
+          }
+        ]
+      }
+    ]
+  },
+  {
     "nom": "Kétoprofène injectable",
     "galenique": "Solution injectable 100 mg/2 mL",
     "nomCommercial": "PROFENID",
