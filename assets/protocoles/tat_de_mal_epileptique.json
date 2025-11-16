@@ -24,7 +24,8 @@
           "type": "medicament",
           "medicament": {
             "nom": "Midazolam",
-            "indication": "Convulsions"
+            "indication": "Convulsions",
+            "voie": "Intranasale"
           }
         },
         {
@@ -35,7 +36,8 @@
           "type": "medicament",
           "medicament": {
             "nom": "Clonazépam injectable",
-            "indication": "Benzodiazépine anticonvulsivante"
+            "indication": "Benzodiazépine anticonvulsivante",
+            "voie": ""
           }
         }
       ],
@@ -49,7 +51,8 @@
           "type": "medicament",
           "medicament": {
             "nom": "Clonazépam injectable",
-            "indication": "Benzodiazépine anticonvulsivante"
+            "indication": "Benzodiazépine anticonvulsivante",
+            "voie": ""
           }
         }
       ],
@@ -62,7 +65,8 @@
           "type": "medicament",
           "medicament": {
             "nom": "Phénytoïne",
-            "indication": "Dose de charge"
+            "indication": "Dose de charge",
+            "voie": ""
           }
         }
       ],
