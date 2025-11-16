@@ -198,37 +198,6 @@
     "aSavoir": "Suivi thérapeutique: taux résiduel <5 mg/L, pic 15-20 mg/L (doses fractionnées) ou 40-50 mg/L (dose unique). Adaptation selon dosages et insuffisance rénale"
   },
   {
-    "nom": "Amiodarone",
-    "galenique": "Solution injectable",
-    "nomCommercial": "CORDARONE",
-    "indications": [
-      {
-        "label": "ACR",
-        "posologies": [
-          {
-            "voie": "IV",
-            "unite": "mg",
-            "doseKg": 5.0,
-            "doseMax": 300.0,
-            "preparation": "en flash"
-          }
-        ]
-      },
-      {
-        "label": "Trouble du rythme ventriculaire",
-        "posologies": [
-          {
-            "voie": "IV",
-            "unite": "mg",
-            "doseKg": 5.0,
-            "doseMax": 300.0,
-            "preparation": "sur 20 minutes à 1 heure"
-          }
-        ]
-      }
-    ]
-  },
-  {
     "nom": "Amoxicilline",
     "galenique": "Poudre injectable 500 mg et 1 g",
     "nomCommercial": "CLAMOXYL",
@@ -1373,64 +1342,6 @@
     "contreIndications": "Adsorption au PVC: rincer tubulure avant utilisation - Surveillance étroite: risque hypoglycémie et hypokaliémie",
     "surdosage": "Hypoglycémie: resucrage IV (G10-G30) si <0,6 g/L ou troubles conscience",
     "aSavoir": "Apport concomitant de K+ souvent nécessaire en acidocétose. Surveillance glycémie, kaliémie"
-  },
-  {
-    "nom": "Ketamine",
-    "galenique": "Solution injectable",
-    "nomCommercial": "KETALAR",
-    "indications": [
-      {
-        "label": "Sédation Analgésie",
-        "posologies": [
-          {
-            "voie": "Nasale",
-            "unite": "mg",
-            "doseKg": 1.0,
-            "doseMax": 20.0
-          },
-          {
-            "voie": "IV",
-            "unite": "mg",
-            "doseKgMin": 0.15,
-            "doseKgMax": 0.2
-          }
-        ]
-      },
-      {
-        "label": "ISR",
-        "posologies": [
-          {
-            "voie": "IV",
-            "unite": "mg",
-            "tranches": [
-              {
-                "poidsMin": 0.4,
-                "poidsMax": 11.9,
-                "doseKgMin": 3.0,
-                "doseKgMax": 4.0
-              },
-              {
-                "poidsMin": 12.0,
-                "poidsMax": 50.0,
-                "doseKgMin": 2.0,
-                "doseKgMax": 3.0
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "label": "Entretien anesthésique",
-        "posologies": [
-          {
-            "voie": "Perfusion continue",
-            "unite": "mg/kg/h",
-            "doseKgMin": 0.12,
-            "doseKgMax": 3.0
-          }
-        ]
-      }
-    ]
   },
   {
     "nom": "Kétoprofène injectable",
