@@ -1506,18 +1506,6 @@
     "nomCommercial": "HYPNOVEL",
     "indications": [
       {
-        "label": "Sédation procédurale",
-        "posologies": [
-          {
-            "voie": "IV",
-            "unite": "mg",
-            "doseKgMin": 0.05,
-            "doseKgMax": 0.2,
-            "preparation": "Titration par 0,05 mg/kg toutes les 2-3 min - Dilution NaCl 0,9% ou G5%"
-          }
-        ]
-      },
-      {
         "label": "Convulsions",
         "posologies": [
           {
@@ -1544,6 +1532,32 @@
             "doseKgMin": 1,
             "doseKgMax": 6,
             "preparation": "Dilution NaCl 0,9% ou G5%"
+          }
+        ]
+      },
+      {
+        "label": "Sédation Analgésie",
+        "posologies": [
+          {
+            "voie": "Nasale",
+            "unite": "mg",
+            "doseKg": 0.3
+          },
+          {
+            "voie": "Rectale",
+            "unite": "mg",
+            "doseKg": 0.4
+          },
+          {
+            "voie": "PO",
+            "unite": "mg",
+            "doseKg": 0.5
+          },
+          {
+            "voie": "IV",
+            "unite": "mg",
+            "doseKgMin": 0.05,
+            "doseKgMax": 0.1
           }
         ]
       }
