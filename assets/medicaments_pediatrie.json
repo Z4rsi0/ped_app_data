@@ -1031,6 +1031,23 @@
     "aSavoir": "Adaptation posologique: augmentation intervalle et/ou diminution dose si IRC"
   },
   {
+    "nom": "Flumazenil",
+    "galenique": "Solution injectable",
+    "nomCommercial": "ANEXATE",
+    "indications": [
+      {
+        "label": "Antidote",
+        "posologies": [
+          {
+            "voie": "IV",
+            "unite": "µg",
+            "doseKg": 10.0
+          }
+        ]
+      }
+    ]
+  },
+  {
     "nom": "Foscarnet sodique",
     "galenique": "Solution injectable 6 g/250 mL",
     "nomCommercial": "FOSCAVIR",
@@ -1279,6 +1296,25 @@
     "contreIndications": "Nombreuses incompatibilités: amiodarone, ciprofloxacine, doxorubicine, gentamicine, halopéridol, idarubicine, tobramycine, vancomycine - Thrombopénie induite par héparine. Contre-indications relatives: hémorragie active, thrombopénie",
     "surdosage": "Surveillance clinique et TCA. Antidote: protamine (1 mg neutralise 100 UI héparine)",
     "aSavoir": "Surveillance plaquettes J3-J5 puis 2x/semaine. Risque TIH"
+  },
+  {
+    "nom": "Ibuprofene",
+    "galenique": "Solution buvable",
+    "nomCommercial": "ADVIL",
+    "indications": [
+      {
+        "label": "Antalgie",
+        "posologies": [
+          {
+            "voie": "PO",
+            "unite": "mg",
+            "doseKg": 10.0,
+            "preparation": "30 mg/kg/j en 3 prises"
+          }
+        ]
+      }
+    ],
+    "contreIndications": "a partir de 3 mois"
   },
   {
     "nom": "Immunoglobulines polyvalentes",
@@ -1565,6 +1601,45 @@
     "contreIndications": "Amphotéricine B, furosémide, hydrocortisone - Insuffisance respiratoire non ventilée, myasthénie",
     "surdosage": "Dépression respiratoire. Antidote: flumazénil 0,01 mg/kg",
     "aSavoir": "Surveillance cardiorespiratoire continue. Courte durée d'action"
+  },
+  {
+    "nom": "Morphine",
+    "galenique": "Solution injectable",
+    "indications": [
+      {
+        "label": "Titration",
+        "posologies": [
+          {
+            "voie": "IV",
+            "unite": "mg",
+            "doseKgMin": 0.05,
+            "doseKgMax": 0.1
+          },
+          {
+            "voie": "IV bolus",
+            "unite": "mg",
+            "doseKgMin": 0.025,
+            "doseKgMax": 0.03
+          }
+        ]
+      },
+      {
+        "label": "PCA",
+        "posologies": [
+          {
+            "voie": "Perfusion continue",
+            "unite": "mg/kg/h",
+            "doseKg": 0.02
+          },
+          {
+            "voie": "IV bolus",
+            "unite": "mg",
+            "doseKgMin": 0.02,
+            "doseKgMax": 0.04
+          }
+        ]
+      }
+    ]
   },
   {
     "nom": "Morphine chlorhydrate",
@@ -1898,24 +1973,21 @@
     "nomCommercial": "PERFALGAN",
     "indications": [
       {
-        "label": "Antalgique, antipyrétique",
+        "label": "Antalgie",
         "posologies": [
+          {
+            "voie": "PO",
+            "unite": "mg",
+            "doseKg": 15.0,
+            "doseMax": 1000.0,
+            "preparation": "soit 60 mg/kg/j en quatre prises"
+          },
           {
             "voie": "IV",
             "unite": "mg",
-            "tranches": [
-              {
-                "poidsMin": 10,
-                "doseKg": 15,
-                "unite": "mg"
-              },
-              {
-                "poidsMax": 10,
-                "doseKg": 7.5,
-                "unite": "mg"
-              }
-            ],
-            "preparation": "Prêt à l'emploi - IV lente 15 min minimum"
+            "doseKg": 15.0,
+            "doseMax": 1000.0,
+            "preparation": "soit 60 mg/kg/j en quatre prises"
           }
         ]
       }
