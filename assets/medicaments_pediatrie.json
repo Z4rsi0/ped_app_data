@@ -404,6 +404,33 @@
     "aSavoir": "Teneur en sodium: 48,3 mg/MUI"
   },
   {
+    "nom": "Betamethasone",
+    "galenique": "Solution buvable",
+    "nomCommercial": "CELESTENE",
+    "indications": [
+      {
+        "label": "Asthme",
+        "posologies": [
+          {
+            "voie": "PO",
+            "unite": "gouttes",
+            "doseKg": 24.0
+          }
+        ]
+      },
+      {
+        "label": "Laryngite",
+        "posologies": [
+          {
+            "voie": "PO",
+            "unite": "gouttes",
+            "doseKg": 15.0
+          }
+        ]
+      }
+    ]
+  },
+  {
     "nom": "Bétaméthasone",
     "galenique": "Solution buvable",
     "nomCommercial": "CELESTENE",
