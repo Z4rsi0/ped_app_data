@@ -1,29 +1,45 @@
 [
   {
     "nom": "Aciclovir",
-    "galenique": "Poudre injectable 250 mg et 500 mg",
+    "galenique": "Poudre injectable 250 mg",
     "nomCommercial": "ZOVIRAX",
     "indications": [
       {
-        "label": "Infections à HSV",
+        "label": "Mucite de l'immunodéprimé",
+        "posologies": [
+          {
+            "voie": "IV lente",
+            "unite": "mg",
+            "doseKg": 10.0,
+            "doseMax": 250.0,
+            "preparation": "10 mg/kg toutes les 8 heures"
+          }
+        ]
+      },
+      {
+        "label": "Méningo-encephalite ou infection sévère à HSV",
         "posologies": [
           {
             "voie": "IV",
             "unite": "mg",
             "tranches": [
               {
-                "ageMax": 3,
-                "doseKg": 60,
-                "unite": "mg"
+                "poidsMin": 0.4,
+                "poidsMax": 6.0,
+                "doseKg": 20.0
               },
               {
-                "ageMin": 3,
-                "doseKgMin": 30,
-                "doseKgMax": 45,
-                "unite": "mg"
+                "poidsMin": 6.0,
+                "poidsMax": 40.0,
+                "doseKg": 15.0
+              },
+              {
+                "poidsMin": 40.0,
+                "poidsMax": 50.0,
+                "doseKg": 10.0
               }
             ],
-            "preparation": "Reconstitution: eau ppi ou NaCl 0,9% (10 mL pour 250 mg, 20 mL pour 500 mg). Dilution NaCl 0,9% exclusivement, concentration max 5 mg/mL - Perfusion minimum 1 heure"
+            "preparation": "en mg/kg toutes les 8h"
           }
         ]
       }
@@ -31,6 +47,30 @@
     "contreIndications": "Adaptation posologique selon clairance créatinine - A perfuser seul",
     "surdosage": "Surveillance point de perfusion: nécrose si extravasation",
     "aSavoir": "Teneur en sodium: 28 mg/250 mg et 56 mg/500 mg"
+  },
+  {
+    "nom": "Acide Tranexamique",
+    "galenique": "Solution injectable 0,5g/5mL",
+    "nomCommercial": "EXACYL",
+    "indications": [
+      {
+        "label": "Hémorragie grave",
+        "posologies": [
+          {
+            "voie": "IV bolus",
+            "unite": "mg",
+            "doseKgMin": 15.0,
+            "doseKgMax": 20.0,
+            "doseMax": 1000.0
+          },
+          {
+            "voie": "IV lente",
+            "unite": "mg/kg/h",
+            "doseKg": 2.0
+          }
+        ]
+      }
+    ]
   },
   {
     "nom": "Acétazolamide",
