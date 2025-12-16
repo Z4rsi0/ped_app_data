@@ -1,29 +1,45 @@
 [
   {
     "nom": "Aciclovir",
-    "galenique": "Poudre injectable 250 mg et 500 mg",
+    "galenique": "Poudre injectable 250 mg",
     "nomCommercial": "ZOVIRAX",
     "indications": [
       {
-        "label": "Infections à HSV",
+        "label": "Mucite de l'immunodéprimé",
+        "posologies": [
+          {
+            "voie": "IV lente",
+            "unite": "mg",
+            "doseKg": 10.0,
+            "doseMax": 250.0,
+            "preparation": "10 mg/kg toutes les 8 heures"
+          }
+        ]
+      },
+      {
+        "label": "Méningo-encephalite ou infection sévère à HSV",
         "posologies": [
           {
             "voie": "IV",
             "unite": "mg",
             "tranches": [
               {
-                "ageMax": 3,
-                "doseKg": 60,
-                "unite": "mg"
+                "poidsMin": 0.4,
+                "poidsMax": 6.0,
+                "doseKg": 20.0
               },
               {
-                "ageMin": 3,
-                "doseKgMin": 30,
-                "doseKgMax": 45,
-                "unite": "mg"
+                "poidsMin": 6.0,
+                "poidsMax": 40.0,
+                "doseKg": 15.0
+              },
+              {
+                "poidsMin": 40.0,
+                "poidsMax": 50.0,
+                "doseKg": 10.0
               }
             ],
-            "preparation": "Reconstitution: eau ppi ou NaCl 0,9% (10 mL pour 250 mg, 20 mL pour 500 mg). Dilution NaCl 0,9% exclusivement, concentration max 5 mg/mL - Perfusion minimum 1 heure"
+            "preparation": "en mg/kg toutes les 8h"
           }
         ]
       }
@@ -31,6 +47,30 @@
     "contreIndications": "Adaptation posologique selon clairance créatinine - A perfuser seul",
     "surdosage": "Surveillance point de perfusion: nécrose si extravasation",
     "aSavoir": "Teneur en sodium: 28 mg/250 mg et 56 mg/500 mg"
+  },
+  {
+    "nom": "Acide Tranexamique",
+    "galenique": "Solution injectable 0,5g/5mL",
+    "nomCommercial": "EXACYL",
+    "indications": [
+      {
+        "label": "Hémorragie grave",
+        "posologies": [
+          {
+            "voie": "IV bolus",
+            "unite": "mg",
+            "doseKgMin": 15.0,
+            "doseKgMax": 20.0,
+            "doseMax": 1000.0
+          },
+          {
+            "voie": "IV lente",
+            "unite": "mg/kg/h",
+            "doseKg": 2.0
+          }
+        ]
+      }
+    ]
   },
   {
     "nom": "Acétazolamide",
@@ -404,6 +444,33 @@
     "aSavoir": "Teneur en sodium: 48,3 mg/MUI"
   },
   {
+    "nom": "Betamethasone",
+    "galenique": "Solution buvable",
+    "nomCommercial": "CELESTENE",
+    "indications": [
+      {
+        "label": "Asthme",
+        "posologies": [
+          {
+            "voie": "PO",
+            "unite": "gouttes",
+            "doseKg": 24.0
+          }
+        ]
+      },
+      {
+        "label": "Laryngite",
+        "posologies": [
+          {
+            "voie": "PO",
+            "unite": "gouttes",
+            "doseKg": 15.0
+          }
+        ]
+      }
+    ]
+  },
+  {
     "nom": "Bétaméthasone",
     "galenique": "Solution buvable",
     "nomCommercial": "CELESTENE",
@@ -572,6 +639,24 @@
     "contreIndications": "Amiodarone, cefpirome - Contre-indiqué prématuré et nouveau-né <1 mois. Adaptation posologique selon clairance créatinine",
     "surdosage": "Surveillance fonction rénale si association aminosides ou furosémide",
     "aSavoir": "Teneur en sodium: 48,3 mg/g"
+  },
+  {
+    "nom": "Cefotaxime",
+    "galenique": "Solution injectable",
+    "nomCommercial": "CLAFORAN",
+    "indications": [
+      {
+        "label": "Dose méningée",
+        "posologies": [
+          {
+            "voie": "IV",
+            "unite": "mg",
+            "doseKg": 75.0,
+            "preparation": "toutes les 6h soit au total 300 mg/kg/j"
+          }
+        ]
+      }
+    ]
   },
   {
     "nom": "Cefotaxime",
@@ -785,6 +870,23 @@
       }
     ],
     "aSavoir": "Teneur en sodium: 52,8 mg/flacon 1 g - Peut aller jusqu'à 200 mg/kg/j"
+  },
+  {
+    "nom": "Dexamethasone",
+    "galenique": "Solution injectable",
+    "indications": [
+      {
+        "label": "Méningite bactérienne",
+        "posologies": [
+          {
+            "voie": "IV",
+            "unite": "mg",
+            "doseKg": 0.15,
+            "doseMax": 10.0
+          }
+        ]
+      }
+    ]
   },
   {
     "nom": "Diazépam injectable",
@@ -1002,6 +1104,23 @@
     ],
     "contreIndications": "Amphotéricine B, toutes les β-lactamines, clindamycine, diazépam, digoxine, furosémide, imipénème, gluconate de calcium, halopéridol, pentamidine, sulfaméthoxazole-triméthoprime - Adaptation posologique selon clairance créatinine",
     "aSavoir": "Adaptation posologique: augmentation intervalle et/ou diminution dose si IRC"
+  },
+  {
+    "nom": "Flumazenil",
+    "galenique": "Solution injectable",
+    "nomCommercial": "ANEXATE",
+    "indications": [
+      {
+        "label": "Antidote",
+        "posologies": [
+          {
+            "voie": "IV",
+            "unite": "µg",
+            "doseKg": 10.0
+          }
+        ]
+      }
+    ]
   },
   {
     "nom": "Foscarnet sodique",
@@ -1254,6 +1373,25 @@
     "aSavoir": "Surveillance plaquettes J3-J5 puis 2x/semaine. Risque TIH"
   },
   {
+    "nom": "Ibuprofene",
+    "galenique": "Solution buvable",
+    "nomCommercial": "ADVIL",
+    "indications": [
+      {
+        "label": "Antalgie",
+        "posologies": [
+          {
+            "voie": "PO",
+            "unite": "mg",
+            "doseKg": 10.0,
+            "preparation": "30 mg/kg/j en 3 prises"
+          }
+        ]
+      }
+    ],
+    "contreIndications": "a partir de 3 mois"
+  },
+  {
     "nom": "Immunoglobulines polyvalentes",
     "galenique": "Solution perfusion 10% (100 mg/mL)",
     "nomCommercial": "PRIVIGEN / TEGELINE",
@@ -1479,18 +1617,6 @@
     "nomCommercial": "HYPNOVEL",
     "indications": [
       {
-        "label": "Sédation procédurale",
-        "posologies": [
-          {
-            "voie": "IV",
-            "unite": "mg",
-            "doseKgMin": 0.05,
-            "doseKgMax": 0.2,
-            "preparation": "Titration par 0,05 mg/kg toutes les 2-3 min - Dilution NaCl 0,9% ou G5%"
-          }
-        ]
-      },
-      {
         "label": "Convulsions",
         "posologies": [
           {
@@ -1519,11 +1645,76 @@
             "preparation": "Dilution NaCl 0,9% ou G5%"
           }
         ]
+      },
+      {
+        "label": "Sédation Analgésie",
+        "posologies": [
+          {
+            "voie": "Nasale",
+            "unite": "mg",
+            "doseKg": 0.3
+          },
+          {
+            "voie": "Rectale",
+            "unite": "mg",
+            "doseKg": 0.4
+          },
+          {
+            "voie": "PO",
+            "unite": "mg",
+            "doseKg": 0.5
+          },
+          {
+            "voie": "IV",
+            "unite": "mg",
+            "doseKgMin": 0.05,
+            "doseKgMax": 0.1
+          }
+        ]
       }
     ],
     "contreIndications": "Amphotéricine B, furosémide, hydrocortisone - Insuffisance respiratoire non ventilée, myasthénie",
     "surdosage": "Dépression respiratoire. Antidote: flumazénil 0,01 mg/kg",
     "aSavoir": "Surveillance cardiorespiratoire continue. Courte durée d'action"
+  },
+  {
+    "nom": "Morphine",
+    "galenique": "Solution injectable",
+    "indications": [
+      {
+        "label": "Titration",
+        "posologies": [
+          {
+            "voie": "IV",
+            "unite": "mg",
+            "doseKgMin": 0.05,
+            "doseKgMax": 0.1
+          },
+          {
+            "voie": "IV bolus",
+            "unite": "mg",
+            "doseKgMin": 0.025,
+            "doseKgMax": 0.03
+          }
+        ]
+      },
+      {
+        "label": "PCA",
+        "posologies": [
+          {
+            "voie": "Perfusion continue",
+            "unite": "mg/kg/h",
+            "doseKg": 0.02
+          },
+          {
+            "voie": "IV bolus",
+            "unite": "mg",
+            "doseKgMin": 0.02,
+            "doseKgMax": 0.04
+          }
+        ]
+      }
+    ]
   },
   {
     "nom": "Morphine chlorhydrate",
@@ -1857,24 +2048,21 @@
     "nomCommercial": "PERFALGAN",
     "indications": [
       {
-        "label": "Antalgique, antipyrétique",
+        "label": "Antalgie",
         "posologies": [
+          {
+            "voie": "PO",
+            "unite": "mg",
+            "doseKg": 15.0,
+            "doseMax": 1000.0,
+            "preparation": "soit 60 mg/kg/j en quatre prises"
+          },
           {
             "voie": "IV",
             "unite": "mg",
-            "tranches": [
-              {
-                "poidsMin": 10,
-                "doseKg": 15,
-                "unite": "mg"
-              },
-              {
-                "poidsMax": 10,
-                "doseKg": 7.5,
-                "unite": "mg"
-              }
-            ],
-            "preparation": "Prêt à l'emploi - IV lente 15 min minimum"
+            "doseKg": 15.0,
+            "doseMax": 1000.0,
+            "preparation": "soit 60 mg/kg/j en quatre prises"
           }
         ]
       }
