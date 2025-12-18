@@ -166,7 +166,8 @@
           {
             "voie": "IV bolus",
             "unite": "µg",
-            "doseKg": 1,
+            "doseKg": 1.0,
+            "doseMax": 50.0,
             "preparation": "Double dilution: 1 mL + 9 mL NaCl, puis 1 mL de cette solution + 9 mL NaCl (10 µg/mL). Injecter 0,1 mL/kg sur 1-2 min"
           }
         ]
@@ -178,7 +179,7 @@
             "voie": "IVSE",
             "unite": "µg/kg/min",
             "doseKgMin": 0.1,
-            "doseKgMax": 1,
+            "doseKgMax": 1.0,
             "preparation": "Diluer 1 mg dans 49 mL NaCl 0,9% (0,02 mg/mL = 20 µg/mL). Débit (mL/h) = poids/3 pour 0,1 µg/kg/min. Augmenter par paliers de 0,05-0,1 µg/kg/min"
           }
         ]
@@ -201,11 +202,11 @@
             "unite": "mg",
             "tranches": [
               {
-                "poidsMax": 10,
+                "poidsMax": 10.0,
                 "doseKg": 0.2
               },
               {
-                "poidsMin": 10,
+                "poidsMin": 10.0,
                 "doseKgMin": 0.1,
                 "doseKgMax": 0.2
               }
@@ -217,11 +218,11 @@
             "unite": "mg",
             "tranches": [
               {
-                "poidsMax": 10,
+                "poidsMax": 10.0,
                 "doseKg": 0.3
               },
               {
-                "poidsMin": 10,
+                "poidsMin": 10.0,
                 "doseKg": 0.3
               }
             ],
@@ -261,8 +262,8 @@
           {
             "voie": "IV lente 30 min",
             "unite": "mg",
-            "doseKg": 20,
-            "doseMax": 1500,
+            "doseKg": 20.0,
+            "doseMax": 1500.0,
             "preparation": "250 mg dans 25 mL ou 500 mg dans 50 mL NaCl 0,9% (10 mg/mL). Cmax 20 mg/mL. 2ème dose entre H18 et H36"
           }
         ]
@@ -281,9 +282,10 @@
         "label": "ACR (FV/TV réfractaire)",
         "posologies": [
           {
-            "voie": "IV/IO directe",
+            "voie": "IV/IO",
             "unite": "mg",
-            "doseKg": 5,
+            "doseKg": 5.0,
+            "doseMax": 300.0,
             "preparation": "PUR. 0,1 mL/kg. Après 3ème et 5ème CEE. Injection rapide"
           }
         ]
@@ -294,8 +296,8 @@
           {
             "voie": "IV lente 20-30 min",
             "unite": "mg",
-            "doseKg": 5,
-            "doseMax": 15,
+            "doseKg": 5.0,
+            "doseMax": 300.0,
             "preparation": "Diluer dans G5% UNIQUEMENT. 2 ampoules (300 mg = 6 mL) + 24 mL G5% (10 mg/mL). Risque de collapsus si trop rapide"
           }
         ]
@@ -318,6 +320,19 @@
             "doseKgMin": 50,
             "doseKgMax": 200,
             "preparation": "1 g dans 50 mL NaCl 0,9% (20 mg/mL). En 3-6 injections/j ou continue. Max 2 g/injection (adulte), 50 mg/kg/injection (enfant)"
+          }
+        ]
+      },
+      {
+        "label": "Otite moyenne aiguë purulente",
+        "posologies": [
+          {
+            "voie": "PO",
+            "unite": "mg",
+            "doseKgMin": 80.0,
+            "doseKgMax": 100.0,
+            "doseMax": 3000.0,
+            "preparation": "a repartir en 2 à 3 prises"
           }
         ]
       }
