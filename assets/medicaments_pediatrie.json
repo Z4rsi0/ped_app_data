@@ -1,18 +1,18 @@
 [
   {
     "nom": "Aciclovir",
-    "galenique": "Poudre injectable 250 mg",
+    "galenique": "Poudre injectable 250 mg et 500 mg",
     "nomCommercial": "ZOVIRAX",
     "indications": [
       {
         "label": "Mucite de l'immunodéprimé",
         "posologies": [
           {
-            "voie": "IV lente",
+            "voie": "IV lente 1h30",
             "unite": "mg",
-            "doseKg": 10.0,
-            "doseMax": 250.0,
-            "preparation": "250 mg dans 100 mL NaCl 0,9% (1 mL = 2,5 mg) ou 500 mg dans 200 mL (1 mL = 5 mg). Toutes les 8h, sur 1h30. A passer seul, incompatible G5%"
+            "doseKg": 10,
+            "doseMax": 250,
+            "preparation": "250 mg dans 100 mL NaCl 0,9% (1 mL = 2,5 mg) ou 500 mg dans 200 mL (1 mL = 5 mg). Toutes les 8h. A passer seul, incompatible G5%"
           }
         ]
       },
@@ -24,20 +24,20 @@
             "unite": "mg",
             "tranches": [
               {
-                "ageMin": 0.0,
-                "ageMax": 4.0,
-                "doseKg": 20.0
+                "ageMax": 0.33,
+                "doseKg": 20
               },
               {
-                "ageMin": 4.0,
-                "ageMax": 144.0,
-                "doseKg": 15.0
+                "ageMin": 0.33,
+                "ageMax": 12,
+                "doseKg": 15
               },
               {
-                "ageMin": 144.0,
-                "doseKg": 10.0
+                "ageMin": 12,
+                "doseKg": 10
               }
             ],
+            "doseMax": 500,
             "preparation": "Toutes les 8h. A passer seul, incompatible G5%"
           }
         ]
@@ -58,22 +58,68 @@
           {
             "voie": "IV bolus",
             "unite": "mg",
-            "doseKgMin": 15.0,
-            "doseKgMax": 20.0,
-            "doseMax": 1000.0,
+            "doseKgMin": 15,
+            "doseKgMax": 20,
+            "doseMax": 1000,
             "preparation": "< 10 ans: diluer 5 mL dans 45 mL NaCl 0,9% (10 mg/mL). > 10 ans: pur. A débuter dans les 3h post-trauma"
           },
           {
             "voie": "IV entretien",
             "unite": "mg/kg/h",
-            "doseKg": 2.0,
-            "doseMax": 1000.0,
+            "doseKg": 2,
+            "doseMax": 1000,
             "preparation": "Sur 8h après le bolus"
           }
         ]
       }
     ],
     "aSavoir": "A débuter dans les 3h après le traumatisme"
+  },
+  {
+    "nom": "Adénosine",
+    "galenique": "Solution injectable 6 mg/2 mL (3 mg/mL)",
+    "nomCommercial": "KRENOSIN",
+    "indications": [
+      {
+        "label": "Tachycardie supraventriculaire",
+        "posologies": [
+          {
+            "voie": "IV bolus rapide",
+            "unite": "mg",
+            "tranches": [
+              {
+                "poidsMax": 10,
+                "doseKg": 0.2
+              },
+              {
+                "poidsMin": 10,
+                "doseKgMin": 0.1,
+                "doseKgMax": 0.2
+              }
+            ],
+            "doseMax": 6,
+            "preparation": "< 10 kg: diluer 2 mL + 8 mL NaCl 0,9% (0,6 mg/mL). ≥ 10 kg: pur. Injection au pli du coude droit, robinet proximal, flush 10 mL NaCl 0,9%"
+          },
+          {
+            "voie": "IV bolus rapide 2ème dose",
+            "unite": "mg",
+            "tranches": [
+              {
+                "poidsMax": 10,
+                "doseKg": 0.3
+              },
+              {
+                "poidsMin": 10,
+                "doseKg": 0.3
+              }
+            ],
+            "doseMax": 18,
+            "preparation": "< 10 kg: 0,5 mL/kg. ≥ 10 kg: max 12-18 mg"
+          }
+        ]
+      }
+    ],
+    "aSavoir": "Demi-vie très courte (< 10 sec). Injection très rapide obligatoire avec flush NaCl"
   },
   {
     "nom": "Acétazolamide",
@@ -166,8 +212,7 @@
           {
             "voie": "IV bolus",
             "unite": "µg",
-            "doseKg": 1.0,
-            "doseMax": 50.0,
+            "doseKg": 1,
             "preparation": "Double dilution: 1 mL + 9 mL NaCl, puis 1 mL de cette solution + 9 mL NaCl (10 µg/mL). Injecter 0,1 mL/kg sur 1-2 min"
           }
         ]
@@ -179,7 +224,7 @@
             "voie": "IVSE",
             "unite": "µg/kg/min",
             "doseKgMin": 0.1,
-            "doseKgMax": 1.0,
+            "doseKgMax": 1,
             "preparation": "Diluer 1 mg dans 49 mL NaCl 0,9% (0,02 mg/mL = 20 µg/mL). Débit (mL/h) = poids/3 pour 0,1 µg/kg/min. Augmenter par paliers de 0,05-0,1 µg/kg/min"
           }
         ]
@@ -188,50 +233,6 @@
     "contreIndications": "Pas de contre-indication en urgence vitale",
     "surdosage": "Tachycardie, HTA, troubles du rythme, ischémie myocardique. Demi-vie très courte (2-3 min)",
     "aSavoir": "Catécholamine vasopressive et inotrope. Photosensible. Incompatible solutions alcalines"
-  },
-  {
-    "nom": "Adénosine",
-    "galenique": "Solution injectable 6 mg/2 mL (3 mg/mL)",
-    "nomCommercial": "KRENOSIN",
-    "indications": [
-      {
-        "label": "Tachycardie supraventriculaire",
-        "posologies": [
-          {
-            "voie": "IV bolus rapide",
-            "unite": "mg",
-            "tranches": [
-              {
-                "poidsMax": 10.0,
-                "doseKg": 0.2
-              },
-              {
-                "poidsMin": 10.0,
-                "doseKgMin": 0.1,
-                "doseKgMax": 0.2
-              }
-            ],
-            "preparation": "< 10 kg: diluer 2 mL + 8 mL NaCl 0,9% (0,6 mg/mL). ≥ 10 kg: pur. Injection au pli du coude droit, robinet proximal, flush 10 mL NaCl 0,9%"
-          },
-          {
-            "voie": "IV bolus rapide 2ème dose",
-            "unite": "mg",
-            "tranches": [
-              {
-                "poidsMax": 10.0,
-                "doseKg": 0.3
-              },
-              {
-                "poidsMin": 10.0,
-                "doseKg": 0.3
-              }
-            ],
-            "preparation": "< 10 kg: 0,5 mL/kg. ≥ 10 kg: max 12-18 mg"
-          }
-        ]
-      }
-    ],
-    "aSavoir": "Demi-vie très courte (< 10 sec). Injection très rapide obligatoire avec flush NaCl"
   },
   {
     "nom": "Alizapride",
@@ -262,8 +263,8 @@
           {
             "voie": "IV lente 30 min",
             "unite": "mg",
-            "doseKg": 20.0,
-            "doseMax": 1500.0,
+            "doseKg": 20,
+            "doseMax": 1500,
             "preparation": "250 mg dans 25 mL ou 500 mg dans 50 mL NaCl 0,9% (10 mg/mL). Cmax 20 mg/mL. 2ème dose entre H18 et H36"
           }
         ]
@@ -282,10 +283,9 @@
         "label": "ACR (FV/TV réfractaire)",
         "posologies": [
           {
-            "voie": "IV/IO",
+            "voie": "IV/IO directe",
             "unite": "mg",
-            "doseKg": 5.0,
-            "doseMax": 300.0,
+            "doseKg": 5,
             "preparation": "PUR. 0,1 mL/kg. Après 3ème et 5ème CEE. Injection rapide"
           }
         ]
@@ -296,8 +296,8 @@
           {
             "voie": "IV lente 20-30 min",
             "unite": "mg",
-            "doseKg": 5.0,
-            "doseMax": 300.0,
+            "doseKg": 5,
+            "doseMax": 15,
             "preparation": "Diluer dans G5% UNIQUEMENT. 2 ampoules (300 mg = 6 mL) + 24 mL G5% (10 mg/mL). Risque de collapsus si trop rapide"
           }
         ]
@@ -320,19 +320,6 @@
             "doseKgMin": 50,
             "doseKgMax": 200,
             "preparation": "1 g dans 50 mL NaCl 0,9% (20 mg/mL). En 3-6 injections/j ou continue. Max 2 g/injection (adulte), 50 mg/kg/injection (enfant)"
-          }
-        ]
-      },
-      {
-        "label": "Otite moyenne aiguë purulente",
-        "posologies": [
-          {
-            "voie": "PO",
-            "unite": "mg",
-            "doseKgMin": 80.0,
-            "doseKgMax": 100.0,
-            "doseMax": 3000.0,
-            "preparation": "a repartir en 2 à 3 prises"
           }
         ]
       }
@@ -539,25 +526,6 @@
     "aSavoir": "Teneur en sodium: 48,3 mg/MUI"
   },
   {
-    "nom": "Bicarbonate de sodium 4,2%",
-    "galenique": "Solution injectable 250 mL (0,5 mEq/mL = 0,5 mmol/mL)",
-    "nomCommercial": "BICARBONATE DE SODIUM",
-    "indications": [
-      {
-        "label": "ACR prolongé ou acidose métabolique sévère",
-        "posologies": [
-          {
-            "voie": "IV lente",
-            "unite": "mL",
-            "doseKg": 2,
-            "preparation": "PUR. 1 mEq/kg = 1 mmol/kg = 2 mL/kg de solution 4,2%"
-          }
-        ]
-      }
-    ],
-    "aSavoir": "1 mL de solution 4,2% = 0,5 mmol de bicarbonate"
-  },
-  {
     "nom": "Bétaméthasone",
     "galenique": "Solution buvable",
     "nomCommercial": "CELESTENE",
@@ -595,6 +563,25 @@
         ]
       }
     ]
+  },
+  {
+    "nom": "Bicarbonate de sodium 4,2%",
+    "galenique": "Solution injectable 250 mL (0,5 mEq/mL = 0,5 mmol/mL)",
+    "nomCommercial": "BICARBONATE DE SODIUM",
+    "indications": [
+      {
+        "label": "ACR prolongé ou acidose métabolique sévère",
+        "posologies": [
+          {
+            "voie": "IV lente",
+            "unite": "mL",
+            "doseKg": 2,
+            "preparation": "PUR. 1 mEq/kg = 1 mmol/kg = 2 mL/kg de solution 4,2%"
+          }
+        ]
+      }
+    ],
+    "aSavoir": "1 mL de solution 4,2% = 0,5 mmol de bicarbonate"
   },
   {
     "nom": "Calcitonine",
@@ -703,6 +690,45 @@
     "contreIndications": "A perfuser seul",
     "surdosage": "Surveillance fonction rénale si association aminosides ou furosémide",
     "aSavoir": "Teneur en sodium: 77 mg/g"
+  },
+  {
+    "nom": "Céfazoline",
+    "galenique": "Poudre injectable 1 g et 2 g",
+    "nomCommercial": "CEFAZOLINE",
+    "indications": [
+      {
+        "label": "Infections bactériennes - C1G",
+        "posologies": [
+          {
+            "voie": "IV",
+            "unite": "mg",
+            "doseKg": 37.5,
+            "preparation": "1 g dans 20 mL NaCl 0,9% (50 mg/mL) ou 2 g dans 20 mL (100 mg/mL). 150 mg/kg/j en 4 injections. Cmax 125 mg/mL"
+          }
+        ]
+      }
+    ],
+    "aSavoir": "150 mg/kg/j en 4 injections"
+  },
+  {
+    "nom": "Céfépime",
+    "galenique": "Poudre injectable 2 g",
+    "nomCommercial": "AXEPIM",
+    "indications": [
+      {
+        "label": "Infections bactériennes - C4G",
+        "posologies": [
+          {
+            "voie": "IV",
+            "unite": "mg",
+            "doseKg": 50,
+            "doseMax": 2000,
+            "preparation": "2 g dans 50 mL NaCl 0,9% (40 mg/mL). 150 mg/kg/j en 3 injections. Cmax 100 mg/mL"
+          }
+        ]
+      }
+    ],
+    "aSavoir": "150 mg/kg/j en 3 injections. Max 2 g/injection"
   },
   {
     "nom": "Cefotaxime",
@@ -840,6 +866,25 @@
     "aSavoir": "Cmax VVP 4 g/L. Apports journaliers couverts par B26 (2 g/L)"
   },
   {
+    "nom": "Citrate de caféine",
+    "galenique": "Solution injectable 50 mg/2 mL (25 mg/mL)",
+    "nomCommercial": "CAFEINE",
+    "indications": [
+      {
+        "label": "Apnées du prématuré - Dose de charge",
+        "posologies": [
+          {
+            "voie": "IV lente 30 min",
+            "unite": "mg",
+            "doseKg": 20,
+            "preparation": "Diluer dose prescrite dans NaCl 0,9% ou G5% pour 5 mL total. Ou PO par SNG (même dose, pur)"
+          }
+        ]
+      }
+    ],
+    "aSavoir": "Dose d'entretien: 5-10 mg/kg/j"
+  },
+  {
     "nom": "Ciclosporine",
     "galenique": "Solution injectable 50 mg/1 mL et 250 mg/5 mL",
     "nomCommercial": "SANDIMMUM",
@@ -882,25 +927,6 @@
     ],
     "contreIndications": "Céfépime, dexaméthasone, furosémide, héparine sodique, hydrocortisone, bicarbonates, méthylprednisolone, phosphate de sodium, teicoplanine - Pas d'AMM pédiatrique. Adaptation posologique selon clairance créatinine",
     "aSavoir": "Fluoroquinolone: utilisation prudente chez l'enfant - Dose max par jour: 1200 mg"
-  },
-  {
-    "nom": "Citrate de caféine",
-    "galenique": "Solution injectable 50 mg/2 mL (25 mg/mL)",
-    "nomCommercial": "CAFEINE",
-    "indications": [
-      {
-        "label": "Apnées du prématuré - Dose de charge",
-        "posologies": [
-          {
-            "voie": "IV lente 30 min",
-            "unite": "mg",
-            "doseKg": 20,
-            "preparation": "Diluer dose prescrite dans NaCl 0,9% ou G5% pour 5 mL total. Ou PO par SNG (même dose, pur)"
-          }
-        ]
-      }
-    ],
-    "aSavoir": "Dose d'entretien: 5-10 mg/kg/j"
   },
   {
     "nom": "Clindamycine",
@@ -967,72 +993,6 @@
     "aSavoir": "Teneur en sodium: 52,8 mg/flacon 1 g - Peut aller jusqu'à 200 mg/kg/j"
   },
   {
-    "nom": "Céfazoline",
-    "galenique": "Poudre injectable 1 g et 2 g",
-    "nomCommercial": "CEFAZOLINE",
-    "indications": [
-      {
-        "label": "Infections bactériennes - C1G",
-        "posologies": [
-          {
-            "voie": "IV",
-            "unite": "mg",
-            "doseKg": 37.5,
-            "preparation": "1 g dans 20 mL NaCl 0,9% (50 mg/mL) ou 2 g dans 20 mL (100 mg/mL). 150 mg/kg/j en 4 injections. Cmax 125 mg/mL"
-          }
-        ]
-      }
-    ],
-    "aSavoir": "150 mg/kg/j en 4 injections"
-  },
-  {
-    "nom": "Céfépime",
-    "galenique": "Poudre injectable 2 g",
-    "nomCommercial": "AXEPIM",
-    "indications": [
-      {
-        "label": "Infections bactériennes - C4G",
-        "posologies": [
-          {
-            "voie": "IV",
-            "unite": "mg",
-            "doseKg": 50,
-            "doseMax": 2000,
-            "preparation": "2 g dans 50 mL NaCl 0,9% (40 mg/mL). 150 mg/kg/j en 3 injections. Cmax 100 mg/mL"
-          }
-        ]
-      }
-    ],
-    "aSavoir": "150 mg/kg/j en 3 injections. Max 2 g/injection"
-  },
-  {
-    "nom": "Dexchlorphéniramine",
-    "galenique": "Solution injectable 5 mg/1 mL",
-    "nomCommercial": "POLARAMINE",
-    "indications": [
-      {
-        "label": "Réaction allergique",
-        "posologies": [
-          {
-            "voie": "IV lente 5 min",
-            "unite": "mg",
-            "tranches": [
-              {
-                "ageMax": 2.5,
-                "doses": "2,5 mg (hors AMM)"
-              },
-              {
-                "ageMin": 2.5,
-                "doses": "5 mg"
-              }
-            ],
-            "preparation": "5 mg (1 mL) + 4 mL NaCl 0,9% (1 mg/mL)"
-          }
-        ]
-      }
-    ]
-  },
-  {
     "nom": "Diazépam injectable",
     "galenique": "Solution injectable/rectale 10 mg/2 mL",
     "nomCommercial": "VALIUM",
@@ -1090,6 +1050,33 @@
     "surdosage": "Risque d'apnée: matériel de réanimation respiratoire disponible"
   },
   {
+    "nom": "Dexchlorphéniramine",
+    "galenique": "Solution injectable 5 mg/1 mL",
+    "nomCommercial": "POLARAMINE",
+    "indications": [
+      {
+        "label": "Réaction allergique",
+        "posologies": [
+          {
+            "voie": "IV lente 5 min",
+            "unite": "mg",
+            "tranches": [
+              {
+                "ageMax": 2.5,
+                "doses": "2,5 mg (hors AMM)"
+              },
+              {
+                "ageMin": 2.5,
+                "doses": "5 mg"
+              }
+            ],
+            "preparation": "5 mg (1 mL) + 4 mL NaCl 0,9% (1 mg/mL)"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "nom": "Dobutamine",
     "galenique": "Solution injectable 250 mg/20 mL (12,5 mg/mL)",
     "nomCommercial": "DOBUTAMINE",
@@ -1108,6 +1095,27 @@
       }
     ],
     "aSavoir": "Inotrope positif. Débit 0,12-1,2 mL/kg/h correspond à 2-20 µg/kg/min"
+  },
+  {
+    "nom": "Etomidate",
+    "galenique": "Solution injectable 20 mg/10 mL (2 mg/mL)",
+    "nomCommercial": "HYPNOMIDATE",
+    "indications": [
+      {
+        "label": "Induction anesthésie (> 2 ans)",
+        "posologies": [
+          {
+            "voie": "IV directe",
+            "unite": "mg",
+            "doseKgMin": 0.3,
+            "doseKgMax": 0.4,
+            "preparation": "5 mL + 5 mL G5% ou NaCl 0,9% (1 mg/mL). 0,3-0,4 mL/kg"
+          }
+        ]
+      }
+    ],
+    "contreIndications": "CI < 2 ans",
+    "aSavoir": "Bonne stabilité hémodynamique"
   },
   {
     "nom": "Epoprosténol",
@@ -1154,25 +1162,25 @@
     "aSavoir": "Peu de données pédiatriques - Adapter selon réponse individuelle et tolérance"
   },
   {
-    "nom": "Etomidate",
-    "galenique": "Solution injectable 20 mg/10 mL (2 mg/mL)",
-    "nomCommercial": "HYPNOMIDATE",
+    "nom": "Fer injectable - Venofer",
+    "galenique": "Solution injectable 20 mg/mL, ampoules 5 mL (100 mg)",
+    "nomCommercial": "VENOFER / FER SANDOZ",
     "indications": [
       {
-        "label": "Induction anesthésie (> 2 ans)",
+        "label": "Carence martiale",
         "posologies": [
           {
-            "voie": "IV directe",
+            "voie": "IV lente 1-2h",
             "unite": "mg",
-            "doseKgMin": 0.3,
-            "doseKgMax": 0.4,
-            "preparation": "5 mL + 5 mL G5% ou NaCl 0,9% (1 mg/mL). 0,3-0,4 mL/kg"
+            "doseKg": 3,
+            "doseMax": 300,
+            "preparation": "Dilution NaCl 0,9% exclusivement. 100 mg/100 mL, 200 mg/100 mL, 300 mg/250 mL. Cmin 1 mg/mL. Max 3/semaine"
           }
         ]
       }
     ],
-    "contreIndications": "CI < 2 ans",
-    "aSavoir": "Bonne stabilité hémodynamique"
+    "surdosage": "1ère injection: dose test (arrêt à mi-dose 15 min, puis reprise). Éviter extravasation",
+    "aSavoir": "Durée selon dose: < 100 mg = 1h, 200 mg = 1h30, 300 mg = 2h"
   },
   {
     "nom": "Fer injectable - Ferinject",
@@ -1203,25 +1211,35 @@
     "aSavoir": "AMM > 1 an"
   },
   {
-    "nom": "Fer injectable - Venofer",
-    "galenique": "Solution injectable 20 mg/mL, ampoules 5 mL (100 mg)",
-    "nomCommercial": "VENOFER / FER SANDOZ",
+    "nom": "Flumazénil",
+    "galenique": "Solution injectable 1 mg/10 mL (0,1 mg/mL)",
+    "nomCommercial": "ANEXATE",
     "indications": [
       {
-        "label": "Carence martiale",
+        "label": "Antagoniste benzodiazépines - Titration",
         "posologies": [
           {
-            "voie": "IV lente 1-2h",
-            "unite": "mg",
-            "doseKg": 3,
-            "doseMax": 300,
-            "preparation": "Dilution NaCl 0,9% exclusivement. 100 mg/100 mL, 200 mg/100 mL, 300 mg/250 mL. Cmin 1 mg/mL. Max 3/semaine"
+            "voie": "IV lente",
+            "unite": "µg",
+            "doseKg": 10,
+            "doseMax": 200,
+            "preparation": "5 mL + 5 mL NaCl 0,9% ou G5% (50 µg/mL). 0,2 mL/kg toutes les 2 min. Max 50 µg/kg ou 1 mg dose totale"
+          }
+        ]
+      },
+      {
+        "label": "Antagoniste benzodiazépines - Entretien",
+        "posologies": [
+          {
+            "voie": "IVSE",
+            "unite": "µg/kg/h",
+            "doseKg": 10,
+            "preparation": "0,2 mL/kg/h. Dose horaire = dose de charge totale"
           }
         ]
       }
     ],
-    "surdosage": "1ère injection: dose test (arrêt à mi-dose 15 min, puis reprise). Éviter extravasation",
-    "aSavoir": "Durée selon dose: < 100 mg = 1h, 200 mg = 1h30, 300 mg = 2h"
+    "aSavoir": "Dose horaire entretien = dose de charge totale ayant permis le réveil"
   },
   {
     "nom": "Fluconazole",
@@ -1255,37 +1273,6 @@
     ],
     "contreIndications": "Amphotéricine B, toutes les β-lactamines, clindamycine, diazépam, digoxine, furosémide, imipénème, gluconate de calcium, halopéridol, pentamidine, sulfaméthoxazole-triméthoprime - Adaptation posologique selon clairance créatinine",
     "aSavoir": "Adaptation posologique: augmentation intervalle et/ou diminution dose si IRC"
-  },
-  {
-    "nom": "Flumazénil",
-    "galenique": "Solution injectable 1 mg/10 mL (0,1 mg/mL)",
-    "nomCommercial": "ANEXATE",
-    "indications": [
-      {
-        "label": "Antagoniste benzodiazépines - Titration",
-        "posologies": [
-          {
-            "voie": "IV lente",
-            "unite": "µg",
-            "doseKg": 10,
-            "doseMax": 200,
-            "preparation": "5 mL + 5 mL NaCl 0,9% ou G5% (50 µg/mL). 0,2 mL/kg toutes les 2 min. Max 50 µg/kg ou 1 mg dose totale"
-          }
-        ]
-      },
-      {
-        "label": "Antagoniste benzodiazépines - Entretien",
-        "posologies": [
-          {
-            "voie": "IVSE",
-            "unite": "µg/kg/h",
-            "doseKg": 10,
-            "preparation": "0,2 mL/kg/h. Dose horaire = dose de charge totale"
-          }
-        ]
-      }
-    ],
-    "aSavoir": "Dose horaire entretien = dose de charge totale ayant permis le réveil"
   },
   {
     "nom": "Foscarnet sodique",
@@ -1491,26 +1478,6 @@
     "aSavoir": "1 mL = 0,23 mmol Ca²⁺. 50 mg/kg gluconate = 5 mg/kg Ca²⁺"
   },
   {
-    "nom": "Hydroxocobalamine",
-    "galenique": "Poudre injectable 2,5 g",
-    "nomCommercial": "CYANOKIT",
-    "indications": [
-      {
-        "label": "Intoxication aux cyanures",
-        "posologies": [
-          {
-            "voie": "IV lente 30 min",
-            "unite": "mg",
-            "doseKg": 70,
-            "doseMax": 5000,
-            "preparation": "2,5 g + 100 mL NaCl 0,9% (25 mg/mL). 3 mL/kg (max 200 mL). Forme grave ou ACR: 2ème dose possible (max 10 g total)"
-          }
-        ]
-      }
-    ],
-    "aSavoir": "A la pharmacie centrale"
-  },
-  {
     "nom": "Hémisuccinate d'hydrocortisone",
     "galenique": "Poudre injectable 100 mg",
     "nomCommercial": "HYDROCORTISONE",
@@ -1541,6 +1508,26 @@
       }
     ],
     "aSavoir": "Équivalence: 20 mg hydrocortisone = 5 mg prednisolone = 4 mg méthylprednisolone"
+  },
+  {
+    "nom": "Hydroxocobalamine",
+    "galenique": "Poudre injectable 2,5 g",
+    "nomCommercial": "CYANOKIT",
+    "indications": [
+      {
+        "label": "Intoxication aux cyanures",
+        "posologies": [
+          {
+            "voie": "IV lente 30 min",
+            "unite": "mg",
+            "doseKg": 70,
+            "doseMax": 5000,
+            "preparation": "2,5 g + 100 mL NaCl 0,9% (25 mg/mL). 3 mL/kg (max 200 mL). Forme grave ou ACR: 2ème dose possible (max 10 g total)"
+          }
+        ]
+      }
+    ],
+    "aSavoir": "A la pharmacie centrale"
   },
   {
     "nom": "Héparine sodique",
@@ -1846,6 +1833,25 @@
     "aSavoir": "Adaptation posologique progressive selon réponse. Monitorage cardiorespiratoire"
   },
   {
+    "nom": "Lévétiracétam",
+    "galenique": "Solution injectable 500 mg/5 mL (100 mg/mL)",
+    "nomCommercial": "KEPPRA",
+    "indications": [
+      {
+        "label": "État de mal épileptique",
+        "posologies": [
+          {
+            "voie": "IV lente 15 min",
+            "unite": "mg",
+            "doseKg": 40,
+            "doseMax": 4500,
+            "preparation": "Diluer dose dans NaCl 0,9% qsp 100 mL (Cmax 5 mg/mL)"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "nom": "Linézolide",
     "galenique": "Solution perfusion 2 mg/mL, poche 600 mg/300 mL",
     "nomCommercial": "ZYVOXID",
@@ -1876,25 +1882,6 @@
     "contreIndications": "Amphotéricine B, céftriaxone, chlorpromazine, diazépam, pentamidine, phénytoïne - Interactions médicamenteuses: IMAO, sympathomimétiques",
     "surdosage": "Thrombopénie, anémie, neuropathie périphérique (si traitement >28j). Surveillance NFS hebdomadaire",
     "aSavoir": "Activité sur SARM et ERV. Bactériostatique. T2A"
-  },
-  {
-    "nom": "Lévétiracétam",
-    "galenique": "Solution injectable 500 mg/5 mL (100 mg/mL)",
-    "nomCommercial": "KEPPRA",
-    "indications": [
-      {
-        "label": "État de mal épileptique",
-        "posologies": [
-          {
-            "voie": "IV lente 15 min",
-            "unite": "mg",
-            "doseKg": 40,
-            "doseMax": 4500,
-            "preparation": "Diluer dose dans NaCl 0,9% qsp 100 mL (Cmax 5 mg/mL)"
-          }
-        ]
-      }
-    ]
   },
   {
     "nom": "Magnésium sulfate",
@@ -1958,6 +1945,45 @@
             "doseKgMin": 0.5,
             "doseKgMax": 1,
             "preparation": "PUR. 2,5-5 mL/kg. Max 500 mL"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "nom": "Méthylprednisolone",
+    "galenique": "Poudre injectable 20 mg, 40 mg, 120 mg",
+    "nomCommercial": "SOLUMEDROL",
+    "indications": [
+      {
+        "label": "Anti-inflammatoire",
+        "posologies": [
+          {
+            "voie": "IV lente 3 min",
+            "unite": "mg",
+            "doseKg": 2,
+            "preparation": "Diluer dans 10 mL NaCl 0,9%. Puis rincer"
+          }
+        ]
+      }
+    ],
+    "aSavoir": "Équivalence: 4 mg méthylprednisolone = 5 mg prednisolone = 20 mg hydrocortisone"
+  },
+  {
+    "nom": "Métronidazole",
+    "galenique": "Solution pour perfusion 500 mg/100 mL (5 mg/mL)",
+    "nomCommercial": "FLAGYL",
+    "indications": [
+      {
+        "label": "Infections anaérobies",
+        "posologies": [
+          {
+            "voie": "IV lente 30 min",
+            "unite": "mg",
+            "doseKgMin": 10,
+            "doseKgMax": 13,
+            "doseMax": 500,
+            "preparation": "PUR. 30-40 mg/kg/j en 2-3 injections. Max 1,5 g/j"
           }
         ]
       }
@@ -2103,25 +2129,6 @@
     "aSavoir": "Stupéfiant: traçabilité obligatoire. Surveillance FR, SpO2"
   },
   {
-    "nom": "Méthylprednisolone",
-    "galenique": "Poudre injectable 20 mg, 40 mg, 120 mg",
-    "nomCommercial": "SOLUMEDROL",
-    "indications": [
-      {
-        "label": "Anti-inflammatoire",
-        "posologies": [
-          {
-            "voie": "IV lente 3 min",
-            "unite": "mg",
-            "doseKg": 2,
-            "preparation": "Diluer dans 10 mL NaCl 0,9%. Puis rincer"
-          }
-        ]
-      }
-    ],
-    "aSavoir": "Équivalence: 4 mg méthylprednisolone = 5 mg prednisolone = 20 mg hydrocortisone"
-  },
-  {
     "nom": "Métoclopramide",
     "galenique": "Solution injectable 10 mg/2 mL",
     "nomCommercial": "PRIMPERAN",
@@ -2178,26 +2185,6 @@
     "aSavoir": "Voie IM uniquement pour la forme injectable"
   },
   {
-    "nom": "Métronidazole",
-    "galenique": "Solution pour perfusion 500 mg/100 mL (5 mg/mL)",
-    "nomCommercial": "FLAGYL",
-    "indications": [
-      {
-        "label": "Infections anaérobies",
-        "posologies": [
-          {
-            "voie": "IV lente 30 min",
-            "unite": "mg",
-            "doseKgMin": 10,
-            "doseKgMax": 13,
-            "doseMax": 500,
-            "preparation": "PUR. 30-40 mg/kg/j en 2-3 injections. Max 1,5 g/j"
-          }
-        ]
-      }
-    ]
-  },
-  {
     "nom": "N-acétylcystéine",
     "galenique": "Solution injectable 5 g/25 mL (200 mg/mL)",
     "nomCommercial": "FLUIMUCIL",
@@ -2252,39 +2239,6 @@
     "aSavoir": "Protocole 21h: 150 mg/kg sur 1h + 50 mg/kg sur 4h + 100 mg/kg sur 16h"
   },
   {
-    "nom": "Nalbuphine",
-    "galenique": "Solution injectable 20 mg/2 mL (10 mg/mL)",
-    "nomCommercial": "NUBAIN",
-    "indications": [
-      {
-        "label": "Antalgie IV/IM/SC",
-        "posologies": [
-          {
-            "voie": "IV lente 20 min",
-            "unite": "mg",
-            "doseKgMin": 0.2,
-            "doseKgMax": 0.3,
-            "doseMax": 20,
-            "preparation": "Diluer dose prescrite dans 20 mL NaCl 0,9%"
-          }
-        ]
-      },
-      {
-        "label": "Antalgie IR",
-        "posologies": [
-          {
-            "voie": "Intra-rectale",
-            "unite": "mg",
-            "doseKgMin": 0.4,
-            "doseKgMax": 0.5,
-            "preparation": "PUR. 0,04-0,05 mL/kg"
-          }
-        ]
-      }
-    ],
-    "aSavoir": "Agoniste-antagoniste morphinique. Effet plafond analgésique"
-  },
-  {
     "nom": "Naloxone",
     "galenique": "Solution injectable 0,4 mg/mL",
     "nomCommercial": "NARCAN",
@@ -2316,6 +2270,39 @@
     "contreIndications": "Pas de contre-indication en urgence vitale",
     "surdosage": "Peut déclencher syndrome de sevrage chez patient dépendant. Durée d'action courte: surveillance prolongée",
     "aSavoir": "Demi-vie plus courte que morphine: risque de re-narcotisation"
+  },
+  {
+    "nom": "Nalbuphine",
+    "galenique": "Solution injectable 20 mg/2 mL (10 mg/mL)",
+    "nomCommercial": "NUBAIN",
+    "indications": [
+      {
+        "label": "Antalgie IV/IM/SC",
+        "posologies": [
+          {
+            "voie": "IV lente 20 min",
+            "unite": "mg",
+            "doseKgMin": 0.2,
+            "doseKgMax": 0.3,
+            "doseMax": 20,
+            "preparation": "Diluer dose prescrite dans 20 mL NaCl 0,9%"
+          }
+        ]
+      },
+      {
+        "label": "Antalgie IR",
+        "posologies": [
+          {
+            "voie": "Intra-rectale",
+            "unite": "mg",
+            "doseKgMin": 0.4,
+            "doseKgMax": 0.5,
+            "preparation": "PUR. 0,04-0,05 mL/kg"
+          }
+        ]
+      }
+    ],
+    "aSavoir": "Agoniste-antagoniste morphinique. Effet plafond analgésique"
   },
   {
     "nom": "Nicardipine",
@@ -2782,6 +2769,31 @@
     ]
   },
   {
+    "nom": "Sérum salé hypertonique 7,5%",
+    "galenique": "Solution injectable",
+    "nomCommercial": "SSH 7,5%",
+    "indications": [
+      {
+        "label": "HTIC",
+        "posologies": [
+          {
+            "voie": "IV lente 20 min",
+            "unite": "mL",
+            "doseKg": 3,
+            "doseMax": 250,
+            "preparation": "PUR"
+          },
+          {
+            "voie": "IVSE entretien",
+            "unite": "mL/kg/h",
+            "doseKg": 0.25,
+            "preparation": "Après bolus initial"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "nom": "Sufentanil",
     "galenique": "Solution injectable 50 µg/10 mL (5 µg/mL)",
     "nomCommercial": "SUFENTA",
@@ -2861,31 +2873,6 @@
     ],
     "contreIndications": "CI hyperkaliémie menaçante, myopathies, brûlures > 24h, crush syndrome, dénervation",
     "aSavoir": "Conservation au réfrigérateur. Curare dépolarisant"
-  },
-  {
-    "nom": "Sérum salé hypertonique 7,5%",
-    "galenique": "Solution injectable",
-    "nomCommercial": "SSH 7,5%",
-    "indications": [
-      {
-        "label": "HTIC",
-        "posologies": [
-          {
-            "voie": "IV lente 20 min",
-            "unite": "mL",
-            "doseKg": 3,
-            "doseMax": 250,
-            "preparation": "PUR"
-          },
-          {
-            "voie": "IVSE entretien",
-            "unite": "mL/kg/h",
-            "doseKg": 0.25,
-            "preparation": "Après bolus initial"
-          }
-        ]
-      }
-    ]
   },
   {
     "nom": "Vancomycine",
