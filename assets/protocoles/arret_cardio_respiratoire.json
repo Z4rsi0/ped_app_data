@@ -3,7 +3,7 @@
   "description": "Protocole de réanimation cardio-pulmonaire pédiatrique selon les recommandations ERC 2021",
   "auteur": "",
   "version": "1.0",
-  "dateModification": "2025-12-30T15:13:45.258301",
+  "dateModification": "2025-12-30T15:15:31.878637",
   "blocs": [
     {
       "type": "section",
@@ -40,7 +40,7 @@
       "type": "section",
       "titre": "CHOQUABLE: Choc + Adrénaline",
       "temps": "Si FV/TV",
-      "initialementOuvert": false,
+      "initialementOuvert": true,
       "contenu": [],
       "ordre": 4
     },
