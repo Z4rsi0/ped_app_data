@@ -3,7 +3,7 @@
   "description": "Prise en charge de l'hypersensibilité systémique sévère (Critères de Sampson).",
   "auteur": "Dr F. Raimond, Dr I. Kahn",
   "version": "2024.1",
-  "dateModification": "2026-01-04T00:39:25.246793",
+  "dateModification": "2026-01-04T00:40:20.952540",
   "blocs": [
     {
       "type": "alerte",
@@ -82,7 +82,7 @@
           "nomMedicament": "Ringer Lactate",
           "indication": "Remplissage",
           "voie": "IV",
-          "commentaire": "Si insuffisance circulatoire : 10 ml/kg.",
+          "commentaire": "Si insuffisance circulatoire : 10 ml/kg",
           "ordre": 2,
           "id": "3f278ac3-849a-4605-8c01-18c686c2b739"
         },
