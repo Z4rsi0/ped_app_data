@@ -1,7 +1,7 @@
 {
   "titre": "Sans titre",
   "description": "Protocole de réanimation cardio-pulmonaire pédiatrique selon les recommandations ERC 2021",
-  "dateModification": "2026-01-03T01:56:53.483",
+  "dateModification": "2026-01-03T12:46:02.547985",
   "blocs": [
     {
       "type": "section",
@@ -9,14 +9,16 @@
       "temps": "< 10 sec",
       "initialementOuvert": true,
       "contenu": [],
-      "ordre": 0
+      "ordre": 0,
+      "id": "e121323e-0719-4b60-aef9-73dd59c3b16c"
     },
     {
       "type": "section",
       "titre": "RCP de base - Compressions + Ventilation",
       "initialementOuvert": false,
       "contenu": [],
-      "ordre": 1
+      "ordre": 1,
+      "id": "cac928dc-b9c8-4579-8dc4-555dc00c11a9"
     },
     {
       "type": "section",
@@ -24,7 +26,8 @@
       "temps": "Dès que possible",
       "initialementOuvert": false,
       "contenu": [],
-      "ordre": 2
+      "ordre": 2,
+      "id": "53c53591-b9ed-49c2-a222-fc7c6ff168f9"
     },
     {
       "type": "section",
@@ -32,7 +35,8 @@
       "temps": "Toutes les 2 min",
       "initialementOuvert": false,
       "contenu": [],
-      "ordre": 3
+      "ordre": 3,
+      "id": "937b124d-4ade-4163-9940-e830e5872324"
     },
     {
       "type": "section",
@@ -44,10 +48,19 @@
           "type": "medicament",
           "nomMedicament": "Adrénaline",
           "indication": "Arrêt cardiaque",
-          "ordre": 0
+          "ordre": 0,
+          "id": "fddcc591-231d-4b2c-be86-ad1c6cda95ba"
+        },
+        {
+          "type": "medicament",
+          "nomMedicament": "Amiodarone",
+          "indication": "ACR (FV/TV réfractaire)",
+          "ordre": 1,
+          "id": "ca3e92eb-6a85-4ce2-a2a2-0bc29fa5bef9"
         }
       ],
-      "ordre": 4
+      "ordre": 4,
+      "id": "7a757a15-4892-4550-a637-1d4740b40817"
     },
     {
       "type": "section",
@@ -55,28 +68,32 @@
       "temps": "Si Asystolie/AESP",
       "initialementOuvert": false,
       "contenu": [],
-      "ordre": 5
+      "ordre": 5,
+      "id": "c9998e1b-de3a-4846-8b8e-a92f91279692"
     },
     {
       "type": "section",
       "titre": "Causes réversibles - 4H 4T",
       "initialementOuvert": false,
       "contenu": [],
-      "ordre": 6
+      "ordre": 6,
+      "id": "88870d83-fdbc-4bb3-9690-8881295b1c8b"
     },
     {
       "type": "section",
       "titre": "Médicaments complémentaires",
       "initialementOuvert": false,
       "contenu": [],
-      "ordre": 7
+      "ordre": 7,
+      "id": "fa0dd61f-3898-4530-bb19-42eea1ddbd8f"
     },
     {
       "type": "section",
       "titre": "Post-RACS immédiat",
       "initialementOuvert": false,
       "contenu": [],
-      "ordre": 8
+      "ordre": 8,
+      "id": "03af16a8-3660-4cb0-ac49-8ae22086d091"
     }
   ]
 }
