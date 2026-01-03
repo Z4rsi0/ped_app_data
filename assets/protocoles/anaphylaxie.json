@@ -3,7 +3,7 @@
   "description": "Prise en charge de l'hypersensibilité systémique sévère (Critères de Sampson).",
   "auteur": "Dr F. Raimond, Dr I. Kahn",
   "version": "2024.1",
-  "dateModification": "2026-01-03T16:03:41.419986",
+  "dateModification": "2026-01-03T16:05:57.580362",
   "blocs": [
     {
       "type": "alerte",
@@ -68,8 +68,8 @@
           "type": "medicament",
           "nomMedicament": "Adrénaline",
           "indication": "Anaphylaxie IM",
-          "voie": "IM",
-          "commentaire": "1 mg/ml (pure). Répétable à 5-10 min si échec. Max 0.5 mg.",
+          "voie": "I",
+          "commentaire": "1",
           "ordre": 1,
           "id": "de8316f5-3f37-41f5-9054-07cacb1299da"
         },
