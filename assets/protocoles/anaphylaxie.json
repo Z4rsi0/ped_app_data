@@ -1,0 +1,118 @@
+{
+  "titre": "Anaphylaxie de l'enfant",
+  "description": "Prise en charge de l'hypersensibilité systémique sévère (Critères de Sampson).",
+  "auteur": "Dr F. Raimond, Dr I. Kahn",
+  "version": "2024.1",
+  "dateModification": "2024-06-01T00:00:00.000Z",
+  "blocs": [
+    {
+      "type": "alerte",
+      "ordre": 0,
+      "contenu": "URGENCE VITALE. L'adrénaline est le seul traitement du choc anaphylactique.",
+      "niveau": "critique"
+    },
+    {
+      "type": "section",
+      "ordre": 1,
+      "titre": "Diagnostic (Critères de Sampson)",
+      "initialementOuvert": false,
+      "contenu": [
+        {
+          "type": "texte",
+          "ordre": 0,
+          "contenu": "1. Atteinte cutanée/muqueuse aiguë + Respiratoire OU Hypotension.\n2. Deux signes parmi : Peau, Respi, Hypotension, Digestif persistant.\n3. Hypotension artérielle après exposition allergène connu."
+        },
+        {
+          "type": "tableau",
+          "ordre": 1,
+          "titre": "Définition Hypotension (PAS)",
+          "colonnes": ["Age", "Seuil PAS (mmHg)"],
+          "lignes": [
+            ["1 mois - 1 an", "< 70"],
+            ["1 - 10 ans", "< 70 + (2 x âge)"],
+            ["> 10 ans", "< 90"]
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "ordre": 2,
+      "titre": "Traitement Immédiat",
+      "temps": "M0",
+      "initialementOuvert": true,
+      "contenu": [
+        {
+          "type": "texte",
+          "ordre": 0,
+          "contenu": "Arrêt exposition allergène. Position Trendelenburg (sauf si gêne respiratoire majeure)."
+        },
+        {
+          "type": "medicament",
+          "ordre": 1,
+          "nomMedicament": "Adrénaline",
+          "indication": "Anaphylaxie (IM)",
+          "voie": "IM",
+          "commentaire": "1 mg/ml (pure). Répétable à 5-10 min si échec. Max 0.5 mg."
+        },
+        {
+          "type": "medicament",
+          "ordre": 2,
+          "nomMedicament": "Chlorure de Sodium 0.9%",
+          "indication": "Remplissage vasculaire",
+          "voie": "IV",
+          "commentaire": "Si insuffisance circulatoire : 10 ml/kg."
+        },
+        {
+          "type": "texte",
+          "ordre": 3,
+          "contenu": "Si Bronchospasme / Stridor associé :"
+        },
+        {
+          "type": "medicament",
+          "ordre": 4,
+          "nomMedicament": "Salbutamol",
+          "indication": "Bronchospasme",
+          "voie": "Nébulisation",
+          "commentaire": "2.5mg (<16kg) ou 5mg (>16kg)."
+        },
+        {
+          "type": "medicament",
+          "ordre": 5,
+          "nomMedicament": "Adrénaline",
+          "indication": "Stridor (Nébulisation)",
+          "voie": "Nébulisation",
+          "commentaire": "0.5 mg (1mg/1ml) + 3-4ml SS."
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "ordre": 3,
+      "titre": "Traitement Secondaire",
+      "contenu": [
+        {
+          "type": "texte",
+          "ordre": 0,
+          "contenu": "Après stabilisation hémodynamique et respiratoire."
+        },
+        {
+          "type": "medicament",
+          "ordre": 1,
+          "nomMedicament": "Methylprednisolone",
+          "indication": "Corticothérapie",
+          "voie": "IV",
+          "commentaire": "Solumédrol : 2 mg/kg."
+        },
+        {
+          "type": "medicament",
+          "ordre": 2,
+          "nomMedicament": "Dexchlorphéniramine",
+          "indication": "Antihistaminique",
+          "voie": "IV",
+          "commentaire": "Polaramine. <30 mois: 2.5mg (hors AMM), >30 mois: 5mg."
+        }
+      ]
+    }
+  ]
+}
