@@ -3,7 +3,7 @@
   "description": "Prise en charge de l'hypersensibilité systémique sévère (Critères de Sampson).",
   "auteur": "Dr F. Raimond, Dr I. Kahn",
   "version": "2024.1",
-  "dateModification": "2026-01-03T16:02:42.778067",
+  "dateModification": "2026-01-03T16:03:41.419986",
   "blocs": [
     {
       "type": "alerte",
@@ -126,7 +126,7 @@
           "nomMedicament": "Méthylprednisolone",
           "indication": "Anti-inflammatoire",
           "voie": "IV",
-          "commentaire": "Solumédrol : 2 mg/kg.",
+          "commentaire": "Solumédrol : 2 mg/kg",
           "ordre": 1,
           "id": "64b1c33d-cf6a-4f2b-b51f-de81d39614a0"
         },
