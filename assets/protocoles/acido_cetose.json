@@ -3,7 +3,7 @@
   "description": "Protocole de prise en charge de l'acidocétose de l'enfant (révélation ou complication).",
   "auteur": "Drs I. Kahn, K. Milcent, S. Walser",
   "version": "2022.1",
-  "dateModification": "2026-01-03T16:10:34.158898",
+  "dateModification": "2026-01-03T16:16:35.046799",
   "blocs": [
     {
       "type": "alerte",
@@ -26,10 +26,10 @@
         },
         {
           "type": "medicament",
-          "nomMedicament": "Chlorure de Sodium 0.9%",
-          "indication": "Remplissage vasculaire (si collapsus)",
+          "nomMedicament": "Chlorure De Sodium 0,9%",
+          "indication": "Remplissage",
           "voie": "IV",
-          "commentaire": "20 ml/kg à répéter 2 fois si besoin (max 500ml/remplissage)",
+          "commentaire": "10 ml/kg à répéter 2 fois si besoin (max 500ml/remplissage)",
           "ordre": 1,
           "id": "b2c2cd84-2faa-4b3f-90ec-8dba2e43cd58"
         },
