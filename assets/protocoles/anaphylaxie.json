@@ -3,7 +3,7 @@
   "description": "Prise en charge de l'hypersensibilité systémique sévère (Critères de Sampson).",
   "auteur": "Dr F. Raimond, Dr I. Kahn",
   "version": "2024.1",
-  "dateModification": "2026-01-03T16:05:57.580362",
+  "dateModification": "2026-01-04T00:36:18.188257",
   "blocs": [
     {
       "type": "alerte",
@@ -28,20 +28,24 @@
           "titre": "Définition Hypotension (PAS)",
           "colonnes": [
             "Age",
-            "Seuil PAS (mmHg)"
+            "Seuil PAS (mmHg)",
+            "Seuil PAM (mmHg)"
           ],
           "lignes": [
             [
               "1 mois - 1 an",
-              "< 70"
+              "< 70",
+              "< 40"
             ],
             [
               "1 - 10 ans",
-              "< 70 + (2 x âge)"
+              "< 70 + (2 x âge)",
+              "< 40 + (2 x âge)"
             ],
             [
               "> 10 ans",
-              "< 90"
+              "< 90",
+              "< 65"
             ]
           ],
           "avecEntete": true,
@@ -68,15 +72,15 @@
           "type": "medicament",
           "nomMedicament": "Adrénaline",
           "indication": "Anaphylaxie IM",
-          "voie": "I",
-          "commentaire": "1",
+          "voie": "IM",
+          "commentaire": "répétable à 5 minutes ",
           "ordre": 1,
           "id": "de8316f5-3f37-41f5-9054-07cacb1299da"
         },
         {
           "type": "medicament",
-          "nomMedicament": "Chlorure de Sodium 0.9%",
-          "indication": "Remplissage vasculaire",
+          "nomMedicament": "Ringer Lactate",
+          "indication": "Remplissage",
           "voie": "IV",
           "commentaire": "Si insuffisance circulatoire : 10 ml/kg.",
           "ordre": 2,
