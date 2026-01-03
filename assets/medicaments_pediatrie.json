@@ -1029,11 +1029,11 @@
             "unite": "mg",
             "tranches": [
               {
-                "ageMax": 2.5,
+                "poidsMax": 14.0,
                 "doses": "2,5 mg (hors AMM)"
               },
               {
-                "ageMin": 2.5,
+                "poidsMin": 14.0,
                 "doses": "5 mg"
               }
             ],
