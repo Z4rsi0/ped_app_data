@@ -1,7 +1,9 @@
 {
-  "titre": "Sans titre",
+  "titre": "Arrêt Cardio Respiratoire ",
   "description": "Protocole de réanimation cardio-pulmonaire pédiatrique selon les recommandations ERC 2021",
-  "dateModification": "2026-01-03T12:46:02.547985",
+  "auteur": "",
+  "version": "1.0",
+  "dateModification": "2026-01-03T12:46:31.083529",
   "blocs": [
     {
       "type": "section",
