@@ -181,6 +181,16 @@
             "preparation": "Diluer 1 mg dans 49 mL NaCl 0,9% (0,02 mg/mL = 20 µg/mL). Débit (mL/h) = poids/3 pour 0,1 µg/kg/min. Augmenter par paliers de 0,05-0,1 µg/kg/min"
           }
         ]
+      },
+      {
+        "label": "Stridor",
+        "posologies": [
+          {
+            "voie": "Inhalation",
+            "unite": "mg",
+            "doses": "1 mg dilué avec 3-4 mL de NaCl 0,9%"
+          }
+        ]
       }
     ],
     "contreIndications": "Pas de contre-indication en urgence vitale",
