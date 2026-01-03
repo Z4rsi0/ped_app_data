@@ -1,0 +1,91 @@
+{
+  "titre": "Choc Hémorragique & HDH",
+  "description": "Prise en charge des hémorragies digestives hautes et du choc hémorragique.",
+  "auteur": "Dr I. Kahn, Dr F. Raimond",
+  "version": "2021.1",
+  "dateModification": "2021-09-07T00:00:00.000Z",
+  "blocs": [
+    {
+      "type": "section",
+      "ordre": 0,
+      "titre": "Définition & Sévérité",
+      "contenu": [
+        {
+          "type": "texte",
+          "ordre": 0,
+          "contenu": "La PA se maintient longtemps chez l'enfant. Hypotension = Signe tardif (>30% perte volémique)."
+        },
+        {
+          "type": "tableau",
+          "ordre": 1,
+          "titre": "Seuils Hypotension (PAM)",
+          "colonnes": ["Age", "PAM Critique (mmHg)"],
+          "lignes": [
+            ["< 1 mois", "< 50"],
+            ["1 mois - 2 ans", "< 55"],
+            ["2 ans - 10 ans", "< 65"]
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "ordre": 1,
+      "titre": "Réanimation (Damage Control)",
+      "contenu": [
+        {
+          "type": "texte",
+          "ordre": 0,
+          "contenu": "Objectif : Perfusion tissulaire > Normalisation PA (Hypotension permissive)."
+        },
+        {
+          "type": "medicament",
+          "ordre": 1,
+          "nomMedicament": "Ringer Lactate",
+          "indication": "Remplissage",
+          "voie": "IV",
+          "commentaire": "10 ml/kg par bolus itératifs. Alternative : NaCl 0.9%."
+        },
+        {
+          "type": "medicament",
+          "ordre": 2,
+          "nomMedicament": "Noradrénaline",
+          "indication": "Vasopresseur",
+          "voie": "IVSE",
+          "commentaire": "Début 0.1 µg/kg/min si choc persistant."
+        },
+        {
+          "type": "medicament",
+          "ordre": 3,
+          "nomMedicament": "Acide Tranexamique",
+          "indication": "Antifibrinolyse",
+          "voie": "IV",
+          "commentaire": "Exacyl. <12 ans: 15 mg/kg (max 1g) sur 10 min, puis 2 mg/kg/h."
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "ordre": 2,
+      "titre": "Spécifique HDH (Hémorragie Digestive)",
+      "contenu": [
+        {
+          "type": "medicament",
+          "ordre": 0,
+          "nomMedicament": "Pantoprazole",
+          "indication": "IPP",
+          "voie": "IV",
+          "commentaire": "2 mg/kg (max 80mg) bolus puis 0.2 mg/kg/h."
+        },
+        {
+          "type": "medicament",
+          "ordre": 1,
+          "nomMedicament": "Erythromycine",
+          "indication": "Vidange gastrique (avant EOGD)",
+          "voie": "IV",
+          "commentaire": "5 mg/kg IV lent (si pas de CI)."
+        }
+      ]
+    }
+  ]
+}
