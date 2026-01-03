@@ -824,6 +824,23 @@
     "aSavoir": "Cmax VVP 4 g/L. Apports journaliers couverts par B26 (2 g/L)"
   },
   {
+    "nom": "Chlorure De Sodium 0,9%",
+    "galenique": "Solution injectable",
+    "nomCommercial": "SERUM PHYSIOLOGIQUE",
+    "indications": [
+      {
+        "label": "Remplissage",
+        "posologies": [
+          {
+            "voie": "IV",
+            "unite": "mL",
+            "doseKg": 10.0
+          }
+        ]
+      }
+    ]
+  },
+  {
     "nom": "Ciclosporine",
     "galenique": "Solution injectable 50 mg/1 mL et 250 mg/5 mL",
     "nomCommercial": "SANDIMMUM",
@@ -2721,6 +2738,22 @@
             "doseKgMax": 15,
             "doseMax": 600,
             "preparation": "600 mg + 250 mL G5% (2,4 mg/mL). 2 fois/24h. Max 600 mg/j"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "nom": "Ringer Lactate",
+    "galenique": "Solution injectable",
+    "indications": [
+      {
+        "label": "Remplissage",
+        "posologies": [
+          {
+            "voie": "IV",
+            "unite": "mL",
+            "doseKg": 10.0
           }
         ]
       }
