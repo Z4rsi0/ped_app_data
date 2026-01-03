@@ -1,0 +1,117 @@
+{
+  "titre": "Acido-cétose diabétique",
+  "description": "Protocole de prise en charge de l'acidocétose de l'enfant (révélation ou complication).",
+  "auteur": "Drs I. Kahn, K. Milcent, S. Walser",
+  "version": "2022.1",
+  "dateModification": "2022-06-15T00:00:00.000Z",
+  "blocs": [
+    {
+      "type": "alerte",
+      "ordre": 0,
+      "contenu": "DÉFINITION : Glycémie capillaire > 2 g/L (11 mmol/L) ET Cétonémie > 3 mmol/L ET pH veineux < 7.3.",
+      "niveau": "danger"
+    },
+    {
+      "type": "section",
+      "ordre": 1,
+      "titre": "Urgence immédiate (H0)",
+      "temps": "H0",
+      "initialementOuvert": true,
+      "contenu": [
+        {
+          "type": "texte",
+          "ordre": 0,
+          "contenu": "Mise à jeun strict - Scope - Pose de 2 VVP. Bilan bio complet (GDS, Iono, Urée, Créat, Ca, Ph, NFS)."
+        },
+        {
+          "type": "medicament",
+          "ordre": 1,
+          "nomMedicament": "Chlorure de Sodium 0.9%",
+          "indication": "Remplissage vasculaire (si collapsus)",
+          "voie": "IV",
+          "commentaire": "20 ml/kg à répéter 2 fois si besoin (max 500ml/remplissage)"
+        },
+        {
+          "type": "alerte",
+          "ordre": 2,
+          "contenu": "Signes de gravité : pH < 7.10, Choc, Conscience altérée, Age < 2 ans, Natrémie corrigée > 165 mmol/L.",
+          "niveau": "critique"
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "ordre": 2,
+      "titre": "Hydratation & Insulinothérapie (H0 - H2)",
+      "temps": "H0 - H2",
+      "contenu": [
+        {
+          "type": "texte",
+          "ordre": 0,
+          "contenu": "Débit hydratation : 6 ml/kg/heure (max 250 ml/h). NaCl 0.9% + KCl selon ECG/Kaliémie."
+        },
+        {
+          "type": "alerte",
+          "ordre": 1,
+          "contenu": "Vérifier l'absence d'anurie et de signes ECG d'hyperkaliémie avant d'ajouter le KCl.",
+          "niveau": "attention"
+        },
+        {
+          "type": "texte",
+          "ordre": 2,
+          "contenu": "Insulinothérapie IVSE (à débuter à H1 de l'hydratation). Dilution 1 UI/ml."
+        },
+        {
+          "type": "medicament",
+          "ordre": 3,
+          "nomMedicament": "Insuline Rapide",
+          "indication": "Acidocétose (Standard)",
+          "voie": "IVSE",
+          "commentaire": "0.1 UI/kg/h. Réduire à 0.05 UI/kg/h si pH > 7.25 ou âge < 5 ans."
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "ordre": 3,
+      "titre": "Perfusion d'entretien (H2 - H24)",
+      "temps": "H2 - H24",
+      "contenu": [
+        {
+          "type": "texte",
+          "ordre": 0,
+          "contenu": "Débit : 3L / m² / 24h. Si glycémie < 14 mmol/L ou baisse > 5 mmol/h, passer au G10%."
+        },
+        {
+          "type": "tableau",
+          "ordre": 1,
+          "titre": "Choix du soluté",
+          "colonnes": ["Situation", "Soluté", "Adjuvants"],
+          "lignes": [
+            ["Glycémie > 14 mmol/L", "Bionolyte G5%", "NaCl 2g/L + KCl 1g/L + Ca 1g/L"],
+            ["Glycémie < 14 mmol/L", "G10%", "NaCl 6g/L + KCl 3g/L + Ca 1g/L"]
+          ]
+        },
+        {
+          "type": "alerte",
+          "ordre": 2,
+          "contenu": "Si anomalies ondes T ou K+ < 2.5 mmol/L : Rajouter 1.5 g/L de KCl (Total 60 mmol/L).",
+          "niveau": "danger"
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "ordre": 4,
+      "titre": "Ce qu'il ne faut PAS faire",
+      "contenu": [
+        {
+          "type": "alerte",
+          "ordre": 0,
+          "contenu": "NE PAS faire de bolus d'insuline.\nNE PAS dépasser 4L/m²/24h (Risque œdème cérébral).\nNE PAS arrêter l'insuline si normalisation glycémie tant que cétose persiste.",
+          "niveau": "danger"
+        }
+      ]
+    }
+  ]
+}
