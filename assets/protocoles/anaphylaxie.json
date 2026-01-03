@@ -3,116 +3,145 @@
   "description": "Prise en charge de l'hypersensibilité systémique sévère (Critères de Sampson).",
   "auteur": "Dr F. Raimond, Dr I. Kahn",
   "version": "2024.1",
-  "dateModification": "2024-06-01T00:00:00.000Z",
+  "dateModification": "2026-01-03T16:02:42.778067",
   "blocs": [
     {
       "type": "alerte",
-      "ordre": 0,
       "contenu": "URGENCE VITALE. L'adrénaline est le seul traitement du choc anaphylactique.",
-      "niveau": "critique"
+      "niveau": "critique",
+      "ordre": 0,
+      "id": "55b584a3-d36c-477c-8434-55faad3d7455"
     },
     {
       "type": "section",
-      "ordre": 1,
       "titre": "Diagnostic (Critères de Sampson)",
       "initialementOuvert": false,
       "contenu": [
         {
           "type": "texte",
+          "contenu": "1. Atteinte cutanée/muqueuse aiguë + Respiratoire OU Hypotension.\n2. Deux signes parmi : Peau, Respi, Hypotension, Digestif persistant.\n3. Hypotension artérielle après exposition allergène connu.",
           "ordre": 0,
-          "contenu": "1. Atteinte cutanée/muqueuse aiguë + Respiratoire OU Hypotension.\n2. Deux signes parmi : Peau, Respi, Hypotension, Digestif persistant.\n3. Hypotension artérielle après exposition allergène connu."
+          "id": "97591849-d983-4cc3-a397-1edae22fc9e3"
         },
         {
           "type": "tableau",
-          "ordre": 1,
           "titre": "Définition Hypotension (PAS)",
-          "colonnes": ["Age", "Seuil PAS (mmHg)"],
+          "colonnes": [
+            "Age",
+            "Seuil PAS (mmHg)"
+          ],
           "lignes": [
-            ["1 mois - 1 an", "< 70"],
-            ["1 - 10 ans", "< 70 + (2 x âge)"],
-            ["> 10 ans", "< 90"]
-          ]
+            [
+              "1 mois - 1 an",
+              "< 70"
+            ],
+            [
+              "1 - 10 ans",
+              "< 70 + (2 x âge)"
+            ],
+            [
+              "> 10 ans",
+              "< 90"
+            ]
+          ],
+          "avecEntete": true,
+          "ordre": 1,
+          "id": "698ffbe5-cd55-4adf-9d4f-aadf521d52c7"
         }
-      ]
+      ],
+      "ordre": 1,
+      "id": "fc2fd5dc-2db1-4227-8679-170a7a06889f"
     },
     {
       "type": "section",
-      "ordre": 2,
       "titre": "Traitement Immédiat",
       "temps": "M0",
       "initialementOuvert": true,
       "contenu": [
         {
           "type": "texte",
+          "contenu": "Arrêt exposition allergène. Position Trendelenburg (sauf si gêne respiratoire majeure).",
           "ordre": 0,
-          "contenu": "Arrêt exposition allergène. Position Trendelenburg (sauf si gêne respiratoire majeure)."
+          "id": "bb17b84e-8265-4dc7-9e2c-109dcdbf472e"
         },
         {
           "type": "medicament",
-          "ordre": 1,
           "nomMedicament": "Adrénaline",
-          "indication": "Anaphylaxie (IM)",
+          "indication": "Anaphylaxie IM",
           "voie": "IM",
-          "commentaire": "1 mg/ml (pure). Répétable à 5-10 min si échec. Max 0.5 mg."
+          "commentaire": "1 mg/ml (pure). Répétable à 5-10 min si échec. Max 0.5 mg.",
+          "ordre": 1,
+          "id": "de8316f5-3f37-41f5-9054-07cacb1299da"
         },
         {
           "type": "medicament",
-          "ordre": 2,
           "nomMedicament": "Chlorure de Sodium 0.9%",
           "indication": "Remplissage vasculaire",
           "voie": "IV",
-          "commentaire": "Si insuffisance circulatoire : 10 ml/kg."
+          "commentaire": "Si insuffisance circulatoire : 10 ml/kg.",
+          "ordre": 2,
+          "id": "3f278ac3-849a-4605-8c01-18c686c2b739"
         },
         {
           "type": "texte",
+          "contenu": "Si Bronchospasme / Stridor associé :",
           "ordre": 3,
-          "contenu": "Si Bronchospasme / Stridor associé :"
+          "id": "9cc4c27e-0d92-4945-94b4-af6a19948499"
         },
         {
           "type": "medicament",
-          "ordre": 4,
           "nomMedicament": "Salbutamol",
-          "indication": "Bronchospasme",
+          "indication": "Asthme grave",
           "voie": "Nébulisation",
-          "commentaire": "2.5mg (<16kg) ou 5mg (>16kg)."
+          "commentaire": "2.5mg (<16kg) ou 5mg (>16kg).",
+          "ordre": 4,
+          "id": "4545b769-c575-407b-b5a8-dface217b2a6"
         },
         {
           "type": "medicament",
-          "ordre": 5,
           "nomMedicament": "Adrénaline",
-          "indication": "Stridor (Nébulisation)",
+          "indication": "Stridor",
           "voie": "Nébulisation",
-          "commentaire": "0.5 mg (1mg/1ml) + 3-4ml SS."
+          "commentaire": "1 mg (1mg/1ml) + 3-4ml SS.",
+          "ordre": 5,
+          "id": "d44c8d4c-2b83-4d40-8d4f-f89c98bb7b94"
         }
-      ]
+      ],
+      "ordre": 2,
+      "id": "aa8ffc1a-0e9c-4223-8a29-5664c855c8d4"
     },
     {
       "type": "section",
-      "ordre": 3,
       "titre": "Traitement Secondaire",
+      "initialementOuvert": false,
       "contenu": [
         {
           "type": "texte",
+          "contenu": "Après stabilisation hémodynamique et respiratoire.",
           "ordre": 0,
-          "contenu": "Après stabilisation hémodynamique et respiratoire."
+          "id": "ffb67e0b-ecf5-4a43-8e58-25587d7902d8"
         },
         {
           "type": "medicament",
+          "nomMedicament": "Méthylprednisolone",
+          "indication": "Anti-inflammatoire",
+          "voie": "IV",
+          "commentaire": "Solumédrol : 2 mg/kg.",
           "ordre": 1,
-          "nomMedicament": "Methylprednisolone",
-          "indication": "Corticothérapie",
-          "voie": "IV",
-          "commentaire": "Solumédrol : 2 mg/kg."
+          "id": "64b1c33d-cf6a-4f2b-b51f-de81d39614a0"
         },
         {
           "type": "medicament",
-          "ordre": 2,
           "nomMedicament": "Dexchlorphéniramine",
-          "indication": "Antihistaminique",
+          "indication": "Réaction allergique",
           "voie": "IV",
-          "commentaire": "Polaramine. <30 mois: 2.5mg (hors AMM), >30 mois: 5mg."
+          "commentaire": "Polaramine. <30 mois: 2.5mg (hors AMM), >30 mois: 5mg.",
+          "ordre": 2,
+          "id": "8d70db92-9c55-4a61-b27e-aff2217e7677"
         }
-      ]
+      ],
+      "ordre": 3,
+      "id": "d1391c54-a693-4dc5-851c-79c218b2364f"
     }
   ]
 }
