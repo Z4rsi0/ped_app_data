@@ -3,103 +3,152 @@
   "description": "Protocoles de sédation procédurale, analgésie et intubation séquence rapide (ISR).",
   "auteur": "Dr F. Raimond",
   "version": "2016.1",
-  "dateModification": "2016-04-01T00:00:00.000Z",
+  "dateModification": "2026-01-04T16:23:09.058822",
   "blocs": [
     {
       "type": "section",
-      "ordre": 0,
       "titre": "Analgésiques Usuels",
       "initialementOuvert": true,
       "contenu": [
         {
           "type": "medicament",
-          "ordre": 0,
-          "nomMedicament": "Paracétamol",
-          "indication": "Douleur faible/modérée (IV)",
+          "nomMedicament": "Paracétamol IV",
+          "indication": "Antalgique, antipyrétique",
           "voie": "IV",
-          "commentaire": "15 mg/kg/6h. Si < 10kg : 7.5 mg/kg."
+          "commentaire": "15 mg/kg/6h. Si < 10kg : 7.5 mg/kg.",
+          "ordre": 0,
+          "id": "f3ed19ac-09c6-4286-a0dd-50d35c7d0dec"
         },
         {
           "type": "medicament",
-          "ordre": 1,
           "nomMedicament": "Nalbuphine",
-          "indication": "Douleur modérée",
+          "indication": "Antalgie IV/IM/SC",
           "voie": "IV",
-          "commentaire": "0.2 mg/kg/6h. AMM > 18 mois."
+          "commentaire": "0.2 mg/kg/6h. AMM > 18 mois.",
+          "ordre": 1,
+          "id": "466a8b4a-b878-4ba3-ab13-4e32ff6d774d"
         },
         {
           "type": "medicament",
-          "ordre": 2,
           "nomMedicament": "Morphine",
-          "indication": "Douleur sévère (Titration)",
+          "indication": "Titration - Bolus initial",
           "voie": "IV",
-          "commentaire": "Charge: 0.1 mg/kg (ou 0.05). Titration: 0.025 mg/kg toutes les 5-7 min."
-        }
-      ]
-    },
-    {
-      "type": "section",
-      "ordre": 1,
-      "titre": "Sédation Procédurale",
-      "contenu": [
-        {
-          "type": "texte",
-          "ordre": 0,
-          "contenu": "MEOPA : 50%/50%. Inhalation au masque. Contre-indication : HTIC, Pneumothorax, Occlusion."
+          "commentaire": "Charge: 0.1 mg/kg (ou 0.05).",
+          "ordre": 2,
+          "id": "001cdbec-e333-4fce-9093-aeca22a7da8c"
         },
         {
           "type": "medicament",
-          "ordre": 1,
-          "nomMedicament": "Midazolam (Hypnovel)",
-          "indication": "Anxiolyse / Sédation",
+          "nomMedicament": "Morphine",
+          "indication": "Titration - Bolus suivants",
           "voie": "IV",
-          "commentaire": "0.05 à 0.1 mg/kg. Possible en Intra-Rectal (0.3 mg/kg)."
-        },
-        {
-          "type": "medicament",
-          "ordre": 2,
-          "nomMedicament": "Kétamine",
-          "indication": "Sédation douloureuse (ex: réduction)",
-          "voie": "IVL",
-          "commentaire": "1 à 2 mg/kg IVL. Associer atropine/hypnovel selon habitudes."
-        }
-      ]
-    },
-    {
-      "type": "section",
-      "ordre": 2,
-      "titre": "Intubation Séquence Rapide (ISR)",
-      "contenu": [
-        {
-          "type": "texte",
-          "ordre": 0,
-          "contenu": "Pour intubation urgente hors ACR."
-        },
-        {
-          "type": "medicament",
-          "ordre": 1,
-          "nomMedicament": "Etomidate",
-          "indication": "Induction (Hypnotique)",
-          "voie": "IVD",
-          "commentaire": "0.3 - 0.4 mg/kg. CI < 2 ans (Insuffisance surrénalienne)."
-        },
-        {
-          "type": "medicament",
-          "ordre": 2,
-          "nomMedicament": "Kétamine",
-          "indication": "Induction (Alternative)",
-          "voie": "IVD",
-          "commentaire": "3-4 mg/kg (<18 mois) ou 2 mg/kg (>18 mois). Stable hémodynamique."
-        },
-        {
-          "type": "medicament",
+          "commentaire": "Titration: 0.025 mg/kg toutes les 5-7 min.",
           "ordre": 3,
-          "nomMedicament": "Suxaméthonium",
-          "indication": "Curare (Célo)",
-          "voie": "IVD",
-          "commentaire": "2 mg/kg (<18 mois) ou 1 mg/kg (>18 mois)."
+          "id": "0e07894a-ce59-4cbf-99fa-d52a0235cae2"
         }
-      ]
+      ],
+      "ordre": 0,
+      "id": "a55c0052-3521-4f88-9b65-3c0a24fdabb9"
+    },
+    {
+      "type": "section",
+      "titre": "Sédation Procédurale",
+      "initialementOuvert": false,
+      "contenu": [
+        {
+          "type": "texte",
+          "contenu": "MEOPA : 50%/50%. Inhalation au masque. Contre-indication : HTIC, Pneumothorax, Occlusion.",
+          "ordre": 0,
+          "id": "1f73e776-9b11-436e-9f27-61d35ed35204"
+        },
+        {
+          "type": "medicament",
+          "nomMedicament": "Midazolam",
+          "indication": "Anxiolyse IV",
+          "voie": "IV",
+          "commentaire": "0.05 à 0.1 mg/kg. Possible en Intra-Rectal (0.3 mg/kg).",
+          "ordre": 1,
+          "id": "1d621a09-2f72-40de-983f-e9e5d4fa30e4"
+        },
+        {
+          "type": "medicament",
+          "nomMedicament": "Kétamine",
+          "indication": "Antalgie IV",
+          "voie": "IVL",
+          "commentaire": "1 à 2 mg/kg IVL. Associer atropine/hypnovel selon habitudes.",
+          "ordre": 2,
+          "id": "ce531c41-573b-491a-a6ea-bd12ba8b3434"
+        }
+      ],
+      "ordre": 1,
+      "id": "474ae1a5-7a13-4d5e-9b33-b2e1b50b16db"
+    },
+    {
+      "type": "section",
+      "titre": "Intubation Séquence Rapide (ISR)",
+      "initialementOuvert": false,
+      "contenu": [
+        {
+          "type": "texte",
+          "contenu": "Pour intubation urgente hors ACR.",
+          "ordre": 0,
+          "id": "84ae0728-e4f3-4128-a299-22d77bec712c"
+        },
+        {
+          "type": "medicament",
+          "nomMedicament": "Etomidate",
+          "indication": "Induction anesthésie (> 2 ans)",
+          "voie": "IVD",
+          "commentaire": "0.3 - 0.4 mg/kg. CI < 2 ans (Insuffisance surrénalienne).",
+          "ordre": 1,
+          "id": "68be0964-3f01-4146-8068-3330782aba18"
+        },
+        {
+          "type": "medicament",
+          "nomMedicament": "Kétamine",
+          "indication": "Induction anesthésie",
+          "voie": "IVD",
+          "commentaire": "3-4 mg/kg (<18 mois) ou 2 mg/kg (>18 mois). Stable hémodynamique.",
+          "ordre": 2,
+          "id": "1255affc-cbd7-4b6b-b880-92527693e5f8"
+        },
+        {
+          "type": "medicament",
+          "nomMedicament": "Suxaméthonium",
+          "indication": "Intubation séquence rapide",
+          "voie": "IVD",
+          "commentaire": "2 mg/kg (<18 mois) ou 1 mg/kg (>18 mois).",
+          "ordre": 3,
+          "id": "8c16d877-54d9-4962-bf58-d1cf7fcd689d"
+        },
+        {
+          "type": "section",
+          "titre": "Entretien des sédation",
+          "initialementOuvert": false,
+          "contenu": [
+            {
+              "type": "medicament",
+              "nomMedicament": "Midazolam",
+              "indication": "Sédation profonde - Entretien",
+              "voie": "IV",
+              "ordre": 0,
+              "id": "c07b15f2-37b2-4d67-b045-db5b2b83d3a3"
+            },
+            {
+              "type": "medicament",
+              "nomMedicament": "Sufentanil",
+              "indication": "Sédation prolongée (≥ 5 kg)",
+              "voie": "IV",
+              "ordre": 1,
+              "id": "8f412521-5de9-49aa-9937-f848a0b0ada9"
+            }
+          ],
+          "ordre": 4,
+          "id": "b66c7468-f60a-4925-805b-b4cb1fa22105"
+        }
+      ],
+      "ordre": 2,
+      "id": "3a214aad-989f-442d-bc31-bd04f0cbf9a3"
     }
   ]
 }
