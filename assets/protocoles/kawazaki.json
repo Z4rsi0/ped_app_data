@@ -1,0 +1,62 @@
+{
+  "titre": "Maladie de Kawasaki",
+  "description": "Diagnostic et traitement (IgIV + Aspirine) pour prévenir les anévrismes coronaires.",
+  "auteur": "Dr F. Raimond",
+  "version": "2023.1",
+  "dateModification": "2023-05-30T00:00:00.000Z",
+  "blocs": [
+    {
+      "type": "alerte",
+      "ordre": 0,
+      "contenu": "Traitement précoce (< 10 jours) impératif pour protection cardiaque.",
+      "niveau": "critique"
+    },
+    {
+      "type": "section",
+      "ordre": 1,
+      "titre": "Traitement de Phase Aiguë",
+      "initialementOuvert": true,
+      "contenu": [
+        {
+          "type": "medicament",
+          "ordre": 0,
+          "nomMedicament": "Immunoglobulines IV",
+          "indication": "Dose unique",
+          "voie": "IV",
+          "commentaire": "2 g/kg sur 10-12h. (Tegeline/Privigen)."
+        },
+        {
+          "type": "medicament",
+          "ordre": 1,
+          "nomMedicament": "Aspirine",
+          "indication": "Anti-inflammatoire",
+          "voie": "PO",
+          "commentaire": "50 à 100 mg/kg/j en 4 prises. Jusqu'à apyrexie."
+        },
+        {
+          "type": "medicament",
+          "ordre": 2,
+          "nomMedicament": "Méthylprednisolone",
+          "indication": "Si Haut Risque (Score Kobayashi)",
+          "voie": "IV",
+          "commentaire": "0.8 mg/kg/12h ou Bolus 30 mg/kg."
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "ordre": 2,
+      "titre": "Traitement d'Entretien",
+      "contenu": [
+        {
+          "type": "medicament",
+          "ordre": 0,
+          "nomMedicament": "Aspirine",
+          "indication": "Anti-agrégant",
+          "voie": "PO",
+          "commentaire": "3 à 5 mg/kg/j en 1 prise. Pendant 6 à 8 semaines (si Echo Cœur normale)."
+        }
+      ]
+    }
+  ]
+}
