@@ -1,0 +1,76 @@
+{
+  "titre": "Infections ORL (GPIP)",
+  "description": "Otite Moyenne Aiguë, Angine, Sinusite Aiguë.",
+  "auteur": "GPIP 2023",
+  "version": "2023.1",
+  "dateModification": "2023-01-01T00:00:00.000Z",
+  "blocs": [
+    {
+      "type": "section",
+      "ordre": 1,
+      "titre": "Otite Moyenne Aiguë (OMA)",
+      "initialementOuvert": true,
+      "contenu": [
+        {
+          "type": "texte",
+          "ordre": 0,
+          "contenu": "**Indications ATB :**\n- Tout enfant < 6 mois\n- 6 mois à 2 ans si symptômes bruyants ou otorrhée\n- > 2 ans si otorrhée ou forte douleur/fièvre persistante."
+        },
+        {
+          "type": "medicament",
+          "ordre": 1,
+          "nomMedicament": "Amoxicilline",
+          "indication": "1ère intention",
+          "voie": "PO",
+          "commentaire": "80-90 mg/kg/j en 2-3 prises. Durée : 8-10j (<2 ans) ou 5j (>2 ans)."
+        },
+        {
+          "type": "medicament",
+          "ordre": 2,
+          "nomMedicament": "Amoxicilline-Acide Clavulanique",
+          "indication": "Échec à H48 ou Conjonctivite associée (Syndrome Otite-Conjonctivite)",
+          "voie": "PO",
+          "commentaire": "80 mg/kg/j (amox) en 3 prises."
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "ordre": 2,
+      "titre": "Angine (TDR Strepto A Positif)",
+      "contenu": [
+        {
+          "type": "medicament",
+          "ordre": 0,
+          "nomMedicament": "Amoxicilline",
+          "indication": "Référence",
+          "voie": "PO",
+          "commentaire": "50 mg/kg/j en 2 prises pendant 6 jours."
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "ordre": 3,
+      "titre": "Sinusite Aiguë",
+      "contenu": [
+        {
+          "type": "medicament",
+          "ordre": 0,
+          "nomMedicament": "Amoxicilline",
+          "indication": "Forme simple (Maxillaire)",
+          "voie": "PO",
+          "commentaire": "80-90 mg/kg/j pendant 7-10 jours."
+        },
+        {
+          "type": "medicament",
+          "ordre": 1,
+          "nomMedicament": "Amoxicilline-Acide Clavulanique",
+          "indication": "Origine dentaire ou Frontale/Ethmoïdale",
+          "voie": "PO",
+          "commentaire": "80 mg/kg/j en 3 prises."
+        }
+      ]
+    }
+  ]
+}
