@@ -3,39 +3,54 @@
   "description": "Diagnostic (Lipase), Scores de gravité et prise en charge.",
   "auteur": "Dr F. Raimond",
   "version": "2023.1",
-  "dateModification": "2023-01-03T00:00:00.000Z",
+  "dateModification": "2026-01-04T18:18:01.475773",
   "blocs": [
     {
       "type": "section",
-      "ordre": 1,
       "titre": "Diagnostic",
+      "initialementOuvert": false,
       "contenu": [
         {
           "type": "texte",
+          "contenu": "**Clinique :** Douleur épigastrique transfixiante + Vomissements.\n**Biologie :** Lipase ≥ 3N.\n**Imagerie :** Echo abdo (1ère intention). TDM si doute ou gravité à 48h.",
           "ordre": 0,
-          "contenu": "**Clinique :** Douleur épigastrique transfixiante + Vomissements.\n**Biologie :** Lipase ≥ 3N.\n**Imagerie :** Echo abdo (1ère intention). TDM si doute ou gravité à 48h."
+          "id": "08242e04-0f1d-4a93-b456-86a229b2c661"
         }
-      ]
+      ],
+      "ordre": 1,
+      "id": "1e4ddd01-6611-4741-9124-9d502960b12e"
     },
     {
       "type": "section",
-      "ordre": 2,
       "titre": "Traitement",
+      "initialementOuvert": false,
       "contenu": [
         {
           "type": "medicament",
-          "ordre": 0,
           "nomMedicament": "Morphine",
-          "indication": "Douleur sévère",
+          "indication": "Titration - Bolus initial",
           "voie": "IV",
-          "commentaire": "Titration (cf protocole douleur). AINS possibles."
+          "commentaire": "Titration (cf protocole douleur). AINS possibles.",
+          "ordre": 0,
+          "id": "bc63dfb9-ee3b-4479-ba57-a0895e24cc50"
+        },
+        {
+          "type": "medicament",
+          "nomMedicament": "Morphine",
+          "indication": "Titration - Bolus suivants",
+          "voie": "IV ",
+          "ordre": 1,
+          "id": "090dd6f1-8cf5-45ca-b35c-6807e8f32e67"
         },
         {
           "type": "texte",
-          "ordre": 1,
-          "contenu": "**Nutrition :** Mise à jeun initiale. Réalimentation précoce pauvre en graisse dès diminution douleur. Si sévère : Nutrition Entérale (SNG) privilégiée."
+          "contenu": "**Nutrition :** Mise à jeun initiale. Réalimentation précoce pauvre en graisse dès diminution douleur. Si sévère : Nutrition Entérale (SNG) privilégiée.",
+          "ordre": 2,
+          "id": "ae47b283-e23a-4419-8f5b-114bb922f38e"
         }
-      ]
+      ],
+      "ordre": 2,
+      "id": "8b67460e-bbe0-494f-8dac-fb5513875046"
     }
   ]
 }
