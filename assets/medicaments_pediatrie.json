@@ -74,9 +74,20 @@
             "preparation": "Sur 8h après le bolus"
           }
         ]
+      },
+      {
+        "label": "Métrorragies",
+        "posologies": [
+          {
+            "voie": "PO",
+            "unite": "mg",
+            "doseKg": 20.0,
+            "doseMax": 3000.0
+          }
+        ]
       }
     ],
-    "aSavoir": "A débuter dans les 3h après le traumatisme "
+    "aSavoir": "A débuter dans les 3h après le traumatisme"
   },
   {
     "nom": "Acétazolamide",
@@ -764,10 +775,8 @@
             "unite": "mg",
             "tranches": [
               {
-                "ageMin": 3,
-                "doseKgMin": 200,
-                "doseKgMax": 300,
-                "unite": "mg"
+                "ageMin": 3.0,
+                "doseKg": 300.0
               }
             ],
             "preparation": "Reconstitution: eau ppi 2 mL/500 mg, 4 mL/1g. Dilution NaCl 0,9% ou G5%, max 80 mg/mL - IV directe ou IV lente 20-60 min"
@@ -835,6 +844,17 @@
             "doseKgMin": 70,
             "doseKgMax": 100,
             "preparation": "Eau ppi 5 mL/500 mg, 10 mL/1g. Dilution NaCl 0,9% ou G5% - IV directe 2-4 min ou IV lente 30 min"
+          }
+        ]
+      },
+      {
+        "label": "Purpura Fulminans",
+        "posologies": [
+          {
+            "voie": "IV",
+            "unite": "mg",
+            "doseKg": 50.0,
+            "doseMax": 2000.0
           }
         ]
       }
@@ -1241,6 +1261,22 @@
     "contreIndications": "A perfuser seul",
     "surdosage": "Administration en réanimation/soins intensifs. Monitorage cardiorespiratoire. Arrêt progressif par paliers de 2 ng/kg/min",
     "aSavoir": "Après reconstitution: conservation 24h au réfrigérateur puis administration sur max 8h à température ambiante - T2A"
+  },
+  {
+    "nom": "Erythromycine",
+    "galenique": "Solution injectable",
+    "indications": [
+      {
+        "label": "Vidange gastrique",
+        "posologies": [
+          {
+            "voie": "IV",
+            "unite": "mg",
+            "doseKg": 5.0
+          }
+        ]
+      }
+    ]
   },
   {
     "nom": "Esmolol",
@@ -1945,27 +1981,6 @@
     "nomCommercial": "KETALAR",
     "indications": [
       {
-        "label": "Induction anesthésie",
-        "posologies": [
-          {
-            "voie": "IV lente",
-            "unite": "mg",
-            "tranches": [
-              {
-                "ageMax": 1.5,
-                "doseKgMin": 3,
-                "doseKgMax": 4
-              },
-              {
-                "ageMin": 1.5,
-                "doseKg": 2
-              }
-            ],
-            "preparation": "PUR (10 mg/mL). < 18 mois: 3-4 mg/kg. > 18 mois: 2 mg/kg en IVL 60s"
-          }
-        ]
-      },
-      {
         "label": "Entretien sédation profonde",
         "posologies": [
           {
@@ -2006,10 +2021,31 @@
             "preparation": "UTILISER AMPOULE 250 mg/5 mL (50 mg/mL) PUR. Max 1 mL par narine (max 2 mL total). NE PAS UTILISER LE 10 mg/mL EN IN"
           }
         ]
+      },
+      {
+        "label": "Induction anesthésie",
+        "posologies": [
+          {
+            "voie": "IV lente",
+            "unite": "mg",
+            "tranches": [
+              {
+                "ageMax": 1.5,
+                "doseKgMin": 3.0,
+                "doseKgMax": 4.0
+              },
+              {
+                "ageMin": 1.5,
+                "doseKg": 2.0
+              }
+            ],
+            "preparation": "PUR (10 mg/mL). < 18 mois: 3-4 mg/kg. > 18 mois: 2 mg/kg en IVL 60s"
+          }
+        ]
       }
     ],
     "contreIndications": "NE PAS UTILISER LE 10 mg/mL EN INTRANASAL",
-    "aSavoir": "Stupéfiant. Pour IN: utiliser uniquement Kétamine 250 mg/5 mL (50 mg/mL). ATTENTION : Pour la voie INTRANASALE/INTRARECTALE, utiliser IMPÉRATIVEMENT la concentration 50 mg/mL (ampoule 250mg/5mL). NE PAS UTILISER le 10 mg/mL. "
+    "aSavoir": "Stupéfiant. Pour IN: utiliser uniquement Kétamine 250 mg/5 mL (50 mg/mL). ATTENTION : Pour la voie INTRANASALE/INTRARECTALE, utiliser IMPÉRATIVEMENT la concentration 50 mg/mL (ampoule 250mg/5mL). NE PAS UTILISER le 10 mg/mL."
   },
   {
     "nom": "Kétoprofène injectable",
@@ -3032,6 +3068,17 @@
             "preparation": "600 mg + 250 mL G5% (2,4 mg/mL). 2 fois/24h. Max 600 mg/j"
           }
         ]
+      },
+      {
+        "label": "Prophylaxie Méningite",
+        "posologies": [
+          {
+            "voie": "IV",
+            "unite": "mg",
+            "doseKg": 10.0,
+            "preparation": "2 fois par jour pendant deux jours"
+          }
+        ]
       }
     ]
   },
@@ -3064,6 +3111,17 @@
             "unite": "gouttes",
             "doseKg": 0.5,
             "doseMax": 15.0
+          }
+        ]
+      },
+      {
+        "label": "Corps étranger œsophagien",
+        "posologies": [
+          {
+            "voie": "PO",
+            "unite": "µg",
+            "doseKg": 100.0,
+            "preparation": "per os !!"
           }
         ]
       },
