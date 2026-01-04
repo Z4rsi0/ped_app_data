@@ -1,0 +1,52 @@
+{
+  "titre": "Infections Cutanées",
+  "description": "Impétigo et Dermohypodermite bactérienne.",
+  "auteur": "GPIP 2023",
+  "version": "2023.1",
+  "dateModification": "2023-01-01T00:00:00.000Z",
+  "blocs": [
+    {
+      "type": "section",
+      "ordre": 1,
+      "titre": "Impétigo",
+      "contenu": [
+        {
+          "type": "texte",
+          "ordre": 0,
+          "contenu": "**Peu étendu :** Soins locaux + Mupirocine pommade.\n**Étendu / Echec :** Antibiothérapie orale."
+        },
+        {
+          "type": "medicament",
+          "ordre": 1,
+          "nomMedicament": "Amoxicilline-Acide Clavulanique",
+          "indication": "Impétigo étendu",
+          "voie": "PO",
+          "commentaire": "80 mg/kg/j en 3 prises. 7 jours."
+        },
+        {
+          "type": "medicament",
+          "ordre": 2,
+          "nomMedicament": "Josamycine",
+          "indication": "Si allergie Péni",
+          "voie": "PO",
+          "commentaire": "50 mg/kg/j en 2 prises."
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "ordre": 2,
+      "titre": "Dermohypodermite (DHB)",
+      "contenu": [
+        {
+          "type": "medicament",
+          "ordre": 0,
+          "nomMedicament": "Amoxicilline-Acide Clavulanique",
+          "indication": "1ère intention",
+          "voie": "PO/IV",
+          "commentaire": "80 mg/kg/j (max 100 en IV) en 3 prises. 7 à 10 jours."
+        }
+      ]
+    }
+  ]
+}
