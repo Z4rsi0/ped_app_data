@@ -1,0 +1,73 @@
+{
+  "titre": "Gastro-Entérite Aiguë (GEA)",
+  "description": "Prise en charge de la déshydratation et indications des antibiotiques.",
+  "auteur": "Dr I. Kahn, Dr F. Raimond",
+  "version": "2024.2",
+  "dateModification": "2024-02-19T00:00:00.000Z",
+  "blocs": [
+    {
+      "type": "section",
+      "ordre": 1,
+      "titre": "1. Réhydratation",
+      "initialementOuvert": true,
+      "contenu": [
+        {
+          "type": "texte",
+          "ordre": 0,
+          "contenu": "**1ère intention :** SRO (Soluté de Réhydratation Orale) à volonté.\nSi échec (refus/vomissements) : SNG (même efficacité que IV) ou IV."
+        },
+        {
+          "type": "medicament",
+          "ordre": 1,
+          "nomMedicament": "Bionolyte G5%",
+          "indication": "Réhydratation IV (Echec SRO)",
+          "voie": "IV",
+          "commentaire": "20 ml/kg (Bionolyte) en 1h puis débit de base."
+        },
+        {
+          "type": "medicament",
+          "ordre": 2,
+          "nomMedicament": "Ondansétron",
+          "indication": "Vomissements incoercibles",
+          "voie": "PO/IV",
+          "commentaire": "Zophren. <15kg: 2mg | 15-25kg: 4mg | >25kg: 6mg."
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "ordre": 2,
+      "titre": "2. Antibiotiques (Selon Copro/PCR)",
+      "contenu": [
+        {
+          "type": "tableau",
+          "ordre": 0,
+          "titre": "Indications Antibiothérapie",
+          "colonnes": ["Germe", "Traitement", "Indication"],
+          "lignes": [
+            ["Shigella / Campylobacter", "Azithromycine", "Systématique ou si sévère"],
+            ["Salmonella", "Ceftriaxone", "Si < 6 mois, drépano ou sepsis"],
+            ["Clostridium difficile", "Métronidazole", "Si forme sévère"],
+            ["E. Coli (STEC)", "CONTRE-INDIQUÉ", "Risque SHU"]
+          ]
+        },
+        {
+          "type": "medicament",
+          "ordre": 1,
+          "nomMedicament": "Azithromycine",
+          "indication": "Shigella / Campylobacter",
+          "voie": "PO",
+          "commentaire": "20 mg/kg/j (max 500mg) pendant 3 jours."
+        },
+        {
+          "type": "medicament",
+          "ordre": 2,
+          "nomMedicament": "Métronidazole",
+          "indication": "Giardia / C. Difficile",
+          "voie": "PO",
+          "commentaire": "30 mg/kg/j en 2 prises."
+        }
+      ]
+    }
+  ]
+}
