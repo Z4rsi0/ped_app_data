@@ -1,0 +1,78 @@
+{
+  "titre": "Infections Ostéo-Articulaires (IOA)",
+  "description": "Arthrite et Ostéomyélite : Kingella (< 5 ans) et Staphylocoque (> 5 ans).",
+  "auteur": "Dr I. Kahn, GPIP",
+  "version": "2023.2",
+  "dateModification": "2023-01-03T00:00:00.000Z",
+  "blocs": [
+    {
+      "type": "alerte",
+      "ordre": 0,
+      "contenu": "Urgence thérapeutique. Prélèvements (Hémoc, Ponction) avant ATB si possible.",
+      "niveau": "attention"
+    },
+    {
+      "type": "section",
+      "ordre": 1,
+      "titre": "Enfant 3 mois - 5 ans (Cible : Kingella)",
+      "initialementOuvert": true,
+      "contenu": [
+        {
+          "type": "medicament",
+          "ordre": 0,
+          "nomMedicament": "Amoxicilline-Acide Clavulanique",
+          "indication": "1ère intention (IV)",
+          "voie": "IV",
+          "commentaire": "100 mg/kg/j en 3-4 injections."
+        },
+        {
+          "type": "medicament",
+          "ordre": 1,
+          "nomMedicament": "Céfamandole",
+          "indication": "Alternative IV",
+          "voie": "IV",
+          "commentaire": "Kefandol. 100 à 150 mg/kg/j en 4 injections."
+        },
+        {
+          "type": "medicament",
+          "ordre": 2,
+          "nomMedicament": "Amoxicilline-Acide Clavulanique",
+          "indication": "Relai Oral",
+          "voie": "PO",
+          "commentaire": "80 mg/kg/j en 3 prises."
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "ordre": 2,
+      "titre": "Enfant > 5 ans (Cible : Staphylocoque)",
+      "contenu": [
+        {
+          "type": "medicament",
+          "ordre": 0,
+          "nomMedicament": "Céfamandole",
+          "indication": "1ère intention (IV)",
+          "voie": "IV",
+          "commentaire": "100 à 150 mg/kg/j en 4 injections."
+        },
+        {
+          "type": "medicament",
+          "ordre": 1,
+          "nomMedicament": "Cloxacilline",
+          "indication": "Alternative Staph",
+          "voie": "IV",
+          "commentaire": "150 mg/kg/j (Max 200) en 4 injections."
+        },
+        {
+          "type": "medicament",
+          "ordre": 2,
+          "nomMedicament": "Céfuroxime-Axétil",
+          "indication": "Relai Oral",
+          "voie": "PO",
+          "commentaire": "Zinnat. 30 à 40 mg/kg/j en 2 prises."
+        }
+      ]
+    }
+  ]
+}
