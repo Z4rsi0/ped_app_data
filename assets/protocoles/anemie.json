@@ -1,0 +1,79 @@
+{
+  "titre": "Anémie : Diagnostic & Traitement",
+  "description": "Algorithme diagnostique (VGM/Rétic) et protocoles de correction (Fer, Transfusion).",
+  "auteur": "Dr I. Kahn, Dr S. Walser",
+  "version": "2025.1",
+  "dateModification": "2025-05-20T00:00:00.000Z",
+  "blocs": [
+    {
+      "type": "section",
+      "ordre": 1,
+      "titre": "1. Orientation Diagnostique",
+      "initialementOuvert": true,
+      "contenu": [
+        {
+          "type": "texte",
+          "ordre": 0,
+          "contenu": "**Microcytaire (VGM bas) :** Carence en fer (Ferritine basse), Thalassémie (Fer N/Haut, Electrophorèse), Inflammation.\n**Normo/Macrocytaire :** Voir Réticulocytes.\n- Rétic < 100G (Arégénérative) : Insuffisance médullaire, Parvo B19, Carence B12/Folates.\n- Rétic > 100G (Régénérative) : Hémorragie ou Hémolyse (Bilan hémolyse, Coombs)."
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "ordre": 2,
+      "titre": "2. Transfusion de Culots (CGR)",
+      "contenu": [
+        {
+          "type": "alerte",
+          "ordre": 0,
+          "contenu": "Prélèvements étiologiques (RAI, Coombs, G6PD...) AVANT de transfuser. Phénotypé et Compatibilisé systématique.",
+          "niveau": "attention"
+        },
+        {
+          "type": "medicament",
+          "ordre": 1,
+          "nomMedicament": "Concentré Globulaire (CGR)",
+          "indication": "Transfusion",
+          "voie": "IV",
+          "commentaire": "Volume (mL) = 3 à 4 x Poids x (Hb Cible - Hb Réelle). Max 20 mL/kg. Durée max 4h."
+        },
+        {
+          "type": "texte",
+          "ordre": 2,
+          "contenu": "**Débit :**\n- < 15 kg : 4 ml/kg/h\n- 15-30 kg : 8 ml/kg/h\n- > 30 kg : 1 CGR en 1h30."
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "ordre": 3,
+      "titre": "3. Supplémentation Martiale (Fer)",
+      "contenu": [
+        {
+          "type": "medicament",
+          "ordre": 0,
+          "nomMedicament": "Fumarate de fer",
+          "indication": "Carence martiale (PO 1ère intention)",
+          "voie": "PO",
+          "commentaire": "3 à 5 mg/kg/j en 1 à 3 prises. Durée min 3 mois."
+        },
+        {
+          "type": "medicament",
+          "ordre": 1,
+          "nomMedicament": "Fer Carboxymaltose",
+          "indication": "Ferinject (IV > 1 an)",
+          "voie": "IV",
+          "commentaire": "Dilution NaCl 0.9% uniquement. 1-13 ans : 15 mg/kg (Max 750mg). ≥ 14 ans : 20 mg/kg (Max 1000mg). Surv 1h."
+        },
+        {
+          "type": "medicament",
+          "ordre": 2,
+          "nomMedicament": "Fer Sucrose",
+          "indication": "Venofer (IV < 1 an)",
+          "voie": "IV",
+          "commentaire": "3 mg/kg (Max 5-7 mg/kg). Dilution max 1mg/1mL NaCl. Dose test 15 min."
+        }
+      ]
+    }
+  ]
+}
