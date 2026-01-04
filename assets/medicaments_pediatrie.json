@@ -487,6 +487,25 @@
     "aSavoir": "Anticholinergique. Voie IO et intratrachéale possibles [cite: 17]"
   },
   {
+    "nom": "Azithromycine",
+    "galenique": "Suspension buvable (40mg/mL) ou comprimé 250mg",
+    "nomCommercial": "ZITHROMAX",
+    "indications": [
+      {
+        "label": "Gastro-entérite (Shigella/Campylobacter)",
+        "posologies": [
+          {
+            "voie": "PO",
+            "unite": "mg",
+            "doseKg": 20.0,
+            "doseMax": 500.0
+          }
+        ]
+      }
+    ],
+    "aSavoir": "1 prise par jour pendant 3 jours"
+  },
+  {
     "nom": "Aztréonam",
     "galenique": "Poudre injectable 1 g",
     "nomCommercial": "AZACTAM",
@@ -1078,6 +1097,25 @@
     "aSavoir": "150 mg/kg/j en 3 injections. Max 2 g/injection [cite: 18]"
   },
   {
+    "nom": "Dexaméthasone",
+    "galenique": "Solution injectable",
+    "nomCommercial": "SOLUDECADRON",
+    "indications": [
+      {
+        "label": "Méningite Bactérienne",
+        "posologies": [
+          {
+            "voie": "IV",
+            "unite": "mg",
+            "doseKg": 0.15,
+            "preparation": "toutes les 6 heures pendant 4 jours"
+          }
+        ]
+      }
+    ],
+    "aSavoir": "Arrêt si méningocoque confirmé."
+  },
+  {
     "nom": "Dexchlorphéniramine",
     "galenique": "Solution injectable 5 mg/1 mL",
     "nomCommercial": "POLARAMINE",
@@ -1474,6 +1512,23 @@
     "aSavoir": "Avant utilisation: réchauffer flacon jusqu'à 37°C et agiter doucement haut en bas pour solution uniforme. Prélever avec aiguille fine puis instiller en dose unique directement dans trachée basse"
   },
   {
+    "nom": "Fumarate de fer",
+    "galenique": "Sirop",
+    "nomCommercial": "TARDYFERON",
+    "indications": [
+      {
+        "label": "Carence martiale",
+        "posologies": [
+          {
+            "voie": "PO",
+            "unite": "mg",
+            "doses": "2 cp par jour si plus de 30 kg"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "nom": "Furosémide",
     "galenique": "Solution injectable 20 mg/2 mL (10 mg/mL)",
     "nomCommercial": "LASILIX",
@@ -1548,6 +1603,32 @@
     "aSavoir": "Suivi thérapeutique: résiduel < 1 mg/L, pic 15-20 mg/L (dose unique) [cite: 22]"
   },
   {
+    "nom": "Glucagon",
+    "galenique": "Poudre pour solution injectable",
+    "nomCommercial": "GLUCAGEN KIT",
+    "indications": [
+      {
+        "label": "Hypoglycémie Sévère",
+        "posologies": [
+          {
+            "voie": "IM",
+            "unite": "mg",
+            "tranches": [
+              {
+                "poidsMax": 25.0,
+                "doses": "0,5 mg"
+              },
+              {
+                "poidsMin": 25.0,
+                "doses": "1 mg"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
     "nom": "Gluconate de calcium 10%",
     "galenique": "Solution injectable 1 g/10 mL (0,23 mmol Ca²⁺/mL)",
     "nomCommercial": "GLUCONATE DE CALCIUM",
@@ -1568,6 +1649,33 @@
     "contreIndications": "JAMAIS avec ceftriaxone",
     "surdosage": "Risque de nécrose si extravasation",
     "aSavoir": "1 mL = 0,23 mmol Ca²⁺. 50 mg/kg gluconate = 5 mg/kg Ca²⁺ [cite: 23]"
+  },
+  {
+    "nom": "Glucose 30%",
+    "galenique": "Solution perfusion",
+    "nomCommercial": "G30%",
+    "indications": [
+      {
+        "label": "Hypoglycémie",
+        "posologies": [
+          {
+            "voie": "PO",
+            "unite": "mL",
+            "doseKg": 1.0
+          }
+        ]
+      },
+      {
+        "label": "Hypoglycémie Sévère",
+        "posologies": [
+          {
+            "voie": "IV",
+            "unite": "mL",
+            "doseKg": 1.0
+          }
+        ]
+      }
+    ]
   },
   {
     "nom": "Hydroxocobalamine",
@@ -2779,6 +2887,23 @@
     "aSavoir": "300 mg/kg/j de pipéracilline en 4 injections [cite: 31]"
   },
   {
+    "nom": "Polystyrène sulfonate de sodium",
+    "galenique": "Poudre orale / rectale",
+    "nomCommercial": "KAYEXALATE",
+    "indications": [
+      {
+        "label": "Hyperkaliémie",
+        "posologies": [
+          {
+            "voie": "PO",
+            "unite": "g",
+            "doseKg": 1.0
+          }
+        ]
+      }
+    ]
+  },
+  {
     "nom": "Pralidoxime",
     "galenique": "Poudre injectable 200 mg",
     "nomCommercial": "CONTRATHION",
@@ -2966,6 +3091,23 @@
     ]
   },
   {
+    "nom": "Soluté de Réhydratation Orale",
+    "galenique": "Poudre pour suspension buvable",
+    "nomCommercial": "ADIARIL",
+    "indications": [
+      {
+        "label": "Déshydratation",
+        "posologies": [
+          {
+            "voie": "PO",
+            "unite": "mg",
+            "doses": "1 sachet dans 200 mL d'eau. A volonté"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "nom": "Sufentanil",
     "galenique": "Solution injectable 50 µg/10 mL (5 µg/mL)",
     "nomCommercial": "SUFENTA",
@@ -3018,7 +3160,7 @@
             "unite": "mg",
             "tranches": [
               {
-                "poidsMin": 30.0,
+                "poidsMin": 20.0,
                 "doses": "1 pulvérisation"
               }
             ]
@@ -3076,6 +3218,48 @@
             "unite": "mL/kg/h",
             "doseKg": 0.25,
             "preparation": "Après bolus initial"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "nom": "Thiopental",
+    "galenique": "Poudre pour solution injectable",
+    "nomCommercial": "PENTOTHAL",
+    "indications": [
+      {
+        "label": "Épilepsie réfractaire",
+        "posologies": [
+          {
+            "voie": "IV bolus",
+            "unite": "mg",
+            "doseKgMin": 3.0,
+            "doseKgMax": 5.0
+          },
+          {
+            "voie": "Perfusion continue",
+            "unite": "mg/kg/h",
+            "doseKgMin": 3.0,
+            "doseKgMax": 5.0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "nom": "Valproate de sodium",
+    "galenique": "Poudre pour solution injectable",
+    "nomCommercial": "DEPAKINE",
+    "indications": [
+      {
+        "label": "2eme ligne épilepsie",
+        "posologies": [
+          {
+            "voie": "IV",
+            "unite": "mg",
+            "doseKg": 40.0,
+            "doseMax": 3000.0
           }
         ]
       }
