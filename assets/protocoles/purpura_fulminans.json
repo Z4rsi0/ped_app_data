@@ -3,90 +3,124 @@
   "description": "Prise en charge des infections invasives à méningocoque et méningites bactériennes.",
   "auteur": "Dr I. Kahn, Pr V. Gajdos",
   "version": "2021.1",
-  "dateModification": "2021-06-06T00:00:00.000Z",
+  "dateModification": "2026-01-04T18:18:28.979909",
   "blocs": [
     {
       "type": "alerte",
-      "ordre": 0,
       "contenu": "URGENCE ABSOLUE. Si Purpura Fulminans (élément nécrotique > 3mm) : ANTIBIOTIQUES IMMÉDIATS, AVANT la PL et AVANT l'imagerie.",
-      "niveau": "critique"
+      "niveau": "critique",
+      "ordre": 0,
+      "id": "23695614-d282-4705-9676-504ad5715956"
     },
     {
       "type": "section",
-      "ordre": 1,
       "titre": "Traitement Urgence (Purpura)",
       "temps": "H0 - Immédiat",
       "initialementOuvert": true,
       "contenu": [
         {
           "type": "medicament",
-          "ordre": 0,
           "nomMedicament": "Ceftriaxone",
-          "indication": "Purpura Fulminans (Dose de charge)",
+          "indication": "Infections bactériennes - Céphalosporine 3ème génération",
           "voie": "IV ou IM",
-          "commentaire": "50 mg/kg (max 2g, ou 4g selon sources, ici protocole indique 50mg/kg en urgence)."
+          "commentaire": "50 mg/kg (max 2g, ou 4g selon sources, ici protocole indique 50mg/kg en urgence).",
+          "ordre": 0,
+          "id": "4222b379-8c52-4044-9983-c74f7fc364eb"
         },
         {
           "type": "medicament",
-          "ordre": 1,
           "nomMedicament": "Ringer Lactate",
-          "indication": "Remplissage (Choc)",
+          "indication": "Remplissage",
           "voie": "IV",
-          "commentaire": "10 ml/kg si insuffisance circulatoire. Répéter jusqu'à 3 fois."
+          "commentaire": "10 ml/kg si insuffisance circulatoire. Répéter jusqu'à 3 fois.",
+          "ordre": 1,
+          "id": "88d32a37-dd99-43fd-aac0-3efce071cb48"
         }
-      ]
+      ],
+      "ordre": 1,
+      "id": "65543eac-0ab5-4d10-a81b-bc4d15a0cec9"
     },
     {
       "type": "section",
-      "ordre": 2,
       "titre": "Méningite : Conduite à tenir",
+      "initialementOuvert": false,
       "contenu": [
         {
           "type": "texte",
+          "contenu": "Ponction Lombaire (PL) recommandée sauf si CI. Si CI neurologique ou hémodynamique : Hémocultures + ATB immédiat.",
           "ordre": 0,
-          "contenu": "Ponction Lombaire (PL) recommandée sauf si CI. Si CI neurologique ou hémodynamique : Hémocultures + ATB immédiat."
+          "id": "21d674e7-9d09-4e4c-8b14-0e2366b513f2"
         },
         {
           "type": "medicament",
-          "ordre": 1,
           "nomMedicament": "Dexaméthasone",
           "indication": "Avant ou pendant 1ère dose ATB",
           "voie": "IVL",
-          "commentaire": "0.15 mg/kg toutes les 6h pendant 4j. Arrêt si Méningocoque confirmé."
+          "commentaire": "0.15 mg/kg toutes les 6h pendant 4j. Arrêt si Méningocoque confirmé.",
+          "ordre": 1,
+          "id": "11efcb11-64b2-485d-8de5-6616a7366899"
         },
         {
           "type": "tableau",
-          "ordre": 2,
           "titre": "Antibiothérapie probabiliste (Annexe 2)",
-          "colonnes": ["Situation", "Antibiotique", "Posologie"],
+          "colonnes": [
+            "Situation",
+            "Antibiotique",
+            "Posologie"
+          ],
           "lignes": [
-            ["Purpura Fulminans", "Ceftriaxone", "50 mg/kg"],
-            ["Méningite (3 mois - 18 ans)", "Cefotaxime", "300 mg/kg/j (4 injections)"],
-            ["Méningite (3 mois - 18 ans)", "Ou Ceftriaxone", "100 mg/kg/j (1 injection)"],
-            ["Risque Listeria", "+ Amoxicilline", "200 mg/kg/j"]
-          ]
+            [
+              "Purpura Fulminans",
+              "Ceftriaxone",
+              "50 mg/kg"
+            ],
+            [
+              "Méningite (3 mois - 18 ans)",
+              "Cefotaxime",
+              "300 mg/kg/j (4 injections)"
+            ],
+            [
+              "Méningite (3 mois - 18 ans)",
+              "Ou Ceftriaxone",
+              "100 mg/kg/j (1 injection)"
+            ],
+            [
+              "Risque Listeria",
+              "+ Amoxicilline",
+              "200 mg/kg/j"
+            ]
+          ],
+          "avecEntete": true,
+          "ordre": 2,
+          "id": "6708d7a8-c547-4d3b-8fc7-8605e09021ae"
         }
-      ]
+      ],
+      "ordre": 2,
+      "id": "af701a07-fad7-474e-aa53-374c45436b92"
     },
     {
       "type": "section",
-      "ordre": 3,
       "titre": "Prophylaxie des sujets contacts",
+      "initialementOuvert": false,
       "contenu": [
         {
           "type": "texte",
+          "contenu": "Déclaration obligatoire. Prophylaxie pour contacts proches < 10 jours.",
           "ordre": 0,
-          "contenu": "Déclaration obligatoire. Prophylaxie pour contacts proches < 10 jours."
+          "id": "56b94c0c-f238-4d33-a94e-fb82afde7507"
         },
         {
           "type": "medicament",
-          "ordre": 1,
           "nomMedicament": "Rifampicine",
           "indication": "Prophylaxie (2 jours)",
           "voie": "PO",
-          "commentaire": "Enfant : 10 mg/kg x 2/jour. Adulte : 600 mg x 2/jour. Nourrisson < 1 mois : 5 mg/kg."
+          "commentaire": "Enfant : 10 mg/kg x 2/jour. Adulte : 600 mg x 2/jour. Nourrisson < 1 mois : 5 mg/kg.",
+          "ordre": 1,
+          "id": "bea37f2d-59b8-4beb-aa07-3e755c530f0c"
         }
-      ]
+      ],
+      "ordre": 3,
+      "id": "04956f71-2f21-4a8c-bc80-03c910b28f3d"
     }
   ]
 }
