@@ -3,148 +3,179 @@
   "description": "Prise en charge des complications aiguës: CVO, Fièvre, Anémie, STA.",
   "auteur": "Dr I. Kahn, Dr S. Walser",
   "version": "2021.1",
-  "dateModification": "2021-06-16T00:00:00.000Z",
+  "dateModification": "2026-01-04T18:14:24.864083",
   "blocs": [
     {
       "type": "section",
-      "ordre": 1,
       "titre": "1. Crise Vaso-Occlusive (CVO)",
       "initialementOuvert": true,
       "contenu": [
         {
           "type": "alerte",
-          "ordre": 0,
           "contenu": "Objectif : Soulagement de la douleur en < 60 minutes. Débuter le MEOPA dès l'installation.",
-          "niveau": "critique"
+          "niveau": "critique",
+          "ordre": 0,
+          "id": "2ae304e6-5b28-4ca9-bbdf-c1055b3b4bfa"
         },
         {
           "type": "medicament",
-          "ordre": 1,
-          "nomMedicament": "Paracétamol",
-          "indication": "Systématique",
+          "nomMedicament": "Paracétamol IV",
+          "indication": "Antalgique, antipyrétique",
           "voie": "IV/PO",
-          "commentaire": "Charge: 30 mg/kg (max 1g). Entretien: 15 mg/kg/6h."
+          "commentaire": "Charge: 30 mg/kg (max 1g). Entretien: 15 mg/kg/6h.",
+          "ordre": 1,
+          "id": "1c012c8c-9fe5-4b9d-a2e2-80d2f23107a6"
         },
         {
           "type": "medicament",
-          "ordre": 2,
           "nomMedicament": "Ibuprofène",
-          "indication": "Systématique (sauf douleur abdo)",
+          "indication": "Antalgie / Antipyrétique",
           "voie": "PO",
-          "commentaire": "10 mg/kg/8h (max 400mg)."
+          "commentaire": "10 mg/kg/8h (max 400mg).",
+          "ordre": 2,
+          "id": "bf21bc0f-bde0-4865-b2e2-9ddf39f5ca03"
         },
         {
           "type": "medicament",
-          "ordre": 3,
           "nomMedicament": "Nalbuphine",
-          "indication": "Douleur modérée (EVA 5-6)",
+          "indication": "Antalgie IV/IM/SC",
           "voie": "IVL",
-          "commentaire": "Nubain. 0.2 mg/kg IVL (max 0.3 mg/kg) ou 0.4 mg/kg IR."
+          "commentaire": "Nubain. 0.2 mg/kg IVL (max 0.3 mg/kg) ou 0.4 mg/kg IR.",
+          "ordre": 3,
+          "id": "fd41080e-c91c-4816-91f7-51002a30d622"
         },
         {
           "type": "medicament",
-          "ordre": 4,
           "nomMedicament": "Morphine",
-          "indication": "Douleur sévère (EVA > 7)",
+          "indication": "Titration - Bolus initial",
           "voie": "IV",
-          "commentaire": "Charge: 0.1 mg/kg (max 6mg). Titration: 0.025 mg/kg/5min (max 3 bolus). Puis PCA."
+          "commentaire": "Charge: 0.1 mg/kg (max 6mg). Titration: 0.025 mg/kg/5min (max 3 bolus). Puis PCA.",
+          "ordre": 4,
+          "id": "c071620e-5a18-4621-8bfd-8d73fff4bd77"
         },
         {
           "type": "medicament",
+          "nomMedicament": "Morphine",
+          "indication": "Titration - Bolus suivants",
+          "voie": "IV",
           "ordre": 5,
+          "id": "e97a2e3c-7924-4cb4-bdaf-5647f3d0e591"
+        },
+        {
+          "type": "medicament",
           "nomMedicament": "Kétamine",
-          "indication": "Echec Morphine",
+          "indication": "Antalgie IV",
           "voie": "IVL",
-          "commentaire": "0.2 mg/kg en 15 min."
+          "commentaire": "0.2 mg/kg en 15 min.",
+          "ordre": 6,
+          "id": "5ef1abc6-a92b-44e2-874a-dffea6185201"
         },
         {
           "type": "texte",
-          "ordre": 6,
-          "contenu": "Hyperhydratation IV : Polyionique + NaCl 2g/L (2.5 L/m²/jour)."
+          "contenu": "Hyperhydratation IV : Polyionique + NaCl 2g/L (2.5 L/m²/jour).",
+          "ordre": 7,
+          "id": "0227cae1-322a-4235-bdbb-23dd832e44a9"
         }
-      ]
+      ],
+      "ordre": 1,
+      "id": "e85fea90-6db1-48d1-981d-94871ce93882"
     },
     {
       "type": "section",
-      "ordre": 2,
       "titre": "2. Fièvre & Infection",
+      "initialementOuvert": false,
       "contenu": [
         {
           "type": "alerte",
-          "ordre": 0,
           "contenu": "Risque infectieux fulminant à Pneumocoque et Salmonelle. Hospitalisation si T° > 38.5°C et < 3 ans, ou T° > 39.5°C, ou signes de gravité.",
-          "niveau": "danger"
+          "niveau": "danger",
+          "ordre": 0,
+          "id": "388f766f-bace-4886-83b3-bfc7eb31dd42"
         },
         {
           "type": "medicament",
+          "nomMedicament": "Cefotaxime",
+          "indication": "Infections bactériennes - Céphalosporine 3ème génération",
+          "voie": "IV",
+          "commentaire": "100 mg/kg/j en 3 injections IVL.",
           "ordre": 1,
-          "nomMedicament": "Cefotaxime",
-          "indication": "Fièvre isolée ou Pneumopathie",
-          "voie": "IV",
-          "commentaire": "100 mg/kg/j en 3 injections IVL."
+          "id": "39967c34-27cc-46ef-839f-db731d6d1908"
         },
         {
           "type": "medicament",
+          "nomMedicament": "Cefotaxime",
+          "indication": "Infections bactériennes - Céphalosporine 3ème génération",
+          "voie": "IV",
+          "commentaire": "300 mg/kg/j (max 12g) en 4 injections.",
           "ordre": 2,
-          "nomMedicament": "Cefotaxime",
-          "indication": "Infection Ostéo-Articulaire",
-          "voie": "IV",
-          "commentaire": "300 mg/kg/j (max 12g) en 4 injections."
+          "id": "1a88c13c-252c-4223-b447-8dda1307647c"
         },
         {
           "type": "medicament",
-          "ordre": 3,
           "nomMedicament": "Gentamicine",
-          "indication": "Infection Ostéo-Articulaire (Ajout)",
+          "indication": "Infections bactériennes - Aminoside",
           "voie": "IV",
-          "commentaire": "5 mg/kg/j en 1 injection IVL 30 min."
+          "commentaire": "5 mg/kg/j en 1 injection IVL 30 min.",
+          "ordre": 3,
+          "id": "67091a69-9223-41f2-839a-3d19140c2f94"
         }
-      ]
+      ],
+      "ordre": 2,
+      "id": "2ff87590-72d6-434e-bf75-25dea91a1be9"
     },
     {
       "type": "section",
-      "ordre": 3,
       "titre": "3. Anémie Aiguë (Séquestration/Parvo B19)",
+      "initialementOuvert": false,
       "contenu": [
         {
           "type": "texte",
+          "contenu": "Définition : Chute Hb ≥ 2g/dL ou ≥ 20% de la base. Urgence si Séquestration splénique (Splénomégalie brutale + Thrombopénie) ou Erythroblastopénie (Réticulocytes < 100 000).",
           "ordre": 0,
-          "contenu": "Définition : Chute Hb ≥ 2g/dL ou ≥ 20% de la base. Urgence si Séquestration splénique (Splénomégalie brutale + Thrombopénie) ou Erythroblastopénie (Réticulocytes < 100 000)."
+          "id": "4f7fb7e3-b0b1-4f17-8490-0a312a35be8f"
         },
         {
           "type": "medicament",
-          "ordre": 1,
           "nomMedicament": "Concentré Globulaire (CGR)",
           "indication": "Transfusion (Urgence)",
           "voie": "IV",
-          "commentaire": "Phénotypé, compatibilisé. (Hb base - Hb actuelle) x 4 x Poids. Max 15-17 ml/kg. Objectif Hb 9 g/dL."
+          "commentaire": "Phénotypé, compatibilisé. (Hb base - Hb actuelle) x 4 x Poids. Max 15-17 ml/kg. Objectif Hb 9 g/dL.",
+          "ordre": 1,
+          "id": "e90d86c8-6f0a-4c74-a675-69b27077d075"
         }
-      ]
+      ],
+      "ordre": 3,
+      "id": "a1aeae2e-3b35-425d-8f57-2f895100817a"
     },
     {
       "type": "section",
-      "ordre": 4,
       "titre": "4. Syndrome Thoracique Aigu (STA)",
+      "initialementOuvert": false,
       "contenu": [
         {
           "type": "texte",
+          "contenu": "Clinique : Douleur thoraco-abdominale + Fièvre + Signes respi + Foyer Radio. Risque majeur.",
           "ordre": 0,
-          "contenu": "Clinique : Douleur thoraco-abdominale + Fièvre + Signes respi + Foyer Radio. Risque majeur."
+          "id": "c82c4bae-348a-4ec9-8e96-cdcb89e0c130"
         },
         {
           "type": "medicament",
-          "ordre": 1,
           "nomMedicament": "Cefotaxime",
-          "indication": "STA",
+          "indication": "Infections bactériennes - Céphalosporine 3ème génération",
           "voie": "IV",
-          "commentaire": "100 mg/kg/j en 3 injections."
+          "commentaire": "100 mg/kg/j en 3 injections.",
+          "ordre": 1,
+          "id": "dfde1b8f-d813-496b-973f-2221cdff481b"
         },
         {
           "type": "texte",
+          "contenu": "Oxygénothérapie (Cible SpO2 > 95%). Spirométrie incitative. Transfusion si Hb < 9 g/dL ou aggravation.",
           "ordre": 2,
-          "contenu": "Oxygénothérapie (Cible SpO2 > 95%). Spirométrie incitative. Transfusion si Hb < 9 g/dL ou aggravation."
+          "id": "e11552ca-3d71-4a18-bf97-e829e94474db"
         }
-      ]
+      ],
+      "ordre": 4,
+      "id": "12e9ae19-6dfb-4477-9521-d2cf3529546a"
     }
   ]
 }
