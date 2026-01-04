@@ -1,0 +1,87 @@
+{
+  "titre": "Troubles du Rythme",
+  "description": "Prise en charge des tachycardies et bradycardies de l'enfant.",
+  "auteur": "Dr I. Kahn",
+  "version": "2024.1",
+  "dateModification": "2024-06-01T00:00:00.000Z",
+  "blocs": [
+    {
+      "type": "alerte",
+      "ordre": 0,
+      "contenu": "Bradycardie mal tolérée = Risque ACR. Si FC < 60/min avec signes de choc -> RCP.",
+      "niveau": "critique"
+    },
+    {
+      "type": "section",
+      "ordre": 1,
+      "titre": "Bradycardie",
+      "contenu": [
+        {
+          "type": "medicament",
+          "ordre": 0,
+          "nomMedicament": "Atropine",
+          "indication": "Hyperréactivité vagale / BAV",
+          "voie": "IVD",
+          "commentaire": "0.02 mg/kg (Min 0.1 mg - Max 0.5 mg)."
+        },
+        {
+          "type": "medicament",
+          "ordre": 1,
+          "nomMedicament": "Isoprénaline",
+          "indication": "BAV complet",
+          "voie": "IVSE",
+          "commentaire": "Isuprel. 0.1 à 1 µg/kg/min."
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "ordre": 2,
+      "titre": "Tachycardie Supra-Ventriculaire (QRS Fins)",
+      "initialementOuvert": true,
+      "contenu": [
+        {
+          "type": "texte",
+          "ordre": 0,
+          "contenu": "Manœuvres vagales en 1ère intention (Vessie de glace ou Valsalva)."
+        },
+        {
+          "type": "medicament",
+          "ordre": 1,
+          "nomMedicament": "Adénosine",
+          "indication": "TSV (1ère dose)",
+          "voie": "IVD",
+          "commentaire": "0.1 à 0.2 mg/kg (Max 6 mg). Robinet proximal + Rinçage éclair."
+        },
+        {
+          "type": "medicament",
+          "ordre": 2,
+          "nomMedicament": "Adénosine",
+          "indication": "TSV (2ème dose)",
+          "voie": "IVD",
+          "commentaire": "0.3 mg/kg (Max 18 mg)."
+        },
+        {
+          "type": "texte",
+          "ordre": 3,
+          "contenu": "Si échec ou mauvaise tolérance (choc) : Cardioversion (CEE) 1 J/kg."
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "ordre": 3,
+      "titre": "Torsade de Pointes",
+      "contenu": [
+        {
+          "type": "medicament",
+          "ordre": 0,
+          "nomMedicament": "Sulfate de Magnésium",
+          "indication": "Torsade de pointes",
+          "voie": "IVL",
+          "commentaire": "50 mg/kg en 15 min (Max 2g)."
+        }
+      ]
+    }
+  ]
+}
