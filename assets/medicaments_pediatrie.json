@@ -25,26 +25,30 @@
             "tranches": [
               {
                 "ageMax": 0.33,
+                "poidsMax": 6,
                 "doseKg": 20
               },
               {
                 "ageMin": 0.33,
                 "ageMax": 12,
+                "poidsMin": 6,
+                "poidsMax": 40,
                 "doseKg": 15
               },
               {
                 "ageMin": 12,
+                "poidsMin": 40,
                 "doseKg": 10
               }
             ],
-            "preparation": "Toutes les 8h. A passer seul, incompatible G5%"
+            "preparation": "Toutes les 8h. A passer seul, incompatible G5%."
           }
         ]
       }
     ],
     "contreIndications": "Adaptation posologique selon clairance créatinine - A perfuser seul - Incompatible G5%",
     "surdosage": "Surveillance point de perfusion: nécrose si extravasation",
-    "aSavoir": "Cmax 5 mg/mL. Teneur en sodium: 28 mg/250 mg et 56 mg/500 mg"
+    "aSavoir": "Cmax 5 mg/mL. Teneur en sodium: 28 mg/250 mg et 56 mg/500 mg "
   },
   {
     "nom": "Acide Tranexamique",
@@ -72,7 +76,7 @@
         ]
       }
     ],
-    "aSavoir": "A débuter dans les 3h après le traumatisme"
+    "aSavoir": "A débuter dans les 3h après le traumatisme "
   },
   {
     "nom": "Acétazolamide",
@@ -188,14 +192,14 @@
           {
             "voie": "Inhalation",
             "unite": "mg",
-            "doses": "1 mg dilué avec 3-4 mL de NaCl 0,9%"
+            "doses": "5 mg (5 ampoules de 1 mg) + 3-4 mL NaCl 0,9%"
           }
         ]
       }
     ],
     "contreIndications": "Pas de contre-indication en urgence vitale",
     "surdosage": "Tachycardie, HTA, troubles du rythme, ischémie myocardique. Demi-vie très courte (2-3 min)",
-    "aSavoir": "Catécholamine vasopressive et inotrope. Photosensible. Incompatible solutions alcalines"
+    "aSavoir": "Catécholamine vasopressive et inotrope. Photosensible. Incompatible solutions alcalines [cite: 16]"
   },
   {
     "nom": "Adénosine",
@@ -219,7 +223,7 @@
                 "doseKgMax": 0.2
               }
             ],
-            "preparation": "< 10 kg: diluer 2 mL + 8 mL NaCl 0,9% (0,6 mg/mL). ≥ 10 kg: pur. Injection au pli du coude droit, robinet proximal, flush 10 mL NaCl 0,9%"
+            "preparation": "Bolus IV rapide. Robinet proximal obligatoire + Rinçage immédiat (Flush) avec 10-20mL de NaCl 0,9%. < 10 kg: diluer 2 mL + 8 mL NaCl 0,9% (0,6 mg/mL). ≥ 10 kg: pur."
           },
           {
             "voie": "IV bolus rapide 2ème dose",
@@ -239,7 +243,7 @@
         ]
       }
     ],
-    "aSavoir": "Demi-vie très courte (< 10 sec). Injection très rapide obligatoire avec flush NaCl"
+    "aSavoir": "Demi-vie très courte (< 10 sec). Injection très rapide obligatoire avec flush NaCl "
   },
   {
     "nom": "Alizapride",
@@ -279,7 +283,7 @@
     ],
     "contreIndications": "Allopurinol, propofol",
     "surdosage": "Néphrotoxique, ototoxique",
-    "aSavoir": "Suivi thérapeutique: résiduel < 5 mg/L, pic 40-50 mg/L (dose unique). Indications: frissons, diarrhée, douleurs musculaires, atteinte périnée"
+    "aSavoir": "Suivi thérapeutique: résiduel < 5 mg/L, pic 40-50 mg/L (dose unique). Indications: frissons, diarrhée, douleurs musculaires, atteinte périnée [cite: 16]"
   },
   {
     "nom": "Amiodarone",
@@ -311,7 +315,7 @@
       }
     ],
     "contreIndications": "Conservation à l'abri de la lumière",
-    "aSavoir": "Jusqu'à 15 mg/kg/j pour troubles du rythme. Dilution G5% uniquement (précipite dans NaCl)"
+    "aSavoir": "Jusqu'à 15 mg/kg/j pour troubles du rythme. Dilution G5% uniquement (précipite dans NaCl) [cite: 16]"
   },
   {
     "nom": "Amoxicilline",
@@ -332,7 +336,7 @@
       }
     ],
     "contreIndications": "Incompatible mannitol - Adaptation selon clairance créatinine",
-    "aSavoir": "Cmax 20 mg/mL. Teneur en sodium: 31,5 mg/500 mg"
+    "aSavoir": "Cmax 20 mg/mL. Teneur en sodium: 31,5 mg/500 mg [cite: 17]"
   },
   {
     "nom": "Amoxicilline + acide clavulanique",
@@ -354,7 +358,7 @@
       }
     ],
     "contreIndications": "Incompatible G5%, émulsions lipidiques, midazolam",
-    "aSavoir": "NaCl 0,9% exclusivement. Dose max: 4 g/j d'amoxicilline"
+    "aSavoir": "NaCl 0,9% exclusivement. Dose max: 4 g/j d'amoxicilline [cite: 17]"
   },
   {
     "nom": "Amphotéricine B",
@@ -428,7 +432,7 @@
         ]
       }
     ],
-    "aSavoir": "Conservation au réfrigérateur"
+    "aSavoir": "Conservation au réfrigérateur [cite: 17]"
   },
   {
     "nom": "Atropine sulfate",
@@ -461,7 +465,7 @@
       }
     ],
     "contreIndications": "A perfuser seule - Ne pas administrer < 0,1 mg: risque bradycardie paradoxale",
-    "aSavoir": "Anticholinergique. Voie IO et intratrachéale possibles"
+    "aSavoir": "Anticholinergique. Voie IO et intratrachéale possibles [cite: 17]"
   },
   {
     "nom": "Aztréonam",
@@ -475,7 +479,7 @@
             "voie": "IV",
             "unite": "mg",
             "doseKg": 100,
-            "preparation": "Reconstitution: eau ppi 10 mL/1g. Dilution NaCl 0,9% ou G5% - IV lente 30 min"
+            "preparation": "Reconstitution: eau ppi 10 mL/1g. Dilution NaCl 0,9% ou G5% 50-100 mL - IV lente 20-30 min"
           }
         ]
       }
@@ -549,7 +553,7 @@
         ]
       }
     ],
-    "aSavoir": "1 mL de solution 4,2% = 0,5 mmol de bicarbonate"
+    "aSavoir": "1 mL de solution 4,2% = 0,5 mmol de bicarbonate [cite: 17]"
   },
   {
     "nom": "Bétaméthasone",
@@ -734,7 +738,7 @@
       }
     ],
     "contreIndications": "Fluconazole, vancomycine",
-    "surdosage": "Surveillance fonction rénale si association aminosides ou furosémide"
+    "surdosage": "Surveillance fonction rénale si association aminosides ou furosémide [cite: 18]"
   },
   {
     "nom": "Ceftazidime",
@@ -799,7 +803,7 @@
     ],
     "contreIndications": "Vancomycine, fluconazole, aminosides, PERFUSIONS CONTENANT DU CALCIUM - Adaptation posologique selon clairance créatinine",
     "surdosage": "Contrôles réguliers formule sanguine si traitement prolongé",
-    "aSavoir": "Teneur en sodium: 41,5 mg/500 mg - Utilisation extemporanée"
+    "aSavoir": "Teneur en sodium: 41,5 mg/500 mg - Utilisation extemporanée [cite: 18]"
   },
   {
     "nom": "Chlorure de potassium 10%",
@@ -831,7 +835,7 @@
       }
     ],
     "contreIndications": "Hyperkaliémie, insuffisance rénale sévère",
-    "aSavoir": "Cmax VVP 4 g/L. Apports journaliers couverts par B26 (2 g/L)"
+    "aSavoir": "Cmax VVP 4 g/L. Apports journaliers couverts par B26 (2 g/L) [cite: 20]"
   },
   {
     "nom": "Chlorure De Sodium 0,9%",
@@ -911,7 +915,7 @@
         ]
       }
     ],
-    "aSavoir": "Dose d'entretien: 5-10 mg/kg/j"
+    "aSavoir": "Dose d'entretien: 5-10 mg/kg/j [cite: 20]"
   },
   {
     "nom": "Clindamycine",
@@ -932,7 +936,7 @@
       }
     ],
     "contreIndications": "Ne jamais administrer en IVD",
-    "aSavoir": "40 mg/kg/j en 3-4 injections. Max 1800 mg/j"
+    "aSavoir": "40 mg/kg/j en 3-4 injections. Max 1800 mg/j [cite: 20]"
   },
   {
     "nom": "Clonazépam",
@@ -947,14 +951,14 @@
             "unite": "mg",
             "doseKg": 0.015,
             "doseMax": 1.5,
-            "preparation": "1 mg + 9 mL NaCl 0,9% (0,1 mg/mL). ATTENTION: risque arrêt respiratoire si injecté trop vite. Rincer très lentement"
+            "preparation": "< 10 kg : 1 mg (1 mL) + 9 mL NaCl 0,9% (0,1 mg/mL). > 10 kg : A diluer avec ampoule d'EPPI fournie (0,5 mg/mL). ATTENTION: risque arrêt respiratoire si injecté trop vite. Rincer très lentement."
           }
         ]
       }
     ],
     "contreIndications": "Adsorption sur PVC: administration immédiate - AMM à partir de 1 an",
     "surdosage": "Surveillance continue FR et PA",
-    "aSavoir": "Contient alcool. Risque de thrombophlébite"
+    "aSavoir": "Contient alcool. Risque de thrombophlébite [cite: 20]"
   },
   {
     "nom": "Cloxacilline injectable",
@@ -994,7 +998,7 @@
         ]
       }
     ],
-    "aSavoir": "150 mg/kg/j en 4 injections"
+    "aSavoir": "150 mg/kg/j en 4 injections [cite: 18]"
   },
   {
     "nom": "Céfépime",
@@ -1014,7 +1018,7 @@
         ]
       }
     ],
-    "aSavoir": "150 mg/kg/j en 3 injections. Max 2 g/injection"
+    "aSavoir": "150 mg/kg/j en 3 injections. Max 2 g/injection [cite: 18]"
   },
   {
     "nom": "Dexchlorphéniramine",
@@ -1037,7 +1041,7 @@
                 "doses": "5 mg"
               }
             ],
-            "preparation": "5 mg (1 mL) + 4 mL NaCl 0,9% (1 mg/mL)"
+            "preparation": "5 mg (1 mL) + 4 mL NaCl 0,9% (1 mg/mL) [cite: 20]"
           }
         ]
       }
@@ -1098,7 +1102,8 @@
       }
     ],
     "contreIndications": "A passer seul - Nouveau-né: utilisation non recommandée en 1ère intention (contient alcool benzylique et acide benzoïque)",
-    "surdosage": "Risque d'apnée: matériel de réanimation respiratoire disponible"
+    "surdosage": "Risque d'apnée: matériel de réanimation respiratoire disponible",
+    "aSavoir": "Pas de dilution pour la voie IV en bolus [cite: 21]"
   },
   {
     "nom": "Dobutamine",
@@ -1118,7 +1123,7 @@
         ]
       }
     ],
-    "aSavoir": "Inotrope positif. Débit 0,12-1,2 mL/kg/h correspond à 2-20 µg/kg/min"
+    "aSavoir": "Inotrope positif. Débit 0,12-1,2 mL/kg/h correspond à 2-20 µg/kg/min [cite: 21]"
   },
   {
     "nom": "Epoprosténol",
@@ -1183,7 +1188,7 @@
       }
     ],
     "contreIndications": "CI < 2 ans",
-    "aSavoir": "Bonne stabilité hémodynamique"
+    "aSavoir": "Bonne stabilité hémodynamique [cite: 21]"
   },
   {
     "nom": "Fer injectable - Ferinject",
@@ -1211,7 +1216,7 @@
         ]
       }
     ],
-    "aSavoir": "AMM > 1 an"
+    "aSavoir": "AMM > 1 an [cite: 22]"
   },
   {
     "nom": "Fer injectable - Venofer",
@@ -1232,7 +1237,7 @@
       }
     ],
     "surdosage": "1ère injection: dose test (arrêt à mi-dose 15 min, puis reprise). Éviter extravasation",
-    "aSavoir": "Durée selon dose: < 100 mg = 1h, 200 mg = 1h30, 300 mg = 2h"
+    "aSavoir": "Durée selon dose: < 100 mg = 1h, 200 mg = 1h30, 300 mg = 2h [cite: 22]"
   },
   {
     "nom": "Fluconazole",
@@ -1296,7 +1301,7 @@
         ]
       }
     ],
-    "aSavoir": "Dose horaire entretien = dose de charge totale ayant permis le réveil"
+    "aSavoir": "Dose horaire entretien = dose de charge totale ayant permis le réveil [cite: 21]"
   },
   {
     "nom": "Foscarnet sodique",
@@ -1370,19 +1375,26 @@
     "nomCommercial": "PRODILANTIN",
     "indications": [
       {
-        "label": "État de mal épileptique (≥ 5 ans, ≥ 17,5 kg)",
+        "label": "État de mal épileptique (≥ 5 ans, ≥ 20 kg)",
         "posologies": [
           {
             "voie": "IV lente 20 min",
             "unite": "mg EP",
             "doseKg": 20,
+            "tranches": [
+              {
+                "ageMin": 5,
+                "poidsMin": 20,
+                "doseKg": 20
+              }
+            ],
             "preparation": "Ajouter 20 mL NaCl 0,9% au flacon (30 mg EP/mL). Max 150 mg EP/min. 1 mg EP = 1,5 mg fosphénytoïne"
           }
         ]
       }
     ],
     "contreIndications": "CI < 5 ans et < 17,5 kg",
-    "aSavoir": "1 mg d'Équivalent Phénytoïne (EP) = 1,5 mg de fosphénytoïne"
+    "aSavoir": "1 mg d'Équivalent Phénytoïne (EP) = 1,5 mg de fosphénytoïne [cite: 22]"
   },
   {
     "nom": "Fraction phospholipidique de poumon de porc",
@@ -1424,7 +1436,7 @@
       }
     ],
     "contreIndications": "Nombreuses incompatibilités médicamenteuses",
-    "surdosage": "Surveillance hydroélectrolytique"
+    "surdosage": "Surveillance hydroélectrolytique [cite: 22]"
   },
   {
     "nom": "Ganciclovir",
@@ -1477,7 +1489,7 @@
     ],
     "contreIndications": "Adaptation selon dosages sanguins et fonction rénale",
     "surdosage": "Néphrotoxique, ototoxique",
-    "aSavoir": "Suivi thérapeutique: résiduel < 1 mg/L, pic 15-20 mg/L (dose unique)"
+    "aSavoir": "Suivi thérapeutique: résiduel < 1 mg/L, pic 15-20 mg/L (dose unique) [cite: 22]"
   },
   {
     "nom": "Gluconate de calcium 10%",
@@ -1499,7 +1511,7 @@
     ],
     "contreIndications": "JAMAIS avec ceftriaxone",
     "surdosage": "Risque de nécrose si extravasation",
-    "aSavoir": "1 mL = 0,23 mmol Ca²⁺. 50 mg/kg gluconate = 5 mg/kg Ca²⁺"
+    "aSavoir": "1 mL = 0,23 mmol Ca²⁺. 50 mg/kg gluconate = 5 mg/kg Ca²⁺ [cite: 23]"
   },
   {
     "nom": "Hydroxocobalamine",
@@ -1519,7 +1531,7 @@
         ]
       }
     ],
-    "aSavoir": "A la pharmacie centrale"
+    "aSavoir": "A la pharmacie centrale [cite: 23]"
   },
   {
     "nom": "Hémisuccinate d'hydrocortisone",
@@ -1551,7 +1563,7 @@
         ]
       }
     ],
-    "aSavoir": "Équivalence: 20 mg hydrocortisone = 5 mg prednisolone = 4 mg méthylprednisolone"
+    "aSavoir": "Équivalence: 20 mg hydrocortisone = 5 mg prednisolone = 4 mg méthylprednisolone [cite: 23]"
   },
   {
     "nom": "Héparine sodique",
@@ -1689,7 +1701,7 @@
         ]
       }
     ],
-    "aSavoir": "A la pharmacie centrale"
+    "aSavoir": "A la pharmacie centrale [cite: 23]"
   },
   {
     "nom": "Insuline rapide",
@@ -1712,7 +1724,7 @@
     ],
     "contreIndications": "Adsorption au PVC: rincer tubulure avant utilisation",
     "surdosage": "Risque hypoglycémie et hypokaliémie",
-    "aSavoir": "A passer seul. Si débit < 2 mL/h: ajouter base NaCl 0,9% en Y"
+    "aSavoir": "A passer seul. Si débit < 2 mL/h: ajouter base NaCl 0,9% en Y [cite: 23]"
   },
   {
     "nom": "Isoprénaline",
@@ -1732,7 +1744,7 @@
         ]
       }
     ],
-    "aSavoir": "Conservation au réfrigérateur. Protéger de la lumière"
+    "aSavoir": "Conservation au réfrigérateur. Protéger de la lumière [cite: 23]"
   },
   {
     "nom": "Kétamine",
@@ -1804,7 +1816,7 @@
       }
     ],
     "contreIndications": "NE PAS UTILISER LE 10 mg/mL EN INTRANASAL",
-    "aSavoir": "Stupéfiant. Pour IN: utiliser uniquement Kétamine 250 mg/5 mL (50 mg/mL)"
+    "aSavoir": "Stupéfiant. Pour IN: utiliser uniquement Kétamine 250 mg/5 mL (50 mg/mL). ATTENTION : Pour la voie INTRANASALE/INTRARECTALE, utiliser IMPÉRATIVEMENT la concentration 50 mg/mL (ampoule 250mg/5mL). NE PAS UTILISER le 10 mg/mL. "
   },
   {
     "nom": "Kétoprofène injectable",
@@ -1901,7 +1913,7 @@
             "unite": "mg",
             "doseKg": 40,
             "doseMax": 4500,
-            "preparation": "Diluer dose dans NaCl 0,9% qsp 100 mL (Cmax 5 mg/mL)"
+            "preparation": "Diluer dose dans NaCl 0,9% qsp 100 mL (Cmax 5 mg/mL) "
           }
         ]
       }
@@ -1953,7 +1965,7 @@
     ],
     "contreIndications": "Alcool, bicarbonates, calcium, salicylate de sodium - Insuffisance rénale sévère, bloc AV",
     "surdosage": "Surveillance magnésémie, réflexes ostéotendineux. Surdosage: dépression respiratoire, trouble conduction cardiaque",
-    "aSavoir": "Administration IV lente impérative. Apport concomitant de K+ si besoin"
+    "aSavoir": "Administration IV lente impérative. Apport concomitant de K+ si besoin [cite: 35]"
   },
   {
     "nom": "Mannitol 20%",
@@ -1972,7 +1984,8 @@
           }
         ]
       }
-    ]
+    ],
+    "aSavoir": ""
   },
   {
     "nom": "Midazolam",
@@ -2017,7 +2030,7 @@
             "unite": "mg/kg/h",
             "doseKgMin": 0.05,
             "doseKgMax": 0.1,
-            "preparation": "10 mg (10 mL 1 mg/mL) + 10 mL NaCl 0,9% (0,5 mg/mL). 0,1-0,2 mL/kg/h"
+            "preparation": "10 mg (10 mL de la solution 1mg/mL) + 10 mL de NaCl 0,9%. Concentration finale = 0,5 mg/mL. 0,1-0,2 mL/kg/h "
           }
         ]
       },
@@ -2111,7 +2124,7 @@
     ],
     "contreIndications": "Insuffisance respiratoire aiguë non ventilée",
     "surdosage": "Dépression respiratoire, myosis, coma. Antidote: naloxone",
-    "aSavoir": "Stupéfiant: traçabilité obligatoire. Surveillance FR, SpO2"
+    "aSavoir": "Stupéfiant: traçabilité obligatoire. Surveillance FR, SpO2 "
   },
   {
     "nom": "Méthylprednisolone",
@@ -2130,7 +2143,7 @@
         ]
       }
     ],
-    "aSavoir": "Équivalence: 4 mg méthylprednisolone = 5 mg prednisolone = 20 mg hydrocortisone"
+    "aSavoir": "Équivalence: 4 mg méthylprednisolone = 5 mg prednisolone = 20 mg hydrocortisone "
   },
   {
     "nom": "Métoclopramide",
@@ -2206,7 +2219,8 @@
           }
         ]
       }
-    ]
+    ],
+    "aSavoir": ""
   },
   {
     "nom": "N-acétylcystéine",
@@ -2260,7 +2274,7 @@
         ]
       }
     ],
-    "aSavoir": "Protocole 21h: 150 mg/kg sur 1h + 50 mg/kg sur 4h + 100 mg/kg sur 16h"
+    "aSavoir": "Protocole 21h: 150 mg/kg sur 1h + 50 mg/kg sur 4h + 100 mg/kg sur 16h [cite: 26]"
   },
   {
     "nom": "Nalbuphine",
@@ -2293,7 +2307,7 @@
         ]
       }
     ],
-    "aSavoir": "Agoniste-antagoniste morphinique. Effet plafond analgésique"
+    "aSavoir": "Agoniste-antagoniste morphinique. Effet plafond analgésique [cite: 26]"
   },
   {
     "nom": "Naloxone",
@@ -2326,7 +2340,7 @@
     ],
     "contreIndications": "Pas de contre-indication en urgence vitale",
     "surdosage": "Peut déclencher syndrome de sevrage chez patient dépendant. Durée d'action courte: surveillance prolongée",
-    "aSavoir": "Demi-vie plus courte que morphine: risque de re-narcotisation"
+    "aSavoir": "Demi-vie plus courte que morphine: risque de re-narcotisation [cite: 26]"
   },
   {
     "nom": "Nicardipine",
@@ -2363,14 +2377,14 @@
             "unite": "µg/kg/min",
             "doseKgMin": 0.05,
             "doseKgMax": 2,
-            "preparation": "Dilution G5% exclusivement - Voie centrale exclusive"
+            "preparation": "0,5 mL de Noradrénaline (8mg/4mL) + 49,5 mL de G5%. Concentration finale = 20 µg/mL. Dilution G5% exclusivement - Voie centrale exclusive"
           }
         ]
       }
     ],
     "contreIndications": "Thiopental, bicarbonates, sels ferriques - Contre-indication relative: hypovolémie non corrigée",
     "surdosage": "Nécrose si extravasation. Ischémie périphérique. Surveillance continue PA, diurèse, perfusion périphérique",
-    "aSavoir": "Voie veineuse centrale impérative. Correction volémie avant/pendant. Photosensible"
+    "aSavoir": "Voie veineuse centrale impérative. Correction volémie avant/pendant. Photosensible "
   },
   {
     "nom": "Octréotide",
@@ -2404,7 +2418,7 @@
     ],
     "contreIndications": "Solutions lipidiques",
     "surdosage": "Hyperglycémie ou hypoglycémie, troubles digestifs, lithiase biliaire",
-    "aSavoir": "Surveillance glycémique. T2A"
+    "aSavoir": "Surveillance glycémique. T2A "
   },
   {
     "nom": "Oméprazole",
@@ -2516,7 +2530,7 @@
         ]
       }
     ],
-    "contreIndications": "Incompatible G5%"
+    "contreIndications": "Incompatible G5% "
   },
   {
     "nom": "Paracétamol IV",
@@ -2548,7 +2562,7 @@
     ],
     "contreIndications": "Insuffisance hépatocellulaire sévère",
     "surdosage": "Hépatotoxicité dose-dépendante. Antidote: N-acétylcystéine",
-    "aSavoir": "Respecter intervalle minimum 6h entre les doses. Dose max: 60 mg/kg/j chez enfant, 4 g/j chez adulte"
+    "aSavoir": "Respecter intervalle minimum 6h entre les doses. Dose max: 60 mg/kg/j chez enfant, 4 g/j chez adulte "
   },
   {
     "nom": "Phénobarbital",
@@ -2578,7 +2592,7 @@
         ]
       }
     ],
-    "contreIndications": "CI syndrome de Dravet"
+    "contreIndications": "CI syndrome de Dravet "
   },
   {
     "nom": "Phénytoïne",
@@ -2593,6 +2607,13 @@
             "unite": "mg",
             "doseKg": 20,
             "doseMax": 1500,
+            "tranches": [
+              {
+                "ageMax": 5,
+                "poidsMax": 20,
+                "doseKg": 20
+              }
+            ],
             "preparation": "5 mL + 45 mL NaCl 0,9% UNIQUEMENT (5 mg/mL). 4 mL/kg. Passer seul. Éviter IO"
           }
         ]
@@ -2600,7 +2621,7 @@
     ],
     "contreIndications": "Incompatible G5% (précipitation). Bloc AV, porphyrie",
     "surdosage": "Syndrome cérébelleux, nystagmus, troubles conduction. Surveillance phénytoinémie (10-20 mg/L), ECG, PA",
-    "aSavoir": "NaCl 0,9% exclusivement. Cmax 5 mg/mL"
+    "aSavoir": "Préférer Fosphénytoïne (Prodilantin) chez l'enfant > 5 ans (moins de risque cutané). NaCl 0,9% exclusivement. Cmax 5 mg/mL "
   },
   {
     "nom": "Pipéracilline-tazobactam",
@@ -2619,7 +2640,7 @@
         ]
       }
     ],
-    "aSavoir": "300 mg/kg/j de pipéracilline en 4 injections"
+    "aSavoir": "300 mg/kg/j de pipéracilline en 4 injections [cite: 31]"
   },
   {
     "nom": "Pralidoxime",
@@ -2645,7 +2666,7 @@
         ]
       }
     ],
-    "aSavoir": "A la pharmacie. Ineurope® (IM) CI chez enfant mais version pédiatrique SMUR disponible"
+    "aSavoir": "A la pharmacie. En contexte NRBC/SMUR : Stylo Ineurope® disponible (Atropine + Avizafone + Pralidoxime) [cite: 31]"
   },
   {
     "nom": "Propofol",
@@ -2679,7 +2700,7 @@
     ],
     "contreIndications": "CI < 1 mois. Allergie œuf/soja. Utilisation > 48h déconseillée < 16 ans",
     "surdosage": "Dépression cardiorespiratoire, hypotension, bradycardie. Syndrome perfusion propofol (rare, grave)",
-    "aSavoir": "Émulsion lipidique: risque contamination bactérienne. Utilisation 6h après ouverture. Douleur à l'injection"
+    "aSavoir": "Émulsion lipidique: risque contamination bactérienne. Utilisation 6h après ouverture. Douleur à l'injection [cite: 31]"
   },
   {
     "nom": "Protoxyde D'azote",
@@ -2731,7 +2752,7 @@
         ]
       }
     ],
-    "aSavoir": "A la pharmacie. 200 µg/kg/j = 0,2 mg/kg/j. NaCl 0,9% uniquement"
+    "aSavoir": "A la pharmacie. 200 µg/kg/j = 0,2 mg/kg/j. NaCl 0,9% uniquement "
   },
   {
     "nom": "Rifampicine",
@@ -2751,7 +2772,8 @@
           }
         ]
       }
-    ]
+    ],
+    "aSavoir": ""
   },
   {
     "nom": "Ringer Lactate",
@@ -2806,7 +2828,8 @@
           }
         ]
       }
-    ]
+    ],
+    "aSavoir": ""
   },
   {
     "nom": "Sufentanil",
@@ -2814,31 +2837,19 @@
     "nomCommercial": "SUFENTA",
     "indications": [
       {
-        "label": "Sédation prolongée (< 5 kg)",
+        "label": "Sédation prolongée",
         "posologies": [
           {
             "voie": "IVSE",
             "unite": "µg/kg/h",
             "doseKgMin": 0.1,
             "doseKgMax": 0.4,
-            "preparation": "0,8 mL + 19,2 mL NaCl 0,9% (0,2 µg/mL). 0,5-2 mL/kg/h"
-          }
-        ]
-      },
-      {
-        "label": "Sédation prolongée (≥ 5 kg)",
-        "posologies": [
-          {
-            "voie": "IVSE",
-            "unite": "µg/kg/h",
-            "doseKgMin": 0.1,
-            "doseKgMax": 0.4,
-            "preparation": "2 mL + 8 mL NaCl 0,9% ou G5% (1 µg/mL). 0,1-0,4 mL/kg/h"
+            "preparation": "Si < 5kg : 0,8 mL (50µg/10mL) + 19,2 mL NaCl 0,9% (Concentration 0,2 µg/mL). Si > 5kg : 2 mL + 8 mL NaCl 0,9% (Concentration 1 µg/mL)."
           }
         ]
       }
     ],
-    "aSavoir": "Morphinique puissant. Stupéfiant"
+    "aSavoir": "Morphinique puissant. Stupéfiant "
   },
   {
     "nom": "Sulfaméthoxazole-triméthoprime",
@@ -2858,7 +2869,7 @@
         ]
       }
     ],
-    "aSavoir": "Posologie exprimée en triméthoprime (TMP). Ratio SMX/TMP = 5/1"
+    "aSavoir": "Posologie exprimée en triméthoprime (TMP). Ratio SMX/TMP = 5/1 "
   },
   {
     "nom": "Suxaméthonium",
@@ -2887,7 +2898,7 @@
       }
     ],
     "contreIndications": "CI hyperkaliémie menaçante, myopathies, brûlures > 24h, crush syndrome, dénervation",
-    "aSavoir": "Conservation au réfrigérateur. Curare dépolarisant"
+    "aSavoir": "Conservation au réfrigérateur. Curare dépolarisant [cite: 35]"
   },
   {
     "nom": "Sérum salé hypertonique 7,5%",
@@ -2912,7 +2923,8 @@
           }
         ]
       }
-    ]
+    ],
+    "aSavoir": ""
   },
   {
     "nom": "Vancomycine",
@@ -2946,6 +2958,6 @@
       }
     ],
     "contreIndications": "Incompatible nombreux ATB",
-    "aSavoir": "Suivi thérapeutique indispensable: vancocinémie résiduelle cible 15-20 mg/L. Cmax VVP 5 mg/mL"
+    "aSavoir": "Suivi thérapeutique indispensable: vancocinémie résiduelle cible 15-20 mg/L. Cmax VVP 5 mg/mL [cite: 35]"
   }
 ]
