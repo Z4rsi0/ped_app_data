@@ -1,0 +1,53 @@
+{
+  "titre": "Borréliose de Lyme",
+  "description": "Stades cliniques et antibiothérapie adaptée.",
+  "auteur": "Dr I. Kahn",
+  "version": "2022.1",
+  "dateModification": "2022-09-01T00:00:00.000Z",
+  "blocs": [
+    {
+      "type": "section",
+      "ordre": 1,
+      "titre": "1. Erythème Migrant (Phase I)",
+      "initialementOuvert": true,
+      "contenu": [
+        {
+          "type": "medicament",
+          "ordre": 0,
+          "nomMedicament": "Amoxicilline",
+          "indication": "1ère intention",
+          "voie": "PO",
+          "commentaire": "50 mg/kg/j en 3 prises. 14 jours."
+        },
+        {
+          "type": "medicament",
+          "ordre": 1,
+          "nomMedicament": "Doxycycline",
+          "indication": "Si > 8 ans",
+          "voie": "PO",
+          "commentaire": "4 mg/kg/j en 2 prises. 14 jours."
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "ordre": 2,
+      "titre": "2. Neuroborréliose (Phase II)",
+      "contenu": [
+        {
+          "type": "texte",
+          "ordre": 0,
+          "contenu": "Paralysie faciale, Méningite lymphocytaire."
+        },
+        {
+          "type": "medicament",
+          "ordre": 1,
+          "nomMedicament": "Ceftriaxone",
+          "indication": "Neuroborréliose",
+          "voie": "IV",
+          "commentaire": "80 mg/kg/j (Max 2g). 21 à 28 jours."
+        }
+      ]
+    }
+  ]
+}
