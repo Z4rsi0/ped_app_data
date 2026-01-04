@@ -3,68 +3,77 @@
   "description": "Décompensation aiguë : Hyponatrémie, Hyperkaliémie, Choc.",
   "auteur": "Dr K. Milcent",
   "version": "2016.1",
-  "dateModification": "2016-08-01T00:00:00.000Z",
+  "dateModification": "2026-01-04T18:17:02.108938",
   "blocs": [
     {
       "type": "alerte",
-      "ordre": 0,
       "contenu": "Tout choc avec Hyponatrémie + Hyperkaliémie est une ISA jusqu'à preuve du contraire. PAS DE KCl.",
-      "niveau": "critique"
+      "niveau": "critique",
+      "ordre": 0,
+      "id": "96622fea-24f1-4581-b985-a67a5d855d79"
     },
     {
       "type": "section",
-      "ordre": 1,
       "titre": "Traitement d'Urgence",
       "initialementOuvert": true,
       "contenu": [
         {
           "type": "medicament",
+          "nomMedicament": "Hémisuccinate d'hydrocortisone",
+          "indication": "Insuffisance surrénale aiguë",
+          "voie": "IV",
+          "commentaire": "2 à 4 mg/kg toutes les 6h (IVD) ou 8h (IM).",
           "ordre": 0,
-          "nomMedicament": "Hydrocortisone",
-          "indication": "Hémisuccinate (IV/IM)",
-          "voie": "IV",
-          "commentaire": "2 à 4 mg/kg toutes les 6h (IVD) ou 8h (IM)."
+          "id": "6a45e608-f07b-4a1e-9b4e-994850cbbfc4"
         },
         {
           "type": "medicament",
+          "nomMedicament": "Ringer Lactate",
+          "indication": "Remplissage",
+          "voie": "IV",
+          "commentaire": "20 ml/kg en 20 min.",
           "ordre": 1,
-          "nomMedicament": "NaCl 0.9%",
-          "indication": "Remplissage (Choc)",
-          "voie": "IV",
-          "commentaire": "20 ml/kg en 20 min."
+          "id": "fb3d3fad-bc80-4ead-910f-4bbfc6dcd22d"
         },
         {
           "type": "medicament",
-          "ordre": 2,
           "nomMedicament": "G10% + NaCl",
           "indication": "Réhydratation (Après remplissage)",
           "voie": "IV",
-          "commentaire": "3 L/m2/j. Enrichi en NaCl (Max 24g/j). JAMAIS DE POTASSIUM."
+          "commentaire": "3 L/m2/j. Enrichi en NaCl (Max 24g/j). JAMAIS DE POTASSIUM.",
+          "ordre": 2,
+          "id": "6622e8b9-07c8-4223-8588-37f6f0015cbc"
         }
-      ]
+      ],
+      "ordre": 1,
+      "id": "8c7ba037-3981-4282-bbbf-8ca957f9539c"
     },
     {
       "type": "section",
-      "ordre": 2,
       "titre": "Traitement de l'Hyperkaliémie Sévère (> 7mM)",
+      "initialementOuvert": false,
       "contenu": [
         {
           "type": "medicament",
-          "ordre": 0,
-          "nomMedicament": "Polystyrène sulfonate",
+          "nomMedicament": "Kayexalate",
           "indication": "Kayexalate",
           "voie": "PO/Rectal",
-          "commentaire": "1 g/kg."
+          "commentaire": "1 g/kg.",
+          "ordre": 0,
+          "id": "18ee879c-3839-4662-bd6f-db49f4488bcd"
         },
         {
           "type": "medicament",
-          "ordre": 1,
           "nomMedicament": "Salbutamol",
-          "indication": "Nébulisation",
+          "indication": "Asthme grave",
           "voie": "Inhalation",
-          "commentaire": "5 mg (ou 5 µg/kg IV sur 20 min)."
+          "commentaire": "5 mg (ou 5 µg/kg IV sur 20 min).",
+          "ordre": 1,
+          "id": "44b218d5-c39c-42a3-bda1-b233ef96dde8"
         }
-      ]
+      ],
+      "ordre": 2,
+      "id": "23caa81a-c5d3-473f-9a43-a025ba40bdc2"
     }
   ]
 }
