@@ -1,0 +1,126 @@
+{
+  "titre": "Choc Hémorragique & HDH",
+  "description": "Prise en charge des hémorragies digestives hautes et du choc hémorragique.",
+  "auteur": "Dr I. Kahn, Dr F. Raimond",
+  "version": "2021.1",
+  "dateModification": "2026-01-03T16:17:57.086803",
+  "blocs": [
+    {
+      "type": "section",
+      "titre": "Définition & Sévérité",
+      "initialementOuvert": false,
+      "contenu": [
+        {
+          "type": "texte",
+          "contenu": "La PA se maintient longtemps chez l'enfant. Hypotension = Signe tardif (>30% perte volémique).",
+          "ordre": 0,
+          "id": "49d9a646-9ef3-4362-870f-da83effb6ff3"
+        },
+        {
+          "type": "tableau",
+          "titre": "Seuils Hypotension (PAM)",
+          "colonnes": [
+            "Age",
+            "PAM Critique (mmHg)"
+          ],
+          "lignes": [
+            [
+              "< 1 mois",
+              "< 50"
+            ],
+            [
+              "1 mois - 2 ans",
+              "< 55"
+            ],
+            [
+              "2 ans - 10 ans",
+              "< 65"
+            ]
+          ],
+          "avecEntete": true,
+          "ordre": 1,
+          "id": "1a079951-1dda-4787-9ff2-d52583406fa8"
+        }
+      ],
+      "ordre": 0,
+      "id": "1f2f0e33-1e2a-4b6c-a016-4f33c29c539d"
+    },
+    {
+      "type": "section",
+      "titre": "Réanimation (Damage Control)",
+      "initialementOuvert": false,
+      "contenu": [
+        {
+          "type": "texte",
+          "contenu": "Objectif : Perfusion tissulaire > Normalisation PA (Hypotension permissive).",
+          "ordre": 0,
+          "id": "1a6ce8d9-7ba3-446d-9931-fede0669e7d2"
+        },
+        {
+          "type": "medicament",
+          "nomMedicament": "Ringer Lactate",
+          "indication": "Remplissage",
+          "voie": "IV",
+          "commentaire": "10 ml/kg par bolus itératifs. Alternative : NaCl 0.9%.",
+          "ordre": 1,
+          "id": "70812221-3d95-4714-897c-643f8d8b7af9"
+        },
+        {
+          "type": "medicament",
+          "nomMedicament": "Noradrénaline",
+          "indication": "Vasopresseur - Choc",
+          "voie": "IVSE",
+          "commentaire": "Début 0.1 µg/kg/min si choc persistant.",
+          "ordre": 2,
+          "id": "9f8c9a66-7ba4-4858-8cb8-d145d2d1dbb9"
+        },
+        {
+          "type": "medicament",
+          "nomMedicament": "Acide Tranexamique",
+          "indication": "TC grave (GCS 9-13)",
+          "voie": "IV",
+          "commentaire": "Exacyl. <12 ans: 15 mg/kg (max 1g) sur 10 min, puis 2 mg/kg/h.",
+          "ordre": 3,
+          "id": "39c7805d-0861-4dc0-9083-47c9cec982ca"
+        }
+      ],
+      "ordre": 1,
+      "id": "c00e58e9-119b-4c9d-948e-7ef1a6a886bd"
+    },
+    {
+      "type": "section",
+      "titre": "Spécifique HDH (Hémorragie Digestive)",
+      "initialementOuvert": false,
+      "contenu": [
+        {
+          "type": "medicament",
+          "nomMedicament": "Pantoprazole",
+          "indication": "Hémorragie digestive - Dose de charge",
+          "voie": "IV",
+          "commentaire": "2 mg/kg (max 80mg) bolus puis 0.2 mg/kg/h.",
+          "ordre": 0,
+          "id": "706dc1eb-e8ee-45a3-a2ca-344788c2233a"
+        },
+        {
+          "type": "medicament",
+          "nomMedicament": "Pantoprazole",
+          "indication": "Hémorragie digestive - Entretien",
+          "voie": "IV",
+          "ordre": 1,
+          "id": "3f89ecb7-5ce6-4496-bdfb-8a2d7959a1ca"
+        },
+        {
+          "type": "medicament",
+          "nomMedicament": "Erythromycine",
+          "indication": "Vidange gastrique (avant EOGD)",
+          "voie": "IV",
+          "commentaire": "5 mg/kg IV lent (si pas de CI).",
+          "ordre": 2,
+          "id": "8bfe5d78-1165-4644-b376-cec265d5b3b4"
+        }
+      ],
+      "ordre": 2,
+      "id": "f9a414ea-5a2d-4309-bb0d-e937175183e1"
+    }
+  ]
+}
