@@ -1,0 +1,77 @@
+{
+  "titre": "Infections Urinaires",
+  "description": "Cystite et Pyélonéphrite Aiguë (PNA).",
+  "auteur": "Dr I. Kahn, GPIP",
+  "version": "2023.2",
+  "dateModification": "2023-02-01T00:00:00.000Z",
+  "blocs": [
+    {
+      "type": "section",
+      "ordre": 1,
+      "titre": "Pyélonéphrite Aiguë (PNA)",
+      "initialementOuvert": true,
+      "contenu": [
+        {
+          "type": "texte",
+          "ordre": 0,
+          "contenu": "**Critères Hospi :** < 3 mois, Sepsis, Uropathie, Vomissements.\n**Bilan :** ECBU, Echo Rénale (< 24h si PNA < 3 mois ou hyperalgique)."
+        },
+        {
+          "type": "medicament",
+          "ordre": 1,
+          "nomMedicament": "Ceftriaxone",
+          "indication": "Traitement d'attaque (IV)",
+          "voie": "IV/IM",
+          "commentaire": "50 mg/kg/j en 1 injection."
+        },
+        {
+          "type": "medicament",
+          "ordre": 2,
+          "nomMedicament": "Amikacine",
+          "indication": "Si Sepsis sévère / Uropathie",
+          "voie": "IV",
+          "commentaire": "20-30 mg/kg/j (Ajout à C3G)."
+        },
+        {
+          "type": "medicament",
+          "ordre": 3,
+          "nomMedicament": "Céfixime",
+          "indication": "Traitement PO (Relai ou d'emblée si > 3 mois stable)",
+          "voie": "PO",
+          "commentaire": "4 mg/kg/12h (soit 8mg/kg/j). Durée totale : 10 jours."
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "ordre": 2,
+      "titre": "Cystite Aiguë",
+      "contenu": [
+        {
+          "type": "medicament",
+          "ordre": 0,
+          "nomMedicament": "Cotrimoxazole",
+          "indication": "1ère intention (si E. Coli sensible)",
+          "voie": "PO",
+          "commentaire": "30 mg/kg/j (SMX) en 2 prises. 3 à 5 jours."
+        },
+        {
+          "type": "medicament",
+          "ordre": 1,
+          "nomMedicament": "Amoxicilline-Acide Clavulanique",
+          "indication": "2ème intention",
+          "voie": "PO",
+          "commentaire": "80 mg/kg/j en 3 prises. 5 jours."
+        },
+        {
+          "type": "medicament",
+          "ordre": 2,
+          "nomMedicament": "Céfixime",
+          "indication": "Si résistance",
+          "voie": "PO",
+          "commentaire": "4 mg/kg/12h. 5 jours."
+        }
+      ]
+    }
+  ]
+}
