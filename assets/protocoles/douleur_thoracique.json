@@ -1,0 +1,39 @@
+{
+  "titre": "Douleur Thoracique Aiguë",
+  "description": "Algorithme décisionnel devant une douleur thoracique chez l'enfant.",
+  "auteur": "Dr F. Raimond",
+  "version": "2024.1",
+  "dateModification": "2024-04-03T00:00:00.000Z",
+  "blocs": [
+    {
+      "type": "alerte",
+      "ordre": 0,
+      "contenu": "Rarement d'origine cardiaque (1%). Cause musculo-squelettique la plus fréquente.",
+      "niveau": "info"
+    },
+    {
+      "type": "section",
+      "ordre": 1,
+      "titre": "Drapeaux Rouges (Cause Cardiaque)",
+      "contenu": [
+        {
+          "type": "texte",
+          "ordre": 0,
+          "contenu": "- Douleur à l'effort\n- Syncope ou palpitations\n- ATCD cardio (Kawasaki, Chir, QT long...)\n- Mort subite familiale < 65 ans\n- Prise de toxiques (Cocaïne, Cannabis)"
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "ordre": 2,
+      "titre": "Algorithme",
+      "contenu": [
+        {
+          "type": "texte",
+          "ordre": 0,
+          "contenu": "1. **ECG + Radio Thorax** si signes d'appel ou ATCD.\n2. Si Anomalie ECG/Cardiomégalie -> Troponine, Echo Cœur, Avis Cardiopéd.\n3. Si Douleur pariétale reproductible à la palpation -> Musculo-squelettique -> AINS."
+        }
+      ]
+    }
+  ]
+}
