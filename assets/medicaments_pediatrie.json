@@ -24,20 +24,20 @@
             "unite": "mg",
             "tranches": [
               {
-                "ageMax": 0.33,
                 "poidsMax": 6,
+                "ageMax": 0.33,
                 "doseKg": 20
               },
               {
-                "ageMin": 0.33,
-                "ageMax": 12,
                 "poidsMin": 6,
                 "poidsMax": 40,
+                "ageMin": 0.33,
+                "ageMax": 12,
                 "doseKg": 15
               },
               {
-                "ageMin": 12,
                 "poidsMin": 40,
+                "ageMin": 12,
                 "doseKg": 10
               }
             ],
@@ -192,7 +192,7 @@
           {
             "voie": "Inhalation",
             "unite": "mg",
-            "doses": "5 mg (5 ampoules de 1 mg) + 3-4 mL NaCl 0,9%"
+            "doses": "5 mg à compléter avec NaCl 0,9%"
           }
         ]
       }
@@ -1380,11 +1380,10 @@
           {
             "voie": "IV lente 20 min",
             "unite": "mg EP",
-            "doseKg": 20,
             "tranches": [
               {
-                "ageMin": 5,
                 "poidsMin": 20,
+                "ageMin": 5,
                 "doseKg": 20
               }
             ],
@@ -1984,8 +1983,7 @@
           }
         ]
       }
-    ],
-    "aSavoir": ""
+    ]
   },
   {
     "nom": "Midazolam",
@@ -2219,8 +2217,7 @@
           }
         ]
       }
-    ],
-    "aSavoir": ""
+    ]
   },
   {
     "nom": "N-acétylcystéine",
@@ -2605,12 +2602,10 @@
           {
             "voie": "IV lente 20 min",
             "unite": "mg",
-            "doseKg": 20,
-            "doseMax": 1500,
             "tranches": [
               {
-                "ageMax": 5,
                 "poidsMax": 20,
+                "ageMax": 5,
                 "doseKg": 20
               }
             ],
@@ -2772,8 +2767,7 @@
           }
         ]
       }
-    ],
-    "aSavoir": ""
+    ]
   },
   {
     "nom": "Ringer Lactate",
@@ -2828,8 +2822,7 @@
           }
         ]
       }
-    ],
-    "aSavoir": ""
+    ]
   },
   {
     "nom": "Sufentanil",
@@ -2923,8 +2916,7 @@
           }
         ]
       }
-    ],
-    "aSavoir": ""
+    ]
   },
   {
     "nom": "Vancomycine",
