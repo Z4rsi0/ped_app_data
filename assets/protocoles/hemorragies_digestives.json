@@ -1,0 +1,82 @@
+{
+  "titre": "Hémorragies Digestives (Hautes & Basses)",
+  "description": "Prise en charge du choc hémorragique, hématémèse et rectorragies (Nouveau-né inclus).",
+  "auteur": "Dr I. Kahn, Dr F. Raimond",
+  "version": "2021.2",
+  "dateModification": "2021-09-07T00:00:00.000Z",
+  "blocs": [
+    {
+      "type": "alerte",
+      "ordre": 0,
+      "contenu": "Choc Hémorragique : Objectif PAM > 50-65 mmHg (selon âge). Transfusion O Négatif si urgence vitale.",
+      "niveau": "critique"
+    },
+    {
+      "type": "section",
+      "ordre": 1,
+      "titre": "1. Choc Hémorragique & Hématémèse",
+      "contenu": [
+        {
+          "type": "medicament",
+          "ordre": 0,
+          "nomMedicament": "Ringer Lactate",
+          "indication": "Remplissage",
+          "voie": "IV",
+          "commentaire": "10 ml/kg bolus."
+        },
+        {
+          "type": "medicament",
+          "ordre": 1,
+          "nomMedicament": "Noradrénaline",
+          "indication": "Vasopresseur (Si instable)",
+          "voie": "IVSE",
+          "commentaire": "0.1 µg/kg/min."
+        },
+        {
+          "type": "medicament",
+          "ordre": 2,
+          "nomMedicament": "Acide Tranexamique",
+          "indication": "Exacyl",
+          "voie": "IV",
+          "commentaire": "15 mg/kg sur 10 min puis 2 mg/kg/h."
+        },
+        {
+          "type": "medicament",
+          "ordre": 3,
+          "nomMedicament": "Pantoprazole",
+          "indication": "IPP",
+          "voie": "IV",
+          "commentaire": "2 mg/kg bolus puis 0.2 mg/kg/h."
+        },
+        {
+          "type": "medicament",
+          "ordre": 4,
+          "nomMedicament": "Octréotide",
+          "indication": "Si suspicion Hypertension portale",
+          "voie": "IV",
+          "commentaire": "1 µg/kg bolus puis 2-4 µg/kg/h."
+        },
+        {
+          "type": "medicament",
+          "ordre": 5,
+          "nomMedicament": "Erythromycine",
+          "indication": "Vidange gastrique (Avant EOGD)",
+          "voie": "IV",
+          "commentaire": "5 mg/kg IVL."
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "ordre": 2,
+      "titre": "2. Rectorragies du Nouveau-Né",
+      "contenu": [
+        {
+          "type": "texte",
+          "ordre": 0,
+          "contenu": "**Algorithme décisionnel :**\n1. Éliminer Fissure anale, Infection, ECUN.\n2. Si sous lait artificiel -> Exclusion PLV (Hydrolysat).\n3. Si allaité -> Exclusion PLV chez la mère."
+        }
+      ]
+    }
+  ]
+}
