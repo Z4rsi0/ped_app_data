@@ -1,0 +1,77 @@
+{
+  "titre": "Céphalées & Migraines",
+  "description": "Diagnostic et traitement de la crise de migraine aux urgences.",
+  "auteur": "Dr S. Walser",
+  "version": "2021.1",
+  "dateModification": "2021-01-01T00:00:00.000Z",
+  "blocs": [
+    {
+      "type": "section",
+      "ordre": 1,
+      "titre": "Traitement de la crise (Urgences)",
+      "initialementOuvert": true,
+      "contenu": [
+        {
+          "type": "texte",
+          "ordre": 0,
+          "contenu": "Installation au calme et dans le noir. Proposer MEOPA d'emblée."
+        },
+        {
+          "type": "medicament",
+          "ordre": 1,
+          "nomMedicament": "Ibuprofène",
+          "indication": "1ère ligne",
+          "voie": "PO",
+          "commentaire": "10 mg/kg (max 400mg). Si non pris au domicile."
+        },
+        {
+          "type": "medicament",
+          "ordre": 2,
+          "nomMedicament": "Paracétamol",
+          "indication": "Echec à H1",
+          "voie": "PO",
+          "commentaire": "15 mg/kg (max 1g)."
+        },
+        {
+          "type": "medicament",
+          "ordre": 3,
+          "nomMedicament": "Sumatriptan",
+          "indication": "Echec AINS/Paracétamol (> 12 ans)",
+          "voie": "Intranasal",
+          "commentaire": "Imigrane Spray 10mg. 1 pulvérisation. Si > 35kg (possible dès 30kg)."
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "ordre": 2,
+      "titre": "Crise Réfractaire / Vomissements",
+      "contenu": [
+        {
+          "type": "medicament",
+          "ordre": 0,
+          "nomMedicament": "Kétoprofène",
+          "indication": "Si vomissements",
+          "voie": "IVL",
+          "commentaire": "1 mg/kg (max 100mg)."
+        },
+        {
+          "type": "medicament",
+          "ordre": 1,
+          "nomMedicament": "Ondansétron",
+          "indication": "Nausées/Vomissements",
+          "voie": "IV/PO",
+          "commentaire": "<12kg: 2mg | 12-25kg: 4mg | >25kg: 8mg."
+        },
+        {
+          "type": "medicament",
+          "ordre": 2,
+          "nomMedicament": "Amitriptyline",
+          "indication": "Echec total (État de mal)",
+          "voie": "IVL",
+          "commentaire": "Laroxyl. 0.5 mg/kg en IVL sur 4h. Discuter nouvelle séance MEOPA."
+        }
+      ]
+    }
+  ]
+}
