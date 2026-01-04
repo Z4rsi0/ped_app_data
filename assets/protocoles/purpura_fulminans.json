@@ -1,0 +1,92 @@
+{
+  "titre": "Purpura Fulminans & Méningites",
+  "description": "Prise en charge des infections invasives à méningocoque et méningites bactériennes.",
+  "auteur": "Dr I. Kahn, Pr V. Gajdos",
+  "version": "2021.1",
+  "dateModification": "2021-06-06T00:00:00.000Z",
+  "blocs": [
+    {
+      "type": "alerte",
+      "ordre": 0,
+      "contenu": "URGENCE ABSOLUE. Si Purpura Fulminans (élément nécrotique > 3mm) : ANTIBIOTIQUES IMMÉDIATS, AVANT la PL et AVANT l'imagerie.",
+      "niveau": "critique"
+    },
+    {
+      "type": "section",
+      "ordre": 1,
+      "titre": "Traitement Urgence (Purpura)",
+      "temps": "H0 - Immédiat",
+      "initialementOuvert": true,
+      "contenu": [
+        {
+          "type": "medicament",
+          "ordre": 0,
+          "nomMedicament": "Ceftriaxone",
+          "indication": "Purpura Fulminans (Dose de charge)",
+          "voie": "IV ou IM",
+          "commentaire": "50 mg/kg (max 2g, ou 4g selon sources, ici protocole indique 50mg/kg en urgence)."
+        },
+        {
+          "type": "medicament",
+          "ordre": 1,
+          "nomMedicament": "Ringer Lactate",
+          "indication": "Remplissage (Choc)",
+          "voie": "IV",
+          "commentaire": "10 ml/kg si insuffisance circulatoire. Répéter jusqu'à 3 fois."
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "ordre": 2,
+      "titre": "Méningite : Conduite à tenir",
+      "contenu": [
+        {
+          "type": "texte",
+          "ordre": 0,
+          "contenu": "Ponction Lombaire (PL) recommandée sauf si CI. Si CI neurologique ou hémodynamique : Hémocultures + ATB immédiat."
+        },
+        {
+          "type": "medicament",
+          "ordre": 1,
+          "nomMedicament": "Dexaméthasone",
+          "indication": "Avant ou pendant 1ère dose ATB",
+          "voie": "IVL",
+          "commentaire": "0.15 mg/kg toutes les 6h pendant 4j. Arrêt si Méningocoque confirmé."
+        },
+        {
+          "type": "tableau",
+          "ordre": 2,
+          "titre": "Antibiothérapie probabiliste (Annexe 2)",
+          "colonnes": ["Situation", "Antibiotique", "Posologie"],
+          "lignes": [
+            ["Purpura Fulminans", "Ceftriaxone", "50 mg/kg"],
+            ["Méningite (3 mois - 18 ans)", "Cefotaxime", "300 mg/kg/j (4 injections)"],
+            ["Méningite (3 mois - 18 ans)", "Ou Ceftriaxone", "100 mg/kg/j (1 injection)"],
+            ["Risque Listeria", "+ Amoxicilline", "200 mg/kg/j"]
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "ordre": 3,
+      "titre": "Prophylaxie des sujets contacts",
+      "contenu": [
+        {
+          "type": "texte",
+          "ordre": 0,
+          "contenu": "Déclaration obligatoire. Prophylaxie pour contacts proches < 10 jours."
+        },
+        {
+          "type": "medicament",
+          "ordre": 1,
+          "nomMedicament": "Rifampicine",
+          "indication": "Prophylaxie (2 jours)",
+          "voie": "PO",
+          "commentaire": "Enfant : 10 mg/kg x 2/jour. Adulte : 600 mg x 2/jour. Nourrisson < 1 mois : 5 mg/kg."
+        }
+      ]
+    }
+  ]
+}
