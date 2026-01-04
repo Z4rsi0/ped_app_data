@@ -1,0 +1,50 @@
+{
+  "titre": "Adolescent Suicidaire",
+  "description": "Évaluation du risque suicidaire (RUD) et protocole d'hospitalisation 'ADO'.",
+  "auteur": "Dr J. Jaschinski, Dr P. Wolf",
+  "version": "2024.1",
+  "dateModification": "2024-02-02T00:00:00.000Z",
+  "blocs": [
+    {
+      "type": "section",
+      "ordre": 1,
+      "titre": "Évaluation R.U.D",
+      "contenu": [
+        {
+          "type": "texte",
+          "ordre": 0,
+          "contenu": "**Risque :** ATCD TS, dépression, harcèlement, toxiques, rupture.\n**Urgence :** Faible (pas de scénario) > Moyenne (scénario flou) > Élevée (scénario programmé).\n**Dangerosité :** Moyens létaux à disposition (médicaments, armes) ?"
+        },
+        {
+          "type": "tableau",
+          "ordre": 1,
+          "titre": "Orientation",
+          "colonnes": ["Niveau", "Conduite à tenir"],
+          "lignes": [
+            ["Faible", "Retour domicile + Contrat de soins + Suivi libéral"],
+            ["Moyen", "Évaluation Pédopsy rapide (CMP/Libéral). Sécurisation domicile."],
+            ["Élevé", "HOSPITALISATION (UHCD min) + Avis Pédopsy hospitalier."]
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "ordre": 2,
+      "titre": "Protocole d'Hospitalisation 'ADO'",
+      "contenu": [
+        {
+          "type": "alerte",
+          "ordre": 0,
+          "contenu": "Tout passage à l'acte justifie une hospitalisation, même si la toxicité médicale est nulle.",
+          "niveau": "attention"
+        },
+        {
+          "type": "texte",
+          "ordre": 1,
+          "contenu": "**Séparation familiale initiale (48h min) :** L'ado dort seul.\n**Sécurisation :** Pyjama vert, retrait chaussures, fouille des affaires (sac, trousse, objets coupants, cordons, rasoirs).\n**Communication :** Pas de téléphone portable. Visites parents uniquement (selon avis psy)."
+        }
+      ]
+    }
+  ]
+}
