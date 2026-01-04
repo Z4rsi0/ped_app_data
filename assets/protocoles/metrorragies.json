@@ -1,0 +1,59 @@
+{
+  "titre": "Métrorragies de l'Adolescente",
+  "description": "Prise en charge des saignements utérins abondants (SUA).",
+  "auteur": "Dr S. Walser, Dr L. Duranteau",
+  "version": "2025.1",
+  "dateModification": "2025-06-01T00:00:00.000Z",
+  "blocs": [
+    {
+      "type": "section",
+      "ordre": 1,
+      "titre": "Évaluation",
+      "contenu": [
+        {
+          "type": "texte",
+          "ordre": 0,
+          "contenu": "**Définition :** > 80mL ou > 6 protections/jour ou > 7 jours.\n**Score de Higham :** > 100 pts = Ménorragie.\n**Bilan :** NFS, Feritinne, TP/TCA, B-HCG (Systématique)."
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "ordre": 2,
+      "titre": "Traitement de l'Anémie",
+      "contenu": [
+        {
+          "type": "medicament",
+          "ordre": 0,
+          "nomMedicament": "Fer injectable",
+          "indication": "Ferinject (> 1 an)",
+          "voie": "IV",
+          "commentaire": "Dilution NaCl uniquement. 1-13 ans: 15 mg/kg (max 750mg). ≥ 14 ans: 20 mg/kg (max 1000mg)."
+        },
+        {
+          "type": "medicament",
+          "ordre": 1,
+          "nomMedicament": "Fumarate de fer",
+          "indication": "Anémie modérée (PO)",
+          "voie": "PO",
+          "commentaire": "Fumafer/Tardyferon. 2 cp/jour (> 30kg) pendant 3 mois."
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "ordre": 3,
+      "titre": "Traitement Hémostatique",
+      "contenu": [
+        {
+          "type": "medicament",
+          "ordre": 0,
+          "nomMedicament": "Acide Tranexamique",
+          "indication": "Anti-fibrinolytique",
+          "voie": "PO",
+          "commentaire": "Exacyl. 20 mg/kg/j (max 3g/24h) pendant les saignements."
+        }
+      ]
+    }
+  ]
+}
