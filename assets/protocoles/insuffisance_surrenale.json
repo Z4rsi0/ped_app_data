@@ -1,0 +1,70 @@
+{
+  "titre": "Insuffisance Surrénalienne Aiguë",
+  "description": "Décompensation aiguë : Hyponatrémie, Hyperkaliémie, Choc.",
+  "auteur": "Dr K. Milcent",
+  "version": "2016.1",
+  "dateModification": "2016-08-01T00:00:00.000Z",
+  "blocs": [
+    {
+      "type": "alerte",
+      "ordre": 0,
+      "contenu": "Tout choc avec Hyponatrémie + Hyperkaliémie est une ISA jusqu'à preuve du contraire. PAS DE KCl.",
+      "niveau": "critique"
+    },
+    {
+      "type": "section",
+      "ordre": 1,
+      "titre": "Traitement d'Urgence",
+      "initialementOuvert": true,
+      "contenu": [
+        {
+          "type": "medicament",
+          "ordre": 0,
+          "nomMedicament": "Hydrocortisone",
+          "indication": "Hémisuccinate (IV/IM)",
+          "voie": "IV",
+          "commentaire": "2 à 4 mg/kg toutes les 6h (IVD) ou 8h (IM)."
+        },
+        {
+          "type": "medicament",
+          "ordre": 1,
+          "nomMedicament": "NaCl 0.9%",
+          "indication": "Remplissage (Choc)",
+          "voie": "IV",
+          "commentaire": "20 ml/kg en 20 min."
+        },
+        {
+          "type": "medicament",
+          "ordre": 2,
+          "nomMedicament": "G10% + NaCl",
+          "indication": "Réhydratation (Après remplissage)",
+          "voie": "IV",
+          "commentaire": "3 L/m2/j. Enrichi en NaCl (Max 24g/j). JAMAIS DE POTASSIUM."
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "ordre": 2,
+      "titre": "Traitement de l'Hyperkaliémie Sévère (> 7mM)",
+      "contenu": [
+        {
+          "type": "medicament",
+          "ordre": 0,
+          "nomMedicament": "Polystyrène sulfonate",
+          "indication": "Kayexalate",
+          "voie": "PO/Rectal",
+          "commentaire": "1 g/kg."
+        },
+        {
+          "type": "medicament",
+          "ordre": 1,
+          "nomMedicament": "Salbutamol",
+          "indication": "Nébulisation",
+          "voie": "Inhalation",
+          "commentaire": "5 mg (ou 5 µg/kg IV sur 20 min)."
+        }
+      ]
+    }
+  ]
+}
