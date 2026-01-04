@@ -3,7 +3,7 @@
   "description": "Protocoles de sédation procédurale, analgésie et intubation séquence rapide (ISR).",
   "auteur": "Dr F. Raimond",
   "version": "2016.1",
-  "dateModification": "2026-01-04T16:23:09.058822",
+  "dateModification": "2026-01-04T17:04:18.069904",
   "blocs": [
     {
       "type": "section",
@@ -137,7 +137,7 @@
             {
               "type": "medicament",
               "nomMedicament": "Sufentanil",
-              "indication": "Sédation prolongée (≥ 5 kg)",
+              "indication": "Sédation prolongée",
               "voie": "IV",
               "ordre": 1,
               "id": "8f412521-5de9-49aa-9937-f848a0b0ada9"
