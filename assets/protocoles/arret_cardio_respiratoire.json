@@ -3,108 +3,144 @@
   "description": "Algorithmes de prise en charge de l'ACR pédiatrique (Défibrillable et Non-Défibrillable).",
   "auteur": "Urgences Pédiatriques Béclère",
   "version": "2022.1",
-  "dateModification": "2022-01-01T00:00:00.000Z",
+  "dateModification": "2026-01-04T16:17:17.185891",
   "blocs": [
     {
       "type": "alerte",
-      "ordre": 0,
       "contenu": "DIAGNOSTIC : Inconscience, absence de respiration (ou gasps) +/- absence de pouls central. APPEL RÉA IMMÉDIAT.",
-      "niveau": "critique"
+      "niveau": "critique",
+      "ordre": 0,
+      "id": "04b34f48-6024-433c-b680-06002036a56d"
     },
     {
       "type": "section",
-      "ordre": 1,
       "titre": "RCP de base",
       "temps": "Cycle 2 min",
       "initialementOuvert": true,
       "contenu": [
         {
           "type": "texte",
+          "contenu": "Ratio 15 compressions / 2 insufflations.\nFréquence 100-120/min.\nOxygène 100% dès que possible.",
           "ordre": 0,
-          "contenu": "Ratio 15 compressions / 2 insufflations.\nFréquence 100-120/min.\nOxygène 100% dès que possible."
+          "id": "2768c773-3ad8-4007-b607-a7691fa91e71"
         },
         {
           "type": "tableau",
-          "ordre": 1,
           "titre": "Causes Réversibles (4H - 4T)",
-          "colonnes": ["4H", "4T"],
+          "colonnes": [
+            "4H",
+            "4T"
+          ],
           "lignes": [
-            ["Hypoxie", "Toxique"],
-            ["Hypovolémie", "Tamponnade"],
-            ["Hypothermie", "Tension (Pneumothorax)"],
-            ["Hypo/Hyperkaliémie", "Thrombo-embolie"]
-          ]
+            [
+              "Hypoxie",
+              "Toxique"
+            ],
+            [
+              "Hypovolémie",
+              "Tamponnade"
+            ],
+            [
+              "Hypothermie",
+              "Tension (Pneumothorax)"
+            ],
+            [
+              "Hypo/Hyperkaliémie",
+              "Thrombo-embolie"
+            ]
+          ],
+          "avecEntete": true,
+          "ordre": 1,
+          "id": "8966a8e7-ea4b-41c9-bd45-f4241877d52f"
         }
-      ]
+      ],
+      "ordre": 1,
+      "id": "a3f58958-8acf-4352-816b-7a8ee92402d0"
     },
     {
       "type": "section",
-      "ordre": 2,
       "titre": "Algorithme DÉFIBRILLABLE",
       "temps": "FV / TV sans pouls",
+      "initialementOuvert": false,
       "contenu": [
         {
           "type": "texte",
+          "contenu": "Choc n°1 -> RCP 2 min -> Choc n°2 -> RCP 2 min -> Choc n°3 + Médicaments.",
           "ordre": 0,
-          "contenu": "Choc n°1 -> RCP 2 min -> Choc n°2 -> RCP 2 min -> Choc n°3 + Médicaments."
+          "id": "ac652516-4da2-4034-ada4-ee52106187b9"
         },
         {
           "type": "texte",
-          "ordre": 1,
           "contenu": "Dose de Choc électrique (CEE) : 4 Joules / kg.",
-          "format": { "gras": true, "couleur": "#D32F2F" }
+          "format": {
+            "gras": true,
+            "couleur": "#D32F2F"
+          },
+          "ordre": 1,
+          "id": "93a87ca4-6133-42f5-9419-5df91608acbb"
         },
         {
           "type": "medicament",
-          "ordre": 2,
           "nomMedicament": "Adrénaline",
-          "indication": "ACR (Après 3ème choc)",
+          "indication": "Arrêt cardiaque",
           "voie": "IV/IO",
-          "commentaire": "10 µg/kg (0.1 ml/kg de solution diluée à 1/10 000). A répéter toutes les 4 min."
+          "commentaire": "10 µg/kg (0.1 ml/kg de solution diluée à 1/10 000). A répéter toutes les 4 min.",
+          "ordre": 2,
+          "id": "a330db7e-8408-49f9-be5a-65cdab2db79a"
         },
         {
           "type": "medicament",
-          "ordre": 3,
           "nomMedicament": "Amiodarone",
           "indication": "FV/TV Réfractaire",
           "voie": "IV/IO",
-          "commentaire": "5 mg/kg. Après le 3ème choc."
+          "commentaire": "5 mg/kg. Après le 3ème choc.",
+          "ordre": 3,
+          "id": "e65369f5-f04d-45e9-af58-25f7d642f121"
         }
-      ]
+      ],
+      "ordre": 2,
+      "id": "b9d98001-1703-425c-aa38-a8ee9f7c0b91"
     },
     {
       "type": "section",
-      "ordre": 3,
       "titre": "Algorithme NON DÉFIBRILLABLE",
       "temps": "Asystolie / AESP",
+      "initialementOuvert": false,
       "contenu": [
         {
           "type": "medicament",
-          "ordre": 0,
           "nomMedicament": "Adrénaline",
-          "indication": "ACR (Immédiat)",
+          "indication": "Arrêt cardiaque",
           "voie": "IV/IO",
-          "commentaire": "10 µg/kg (0.1 ml/kg de solution 1/10 000). Répéter toutes les 4 min (1 cycle sur 2)."
+          "commentaire": "10 µg/kg (0.1 ml/kg de solution 1/10 000). Répéter toutes les 4 min (1 cycle sur 2).",
+          "ordre": 0,
+          "id": "1e616897-933b-48cc-92d1-96ab5eea0cf7"
         },
         {
           "type": "texte",
+          "contenu": "RCP 2 min -> Vérification Rythme -> Si toujours asystolie : RCP 2 min + Adrénaline.",
           "ordre": 1,
-          "contenu": "RCP 2 min -> Vérification Rythme -> Si toujours asystolie : RCP 2 min + Adrénaline."
+          "id": "49b9f8a1-38bf-41d5-88e4-880b7872dff9"
         }
-      ]
+      ],
+      "ordre": 3,
+      "id": "b05844c6-926b-4a1c-94a7-74ceb5f87c7b"
     },
     {
       "type": "section",
-      "ordre": 4,
       "titre": "Préparation Adrénaline",
+      "initialementOuvert": false,
       "contenu": [
         {
           "type": "alerte",
-          "ordre": 0,
           "contenu": "DILUTION 1/10 000 : Prendre 1 ampoule de 1 mg (1 ml) + 9 ml de sérum phy. On obtient 10 ml contenant 1 mg. Dose = 0.1 ml/kg de cette seringue.",
-          "niveau": "attention"
+          "niveau": "attention",
+          "ordre": 0,
+          "id": "b95a120a-2929-4072-8fa2-b669f46147e3"
         }
-      ]
+      ],
+      "ordre": 4,
+      "id": "90f56e34-a8e1-42b5-a6f6-6e8ebc4b1659"
     }
   ]
 }
