@@ -1,0 +1,150 @@
+{
+  "titre": "Drépanocytose (Global)",
+  "description": "Prise en charge des complications aiguës: CVO, Fièvre, Anémie, STA.",
+  "auteur": "Dr I. Kahn, Dr S. Walser",
+  "version": "2021.1",
+  "dateModification": "2021-06-16T00:00:00.000Z",
+  "blocs": [
+    {
+      "type": "section",
+      "ordre": 1,
+      "titre": "1. Crise Vaso-Occlusive (CVO)",
+      "initialementOuvert": true,
+      "contenu": [
+        {
+          "type": "alerte",
+          "ordre": 0,
+          "contenu": "Objectif : Soulagement de la douleur en < 60 minutes. Débuter le MEOPA dès l'installation.",
+          "niveau": "critique"
+        },
+        {
+          "type": "medicament",
+          "ordre": 1,
+          "nomMedicament": "Paracétamol",
+          "indication": "Systématique",
+          "voie": "IV/PO",
+          "commentaire": "Charge: 30 mg/kg (max 1g). Entretien: 15 mg/kg/6h."
+        },
+        {
+          "type": "medicament",
+          "ordre": 2,
+          "nomMedicament": "Ibuprofène",
+          "indication": "Systématique (sauf douleur abdo)",
+          "voie": "PO",
+          "commentaire": "10 mg/kg/8h (max 400mg)."
+        },
+        {
+          "type": "medicament",
+          "ordre": 3,
+          "nomMedicament": "Nalbuphine",
+          "indication": "Douleur modérée (EVA 5-6)",
+          "voie": "IVL",
+          "commentaire": "Nubain. 0.2 mg/kg IVL (max 0.3 mg/kg) ou 0.4 mg/kg IR."
+        },
+        {
+          "type": "medicament",
+          "ordre": 4,
+          "nomMedicament": "Morphine",
+          "indication": "Douleur sévère (EVA > 7)",
+          "voie": "IV",
+          "commentaire": "Charge: 0.1 mg/kg (max 6mg). Titration: 0.025 mg/kg/5min (max 3 bolus). Puis PCA."
+        },
+        {
+          "type": "medicament",
+          "ordre": 5,
+          "nomMedicament": "Kétamine",
+          "indication": "Echec Morphine",
+          "voie": "IVL",
+          "commentaire": "0.2 mg/kg en 15 min."
+        },
+        {
+          "type": "texte",
+          "ordre": 6,
+          "contenu": "Hyperhydratation IV : Polyionique + NaCl 2g/L (2.5 L/m²/jour)."
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "ordre": 2,
+      "titre": "2. Fièvre & Infection",
+      "contenu": [
+        {
+          "type": "alerte",
+          "ordre": 0,
+          "contenu": "Risque infectieux fulminant à Pneumocoque et Salmonelle. Hospitalisation si T° > 38.5°C et < 3 ans, ou T° > 39.5°C, ou signes de gravité.",
+          "niveau": "danger"
+        },
+        {
+          "type": "medicament",
+          "ordre": 1,
+          "nomMedicament": "Cefotaxime",
+          "indication": "Fièvre isolée ou Pneumopathie",
+          "voie": "IV",
+          "commentaire": "100 mg/kg/j en 3 injections IVL."
+        },
+        {
+          "type": "medicament",
+          "ordre": 2,
+          "nomMedicament": "Cefotaxime",
+          "indication": "Infection Ostéo-Articulaire",
+          "voie": "IV",
+          "commentaire": "300 mg/kg/j (max 12g) en 4 injections."
+        },
+        {
+          "type": "medicament",
+          "ordre": 3,
+          "nomMedicament": "Gentamicine",
+          "indication": "Infection Ostéo-Articulaire (Ajout)",
+          "voie": "IV",
+          "commentaire": "5 mg/kg/j en 1 injection IVL 30 min."
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "ordre": 3,
+      "titre": "3. Anémie Aiguë (Séquestration/Parvo B19)",
+      "contenu": [
+        {
+          "type": "texte",
+          "ordre": 0,
+          "contenu": "Définition : Chute Hb ≥ 2g/dL ou ≥ 20% de la base. Urgence si Séquestration splénique (Splénomégalie brutale + Thrombopénie) ou Erythroblastopénie (Réticulocytes < 100 000)."
+        },
+        {
+          "type": "medicament",
+          "ordre": 1,
+          "nomMedicament": "Concentré Globulaire (CGR)",
+          "indication": "Transfusion (Urgence)",
+          "voie": "IV",
+          "commentaire": "Phénotypé, compatibilisé. (Hb base - Hb actuelle) x 4 x Poids. Max 15-17 ml/kg. Objectif Hb 9 g/dL."
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "ordre": 4,
+      "titre": "4. Syndrome Thoracique Aigu (STA)",
+      "contenu": [
+        {
+          "type": "texte",
+          "ordre": 0,
+          "contenu": "Clinique : Douleur thoraco-abdominale + Fièvre + Signes respi + Foyer Radio. Risque majeur."
+        },
+        {
+          "type": "medicament",
+          "ordre": 1,
+          "nomMedicament": "Cefotaxime",
+          "indication": "STA",
+          "voie": "IV",
+          "commentaire": "100 mg/kg/j en 3 injections."
+        },
+        {
+          "type": "texte",
+          "ordre": 2,
+          "contenu": "Oxygénothérapie (Cible SpO2 > 95%). Spirométrie incitative. Transfusion si Hb < 9 g/dL ou aggravation."
+        }
+      ]
+    }
+  ]
+}
