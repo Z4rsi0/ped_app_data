@@ -3,80 +3,92 @@
   "description": "Prise en charge du choc hémorragique, hématémèse et rectorragies (Nouveau-né inclus).",
   "auteur": "Dr I. Kahn, Dr F. Raimond",
   "version": "2021.2",
-  "dateModification": "2021-09-07T00:00:00.000Z",
+  "dateModification": "2026-01-04T18:16:07.771608",
   "blocs": [
     {
       "type": "alerte",
-      "ordre": 0,
       "contenu": "Choc Hémorragique : Objectif PAM > 50-65 mmHg (selon âge). Transfusion O Négatif si urgence vitale.",
-      "niveau": "critique"
+      "niveau": "critique",
+      "ordre": 0,
+      "id": "ea57004f-cb81-402f-9eb5-75762ca17eca"
     },
     {
       "type": "section",
-      "ordre": 1,
       "titre": "1. Choc Hémorragique & Hématémèse",
+      "initialementOuvert": false,
       "contenu": [
         {
           "type": "medicament",
-          "ordre": 0,
           "nomMedicament": "Ringer Lactate",
           "indication": "Remplissage",
           "voie": "IV",
-          "commentaire": "10 ml/kg bolus."
+          "commentaire": "10 ml/kg bolus.",
+          "ordre": 0,
+          "id": "13f9cf08-f09d-4b82-a381-900d40bfd559"
         },
         {
           "type": "medicament",
-          "ordre": 1,
           "nomMedicament": "Noradrénaline",
-          "indication": "Vasopresseur (Si instable)",
+          "indication": "Vasopresseur - Choc",
           "voie": "IVSE",
-          "commentaire": "0.1 µg/kg/min."
+          "commentaire": "0.1 µg/kg/min.",
+          "ordre": 1,
+          "id": "3f031692-1e9e-4961-9cd0-98c26d41e86f"
         },
         {
           "type": "medicament",
-          "ordre": 2,
           "nomMedicament": "Acide Tranexamique",
-          "indication": "Exacyl",
+          "indication": "TC grave (GCS 9-13)",
           "voie": "IV",
-          "commentaire": "15 mg/kg sur 10 min puis 2 mg/kg/h."
+          "commentaire": "15 mg/kg sur 10 min puis 2 mg/kg/h.",
+          "ordre": 2,
+          "id": "cc9cc3de-0945-4b0d-8344-e098200ca797"
         },
         {
           "type": "medicament",
-          "ordre": 3,
           "nomMedicament": "Pantoprazole",
-          "indication": "IPP",
+          "indication": "Hémorragie digestive - Dose de charge",
           "voie": "IV",
-          "commentaire": "2 mg/kg bolus puis 0.2 mg/kg/h."
+          "commentaire": "2 mg/kg bolus puis 0.2 mg/kg/h.",
+          "ordre": 3,
+          "id": "2888f7b5-0678-4976-bb8c-207de16f96b7"
         },
         {
           "type": "medicament",
-          "ordre": 4,
           "nomMedicament": "Octréotide",
-          "indication": "Si suspicion Hypertension portale",
+          "indication": "Hémorragie digestive haute",
           "voie": "IV",
-          "commentaire": "1 µg/kg bolus puis 2-4 µg/kg/h."
+          "commentaire": "1 µg/kg bolus puis 2-4 µg/kg/h.",
+          "ordre": 4,
+          "id": "0aa13d1f-ea31-4c13-a27f-45608f8214f0"
         },
         {
           "type": "medicament",
-          "ordre": 5,
-          "nomMedicament": "Erythromycine",
-          "indication": "Vidange gastrique (Avant EOGD)",
+          "nomMedicament": "Erythro",
+          "indication": "V",
           "voie": "IV",
-          "commentaire": "5 mg/kg IVL."
+          "commentaire": "5 mg/kg IVL.",
+          "ordre": 5,
+          "id": "4b621f37-411d-47fe-83d4-c4edfc2b1d49"
         }
-      ]
+      ],
+      "ordre": 1,
+      "id": "3640db96-9e8e-45c0-b3d6-8db3821be8c0"
     },
     {
       "type": "section",
-      "ordre": 2,
       "titre": "2. Rectorragies du Nouveau-Né",
+      "initialementOuvert": false,
       "contenu": [
         {
           "type": "texte",
+          "contenu": "**Algorithme décisionnel :**\n1. Éliminer Fissure anale, Infection, ECUN.\n2. Si sous lait artificiel -> Exclusion PLV (Hydrolysat).\n3. Si allaité -> Exclusion PLV chez la mère.",
           "ordre": 0,
-          "contenu": "**Algorithme décisionnel :**\n1. Éliminer Fissure anale, Infection, ECUN.\n2. Si sous lait artificiel -> Exclusion PLV (Hydrolysat).\n3. Si allaité -> Exclusion PLV chez la mère."
+          "id": "dbe443cd-1ccb-4367-bf93-a40de4933fa4"
         }
-      ]
+      ],
+      "ordre": 2,
+      "id": "ac82edc9-8dcb-4717-b04a-f9fe27ab5ace"
     }
   ]
 }
