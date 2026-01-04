@@ -3,57 +3,67 @@
   "description": "Prise en charge des saignements utérins abondants (SUA).",
   "auteur": "Dr S. Walser, Dr L. Duranteau",
   "version": "2025.1",
-  "dateModification": "2025-06-01T00:00:00.000Z",
+  "dateModification": "2026-01-04T18:17:27.047517",
   "blocs": [
     {
       "type": "section",
-      "ordre": 1,
       "titre": "Évaluation",
+      "initialementOuvert": false,
       "contenu": [
         {
           "type": "texte",
+          "contenu": "**Définition :** > 80mL ou > 6 protections/jour ou > 7 jours.\n**Score de Higham :** > 100 pts = Ménorragie.\n**Bilan :** NFS, Feritinne, TP/TCA, B-HCG (Systématique).",
           "ordre": 0,
-          "contenu": "**Définition :** > 80mL ou > 6 protections/jour ou > 7 jours.\n**Score de Higham :** > 100 pts = Ménorragie.\n**Bilan :** NFS, Feritinne, TP/TCA, B-HCG (Systématique)."
+          "id": "77e4090d-e180-42ad-9f1b-5a687f9993b6"
         }
-      ]
+      ],
+      "ordre": 1,
+      "id": "403c0982-4c60-4eea-b022-020441045f44"
     },
     {
       "type": "section",
-      "ordre": 2,
       "titre": "Traitement de l'Anémie",
+      "initialementOuvert": false,
       "contenu": [
         {
           "type": "medicament",
-          "ordre": 0,
-          "nomMedicament": "Fer injectable",
-          "indication": "Ferinject (> 1 an)",
+          "nomMedicament": "Fer injectable - Ferinject",
+          "indication": "Carence martiale (> 1 an)",
           "voie": "IV",
-          "commentaire": "Dilution NaCl uniquement. 1-13 ans: 15 mg/kg (max 750mg). ≥ 14 ans: 20 mg/kg (max 1000mg)."
+          "commentaire": "Dilution NaCl uniquement. 1-13 ans: 15 mg/kg (max 750mg). ≥ 14 ans: 20 mg/kg (max 1000mg).",
+          "ordre": 0,
+          "id": "4cd92d2a-2466-45dc-a5fb-9dda09a8504e"
         },
         {
           "type": "medicament",
-          "ordre": 1,
           "nomMedicament": "Fumarate de fer",
           "indication": "Anémie modérée (PO)",
           "voie": "PO",
-          "commentaire": "Fumafer/Tardyferon. 2 cp/jour (> 30kg) pendant 3 mois."
+          "commentaire": "Fumafer/Tardyferon. 2 cp/jour (> 30kg) pendant 3 mois.",
+          "ordre": 1,
+          "id": "f26a9c51-dd25-4881-a0e0-44a91c14a43d"
         }
-      ]
+      ],
+      "ordre": 2,
+      "id": "f7588596-3352-48cf-a4e5-c5c0094c3835"
     },
     {
       "type": "section",
-      "ordre": 3,
       "titre": "Traitement Hémostatique",
+      "initialementOuvert": false,
       "contenu": [
         {
           "type": "medicament",
-          "ordre": 0,
           "nomMedicament": "Acide Tranexamique",
-          "indication": "Anti-fibrinolytique",
+          "indication": "TC grave (GCS 9-13)",
           "voie": "PO",
-          "commentaire": "Exacyl. 20 mg/kg/j (max 3g/24h) pendant les saignements."
+          "commentaire": "Exacyl. 20 mg/kg/j (max 3g/24h) pendant les saignements.",
+          "ordre": 0,
+          "id": "9d7da632-f628-44a3-95e8-72f99a8f4dd3"
         }
-      ]
+      ],
+      "ordre": 3,
+      "id": "058bdaad-3da3-4f10-9ac3-3787abe2f69d"
     }
   ]
 }
