@@ -48,7 +48,7 @@
     ],
     "contreIndications": "Adaptation posologique selon clairance créatinine - A perfuser seul - Incompatible G5%",
     "surdosage": "Surveillance point de perfusion: nécrose si extravasation",
-    "aSavoir": "Cmax 5 mg/mL. Teneur en sodium: 28 mg/250 mg et 56 mg/500 mg "
+    "aSavoir": "Cmax 5 mg/mL. Teneur en sodium: 28 mg/250 mg et 56 mg/500 mg"
   },
   {
     "nom": "Acide Tranexamique",
@@ -316,6 +316,25 @@
     ],
     "contreIndications": "Conservation à l'abri de la lumière",
     "aSavoir": "Jusqu'à 15 mg/kg/j pour troubles du rythme. Dilution G5% uniquement (précipite dans NaCl) [cite: 16]"
+  },
+  {
+    "nom": "Amitriptyline",
+    "galenique": "Solution injectable",
+    "nomCommercial": "LAROXYL",
+    "indications": [
+      {
+        "label": "Crise migraineuse",
+        "posologies": [
+          {
+            "voie": "IV lente",
+            "unite": "mg/kg/h",
+            "doseKg": 0.125,
+            "preparation": "sur 4 heures"
+          }
+        ]
+      }
+    ],
+    "aSavoir": "donc 0,5 mg/kg sur 4h"
   },
   {
     "nom": "Amoxicilline",
@@ -982,6 +1001,44 @@
     "aSavoir": "Teneur en sodium: 52,8 mg/flacon 1 g - Peut aller jusqu'à 200 mg/kg/j"
   },
   {
+    "nom": "Cyamemazine",
+    "galenique": "Solution buvable et Ampoules injectables",
+    "nomCommercial": "TERCIAN",
+    "indications": [
+      {
+        "label": "Agitation",
+        "posologies": [
+          {
+            "voie": "PO",
+            "unite": "gouttes",
+            "doseKg": 1.0,
+            "doseMax": 30.0
+          }
+        ]
+      },
+      {
+        "label": "Agitation Sévère",
+        "posologies": [
+          {
+            "voie": "IM",
+            "unite": "mg",
+            "tranches": [
+              {
+                "poidsMax": 49.0,
+                "doses": "25 mg (½ ampoule)"
+              },
+              {
+                "poidsMin": 50.0,
+                "doses": "50 mg (1 ampoule)"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "aSavoir": "ECG si IM"
+  },
+  {
     "nom": "Céfazoline",
     "galenique": "Poudre injectable 1 g et 2 g",
     "nomCommercial": "CEFAZOLINE",
@@ -1533,6 +1590,35 @@
     "aSavoir": "A la pharmacie centrale [cite: 23]"
   },
   {
+    "nom": "Hydroxyzine",
+    "galenique": "Sirop 2 mg/mL",
+    "nomCommercial": "ATARAX",
+    "indications": [
+      {
+        "label": "Agitation",
+        "posologies": [
+          {
+            "voie": "PO",
+            "unite": "mg",
+            "doseKg": 1.0,
+            "doseMax": 25.0
+          }
+        ]
+      },
+      {
+        "label": "Prurit",
+        "posologies": [
+          {
+            "voie": "PO",
+            "unite": "mg",
+            "doseKg": 1.0,
+            "doseMax": 50.0
+          }
+        ]
+      }
+    ]
+  },
+  {
     "nom": "Hémisuccinate d'hydrocortisone",
     "galenique": "Poudre injectable 100 mg",
     "nomCommercial": "HYDROCORTISONE",
@@ -1898,6 +1984,33 @@
     "contreIndications": "Amphotéricine B, céftriaxone, chlorpromazine, diazépam, pentamidine, phénytoïne - Interactions médicamenteuses: IMAO, sympathomimétiques",
     "surdosage": "Thrombopénie, anémie, neuropathie périphérique (si traitement >28j). Surveillance NFS hebdomadaire",
     "aSavoir": "Activité sur SARM et ERV. Bactériostatique. T2A"
+  },
+  {
+    "nom": "Loxapine",
+    "galenique": "Solution injectable 50 mg / 2 mL",
+    "nomCommercial": "LOXAPAC",
+    "indications": [
+      {
+        "label": "Agitation Sévère",
+        "posologies": [
+          {
+            "voie": "IM",
+            "unite": "mg",
+            "tranches": [
+              {
+                "poidsMax": 49.0,
+                "doses": "½ ampoule = 25 mg"
+              },
+              {
+                "poidsMin": 50.0,
+                "doses": "1 ampoule = 50 mg"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "aSavoir": "ECG à faire"
   },
   {
     "nom": "Lévétiracétam",
@@ -2338,6 +2451,34 @@
     "contreIndications": "Pas de contre-indication en urgence vitale",
     "surdosage": "Peut déclencher syndrome de sevrage chez patient dépendant. Durée d'action courte: surveillance prolongée",
     "aSavoir": "Demi-vie plus courte que morphine: risque de re-narcotisation [cite: 26]"
+  },
+  {
+    "nom": "Nefopam",
+    "galenique": "Solution injectable ou comprimés",
+    "nomCommercial": "ACUPAN",
+    "indications": [
+      {
+        "label": "Antalgie",
+        "posologies": [
+          {
+            "voie": "PO",
+            "unite": "mg",
+            "tranches": [
+              {
+                "poidsMin": 40.0,
+                "doses": "1 comprimé de 30 mg"
+              }
+            ]
+          },
+          {
+            "voie": "IV",
+            "unite": "mg",
+            "doseKg": 0.4,
+            "preparation": "3 fois par jour, sur une heure"
+          }
+        ]
+      }
+    ]
   },
   {
     "nom": "Nicardipine",
@@ -2863,6 +3004,28 @@
       }
     ],
     "aSavoir": "Posologie exprimée en triméthoprime (TMP). Ratio SMX/TMP = 5/1 "
+  },
+  {
+    "nom": "Sumatriptan",
+    "galenique": "solution nasale",
+    "nomCommercial": "IMIGRANE",
+    "indications": [
+      {
+        "label": "Crise migraineuse",
+        "posologies": [
+          {
+            "voie": "Nasale",
+            "unite": "mg",
+            "tranches": [
+              {
+                "poidsMin": 30.0,
+                "doses": "1 pulvérisation"
+              }
+            ]
+          }
+        ]
+      }
+    ]
   },
   {
     "nom": "Suxaméthonium",
