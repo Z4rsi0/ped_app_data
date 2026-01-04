@@ -3,48 +3,70 @@
   "description": "Évaluation du risque suicidaire (RUD) et protocole d'hospitalisation 'ADO'.",
   "auteur": "Dr J. Jaschinski, Dr P. Wolf",
   "version": "2024.1",
-  "dateModification": "2024-02-02T00:00:00.000Z",
+  "dateModification": "2026-01-04T18:08:23.026968",
   "blocs": [
     {
       "type": "section",
-      "ordre": 1,
       "titre": "Évaluation R.U.D",
+      "initialementOuvert": false,
       "contenu": [
         {
           "type": "texte",
+          "contenu": "**Risque :** ATCD TS, dépression, harcèlement, toxiques, rupture.\n**Urgence :** Faible (pas de scénario) > Moyenne (scénario flou) > Élevée (scénario programmé).\n**Dangerosité :** Moyens létaux à disposition (médicaments, armes) ?",
+          "format": {},
           "ordre": 0,
-          "contenu": "**Risque :** ATCD TS, dépression, harcèlement, toxiques, rupture.\n**Urgence :** Faible (pas de scénario) > Moyenne (scénario flou) > Élevée (scénario programmé).\n**Dangerosité :** Moyens létaux à disposition (médicaments, armes) ?"
+          "id": "75fbe2ea-935a-4aa6-83b0-5e848f10c83d"
         },
         {
           "type": "tableau",
-          "ordre": 1,
           "titre": "Orientation",
-          "colonnes": ["Niveau", "Conduite à tenir"],
+          "colonnes": [
+            "Niveau",
+            "Conduite à tenir"
+          ],
           "lignes": [
-            ["Faible", "Retour domicile + Contrat de soins + Suivi libéral"],
-            ["Moyen", "Évaluation Pédopsy rapide (CMP/Libéral). Sécurisation domicile."],
-            ["Élevé", "HOSPITALISATION (UHCD min) + Avis Pédopsy hospitalier."]
-          ]
+            [
+              "Faible",
+              "Retour domicile + Contrat de soins + Suivi libéral"
+            ],
+            [
+              "Moyen",
+              "Évaluation Pédopsy rapide (CMP/Libéral). Sécurisation domicile."
+            ],
+            [
+              "Élevé",
+              "HOSPITALISATION (UHCD min) + Avis Pédopsy hospitalier."
+            ]
+          ],
+          "avecEntete": true,
+          "ordre": 1,
+          "id": "b6a9cf9a-eae2-440a-9c74-65b3cfb5f625"
         }
-      ]
+      ],
+      "ordre": 1,
+      "id": "21f89992-20d4-4557-92cb-624862c63c1f"
     },
     {
       "type": "section",
-      "ordre": 2,
       "titre": "Protocole d'Hospitalisation 'ADO'",
+      "initialementOuvert": false,
       "contenu": [
         {
           "type": "alerte",
-          "ordre": 0,
           "contenu": "Tout passage à l'acte justifie une hospitalisation, même si la toxicité médicale est nulle.",
-          "niveau": "attention"
+          "niveau": "attention",
+          "ordre": 0,
+          "id": "b6ce0315-28da-4538-8a43-267538e7b3a2"
         },
         {
           "type": "texte",
+          "contenu": "**Séparation familiale initiale (48h min) :** L'ado dort seul.\n**Sécurisation :** Pyjama vert, retrait chaussures, fouille des affaires (sac, trousse, objets coupants, cordons, rasoirs).\n**Communication :** Pas de téléphone portable. Visites parents uniquement (selon avis psy).",
           "ordre": 1,
-          "contenu": "**Séparation familiale initiale (48h min) :** L'ado dort seul.\n**Sécurisation :** Pyjama vert, retrait chaussures, fouille des affaires (sac, trousse, objets coupants, cordons, rasoirs).\n**Communication :** Pas de téléphone portable. Visites parents uniquement (selon avis psy)."
+          "id": "ab623810-ec37-4405-8c15-1fed074440a6"
         }
-      ]
+      ],
+      "ordre": 2,
+      "id": "23aade93-a7f9-4c7f-a5d6-6da0eebd8e96"
     }
   ]
 }
