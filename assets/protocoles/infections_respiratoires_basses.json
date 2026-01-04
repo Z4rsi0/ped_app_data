@@ -1,0 +1,45 @@
+{
+  "titre": "Pneumonie Aiguë Communautaire (PAC)",
+  "description": "Prise en charge de la pneumopathie franche lobaire aiguë (PFLA).",
+  "auteur": "GPIP 2023",
+  "version": "2023.1",
+  "dateModification": "2023-01-01T00:00:00.000Z",
+  "blocs": [
+    {
+      "type": "section",
+      "ordre": 1,
+      "titre": "Traitement Ambulatoire (1ère intention)",
+      "initialementOuvert": true,
+      "contenu": [
+        {
+          "type": "medicament",
+          "ordre": 0,
+          "nomMedicament": "Amoxicilline",
+          "indication": "PAC typique",
+          "voie": "PO",
+          "commentaire": "80 à 100 mg/kg/j en 3 prises. Pendant 7 jours (3 jours après apyrexie)."
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "ordre": 2,
+      "titre": "Suspicion Atypiques (Mycoplasme)",
+      "contenu": [
+        {
+          "type": "texte",
+          "ordre": 0,
+          "contenu": "Si âge > 3 ans et début progressif."
+        },
+        {
+          "type": "medicament",
+          "ordre": 1,
+          "nomMedicament": "Clarithromycine",
+          "indication": "Macrolide",
+          "voie": "PO",
+          "commentaire": "15 mg/kg/j en 2 prises."
+        }
+      ]
+    }
+  ]
+}
