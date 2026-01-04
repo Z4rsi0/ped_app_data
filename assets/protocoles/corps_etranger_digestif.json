@@ -3,46 +3,53 @@
   "description": "Algorithme décisionnel : Pile bouton, Aimants, Objets tranchants.",
   "auteur": "Dr I. Kahn",
   "version": "2025.1",
-  "dateModification": "2025-10-13T00:00:00.000Z",
+  "dateModification": "2026-01-04T18:10:50.587808",
   "blocs": [
     {
       "type": "alerte",
-      "ordre": 0,
       "contenu": "URGENCE ABSOLUE : Pile Bouton dans l'œsophage (< 2h) ou Aimants multiples.",
-      "niveau": "critique"
+      "niveau": "critique",
+      "ordre": 0,
+      "id": "efc6719e-de21-4dc0-891a-26030d932d49"
     },
     {
       "type": "section",
-      "ordre": 1,
       "titre": "Pile Bouton",
       "initialementOuvert": true,
       "contenu": [
         {
           "type": "texte",
+          "contenu": "**Si Œsophage :** Endoscopie IMMÉDIATE.\n**Protocole Miel :** Si ingestion < 12h et enfant > 1 an : 2 cuillères à café / 10 min en attendant l'endoscopie.\n**Si Estomac :** Laisser descendre (sauf si symptômes ou > 15mm chez < 5 ans).",
           "ordre": 0,
-          "contenu": "**Si Œsophage :** Endoscopie IMMÉDIATE.\n**Protocole Miel :** Si ingestion < 12h et enfant > 1 an : 2 cuillères à café / 10 min en attendant l'endoscopie.\n**Si Estomac :** Laisser descendre (sauf si symptômes ou > 15mm chez < 5 ans)."
+          "id": "dfd35ab0-73f4-44bd-aad9-31a437ca1569"
         }
-      ]
+      ],
+      "ordre": 1,
+      "id": "05c5faaf-9408-4124-910a-16b2ef6c8861"
     },
     {
       "type": "section",
-      "ordre": 2,
       "titre": "Autres Objets",
+      "initialementOuvert": false,
       "contenu": [
         {
           "type": "texte",
+          "contenu": "**Aimants (x2 ou + métal) :** Endoscopie URGENTE (Risque perforation).\n**Objet coincé œsophage :** Endoscopie.\n**Objet mousse estomac :** Abstention (Radio J14).",
           "ordre": 0,
-          "contenu": "**Aimants (x2 ou + métal) :** Endoscopie URGENTE (Risque perforation).\n**Objet coincé œsophage :** Endoscopie.\n**Objet mousse estomac :** Abstention (Radio J14)."
+          "id": "65cc98d3-e4b9-4ed5-a99c-82d3337fe774"
         },
         {
           "type": "medicament",
-          "ordre": 1,
           "nomMedicament": "Salbutamol",
-          "indication": "Aide passage œsophagien",
+          "indication": "Autre",
           "voie": "PO",
-          "commentaire": "100 µg/kg (solution 1mL) à boire. Pour CE non dangereux coincé bas œsophage."
+          "commentaire": "100 µg/kg (solution 1mL) à boire. Pour CE non dangereux coincé bas œsophage.",
+          "ordre": 1,
+          "id": "4859e301-688d-4f40-9981-bfd47612f37a"
         }
-      ]
+      ],
+      "ordre": 2,
+      "id": "1b2cbba9-f4f7-424f-ae75-6391d41e612f"
     }
   ]
 }
