@@ -3,7 +3,7 @@
   "description": "Prise en charge des hémorragies digestives hautes et du choc hémorragique.",
   "auteur": "Dr I. Kahn, Dr F. Raimond",
   "version": "2021.1",
-  "dateModification": "2026-01-03T16:17:57.086803",
+  "dateModification": "2026-01-04T18:10:22.077279",
   "blocs": [
     {
       "type": "section",
@@ -112,7 +112,7 @@
         {
           "type": "medicament",
           "nomMedicament": "Erythromycine",
-          "indication": "Vidange gastrique (avant EOGD)",
+          "indication": "V",
           "voie": "IV",
           "commentaire": "5 mg/kg IV lent (si pas de CI).",
           "ordre": 2,
