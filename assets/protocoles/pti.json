@@ -1,0 +1,60 @@
+{
+  "titre": "Purpura Thrombopénique Immunologique (PTI)",
+  "description": "Diagnostic, Score de Buchanan et Indications thérapeutiques.",
+  "auteur": "Dr L. Clech, Pr Gajdos",
+  "version": "2017.1",
+  "dateModification": "2017-04-01T00:00:00.000Z",
+  "blocs": [
+    {
+      "type": "section",
+      "ordre": 1,
+      "titre": "Score Hémorragique (Buchanan)",
+      "contenu": [
+        {
+          "type": "tableau",
+          "ordre": 0,
+          "titre": "Sévérité",
+          "colonnes": ["Grade", "Signes Cliniques", "Action"],
+          "lignes": [
+            ["1-2 (Mineur)", "Pétéchies, < 5 Ecchymoses", "Abstention"],
+            ["3 (Modéré)", "Hémorragie muqueuse (Epistaxis...)", "Traitement à discuter"],
+            ["4 (Sévère)", "Hémorragie active, Bulles buccales, FO+", "TRAITEMENT IMPÉRATIF"],
+            ["5 (Vital)", "Hémorragie Intracrânienne/Interne", "URGENCE VITALE"]
+          ]
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "ordre": 2,
+      "titre": "Traitement (Si Plq < 10G ou Buchanan ≥ 3)",
+      "initialementOuvert": true,
+      "contenu": [
+        {
+          "type": "medicament",
+          "ordre": 0,
+          "nomMedicament": "Immunoglobulines IV",
+          "indication": "1ère intention (Clairyg)",
+          "voie": "IV",
+          "commentaire": "0.8 à 1 g/kg en une perfusion. Débit progressif (risque céphalées/méningite aseptique)."
+        },
+        {
+          "type": "medicament",
+          "ordre": 1,
+          "nomMedicament": "Méthylprednisolone",
+          "indication": "Urgence Sévère (Grade 4-5)",
+          "voie": "IV",
+          "commentaire": "Solumédrol. 4 mg/kg/j en 2 injections (4 jours). + IgIV + Transfusion Plaquettes."
+        },
+        {
+          "type": "medicament",
+          "ordre": 2,
+          "nomMedicament": "Concentré Plaquettaire",
+          "indication": "Si Menace Vitale (Grade 5)",
+          "voie": "IV",
+          "commentaire": "1 Unité/5-10kg. Efficacité transitoire (destruction rapide)."
+        }
+      ]
+    }
+  ]
+}
