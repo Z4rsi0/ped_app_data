@@ -353,14 +353,40 @@
     "nomCommercial": "CLAMOXYL",
     "indications": [
       {
-        "label": "Infections bactériennes",
+        "label": "80-100 mg/kg/j",
         "posologies": [
           {
-            "voie": "IV lente 30 min",
+            "voie": "PO",
             "unite": "mg",
-            "doseKgMin": 50,
-            "doseKgMax": 200,
-            "preparation": "1 g dans 50 mL NaCl 0,9% (20 mg/mL). En 3-6 injections/j ou continue. Max 2 g/injection (adulte), 50 mg/kg/injection (enfant)"
+            "doseKgMin": 80.0,
+            "doseKgMax": 100.0,
+            "doseMax": 3000.0,
+            "preparation": "en deux ou trois prises"
+          }
+        ]
+      },
+      {
+        "label": "50 mg/kg/j",
+        "posologies": [
+          {
+            "voie": "PO",
+            "unite": "mg",
+            "doseKg": 50.0,
+            "doseMax": 2000.0,
+            "preparation": "en deux prises"
+          }
+        ]
+      },
+      {
+        "label": "IV 150-200",
+        "posologies": [
+          {
+            "voie": "IV",
+            "unite": "mg",
+            "doseKgMin": 150.0,
+            "doseKgMax": 200.0,
+            "doseMax": 8000.0,
+            "preparation": "en 3 ou 4 IVL"
           }
         ]
       }
@@ -374,15 +400,38 @@
     "nomCommercial": "AUGMENTIN",
     "indications": [
       {
-        "label": "Infections bactériennes",
+        "label": "IV 150",
         "posologies": [
           {
-            "voie": "IV lente 30 min",
+            "voie": "IV",
             "unite": "mg",
-            "doseKgMin": 80,
-            "doseKgMax": 100,
-            "doseMax": 4000,
-            "preparation": "500 mg dans 50 mL NaCl 0,9% EXCLUSIVEMENT (10 mg/mL). Cmax 20 mg/mL"
+            "doseKg": 150.0,
+            "doseMax": 4000.0,
+            "preparation": "en 3 ou 4 IVL"
+          }
+        ]
+      },
+      {
+        "label": "80",
+        "posologies": [
+          {
+            "voie": "PO",
+            "unite": "mg",
+            "doseKg": 80.0,
+            "doseMax": 3000.0,
+            "preparation": "à répartir en 3 prises"
+          }
+        ]
+      },
+      {
+        "label": "100",
+        "posologies": [
+          {
+            "voie": "PO",
+            "unite": "mg",
+            "doseKg": 100.0,
+            "doseMax": 4000.0,
+            "preparation": "à répartir en 3 prises"
           }
         ]
       }
@@ -431,6 +480,186 @@
     "contreIndications": "A perfuser seule - Adaptation posologique si insuffisance rénale",
     "surdosage": "Surveillance cardiorespiratoire: risque réactions anaphylactiques. Surveillance biologique: fonction rénale, hépatique, hématopoïétique",
     "aSavoir": "T2A"
+  },
+  {
+    "nom": "Artesunate IV",
+    "galenique": "Solution injectable",
+    "nomCommercial": "MALACEF",
+    "indications": [
+      {
+        "label": "Paludisme grave",
+        "posologies": [
+          {
+            "voie": "IV lente",
+            "unite": "mg",
+            "tranches": [
+              {
+                "poidsMax": 20.0,
+                "doseKg": 3.0
+              },
+              {
+                "poidsMin": 20.0,
+                "doseKg": 2.4
+              }
+            ],
+            "preparation": "flacon à 60 mg (solvant bicarbonate de sodium 1 ml) : reconstituer la solution avec le solvant, agiter quelques minutes, lorsque la solution devient limpide ajouter 5 ml de G5% soit solution finale de 6 ml pour une concentration de 10mg/ml"
+          }
+        ]
+      }
+    ],
+    "aSavoir": "à H0, H12, H24 puis toutes les 24 heures pendant 3 doses minimum (peut être prolongé jusqu’à 7 jours 1x/j, jusqu’à amendement du/des critères de gravité)"
+  },
+  {
+    "nom": "Artéméther-Luméfantrine",
+    "galenique": "Comprimés (20/120 mg)",
+    "nomCommercial": "RIAMET",
+    "indications": [
+      {
+        "label": "Paludisme simple à falciparum",
+        "posologies": [
+          {
+            "voie": "PO",
+            "unite": "mg",
+            "tranches": [
+              {
+                "poidsMin": 5.0,
+                "poidsMax": 15.0,
+                "doses": "1 comprimé à H0, H8-12, H24, H36, H48, H60"
+              },
+              {
+                "poidsMin": 15.0,
+                "poidsMax": 25.0,
+                "doses": "2 comprimé à H0, H8-12, H24, H36, H48, H60"
+              },
+              {
+                "poidsMin": 25.0,
+                "poidsMax": 35.0,
+                "doses": "3 comprimé à H0, H8-12, H24, H36, H48, H60"
+              },
+              {
+                "poidsMin": 35.0,
+                "doses": "4 comprimé à H0, H8-12, H24, H36, H48, H60"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "nom": "Arténimol-pipéraquine",
+    "galenique": "Comprimé à 320/40 mg",
+    "nomCommercial": "EURARTESIL",
+    "indications": [
+      {
+        "label": "Paludisme simple à falciparum",
+        "posologies": [
+          {
+            "voie": "PO",
+            "unite": "mg",
+            "tranches": [
+              {
+                "poidsMin": 7.0,
+                "poidsMax": 13.0,
+                "doses": "½ comprimé par jour"
+              },
+              {
+                "poidsMin": 13.0,
+                "poidsMax": 24.0,
+                "doses": "1 comprimé par jour"
+              },
+              {
+                "poidsMin": 24.0,
+                "poidsMax": 36.0,
+                "doses": "2 comprimés par jour"
+              },
+              {
+                "poidsMin": 36.0,
+                "doses": "3 comprimés par jour"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "nom": "Aspirine",
+    "galenique": "Solution buvable",
+    "nomCommercial": "ASPÉGIC",
+    "indications": [
+      {
+        "label": "Anti-inflammatoire",
+        "posologies": [
+          {
+            "voie": "PO",
+            "unite": "mg",
+            "doseKgMin": 50.0,
+            "doseKgMax": 100.0,
+            "preparation": "à repartir en 4 prises"
+          }
+        ]
+      },
+      {
+        "label": "Anti agrégant plaquettaire",
+        "posologies": [
+          {
+            "voie": "PO",
+            "unite": "mg",
+            "doseKgMin": 3.0,
+            "doseKgMax": 5.0,
+            "preparation": "en 1 prise"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "nom": "Atovaquone-Proguanil",
+    "galenique": "Comprimé",
+    "nomCommercial": "MALARONE",
+    "indications": [
+      {
+        "label": "Paludisme simple",
+        "posologies": [
+          {
+            "voie": "PO",
+            "unite": "mg",
+            "tranches": [
+              {
+                "poidsMin": 5.0,
+                "poidsMax": 8.0,
+                "doses": "2 comprimés ENFANT par jour"
+              },
+              {
+                "poidsMin": 8.0,
+                "poidsMax": 11.0,
+                "doses": "3 comprimés ENFANT par jour"
+              },
+              {
+                "poidsMin": 11.0,
+                "poidsMax": 20.0,
+                "doses": "1 comprimé ADULTE par jour"
+              },
+              {
+                "poidsMin": 20.0,
+                "poidsMax": 30.0,
+                "doses": "2 comprimé ADULTE par jour"
+              },
+              {
+                "poidsMin": 30.0,
+                "poidsMax": 40.0,
+                "doses": "3 comprimé ADULTE par jour"
+              },
+              {
+                "poidsMin": 40.0,
+                "doses": "4 comprimé ADULTE par jour"
+              }
+            ]
+          }
+        ]
+      }
+    ]
   },
   {
     "nom": "Atracurium",
@@ -752,21 +981,28 @@
     "aSavoir": "Teneur en sodium: 77 mg/g"
   },
   {
+    "nom": "Cefixime",
+    "galenique": "Sirop (40 mg/5ml, 100 mg/5ml) et Comprimés (200 mg)",
+    "nomCommercial": "OROKEN",
+    "indications": [
+      {
+        "label": "8 mg/kg/j en deux prises",
+        "posologies": [
+          {
+            "voie": "PO",
+            "unite": "mg",
+            "doseKg": 4.0,
+            "preparation": "deux fois par jour"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "nom": "Cefotaxime",
     "galenique": "Poudre injectable 500 mg et 1 g",
     "nomCommercial": "CLAFORAN",
     "indications": [
-      {
-        "label": "Infections bactériennes - Céphalosporine 3ème génération",
-        "posologies": [
-          {
-            "voie": "IV",
-            "unite": "mg",
-            "doseKg": 50,
-            "preparation": "Reconstitution: eau ppi 2 mL/500 mg, 4 mL/1g. Dilution NaCl 0,9% ou G5%, max 80 mg/mL - IV directe ou IV lente 20-60 min"
-          }
-        ]
-      },
       {
         "label": "Dose à visée méningée",
         "posologies": [
@@ -779,6 +1015,18 @@
                 "doseKg": 300.0
               }
             ],
+            "preparation": "Reconstitution: eau ppi 2 mL/500 mg, 4 mL/1g. Dilution NaCl 0,9% ou G5%, max 80 mg/mL - IV directe ou IV lente 20-60 min"
+          }
+        ]
+      },
+      {
+        "label": "Infections bactériennes - Céphalosporine 3ème génération",
+        "posologies": [
+          {
+            "voie": "IV",
+            "unite": "mg",
+            "doseKgMin": 100.0,
+            "doseKgMax": 150.0,
             "preparation": "Reconstitution: eau ppi 2 mL/500 mg, 4 mL/1g. Dilution NaCl 0,9% ou G5%, max 80 mg/mL - IV directe ou IV lente 20-60 min"
           }
         ]
@@ -825,13 +1073,13 @@
     "nomCommercial": "ROCEPHINE",
     "indications": [
       {
-        "label": "Infections bactériennes - Céphalosporine 3ème génération",
+        "label": "Purpura Fulminans",
         "posologies": [
           {
-            "voie": "IV/IM",
+            "voie": "IV",
             "unite": "mg",
-            "doseKg": 50,
-            "preparation": "Si IV: eau ppi 5 mL/500 mg, 10 mL/1g. Si IM: lidocaïne 1% 2 mL/500 mg, 3,5 mL/1g. Dilution NaCl 0,9% ou G5% - IV directe 2-4 min ou IV lente 30 min"
+            "doseKg": 50.0,
+            "doseMax": 2000.0
           }
         ]
       },
@@ -841,20 +1089,19 @@
           {
             "voie": "IV",
             "unite": "mg",
-            "doseKgMin": 70,
-            "doseKgMax": 100,
+            "doseKg": 100.0,
             "preparation": "Eau ppi 5 mL/500 mg, 10 mL/1g. Dilution NaCl 0,9% ou G5% - IV directe 2-4 min ou IV lente 30 min"
           }
         ]
       },
       {
-        "label": "Purpura Fulminans",
+        "label": "Infections bactériennes - Céphalosporine 3ème génération",
         "posologies": [
           {
-            "voie": "IV",
+            "voie": "IV/IM",
             "unite": "mg",
             "doseKg": 50.0,
-            "doseMax": 2000.0
+            "preparation": "Si IV: eau ppi 5 mL/500 mg, 10 mL/1g. Si IM: lidocaïne 1% 2 mL/500 mg, 3,5 mL/1g. Dilution NaCl 0,9% ou G5% - IV directe 2-4 min ou IV lente 30 min"
           }
         ]
       }
@@ -1078,6 +1325,25 @@
     "aSavoir": "ECG si IM"
   },
   {
+    "nom": "Céfamandole",
+    "galenique": "Solution injectable 750 mg",
+    "nomCommercial": "KEFANDOL",
+    "indications": [
+      {
+        "label": "Infection Ostéo-articulaire",
+        "posologies": [
+          {
+            "voie": "IV",
+            "unite": "mg",
+            "doseKgMin": 100.0,
+            "doseKgMax": 150.0,
+            "preparation": "à répartir en 3 à 4 prises"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "nom": "Céfazoline",
     "galenique": "Poudre injectable 1 g et 2 g",
     "nomCommercial": "CEFAZOLINE",
@@ -1095,6 +1361,36 @@
       }
     ],
     "aSavoir": "150 mg/kg/j en 4 injections [cite: 18]"
+  },
+  {
+    "nom": "Céfuroxime-Axétil",
+    "galenique": "Suspension buvable et Comprimés",
+    "nomCommercial": "ZINNAT",
+    "indications": [
+      {
+        "label": "Infection ORL",
+        "posologies": [
+          {
+            "voie": "PO",
+            "unite": "mg",
+            "doseKg": 15.0,
+            "preparation": "matin et soir"
+          }
+        ]
+      },
+      {
+        "label": "Infection Ostéo-articulaire",
+        "posologies": [
+          {
+            "voie": "PO",
+            "unite": "mg",
+            "doseKgMin": 15.0,
+            "doseKgMax": 20.0,
+            "preparation": "matin et soir"
+          }
+        ]
+      }
+    ]
   },
   {
     "nom": "Céfépime",
@@ -1239,6 +1535,25 @@
       }
     ],
     "aSavoir": "Inotrope positif. Débit 0,12-1,2 mL/kg/h correspond à 2-20 µg/kg/min [cite: 21]"
+  },
+  {
+    "nom": "Doxycycline",
+    "galenique": "Comprimés",
+    "nomCommercial": "TOLEXINE",
+    "indications": [
+      {
+        "label": "Maladie de Lyme",
+        "posologies": [
+          {
+            "voie": "PO",
+            "unite": "mg",
+            "doseKg": 2.0,
+            "doseMax": 100.0,
+            "preparation": "le matin et le soir"
+          }
+        ]
+      }
+    ]
   },
   {
     "nom": "Epoprosténol",
@@ -1886,6 +2201,17 @@
         ]
       },
       {
+        "label": "Guillain-Barré",
+        "posologies": [
+          {
+            "voie": "IV",
+            "unite": "mg",
+            "doseKg": 400,
+            "preparation": "5 jours - Prêt à l'emploi - Débuter lentement puis augmenter selon tolérance"
+          }
+        ]
+      },
+      {
         "label": "PTI",
         "posologies": [
           {
@@ -1894,17 +2220,6 @@
             "doseKgMin": 800,
             "doseKgMax": 1000,
             "preparation": "1-2 jours - Prêt à l'emploi - Débuter lentement puis augmenter selon tolérance"
-          }
-        ]
-      },
-      {
-        "label": "Guillain-Barré",
-        "posologies": [
-          {
-            "voie": "IV",
-            "unite": "mg",
-            "doseKg": 400,
-            "preparation": "5 jours - Prêt à l'emploi - Débuter lentement puis augmenter selon tolérance"
           }
         ]
       }
@@ -3027,6 +3342,25 @@
                 "doses": "9 à 12 L/min"
               }
             ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "nom": "Quinine IV",
+    "galenique": "Solution injectable",
+    "nomCommercial": "QUINIMAX",
+    "indications": [
+      {
+        "label": "Paludisme grave",
+        "posologies": [
+          {
+            "voie": "IV lente",
+            "unite": "mg/kg/h",
+            "doseKg": 2.0,
+            "doseMax": 125.0,
+            "preparation": "en trois prise de 8 mg/kg sur 4h toutes les 8h"
           }
         ]
       }
