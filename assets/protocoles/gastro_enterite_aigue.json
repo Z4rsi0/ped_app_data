@@ -3,71 +3,101 @@
   "description": "Prise en charge de la déshydratation et indications des antibiotiques.",
   "auteur": "Dr I. Kahn, Dr F. Raimond",
   "version": "2024.2",
-  "dateModification": "2024-02-19T00:00:00.000Z",
+  "dateModification": "2026-01-04T18:14:58.150889",
   "blocs": [
     {
       "type": "section",
-      "ordre": 1,
       "titre": "1. Réhydratation",
       "initialementOuvert": true,
       "contenu": [
         {
           "type": "texte",
+          "contenu": "**1ère intention :** SRO (Soluté de Réhydratation Orale) à volonté.\nSi échec (refus/vomissements) : SNG (même efficacité que IV) ou IV.",
           "ordre": 0,
-          "contenu": "**1ère intention :** SRO (Soluté de Réhydratation Orale) à volonté.\nSi échec (refus/vomissements) : SNG (même efficacité que IV) ou IV."
+          "id": "e7156779-a11f-4b29-8520-fbfc625990b4"
         },
         {
           "type": "medicament",
-          "ordre": 1,
           "nomMedicament": "Bionolyte G5%",
           "indication": "Réhydratation IV (Echec SRO)",
           "voie": "IV",
-          "commentaire": "20 ml/kg (Bionolyte) en 1h puis débit de base."
+          "commentaire": "20 ml/kg (Bionolyte) en 1h puis débit de base.",
+          "ordre": 1,
+          "id": "b09deba1-63f7-4942-80b6-6259eb0f9c66"
         },
         {
           "type": "medicament",
-          "ordre": 2,
           "nomMedicament": "Ondansétron",
-          "indication": "Vomissements incoercibles",
+          "indication": "Nausées/vomissements postopératoires",
           "voie": "PO/IV",
-          "commentaire": "Zophren. <15kg: 2mg | 15-25kg: 4mg | >25kg: 6mg."
+          "commentaire": "Zophren. <15kg: 2mg | 15-25kg: 4mg | >25kg: 6mg.",
+          "ordre": 2,
+          "id": "6597e747-cf91-4630-92ea-d74d49a1549a"
         }
-      ]
+      ],
+      "ordre": 1,
+      "id": "0dc9c4e1-bf97-4b87-acc0-68d8a83c00d5"
     },
     {
       "type": "section",
-      "ordre": 2,
       "titre": "2. Antibiotiques (Selon Copro/PCR)",
+      "initialementOuvert": false,
       "contenu": [
         {
           "type": "tableau",
-          "ordre": 0,
           "titre": "Indications Antibiothérapie",
-          "colonnes": ["Germe", "Traitement", "Indication"],
+          "colonnes": [
+            "Germe",
+            "Traitement",
+            "Indication"
+          ],
           "lignes": [
-            ["Shigella / Campylobacter", "Azithromycine", "Systématique ou si sévère"],
-            ["Salmonella", "Ceftriaxone", "Si < 6 mois, drépano ou sepsis"],
-            ["Clostridium difficile", "Métronidazole", "Si forme sévère"],
-            ["E. Coli (STEC)", "CONTRE-INDIQUÉ", "Risque SHU"]
-          ]
+            [
+              "Shigella / Campylobacter",
+              "Azithromycine",
+              "Systématique ou si sévère"
+            ],
+            [
+              "Salmonella",
+              "Ceftriaxone",
+              "Si < 6 mois, drépano ou sepsis"
+            ],
+            [
+              "Clostridium difficile",
+              "Métronidazole",
+              "Si forme sévère"
+            ],
+            [
+              "E. Coli (STEC)",
+              "CONTRE-INDIQUÉ",
+              "Risque SHU"
+            ]
+          ],
+          "avecEntete": true,
+          "ordre": 0,
+          "id": "b79260db-157d-448e-ab6c-988e56c2cf48"
         },
         {
           "type": "medicament",
-          "ordre": 1,
           "nomMedicament": "Azithromycine",
           "indication": "Shigella / Campylobacter",
           "voie": "PO",
-          "commentaire": "20 mg/kg/j (max 500mg) pendant 3 jours."
+          "commentaire": "20 mg/kg/j (max 500mg) pendant 3 jours.",
+          "ordre": 1,
+          "id": "009b8dd2-cb1d-4360-a6ec-7f6b4c84f10f"
         },
         {
           "type": "medicament",
-          "ordre": 2,
           "nomMedicament": "Métronidazole",
           "indication": "Giardia / C. Difficile",
           "voie": "PO",
-          "commentaire": "30 mg/kg/j en 2 prises."
+          "commentaire": "30 mg/kg/j en 2 prises.",
+          "ordre": 2,
+          "id": "6808cd82-8660-4368-92ce-6cd500d74f97"
         }
-      ]
+      ],
+      "ordre": 2,
+      "id": "feaa88b4-aa9b-48d6-a3aa-737990e484f5"
     }
   ]
 }
