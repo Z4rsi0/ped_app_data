@@ -1,0 +1,41 @@
+{
+  "titre": "Pancréatite Aiguë",
+  "description": "Diagnostic (Lipase), Scores de gravité et prise en charge.",
+  "auteur": "Dr F. Raimond",
+  "version": "2023.1",
+  "dateModification": "2023-01-03T00:00:00.000Z",
+  "blocs": [
+    {
+      "type": "section",
+      "ordre": 1,
+      "titre": "Diagnostic",
+      "contenu": [
+        {
+          "type": "texte",
+          "ordre": 0,
+          "contenu": "**Clinique :** Douleur épigastrique transfixiante + Vomissements.\n**Biologie :** Lipase ≥ 3N.\n**Imagerie :** Echo abdo (1ère intention). TDM si doute ou gravité à 48h."
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "ordre": 2,
+      "titre": "Traitement",
+      "contenu": [
+        {
+          "type": "medicament",
+          "ordre": 0,
+          "nomMedicament": "Morphine",
+          "indication": "Douleur sévère",
+          "voie": "IV",
+          "commentaire": "Titration (cf protocole douleur). AINS possibles."
+        },
+        {
+          "type": "texte",
+          "ordre": 1,
+          "contenu": "**Nutrition :** Mise à jeun initiale. Réalimentation précoce pauvre en graisse dès diminution douleur. Si sévère : Nutrition Entérale (SNG) privilégiée."
+        }
+      ]
+    }
+  ]
+}
