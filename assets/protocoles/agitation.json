@@ -1,0 +1,111 @@
+{
+  "titre": "Agitation & Crise Suicidaire",
+  "description": "Prise en charge de l'agitation psychomotrice et de l'adolescent suicidaire.",
+  "auteur": "Dr J. Jaschinski, Dr P. Wolf",
+  "version": "2024.1",
+  "dateModification": "2024-02-02T00:00:00.000Z",
+  "blocs": [
+    {
+      "type": "alerte",
+      "ordre": 0,
+      "contenu": "La sédation et la contention sont OBLIGATOIREMENT des prises en charge SÉNIORISÉES.",
+      "niveau": "critique"
+    },
+    {
+      "type": "section",
+      "ordre": 1,
+      "titre": "1. Approche non médicamenteuse",
+      "initialementOuvert": true,
+      "contenu": [
+        {
+          "type": "texte",
+          "ordre": 0,
+          "contenu": "Réassurance, ton calme, retrait des objets dangereux. Installation au calme."
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "ordre": 2,
+      "titre": "2. Sédation Orale (1ère intention)",
+      "contenu": [
+        {
+          "type": "texte",
+          "ordre": 0,
+          "contenu": "Privilégier la molécule déjà connue par le patient (demi-dose ou dose complète supp)."
+        },
+        {
+          "type": "medicament",
+          "ordre": 1,
+          "nomMedicament": "Hydroxyzine",
+          "indication": "Agitation < 5 ans",
+          "voie": "PO",
+          "commentaire": "Atarax sirop. 1 mg/kg (max 25mg). Renouvelable 1 fois."
+        },
+        {
+          "type": "medicament",
+          "ordre": 2,
+          "nomMedicament": "Diazépam",
+          "indication": "Agitation < 5 ans (sirop)",
+          "voie": "PO",
+          "commentaire": "Valium 1%. 0.5 mg/kg (soit 1.5 goutte/kg). Renouvelable 2 fois."
+        },
+        {
+          "type": "medicament",
+          "ordre": 3,
+          "nomMedicament": "Cyamémazine",
+          "indication": "Agitation > 5 ans",
+          "voie": "PO",
+          "commentaire": "Tercian gouttes (1gtte=1mg). 0.5 à 1 mg/kg (max 30 gttes). Renouvelable 2 fois (intervalle 20 min)."
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "ordre": 3,
+      "titre": "3. Sédation Injectable (2ème intention)",
+      "contenu": [
+        {
+          "type": "alerte",
+          "ordre": 0,
+          "contenu": "Uniquement en cas de refus du traitement oral. Jamais en 1ère intention. ECG systématique (QT long).",
+          "niveau": "attention"
+        },
+        {
+          "type": "medicament",
+          "ordre": 1,
+          "nomMedicament": "Loxapine",
+          "indication": "Agitation sévère (IM)",
+          "voie": "IM",
+          "commentaire": "Loxapac 50mg/2mL. Si < 50kg: 1/2 ampoule. Si > 50kg: 1 ampoule."
+        },
+        {
+          "type": "medicament",
+          "ordre": 2,
+          "nomMedicament": "Diazépam",
+          "indication": "Agitation sévère (Alternative)",
+          "voie": "IM",
+          "commentaire": "Valium 10mg/2mL. 1 ampoule IM."
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "ordre": 4,
+      "titre": "4. Surveillance & Contention",
+      "contenu": [
+        {
+          "type": "texte",
+          "ordre": 0,
+          "contenu": "Contention physique: EXCEPTIONNELLE, sur prescription médicale, renouvelable /12h. Constantes /heure."
+        },
+        {
+          "type": "alerte",
+          "ordre": 1,
+          "contenu": "Risque Syndrome Malin des Neuroleptiques (Fièvre, Rhabdomyolyse) -> Réa. Risque Dystonie -> Lepticur.",
+          "niveau": "danger"
+        }
+      ]
+    }
+  ]
+}
