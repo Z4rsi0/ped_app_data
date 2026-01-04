@@ -1,0 +1,48 @@
+{
+  "titre": "Corps Etranger Digestif (Pile/Aimant)",
+  "description": "Algorithme décisionnel : Pile bouton, Aimants, Objets tranchants.",
+  "auteur": "Dr I. Kahn",
+  "version": "2025.1",
+  "dateModification": "2025-10-13T00:00:00.000Z",
+  "blocs": [
+    {
+      "type": "alerte",
+      "ordre": 0,
+      "contenu": "URGENCE ABSOLUE : Pile Bouton dans l'œsophage (< 2h) ou Aimants multiples.",
+      "niveau": "critique"
+    },
+    {
+      "type": "section",
+      "ordre": 1,
+      "titre": "Pile Bouton",
+      "initialementOuvert": true,
+      "contenu": [
+        {
+          "type": "texte",
+          "ordre": 0,
+          "contenu": "**Si Œsophage :** Endoscopie IMMÉDIATE.\n**Protocole Miel :** Si ingestion < 12h et enfant > 1 an : 2 cuillères à café / 10 min en attendant l'endoscopie.\n**Si Estomac :** Laisser descendre (sauf si symptômes ou > 15mm chez < 5 ans)."
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "ordre": 2,
+      "titre": "Autres Objets",
+      "contenu": [
+        {
+          "type": "texte",
+          "ordre": 0,
+          "contenu": "**Aimants (x2 ou + métal) :** Endoscopie URGENTE (Risque perforation).\n**Objet coincé œsophage :** Endoscopie.\n**Objet mousse estomac :** Abstention (Radio J14)."
+        },
+        {
+          "type": "medicament",
+          "ordre": 1,
+          "nomMedicament": "Salbutamol",
+          "indication": "Aide passage œsophagien",
+          "voie": "PO",
+          "commentaire": "100 µg/kg (solution 1mL) à boire. Pour CE non dangereux coincé bas œsophage."
+        }
+      ]
+    }
+  ]
+}
