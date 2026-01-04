@@ -1,0 +1,83 @@
+{
+  "titre": "Neutropénie Fébrile (Globale)",
+  "description": "Prise en charge des neutropénies (< 500/mm3) post-chimiothérapie et hors chimio.",
+  "auteur": "RIFHOP, Dr P. Trioche",
+  "version": "2024.4",
+  "dateModification": "2024-02-01T00:00:00.000Z",
+  "blocs": [
+    {
+      "type": "alerte",
+      "ordre": 0,
+      "contenu": "Post-Chimio = URGENCE. Antibiothérapie < 1h (4h max). Ne pas attendre les résultats si mauvais état.",
+      "niveau": "critique"
+    },
+    {
+      "type": "section",
+      "ordre": 1,
+      "titre": "A. Contexte Post-Chimiothérapie (Onco)",
+      "initialementOuvert": true,
+      "contenu": [
+        {
+          "type": "medicament",
+          "ordre": 0,
+          "nomMedicament": "Céfépime",
+          "indication": "1ère intention (si stable)",
+          "voie": "IV",
+          "commentaire": "150 mg/kg/j en 3 injections d'1h."
+        },
+        {
+          "type": "medicament",
+          "ordre": 1,
+          "nomMedicament": "Pipéracilline-tazobactam",
+          "indication": "Si point d'appel digestif/périnéal",
+          "voie": "IV",
+          "commentaire": "300-400 mg/kg/j (de Pipéracilline) en 4 injections."
+        },
+        {
+          "type": "medicament",
+          "ordre": 2,
+          "nomMedicament": "Amikacine",
+          "indication": "Si Choc/Sepsis sévère",
+          "voie": "IVL",
+          "commentaire": "20 mg/kg/j en 1 injection de 30 min. Associer à B-Lactamine."
+        },
+        {
+          "type": "medicament",
+          "ordre": 3,
+          "nomMedicament": "Vancomycine",
+          "indication": "Si suspicion KT/Cutané/SARM",
+          "voie": "IV",
+          "commentaire": "60 mg/kg/j en 4 injections ou continu. (Alt: Teicoplanine)."
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "ordre": 2,
+      "titre": "B. Hors Chimiothérapie (Virale/Auto-immune/Congénitale)",
+      "contenu": [
+        {
+          "type": "texte",
+          "ordre": 0,
+          "contenu": "**Critères Hospitalisation :** Mauvaise tolérance, mucite, infection focale, ou Neutropénie Congénitale.\n**Retour Domicile Possible si :** CRP/PCT basses, bon état général, famille fiable. Surveillance ambulatoire."
+        },
+        {
+          "type": "medicament",
+          "ordre": 1,
+          "nomMedicament": "Amoxicilline",
+          "indication": "Relai Oral / Ambulatoire",
+          "voie": "PO",
+          "commentaire": "100 mg/kg/j (Ne jamais donner seul, associer Cipro)."
+        },
+        {
+          "type": "medicament",
+          "ordre": 2,
+          "nomMedicament": "Ciprofloxacine",
+          "indication": "Relai Oral / Ambulatoire",
+          "voie": "PO",
+          "commentaire": "30 à 40 mg/kg/j (Max 1.5g/j). Couverture Pseudomonas."
+        }
+      ]
+    }
+  ]
+}
