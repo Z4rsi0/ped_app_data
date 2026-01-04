@@ -3,85 +3,98 @@
   "description": "Prise en charge des tachycardies et bradycardies de l'enfant.",
   "auteur": "Dr I. Kahn",
   "version": "2024.1",
-  "dateModification": "2024-06-01T00:00:00.000Z",
+  "dateModification": "2026-01-04T18:19:33.493826",
   "blocs": [
     {
       "type": "alerte",
-      "ordre": 0,
       "contenu": "Bradycardie mal tolérée = Risque ACR. Si FC < 60/min avec signes de choc -> RCP.",
-      "niveau": "critique"
+      "niveau": "critique",
+      "ordre": 0,
+      "id": "f27a405d-af1b-493d-ba23-1050bbb4782d"
     },
     {
       "type": "section",
-      "ordre": 1,
       "titre": "Bradycardie",
+      "initialementOuvert": false,
       "contenu": [
         {
           "type": "medicament",
-          "ordre": 0,
-          "nomMedicament": "Atropine",
-          "indication": "Hyperréactivité vagale / BAV",
+          "nomMedicament": "Atropine sulfate",
+          "indication": "Bradycardie ou prémédication",
           "voie": "IVD",
-          "commentaire": "0.02 mg/kg (Min 0.1 mg - Max 0.5 mg)."
+          "commentaire": "0.02 mg/kg (Min 0.1 mg - Max 0.5 mg).",
+          "ordre": 0,
+          "id": "97464a67-0dc8-4c75-af14-b7a767fc7188"
         },
         {
           "type": "medicament",
-          "ordre": 1,
           "nomMedicament": "Isoprénaline",
-          "indication": "BAV complet",
+          "indication": "Bradycardie réfractaire",
           "voie": "IVSE",
-          "commentaire": "Isuprel. 0.1 à 1 µg/kg/min."
+          "commentaire": "Isuprel. 0.1 à 1 µg/kg/min.",
+          "ordre": 1,
+          "id": "bec012e9-130c-4710-8417-cbd74cfd1e01"
         }
-      ]
+      ],
+      "ordre": 1,
+      "id": "0d6baba8-c4ea-4ed5-95c6-a6e7bfdb9dd2"
     },
     {
       "type": "section",
-      "ordre": 2,
       "titre": "Tachycardie Supra-Ventriculaire (QRS Fins)",
       "initialementOuvert": true,
       "contenu": [
         {
           "type": "texte",
+          "contenu": "Manœuvres vagales en 1ère intention (Vessie de glace ou Valsalva).",
           "ordre": 0,
-          "contenu": "Manœuvres vagales en 1ère intention (Vessie de glace ou Valsalva)."
+          "id": "6b09a7ed-8fb6-4b55-b34e-24c2f458c5cb"
         },
         {
           "type": "medicament",
+          "nomMedicament": "Adénosine",
+          "indication": "Tachycardie supraventriculaire",
+          "voie": "IVD",
+          "commentaire": "0.1 à 0.2 mg/kg (Max 6 mg). Robinet proximal + Rinçage éclair.",
           "ordre": 1,
-          "nomMedicament": "Adénosine",
-          "indication": "TSV (1ère dose)",
-          "voie": "IVD",
-          "commentaire": "0.1 à 0.2 mg/kg (Max 6 mg). Robinet proximal + Rinçage éclair."
+          "id": "a80586b0-de75-40fb-8b39-834182c94d51"
         },
         {
           "type": "medicament",
-          "ordre": 2,
           "nomMedicament": "Adénosine",
-          "indication": "TSV (2ème dose)",
+          "indication": "Tachycardie supraventriculaire",
           "voie": "IVD",
-          "commentaire": "0.3 mg/kg (Max 18 mg)."
+          "commentaire": "0.3 mg/kg (Max 18 mg).",
+          "ordre": 2,
+          "id": "7a870af2-9358-4aaa-a12c-90ef3d5cf4ad"
         },
         {
           "type": "texte",
+          "contenu": "Si échec ou mauvaise tolérance (choc) : Cardioversion (CEE) 1 J/kg.",
           "ordre": 3,
-          "contenu": "Si échec ou mauvaise tolérance (choc) : Cardioversion (CEE) 1 J/kg."
+          "id": "cf64619d-3bb4-4ec3-a940-7447ebed1922"
         }
-      ]
+      ],
+      "ordre": 2,
+      "id": "994bd81b-dd96-4f3f-8760-7817980ba2ff"
     },
     {
       "type": "section",
-      "ordre": 3,
       "titre": "Torsade de Pointes",
+      "initialementOuvert": false,
       "contenu": [
         {
           "type": "medicament",
-          "ordre": 0,
-          "nomMedicament": "Sulfate de Magnésium",
-          "indication": "Torsade de pointes",
+          "nomMedicament": "Magnésium sulfate",
+          "indication": "Torsades de pointes",
           "voie": "IVL",
-          "commentaire": "50 mg/kg en 15 min (Max 2g)."
+          "commentaire": "50 mg/kg en 15 min (Max 2g).",
+          "ordre": 0,
+          "id": "091da4a1-1cbb-4680-8d7e-049dedc2c5f2"
         }
-      ]
+      ],
+      "ordre": 3,
+      "id": "2db80e94-0d7f-4812-95c0-98d7cc766958"
     }
   ]
 }
