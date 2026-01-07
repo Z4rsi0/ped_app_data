@@ -2,7 +2,7 @@
   "titre": "Infections Cutanées",
   "description": "Impétigo et Dermohypodermite bactérienne.",
   "auteur": "GPIP 2023",
-  "version": "2023.1",
+  "version": "2023.2",
   "dateModification": "2023-01-01T00:00:00.000Z",
   "blocs": [
     {
@@ -13,13 +13,13 @@
         {
           "type": "texte",
           "ordre": 0,
-          "contenu": "**Peu étendu :** Soins locaux + Mupirocine pommade.\n**Étendu / Echec :** Antibiothérapie orale."
+          "contenu": "**Forme localisée (< 2% surface, < 5 lésions) :** Soins locaux (Lavage + Mupirocine pommade 2x/j 5 jours). Pas d'ATB oral. Éviction scolaire 72h.\n**Forme étendue / Echec local :** Antibiothérapie orale (Augmentin ou Josamycine)."
         },
         {
           "type": "medicament",
           "ordre": 1,
-          "nomMedicament": "Amoxicilline-Acide Clavulanique",
-          "indication": "Impétigo étendu",
+          "nomMedicament": "Amoxicilline + acide clavulanique",
+          "indication": "Dose Standard",
           "voie": "PO",
           "commentaire": "80 mg/kg/j en 3 prises. 7 jours."
         },
@@ -29,7 +29,7 @@
           "nomMedicament": "Josamycine",
           "indication": "Si allergie Péni",
           "voie": "PO",
-          "commentaire": "50 mg/kg/j en 2 prises."
+          "commentaire": "50 mg/kg/j en 2 prises. 7 jours."
         }
       ]
     },
@@ -39,12 +39,17 @@
       "titre": "Dermohypodermite (DHB)",
       "contenu": [
         {
-          "type": "medicament",
+          "type": "texte",
           "ordre": 0,
-          "nomMedicament": "Amoxicilline-Acide Clavulanique",
-          "indication": "1ère intention",
+          "contenu": "**Diagnostic :** Placard inflammatoire, douloureux, fébrile, unilatéral. Délimiter au feutre.\n**Traitement :** Augmentin. Hospitalisation si signe de gravité ou extension rapide."
+        },
+        {
+          "type": "medicament",
+          "ordre": 1,
+          "nomMedicament": "Amoxicilline + acide clavulanique",
+          "indication": "Dose Standard",
           "voie": "PO/IV",
-          "commentaire": "80 mg/kg/j (max 100 en IV) en 3 prises. 7 à 10 jours."
+          "commentaire": "80 mg/kg/j (max 100 en IV). 7 à 10 jours."
         }
       ]
     }
