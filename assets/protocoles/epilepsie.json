@@ -3,7 +3,7 @@
   "description": "Prise en charge de l'état de mal épileptique chez l'enfant (Algorithme temporel).",
   "auteur": "GPIP / SFP",
   "version": "2024.1",
-  "dateModification": "2026-01-07T12:25:20.696290",
+  "dateModification": "2026-01-07T12:33:22.582845",
   "blocs": [
     {
       "type": "alerte",
@@ -31,13 +31,14 @@
           "id": "da78b4e5-269c-46a5-af8c-0278868a9a7b"
         }
       ],
-      "ordre": 0,
+      "ordre": 1,
       "id": "deb99bf2-31e4-4a73-affa-d225db527628"
     },
     {
       "type": "section",
-      "titre": "T0 à T5 : 1ère Ligne",
-      "initialementOuvert": true,
+      "titre": "T5 : 1ère Ligne",
+      "temps": "5 min",
+      "initialementOuvert": false,
       "contenu": [
         {
           "type": "alerte",
@@ -64,12 +65,13 @@
           "id": "00cd07ad-8399-4569-aa7d-5bf60ac03e07"
         }
       ],
-      "ordre": 0,
+      "ordre": 2,
       "id": "122d4c7d-ee01-4192-8009-128bc91971ba"
     },
     {
       "type": "section",
-      "titre": "T5 : Benzodiazépine (1ère dose IV)",
+      "titre": "T10 : 2e Benzodiazépine",
+      "temps": "10 min",
       "initialementOuvert": false,
       "contenu": [
         {
@@ -81,8 +83,8 @@
         },
         {
           "type": "medicament",
-          "nomMedicament": "Midazolam",
-          "indication": "EME réfractaire",
+          "nomMedicament": "Clonazépam",
+          "indication": "Convulsions",
           "voie": "IV",
           "commentaire": "0.15 mg/kg IV lent. Si échec à 5 min -> 2ème dose.",
           "ordre": 0,
@@ -90,42 +92,19 @@
         },
         {
           "type": "texte",
-          "contenu": "Alternative : Clonazépam (Rivotril) 0.05 mg/kg IV lent.",
+          "contenu": "Pas de deuxième dose de midazolam",
+          "format": {},
           "ordre": 0,
           "id": "1797e8ac-e95b-4b80-8d56-fadfd85a8ce6"
         }
       ],
-      "ordre": 0,
+      "ordre": 3,
       "id": "3bf0a80b-ca2c-40c7-9866-ff3f44367807"
     },
     {
       "type": "section",
-      "titre": "T10 : Benzodiazépine (2ème dose IV)",
-      "initialementOuvert": false,
-      "contenu": [
-        {
-          "type": "alerte",
-          "contenu": "Risque majeur de dépression respiratoire. Préparer l'intubation.",
-          "niveau": "danger",
-          "ordre": 0,
-          "id": "359e60cd-cd13-4458-8bc7-b90056fa79d7"
-        },
-        {
-          "type": "medicament",
-          "nomMedicament": "Midazolam",
-          "indication": "EME réfractaire",
-          "voie": "IV",
-          "commentaire": "Répéter la même dose : 0.15 mg/kg IV lent.",
-          "ordre": 0,
-          "id": "727fe45f-eaa1-430d-a9b0-dcfba340b661"
-        }
-      ],
-      "ordre": 0,
-      "id": "e2190edd-e149-421b-b4c1-0e31845a12f1"
-    },
-    {
-      "type": "section",
-      "titre": "T15-T20 : 2ème Ligne (Antiépileptique)",
+      "titre": "T15: 2ème Ligne (Antiépileptique)",
+      "temps": "15 min",
       "initialementOuvert": false,
       "contenu": [
         {
@@ -146,7 +125,7 @@
           "nomMedicament": "Phénytoïne",
           "indication": "État de mal épileptique",
           "voie": "IV",
-          "commentaire": "20 mg/kg en 20 min (Perfusion lente sous scope).",
+          "commentaire": "20 mg/kg en 20 min (Perfusion lente sous scope).\navant 5 ans et 17,5 kg",
           "ordre": 2,
           "id": "1fb60ab6-437d-41ce-82d2-01c6ab25e72d"
         },
@@ -155,6 +134,7 @@
           "nomMedicament": "Fosphénytoïne",
           "indication": "État de mal épileptique (≥ 5 ans, ≥ 20 kg)",
           "voie": "IV",
+          "commentaire": "au dessus de 5 ans",
           "ordre": 3,
           "id": "1bd40414-e785-4230-ab5e-45bc7f6fb9ea"
         },
@@ -169,20 +149,38 @@
         },
         {
           "type": "medicament",
-          "nomMedicament": "Valproate de sodium",
-          "indication": "2eme ligne épilepsie",
+          "nomMedicament": "Phénobarbital",
+          "indication": "Convulsions (≥ 2 ans)",
           "voie": "IV",
           "commentaire": "Dépakine. 40 mg/kg en 5 min (Max 3000 mg).",
           "ordre": 5,
           "id": "95b34a7e-dec6-4c4d-88b6-9882ffd4f968"
         }
       ],
-      "ordre": 0,
+      "ordre": 4,
       "id": "060c7ea4-77e1-456e-a394-9eee2fc782b7"
     },
     {
       "type": "section",
-      "titre": "> T20 : État de Mal Réfractaire",
+      "titre": "T 35-40 : 2e de 2e ligne",
+      "temps": "35 min",
+      "initialementOuvert": false,
+      "contenu": [
+        {
+          "type": "texte",
+          "contenu": "Utiliser un autre anti épileptique de 2e ligne, Levetiracetam ou phénytoine/fosphénytoine",
+          "format": {},
+          "ordre": 0,
+          "id": "9a6addca-76ab-478f-aed2-162714f5aae1"
+        }
+      ],
+      "ordre": 5,
+      "id": "5f010065-5c03-4719-b5d8-a1487b90c4e5"
+    },
+    {
+      "type": "section",
+      "titre": "T 60 : État de Mal Réfractaire",
+      "temps": "60 min",
       "initialementOuvert": false,
       "contenu": [
         {
@@ -199,7 +197,7 @@
           "id": "3db35e91-df25-4391-8230-3a63c408b941"
         }
       ],
-      "ordre": 0,
+      "ordre": 6,
       "id": "08b06edc-7668-4628-b6ea-cf390a6f4c37"
     },
     {
@@ -214,7 +212,7 @@
           "id": "721969ec-d6e2-416b-9e43-5c297911e875"
         }
       ],
-      "ordre": 0,
+      "ordre": 7,
       "id": "b6a652b9-9195-4f9b-8029-e92845bd9799"
     }
   ]
