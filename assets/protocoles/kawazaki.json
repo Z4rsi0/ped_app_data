@@ -1,43 +1,72 @@
 {
   "titre": "Maladie de Kawasaki",
-  "description": "Diagnostic et traitement (IgIV + Aspirine) pour prévenir les anévrismes coronaires.",
+  "description": "Diagnostic (Critères CRASH), Bilan pré-thérapeutique et Traitement (IgIV + Aspirine).",
   "auteur": "Dr F. Raimond",
-  "version": "2023.1",
+  "version": "2023.2",
   "dateModification": "2023-05-30T00:00:00.000Z",
   "blocs": [
     {
-      "type": "alerte",
-      "ordre": 0,
-      "contenu": "Traitement précoce (< 10 jours) impératif pour protection cardiaque.",
-      "niveau": "critique"
-    },
-    {
       "type": "section",
       "ordre": 1,
-      "titre": "Traitement de Phase Aiguë",
+      "titre": "Diagnostic (Critères Cliniques)",
       "initialementOuvert": true,
       "contenu": [
         {
-          "type": "medicament",
+          "type": "texte",
           "ordre": 0,
-          "nomMedicament": "Immunoglobulines IV",
-          "indication": "Dose unique",
-          "voie": "IV",
-          "commentaire": "2 g/kg sur 10-12h. (Tegeline/Privigen)."
+          "contenu": "**Critère obligatoire :** Fièvre élevée ≥ 5 jours.\n**+ 4 critères parmi (CRASH) :**\n1. **C**onjonctivite bilatérale non purulente.\n2. **R**ash (Éruption cutanée polymorphe).\n3. **A**dénopathie cervicale (> 1.5cm, souvent unilatérale).\n4. **S**tomatite (Lèvres fissurées, langue framboisée, érythème pharyngé).\n5. **H**ands & Feet (Érythème/Œdème paumes/plantes, desquamation tardive)."
+        },
+        {
+          "type": "alerte",
+          "ordre": 1,
+          "contenu": "Forme incomplète possible (Nourrisson). Si fièvre > 5j inexpliquée + inflammation bio -> Avis Spécialisé + Echo Cœur.",
+          "niveau": "attention"
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "ordre": 2,
+      "titre": "Bilan & Stratification",
+      "contenu": [
+        {
+          "type": "texte",
+          "ordre": 0,
+          "contenu": "**Bilan systématique :** NFS, CRP, VS, Iono, Albuminémie, Transaminases, ECBU (leucocyturie aseptique).\n**Imagerie :** Échographie cardiaque (Anévrismes coronaires).\n**Score de Kobayashi (Risque de résistance) :** Sodium < 133, ASAT > 100, Neutrophiles > 80%, CRP > 100, Age < 12 mois, Plaquettes < 300G."
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "ordre": 3,
+      "titre": "Traitement Phase Aiguë (J1-J10)",
+      "contenu": [
+        {
+          "type": "texte",
+          "ordre": 0,
+          "contenu": "**Traitement de référence :** Immunoglobulines IV (2 g/kg en dose unique) + Aspirine dose anti-inflammatoire (50-100 mg/kg/j en 4 prises).\n**Si Haut Risque (Kobayashi ≥ 4) :** Ajouter Corticoïdes."
         },
         {
           "type": "medicament",
           "ordre": 1,
-          "nomMedicament": "Aspirine",
-          "indication": "Anti-inflammatoire",
-          "voie": "PO",
-          "commentaire": "50 à 100 mg/kg/j en 4 prises. Jusqu'à apyrexie."
+          "nomMedicament": "Immunoglobulines polyvalentes",
+          "indication": "Dose unique",
+          "voie": "IV",
+          "commentaire": "2 g/kg sur 10-12h. Surveillance tolérance."
         },
         {
           "type": "medicament",
           "ordre": 2,
+          "nomMedicament": "Aspirine",
+          "indication": "Anti-inflammatoire",
+          "voie": "PO",
+          "commentaire": "80 à 100 mg/kg/j en 4 prises. Jusqu'à 48h d'apyrexie."
+        },
+        {
+          "type": "medicament",
+          "ordre": 3,
           "nomMedicament": "Méthylprednisolone",
-          "indication": "Si Haut Risque (Score Kobayashi)",
+          "indication": "Si Haut Risque (Adjunctif)",
           "voie": "IV",
           "commentaire": "0.8 mg/kg/12h ou Bolus 30 mg/kg."
         }
@@ -45,16 +74,21 @@
     },
     {
       "type": "section",
-      "ordre": 2,
-      "titre": "Traitement d'Entretien",
+      "ordre": 4,
+      "titre": "Phase d'Entretien (Convalescence)",
       "contenu": [
         {
-          "type": "medicament",
+          "type": "texte",
           "ordre": 0,
+          "contenu": "**Relai Aspirine :** Passage à dose anti-agrégante (3-5 mg/kg/j) après 48h d'apyrexie. Poursuite 6 à 8 semaines (arrêt si Echo Cœur normale à 6 semaines)."
+        },
+        {
+          "type": "medicament",
+          "ordre": 1,
           "nomMedicament": "Aspirine",
           "indication": "Anti-agrégant",
           "voie": "PO",
-          "commentaire": "3 à 5 mg/kg/j en 1 prise. Pendant 6 à 8 semaines (si Echo Cœur normale)."
+          "commentaire": "3 à 5 mg/kg/j en 1 prise unique."
         }
       ]
     }
