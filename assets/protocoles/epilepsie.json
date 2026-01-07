@@ -3,7 +3,7 @@
   "description": "Prise en charge de l'état de mal épileptique chez l'enfant (Algorithme temporel).",
   "auteur": "GPIP / SFP",
   "version": "2024.1",
-  "dateModification": "2026-01-07T12:33:22.582845",
+  "dateModification": "2026-01-07T12:36:51.311331",
   "blocs": [
     {
       "type": "alerte",
@@ -152,7 +152,7 @@
           "nomMedicament": "Phénobarbital",
           "indication": "Convulsions (≥ 2 ans)",
           "voie": "IV",
-          "commentaire": "Dépakine. 40 mg/kg en 5 min (Max 3000 mg).",
+          "commentaire": "Dépakine. 40 mg/kg en 5 min (Max 3000 mg).\ncontre indiqué si syndrome de dravet",
           "ordre": 5,
           "id": "95b34a7e-dec6-4c4d-88b6-9882ffd4f968"
         }
@@ -191,10 +191,58 @@
           "id": "c3e87db1-0a3f-46c4-aee9-a0489e9ba764"
         },
         {
-          "type": "texte",
-          "contenu": "**Sédation continue (au choix) :**\n- **Midazolam** : Bolus 0.2 mg/kg puis 0.1 à 0.4 mg/kg/h\n- **Propofol** : Bolus 2 mg/kg puis 5 à 10 mg/kg/h (Syndrome perfusion propofol !)\n- **Thiopental** : Bolus 3-5 mg/kg puis 3-5 mg/kg/h\n\n**Monitorage :** EEG continu indispensable.",
-          "ordre": 0,
-          "id": "3db35e91-df25-4391-8230-3a63c408b941"
+          "type": "section",
+          "titre": "Induction Séquence Rapide",
+          "initialementOuvert": false,
+          "contenu": [
+            {
+              "type": "medicament",
+              "nomMedicament": "Etomidate",
+              "indication": "Induction anesthésie (> 2 ans)",
+              "voie": "IV",
+              "ordre": 0,
+              "id": "01b8688b-df31-4351-8f2a-0f2a560086d5"
+            },
+            {
+              "type": "medicament",
+              "nomMedicament": "Kétamine",
+              "indication": "Induction anesthésie",
+              "voie": "IV",
+              "ordre": 1,
+              "id": "832539b7-b142-4a99-b3fd-488490d94d71"
+            },
+            {
+              "type": "medicament",
+              "nomMedicament": "Célocurine",
+              "ordre": 2,
+              "id": "23094596-ed81-4126-ba58-5856bb326d95"
+            }
+          ],
+          "ordre": 1,
+          "id": "29e81f59-abd5-4d45-913f-c12324072967"
+        },
+        {
+          "type": "section",
+          "titre": "Entretien",
+          "initialementOuvert": false,
+          "contenu": [
+            {
+              "type": "medicament",
+              "nomMedicament": "Midazolam",
+              "indication": "Sédation profonde - Entretien",
+              "ordre": 0,
+              "id": "a77f6c00-6124-49bd-8f2d-9f334c3e768d"
+            },
+            {
+              "type": "medicament",
+              "nomMedicament": "Sufentanil",
+              "indication": "Sédation prolongée",
+              "ordre": 1,
+              "id": "c884e105-57e8-49a9-beb3-0d3a8b7be969"
+            }
+          ],
+          "ordre": 2,
+          "id": "1495d323-b9fd-4182-8e53-52d29a72172d"
         }
       ],
       "ordre": 6,
