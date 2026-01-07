@@ -1,31 +1,38 @@
 {
   "titre": "État de Mal Épileptique",
-  "categorie": "Neurologie",
   "description": "Prise en charge de l'état de mal épileptique chez l'enfant (Algorithme temporel).",
   "auteur": "GPIP / SFP",
   "version": "2024.1",
-  "dateModification": "2024-01-01T00:00:00.000Z",
+  "dateModification": "2026-01-07T12:19:31.719774",
   "blocs": [
     {
       "type": "alerte",
+      "contenu": "Urgence vitale. Noter l'heure de début de la crise (T0).",
       "niveau": "critique",
-      "contenu": "Urgence vitale. Noter l'heure de début de la crise (T0)."
+      "ordre": 0,
+      "id": "9cd2cddc-042a-4c85-81d9-e75f08c8713e"
     },
     {
       "type": "section",
       "titre": "T0 : Mesures Immédiates",
-      "initialementOuvert": true,
+      "initialementOuvert": false,
       "contenu": [
         {
           "type": "alerte",
+          "contenu": "Ne JAMAIS forcer l'ouverture de la bouche.",
           "niveau": "danger",
-          "contenu": "Ne JAMAIS forcer l'ouverture de la bouche."
+          "ordre": 0,
+          "id": "8e9c2f8d-49b0-456b-bf33-31dbd1c2aa50"
         },
         {
           "type": "texte",
-          "contenu": "**Mise en condition :**\n- Position Latérale de Sécurité (PLS)\n- Libération des voies aériennes (LVA)\n- Oxygénothérapie Masque Haute Concentration (6-10 L/min)\n- Monitorage : SpO2, FC, PA, Scope\n- Glycémie capillaire (si hypo : G10% 2mL/kg)\n- Pose VVP si possible (ne pas s'acharner > 5 min)"
+          "contenu": "**Mise en condition :**\n- Position Latérale de Sécurité (PLS)\n- Libération des voies aériennes (LVA)\n- Oxygénothérapie Masque Haute Concentration (6-10 L/min)\n- Monitorage : SpO2, FC, PA, Scope\n- Glycémie capillaire (si hypo : G10% 2mL/kg)\n- Pose VVP si possible (ne pas s'acharner > 5 min)",
+          "ordre": 0,
+          "id": "da78b4e5-269c-46a5-af8c-0278868a9a7b"
         }
-      ]
+      ],
+      "ordre": 0,
+      "id": "deb99bf2-31e4-4a73-affa-d225db527628"
     },
     {
       "type": "section",
@@ -34,118 +41,173 @@
       "contenu": [
         {
           "type": "alerte",
+          "contenu": "Privilégier la voie IV si déjà disponible. Sinon voie Buccale ou Intranasale.",
           "niveau": "info",
-          "contenu": "Privilégier la voie IV si déjà disponible. Sinon voie Buccale ou Intranasale."
+          "ordre": 0,
+          "id": "49dfd76b-8712-4c07-b694-1391f864ef4a"
         },
         {
           "type": "medicament",
           "nomMedicament": "Midazolam",
-          "indication": "Convulsions (Buccal/Nasal)",
+          "indication": "Convulsions IB/IN",
           "voie": "Buccale / Intranasale",
-          "commentaire": "0.2 à 0.3 mg/kg. Buccal (entre gencive et joue) ou Nasal (atomiseur)."
+          "commentaire": "0.2 à 0.3 mg/kg. Buccal (entre gencive et joue) ou Nasal (atomiseur).",
+          "ordre": 0,
+          "id": "1388f21a-5abb-4f16-966a-755bf68c5d07"
         }
-      ]
+      ],
+      "ordre": 0,
+      "id": "122d4c7d-ee01-4192-8009-128bc91971ba"
     },
     {
       "type": "section",
       "titre": "T5 : Benzodiazépine (1ère dose IV)",
+      "initialementOuvert": false,
       "contenu": [
         {
           "type": "alerte",
+          "contenu": "Surveillance respiratoire stricte. Préparer le matériel de ventilation (Ballon + Masque).",
           "niveau": "attention",
-          "contenu": "Surveillance respiratoire stricte. Préparer le matériel de ventilation (Ballon + Masque)."
+          "ordre": 0,
+          "id": "280129af-c9b9-4a7b-ac0d-f835209d58c3"
         },
         {
           "type": "medicament",
           "nomMedicament": "Midazolam",
-          "indication": "Convulsions (IV)",
+          "indication": "EME réfractaire",
           "voie": "IV",
-          "commentaire": "0.15 mg/kg IV lent. Si échec à 5 min -> 2ème dose."
+          "commentaire": "0.15 mg/kg IV lent. Si échec à 5 min -> 2ème dose.",
+          "ordre": 0,
+          "id": "749126f2-486c-4ac7-832e-f01c1df627c6"
         },
         {
           "type": "texte",
-          "contenu": "Alternative : Clonazépam (Rivotril) 0.05 mg/kg IV lent."
+          "contenu": "Alternative : Clonazépam (Rivotril) 0.05 mg/kg IV lent.",
+          "ordre": 0,
+          "id": "1797e8ac-e95b-4b80-8d56-fadfd85a8ce6"
         }
-      ]
+      ],
+      "ordre": 0,
+      "id": "3bf0a80b-ca2c-40c7-9866-ff3f44367807"
     },
     {
       "type": "section",
       "titre": "T10 : Benzodiazépine (2ème dose IV)",
+      "initialementOuvert": false,
       "contenu": [
         {
           "type": "alerte",
+          "contenu": "Risque majeur de dépression respiratoire. Préparer l'intubation.",
           "niveau": "danger",
-          "contenu": "Risque majeur de dépression respiratoire. Préparer l'intubation."
+          "ordre": 0,
+          "id": "359e60cd-cd13-4458-8bc7-b90056fa79d7"
         },
         {
           "type": "medicament",
           "nomMedicament": "Midazolam",
-          "indication": "Convulsions (IV)",
+          "indication": "EME réfractaire",
           "voie": "IV",
-          "commentaire": "Répéter la même dose : 0.15 mg/kg IV lent."
+          "commentaire": "Répéter la même dose : 0.15 mg/kg IV lent.",
+          "ordre": 0,
+          "id": "727fe45f-eaa1-430d-a9b0-dcfba340b661"
         }
-      ]
+      ],
+      "ordre": 0,
+      "id": "e2190edd-e149-421b-b4c1-0e31845a12f1"
     },
     {
       "type": "section",
       "titre": "T15-T20 : 2ème Ligne (Antiépileptique)",
+      "initialementOuvert": false,
       "contenu": [
         {
           "type": "texte",
-          "contenu": "Si persistance de la crise. Choisir UN seul médicament parmi les suivants :"
+          "contenu": "Si persistance de la crise. Choisir UN seul médicament parmi les suivants :",
+          "ordre": 0,
+          "id": "28f1c8cd-e354-425d-a634-667de795c464"
         },
         {
           "type": "alerte",
+          "contenu": "Phénytoïne : Contre-indiquée si troubles de conduction. Dilution NaCl 0.9% uniquement (précipite dans le G5%).",
           "niveau": "attention",
-          "contenu": "Phénytoïne : Contre-indiquée si troubles de conduction. Dilution NaCl 0.9% uniquement (précipite dans le G5%)."
+          "ordre": 1,
+          "id": "dc24512d-aac3-47c0-8d9b-e43a956c0225"
         },
         {
           "type": "medicament",
           "nomMedicament": "Phénytoïne",
-          "indication": "Etat de mal (Charge)",
+          "indication": "État de mal épileptique",
           "voie": "IV",
-          "commentaire": "20 mg/kg en 20 min (Perfusion lente sous scope)."
+          "commentaire": "20 mg/kg en 20 min (Perfusion lente sous scope).",
+          "ordre": 2,
+          "id": "1fb60ab6-437d-41ce-82d2-01c6ab25e72d"
+        },
+        {
+          "type": "medicament",
+          "nomMedicament": "Fosphénytoïne",
+          "indication": "État de mal épileptique (≥ 5 ans, ≥ 20 kg)",
+          "voie": "IV",
+          "ordre": 3,
+          "id": "1bd40414-e785-4230-ab5e-45bc7f6fb9ea"
         },
         {
           "type": "medicament",
           "nomMedicament": "Lévétiracétam",
-          "indication": "Etat de mal (Charge)",
+          "indication": "État de mal épileptique",
           "voie": "IV",
-          "commentaire": "Keppra. 40 mg/kg en 15 min (Max 3000 mg)."
+          "commentaire": "Keppra. 40 mg/kg en 15 min (Max 3000 mg).",
+          "ordre": 4,
+          "id": "9a9d7666-0d95-4deb-8edd-3d0d217390e4"
         },
         {
           "type": "medicament",
           "nomMedicament": "Valproate de sodium",
-          "indication": "Etat de mal (Charge)",
+          "indication": "2eme ligne épilepsie",
           "voie": "IV",
-          "commentaire": "Dépakine. 40 mg/kg en 5 min (Max 3000 mg)."
+          "commentaire": "Dépakine. 40 mg/kg en 5 min (Max 3000 mg).",
+          "ordre": 5,
+          "id": "95b34a7e-dec6-4c4d-88b6-9882ffd4f968"
         }
-      ]
+      ],
+      "ordre": 0,
+      "id": "060c7ea4-77e1-456e-a394-9eee2fc782b7"
     },
     {
       "type": "section",
       "titre": "> T20 : État de Mal Réfractaire",
+      "initialementOuvert": false,
       "contenu": [
         {
           "type": "alerte",
+          "contenu": "APPEL RÉANIMATION PÉDIATRIQUE URGENT. Intubation Séquence Rapide (ISR) nécessaire.",
           "niveau": "critique",
-          "contenu": "APPEL RÉANIMATION PÉDIATRIQUE URGENT. Intubation Séquence Rapide (ISR) nécessaire."
+          "ordre": 0,
+          "id": "c3e87db1-0a3f-46c4-aee9-a0489e9ba764"
         },
         {
           "type": "texte",
-          "contenu": "**Sédation continue (au choix) :**\n- **Midazolam** : Bolus 0.2 mg/kg puis 0.1 à 0.4 mg/kg/h\n- **Propofol** : Bolus 2 mg/kg puis 5 à 10 mg/kg/h (Syndrome perfusion propofol !)\n- **Thiopental** : Bolus 3-5 mg/kg puis 3-5 mg/kg/h\n\n**Monitorage :** EEG continu indispensable."
+          "contenu": "**Sédation continue (au choix) :**\n- **Midazolam** : Bolus 0.2 mg/kg puis 0.1 à 0.4 mg/kg/h\n- **Propofol** : Bolus 2 mg/kg puis 5 à 10 mg/kg/h (Syndrome perfusion propofol !)\n- **Thiopental** : Bolus 3-5 mg/kg puis 3-5 mg/kg/h\n\n**Monitorage :** EEG continu indispensable.",
+          "ordre": 0,
+          "id": "3db35e91-df25-4391-8230-3a63c408b941"
         }
-      ]
+      ],
+      "ordre": 0,
+      "id": "08b06edc-7668-4628-b6ea-cf390a6f4c37"
     },
     {
       "type": "section",
       "titre": "Bilan Étiologique",
+      "initialementOuvert": false,
       "contenu": [
         {
           "type": "texte",
-          "contenu": "**Biologie :**\n- NFS, CRP, PCT\n- Iono sanguin, Calcémie, Magnésémie, Phosphorémie\n- Glycémie, Lactates, Gaz du sang\n- Bilan hépatique (ASAT/ALAT) et rénal (Urée/Créat)\n- Dosage antiépileptiques (si traitement connu)\n- Recherche de toxiques (sang/urines) si contexte\n\n**Imagerie :** TDM cérébral si signes de focalisation, trauma ou coma persistant.\n**Ponction Lombaire :** Si fièvre/syndrome méningé (après stabilisation hémodynamique et respiratoire)."
+          "contenu": "**Biologie :**\n- NFS, CRP, PCT\n- Iono sanguin, Calcémie, Magnésémie, Phosphorémie\n- Glycémie, Lactates, Gaz du sang\n- Bilan hépatique (ASAT/ALAT) et rénal (Urée/Créat)\n- Dosage antiépileptiques (si traitement connu)\n- Recherche de toxiques (sang/urines) si contexte\n\n**Imagerie :** TDM cérébral si signes de focalisation, trauma ou coma persistant.\n**Ponction Lombaire :** Si fièvre/syndrome méningé (après stabilisation hémodynamique et respiratoire).",
+          "ordre": 0,
+          "id": "721969ec-d6e2-416b-9e43-5c297911e875"
         }
-      ]
+      ],
+      "ordre": 0,
+      "id": "b6a652b9-9195-4f9b-8029-e92845bd9799"
     }
   ]
 }
