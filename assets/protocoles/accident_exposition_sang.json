@@ -1,26 +1,38 @@
 {
   "titre": "Accident d'Exposition au Sang (AES)",
-  "description": "Conduite à tenir après exposition virale (HIV, VHB, VHC).",
+  "description": "Conduite à tenir immédiate, Évaluation du risque VIH/VHB/VHC et Prophylaxie.",
   "auteur": "COREVIH",
-  "version": "2023.1",
+  "version": "2023.2",
   "dateModification": "2023-01-01T00:00:00.000Z",
   "blocs": [
     {
       "type": "alerte",
       "ordre": 0,
-      "contenu": "Nettoyage immédiat (Eau+Savon puis Dakin/Javel). Évaluation risque < 4h. Kit Prophylaxie si risque élevé.",
+      "contenu": "Urgence. Soins locaux immédiats. Évaluation médicale < 4h.",
       "niveau": "critique"
     },
     {
       "type": "section",
       "ordre": 1,
-      "titre": "Indication Prophylaxie (TPE)",
+      "titre": "Soins Immédiats",
       "initialementOuvert": true,
       "contenu": [
         {
           "type": "texte",
           "ordre": 0,
-          "contenu": "**Indiqué si :**\n- Patient source VIH+ (charge virale non indétectable)\n- Piqûre profonde, aiguille creuse IV, projection muqueuse massive.\n**Délai :** Idéal < 4h, Max 48h."
+          "contenu": "1. **Nettoyage :** Eau + Savon (ne pas faire saigner).\n2. **Rinçage :** Abondant.\n3. **Désinfection :** Dakin ou Javel 12° ou Bétadine (au moins 5 min, 10 min si Javel).\n4. **Muqueuse/Oeil :** Rinçage sérum phy abondant (5 min)."
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "ordre": 2,
+      "titre": "Traitement Post-Exposition (TPE)",
+      "contenu": [
+        {
+          "type": "texte",
+          "ordre": 0,
+          "contenu": "**VIH :** Indiqué si risque identifié (Source VIH+ virémique, Piqûre profonde). Kit Trithérapie à débuter idéalement < 4h (max 48h).\n**VHB :** Vérifier Ac Anti-HBs victime. Si < 10 UI/L et source AgHBs+ : Immunoglobulines HBIg + Vaccin (Schéma rapide)."
         },
         {
           "type": "medicament",
@@ -28,19 +40,7 @@
           "nomMedicament": "Antirétroviraux (Kit)",
           "indication": "Prophylaxie VIH",
           "voie": "PO",
-          "commentaire": "Trithérapie (ex: Truvada + Isentress ou Kaletra). Durée 28 jours si confirmé."
-        }
-      ]
-    },
-    {
-      "type": "section",
-      "ordre": 2,
-      "titre": "Hépatite B",
-      "contenu": [
-        {
-          "type": "texte",
-          "ordre": 0,
-          "contenu": "Vérifier vaccination victime (Ac Anti-HBs).\nSi non répondeur (<10 UI/l) et Source Ag HBs+ : Immunoglobulines HBIg + Vaccin."
+          "commentaire": "Trithérapie (ex: Truvada + Isentress). Durée 28 jours si risque confirmé."
         }
       ]
     }
