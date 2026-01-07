@@ -3,7 +3,7 @@
   "description": "Prise en charge de l'état de mal épileptique chez l'enfant (Algorithme temporel).",
   "auteur": "GPIP / SFP",
   "version": "2024.1",
-  "dateModification": "2026-01-07T12:23:35.949056",
+  "dateModification": "2026-01-07T12:23:38.241153",
   "blocs": [
     {
       "type": "alerte",
