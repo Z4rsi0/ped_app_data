@@ -1,65 +1,82 @@
 {
   "titre": "Paludisme (Accès Palustre)",
-  "description": "Prise en charge du Paludisme simple et grave à P. Falciparum.",
+  "description": "Diagnostic, Critères de gravité et Traitement (Simple vs Grave).",
   "auteur": "Dr F. Raimond",
-  "version": "2023.1",
+  "version": "2023.2",
   "dateModification": "2023-01-01T00:00:00.000Z",
   "blocs": [
     {
       "type": "alerte",
       "ordre": 0,
-      "contenu": "Tout fièvre au retour de zone endémique est un palu jusqu'à preuve du contraire. Frotis/Goutte épaisse en URGENCE.",
+      "contenu": "Toute fièvre au retour de zone endémique est un paludisme jusqu'à preuve du contraire. Urgence diagnostique (Frottis/Goutte Épaisse).",
       "niveau": "critique"
     },
     {
       "type": "section",
       "ordre": 1,
-      "titre": "Paludisme Simple (Sans vomissements)",
+      "titre": "Évaluation de la Gravité",
       "initialementOuvert": true,
       "contenu": [
         {
-          "type": "medicament",
+          "type": "texte",
           "ordre": 0,
-          "nomMedicament": "Artéméther-Luméfantrine",
-          "indication": "Riamet (1ère intention)",
-          "voie": "PO",
-          "commentaire": "6 prises : H0, H8, H24, H36, H48, H60. <15kg: 1cp/prise. 15-25kg: 2cp. 25-35kg: 3cp. >35kg: 4cp."
-        },
-        {
-          "type": "medicament",
-          "ordre": 1,
-          "nomMedicament": "Atovaquone-Proguanil",
-          "indication": "Malarone (Alternative)",
-          "voie": "PO",
-          "commentaire": "1 prise/j pendant 3 jours. 11-20kg: 1cp A. 21-30kg: 2cp A. 31-40kg: 3cp A."
+          "contenu": "**Critères de Paludisme Grave (OMS) :**\n- **Neuro :** Coma (Glasgow < 11), Convulsions répétées.\n- **Respi :** Détresse respiratoire, OAP.\n- **Hémodynamique :** Choc (PAS < 50-70 mmHg selon âge).\n- **Bio :** Anémie profonde (Hb < 7 g/dL), Hypoglycémie, Acidose, Lactates élevés, Parasitémie > 4%.\n- **Digestif :** Vomissements incoercibles (empêchant le traitement PO)."
         }
       ]
     },
     {
       "type": "section",
       "ordre": 2,
-      "titre": "Paludisme Grave (ou vomissements)",
+      "titre": "Paludisme Simple (Ambulatoire possible)",
       "contenu": [
         {
           "type": "texte",
           "ordre": 0,
-          "contenu": "Signes gravité : Neuro (Glasgow<11), Respi, Choc, Hb<7, Parasitémie > 4%."
+          "contenu": "**Critères Ambulatoire :** Absence de signes de gravité, pas de vomissements, parasitémie < 2%, famille fiable, domicile proche.\n**Traitement :** Artéméther-Luméfantrine (Riamet) ou Atovaquone-Proguanil (Malarone)."
+        },
+        {
+          "type": "medicament",
+          "ordre": 1,
+          "nomMedicament": "Artéméther-Luméfantrine",
+          "indication": "1ère intention (Riamet)",
+          "voie": "PO",
+          "commentaire": "6 prises fixes : H0, H8, H24, H36, H48, H60. Dosage selon poids (ex: 1 cp si <15kg)."
+        },
+        {
+          "type": "medicament",
+          "ordre": 2,
+          "nomMedicament": "Atovaquone-Proguanil",
+          "indication": "Alternative (Malarone)",
+          "voie": "PO",
+          "commentaire": "1 prise par jour (à heure fixe) pendant 3 jours. Dosage selon poids."
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "ordre": 3,
+      "titre": "Paludisme Grave (Hospitalisation)",
+      "contenu": [
+        {
+          "type": "texte",
+          "ordre": 0,
+          "contenu": "**Hospitalisation systématique.** Si signes de gravité -> Réanimation.\n**Traitement :** Artésunate IV en 1ère intention (ATU) ou Quinine IV."
         },
         {
           "type": "medicament",
           "ordre": 1,
           "nomMedicament": "Artésunate",
-          "indication": "1ère intention (ATU)",
+          "indication": "Paludisme Grave (Référence)",
           "voie": "IV",
-          "commentaire": "2.4 mg/kg à H0, H12, H24 puis /24h. (Référence)."
+          "commentaire": "2.4 mg/kg à H0, H12, H24 puis toutes les 24h."
         },
         {
           "type": "medicament",
           "ordre": 2,
           "nomMedicament": "Quinine",
-          "indication": "Si Artésunate non dispo",
+          "indication": "Si Artésunate indisponible",
           "voie": "IV",
-          "commentaire": "Charge: 16 mg/kg (base) sur 4h. Entretien: 8 mg/kg/8h. G5% ou G10%."
+          "commentaire": "Charge : 16 mg/kg (base) sur 4h (G5% ou G10%). Entretien : 8 mg/kg toutes les 8h."
         }
       ]
     }
