@@ -1,8 +1,8 @@
 {
-  "titre": "Infections ORL (GPIP)",
-  "description": "Otite Moyenne Aiguë, Angine, Sinusite Aiguë.",
+  "titre": "Infections ORL",
+  "description": "Otite Moyenne Aiguë, Angine à SGA, Sinusite Aiguë.",
   "auteur": "GPIP 2023",
-  "version": "2023.1",
+  "version": "2023.2",
   "dateModification": "2023-01-01T00:00:00.000Z",
   "blocs": [
     {
@@ -14,36 +14,41 @@
         {
           "type": "texte",
           "ordre": 0,
-          "contenu": "**Indications ATB :**\n- Tout enfant < 6 mois\n- 6 mois à 2 ans si symptômes bruyants ou otorrhée\n- > 2 ans si otorrhée ou forte douleur/fièvre persistante."
+          "contenu": "**Diagnostic :** Inflammation du tympan + Épanchement (Bombement) + Signes fonctionnels (Douleur, Fièvre).\n**Indications Antibiothérapie :**\n- Systématique si < 6 mois.\n- 6 mois à 2 ans : Si otorrhée ou symptômes bruyants (Fièvre élevée, douleur intense).\n- > 2 ans : Si otorrhée ou persistance symptômes.\n**Traitement :** Amoxicilline 80-90 mg/kg/j."
         },
         {
           "type": "medicament",
           "ordre": 1,
           "nomMedicament": "Amoxicilline",
-          "indication": "1ère intention",
+          "indication": "Dose ORL/Pneumo",
           "voie": "PO",
           "commentaire": "80-90 mg/kg/j en 2-3 prises. Durée : 8-10j (<2 ans) ou 5j (>2 ans)."
         },
         {
           "type": "medicament",
           "ordre": 2,
-          "nomMedicament": "Amoxicilline-Acide Clavulanique",
-          "indication": "Échec à H48 ou Conjonctivite associée (Syndrome Otite-Conjonctivite)",
+          "nomMedicament": "Amoxicilline + acide clavulanique",
+          "indication": "Dose Standard",
           "voie": "PO",
-          "commentaire": "80 mg/kg/j (amox) en 3 prises."
+          "commentaire": "Si échec à H48 ou Syndrome Otite-Conjonctivite (Haemophilus)."
         }
       ]
     },
     {
       "type": "section",
       "ordre": 2,
-      "titre": "Angine (TDR Strepto A Positif)",
+      "titre": "Angine",
       "contenu": [
         {
-          "type": "medicament",
+          "type": "texte",
           "ordre": 0,
+          "contenu": "**Diagnostic :** Érythémateuse ou Érythémato-pultacée. TDR (Test Rapide) obligatoire dès 3 ans (Score Mac Isaac).\n**Traitement :** Uniquement si TDR positif (Strepto A). Amoxicilline 50 mg/kg/j."
+        },
+        {
+          "type": "medicament",
+          "ordre": 1,
           "nomMedicament": "Amoxicilline",
-          "indication": "Référence",
+          "indication": "Dose Angine",
           "voie": "PO",
           "commentaire": "50 mg/kg/j en 2 prises pendant 6 jours."
         }
@@ -55,20 +60,25 @@
       "titre": "Sinusite Aiguë",
       "contenu": [
         {
-          "type": "medicament",
+          "type": "texte",
           "ordre": 0,
-          "nomMedicament": "Amoxicilline",
-          "indication": "Forme simple (Maxillaire)",
-          "voie": "PO",
-          "commentaire": "80-90 mg/kg/j pendant 7-10 jours."
+          "contenu": "**Diagnostic :** Rhinorrhée purulente > 10 jours ou aggravation secondaire ou forme sévère d'emblée (Fièvre > 39°C, céphalées).\n**Traitement :** Amoxicilline (Maxillaire) ou Augmentin (Frontale/Ethmoïdale)."
         },
         {
           "type": "medicament",
           "ordre": 1,
-          "nomMedicament": "Amoxicilline-Acide Clavulanique",
-          "indication": "Origine dentaire ou Frontale/Ethmoïdale",
+          "nomMedicament": "Amoxicilline",
+          "indication": "Dose ORL/Pneumo",
           "voie": "PO",
-          "commentaire": "80 mg/kg/j en 3 prises."
+          "commentaire": "Forme maxillaire simple. 7-10 jours."
+        },
+        {
+          "type": "medicament",
+          "ordre": 2,
+          "nomMedicament": "Amoxicilline + acide clavulanique",
+          "indication": "Dose Standard",
+          "voie": "PO",
+          "commentaire": "Origine dentaire ou sinusite frontale/ethmoïdale."
         }
       ]
     }
