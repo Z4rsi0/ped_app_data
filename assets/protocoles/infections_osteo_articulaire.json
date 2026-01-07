@@ -1,76 +1,76 @@
 {
-  "titre": "Infections Ostéo-Articulaires (IOA)",
-  "description": "Arthrite et Ostéomyélite : Kingella (< 5 ans) et Staphylocoque (> 5 ans).",
+  "titre": "Infections Ostéo-Articulaires",
+  "description": "Arthrite et Ostéomyélite. Stratégie probabiliste selon l'âge.",
   "auteur": "Dr I. Kahn, GPIP",
-  "version": "2023.2",
+  "version": "2023.3",
   "dateModification": "2023-01-03T00:00:00.000Z",
   "blocs": [
     {
-      "type": "alerte",
-      "ordre": 0,
-      "contenu": "Urgence thérapeutique. Prélèvements (Hémoc, Ponction) avant ATB si possible.",
-      "niveau": "attention"
-    },
-    {
       "type": "section",
       "ordre": 1,
-      "titre": "Enfant 3 mois - 5 ans (Cible : Kingella)",
+      "titre": "Diagnostic & Prise en Charge",
       "initialementOuvert": true,
       "contenu": [
         {
-          "type": "medicament",
+          "type": "texte",
           "ordre": 0,
-          "nomMedicament": "Amoxicilline-Acide Clavulanique",
-          "indication": "1ère intention (IV)",
-          "voie": "IV",
-          "commentaire": "100 mg/kg/j en 3-4 injections."
-        },
-        {
-          "type": "medicament",
-          "ordre": 1,
-          "nomMedicament": "Céfamandole",
-          "indication": "Alternative IV",
-          "voie": "IV",
-          "commentaire": "Kefandol. 100 à 150 mg/kg/j en 4 injections."
-        },
-        {
-          "type": "medicament",
-          "ordre": 2,
-          "nomMedicament": "Amoxicilline-Acide Clavulanique",
-          "indication": "Relai Oral",
-          "voie": "PO",
-          "commentaire": "80 mg/kg/j en 3 prises."
+          "contenu": "**Clinique :** Boiterie, Impotence fonctionnelle, Douleur, Fièvre.\n**Urgence :** Bilan avant antibio (Hémocultures, CRP, Ponction articulaire si possible).\n**Germes :**\n- 3 mois à 5 ans : *Kingella kingae* (Prédominant).\n- > 5 ans : *Staphylococcus aureus*."
         }
       ]
     },
     {
       "type": "section",
       "ordre": 2,
-      "titre": "Enfant > 5 ans (Cible : Staphylocoque)",
+      "titre": "Enfant 3 mois - 5 ans (Cible Kingella)",
       "contenu": [
         {
-          "type": "medicament",
+          "type": "texte",
           "ordre": 0,
+          "contenu": "Traitement probabiliste par Amoxicilline-Acide Clavulanique IV (100 mg/kg/j)."
+        },
+        {
+          "type": "medicament",
+          "ordre": 1,
+          "nomMedicament": "Amoxicilline + acide clavulanique",
+          "indication": "Infections bactériennes",
+          "voie": "IV",
+          "commentaire": "100 mg/kg/j en 3-4 injections. Relai oral possible rapidement."
+        },
+        {
+          "type": "medicament",
+          "ordre": 2,
+          "nomMedicament": "Amoxicilline + acide clavulanique",
+          "indication": "Dose Standard",
+          "voie": "PO",
+          "commentaire": "Relai oral. 80 mg/kg/j en 3 prises."
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "ordre": 3,
+      "titre": "Enfant > 5 ans (Cible Staphylocoque)",
+      "contenu": [
+        {
+          "type": "texte",
+          "ordre": 0,
+          "contenu": "Traitement probabiliste visant le Staph Doré (Céfamandole ou Cloxacilline)."
+        },
+        {
+          "type": "medicament",
+          "ordre": 1,
           "nomMedicament": "Céfamandole",
-          "indication": "1ère intention (IV)",
+          "indication": "Infections ostéo-articulaires",
           "voie": "IV",
           "commentaire": "100 à 150 mg/kg/j en 4 injections."
         },
         {
           "type": "medicament",
-          "ordre": 1,
-          "nomMedicament": "Cloxacilline",
-          "indication": "Alternative Staph",
+          "ordre": 2,
+          "nomMedicament": "Cloxacilline injectable",
+          "indication": "Infections bactériennes - Pénicilline M",
           "voie": "IV",
           "commentaire": "150 mg/kg/j (Max 200) en 4 injections."
-        },
-        {
-          "type": "medicament",
-          "ordre": 2,
-          "nomMedicament": "Céfuroxime-Axétil",
-          "indication": "Relai Oral",
-          "voie": "PO",
-          "commentaire": "Zinnat. 30 à 40 mg/kg/j en 2 prises."
         }
       ]
     }
