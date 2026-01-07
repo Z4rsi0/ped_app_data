@@ -1,35 +1,52 @@
 {
   "titre": "Pneumonie Aiguë Communautaire (PAC)",
-  "description": "Prise en charge de la pneumopathie franche lobaire aiguë (PFLA).",
+  "description": "Diagnostic, Critères d'hospitalisation et Traitement PFLA.",
   "auteur": "GPIP 2023",
-  "version": "2023.1",
+  "version": "2023.2",
   "dateModification": "2023-01-01T00:00:00.000Z",
   "blocs": [
     {
       "type": "section",
       "ordre": 1,
-      "titre": "Traitement Ambulatoire (1ère intention)",
+      "titre": "Diagnostic & Orientation",
       "initialementOuvert": true,
       "contenu": [
         {
-          "type": "medicament",
+          "type": "texte",
           "ordre": 0,
-          "nomMedicament": "Amoxicilline",
-          "indication": "PAC typique",
-          "voie": "PO",
-          "commentaire": "80 à 100 mg/kg/j en 3 prises. Pendant 7 jours (3 jours après apyrexie)."
+          "contenu": "**Clinique :** Fièvre élevée, toux, polypnée, signes de lutte, foyer auscultatoire.\n**Radio Thorax :** Condensation alvéolaire (PFLA).\n**Critères Hospitalisation :** Age < 6 mois, Détresse respiratoire (SpO2 < 92%), Refus alimentaire, Vomissements, Failure thérapie ambulatoire."
         }
       ]
     },
     {
       "type": "section",
       "ordre": 2,
+      "titre": "Traitement Ambulatoire (1ère intention)",
+      "contenu": [
+        {
+          "type": "texte",
+          "ordre": 0,
+          "contenu": "Suspicion de Pneumocoque (forme typique, début brutal). Traitement par Amoxicilline forte dose (80-100 mg/kg/j)."
+        },
+        {
+          "type": "medicament",
+          "ordre": 1,
+          "nomMedicament": "Amoxicilline",
+          "indication": "Dose ORL/Pneumo",
+          "voie": "PO",
+          "commentaire": "80-100 mg/kg/j en 3 prises. 7 jours."
+        }
+      ]
+    },
+    {
+      "type": "section",
+      "ordre": 3,
       "titre": "Suspicion Atypiques (Mycoplasme)",
       "contenu": [
         {
           "type": "texte",
           "ordre": 0,
-          "contenu": "Si âge > 3 ans et début progressif."
+          "contenu": "**Contexte :** Age > 3 ans, début progressif, radio interstitielle, échec Amoxicilline à 48h.\n**Traitement :** Macrolides."
         },
         {
           "type": "medicament",
