@@ -1,49 +1,54 @@
 {
   "titre": "Borréliose de Lyme",
-  "description": "Stades cliniques et antibiothérapie adaptée.",
+  "description": "Diagnostic et traitement : Erythème migrant et Neuroborréliose.",
   "auteur": "Dr I. Kahn",
-  "version": "2022.1",
+  "version": "2022.2",
   "dateModification": "2022-09-01T00:00:00.000Z",
   "blocs": [
     {
       "type": "section",
       "ordre": 1,
-      "titre": "1. Erythème Migrant (Phase I)",
+      "titre": "Erythème Migrant (Stade Localisé)",
       "initialementOuvert": true,
       "contenu": [
         {
-          "type": "medicament",
+          "type": "texte",
           "ordre": 0,
+          "contenu": "**Diagnostic :** Clinique (Macule érythémateuse centrifuge > 5cm, indolore, sans fièvre) après morsure tique (3 à 30j).\n**Sérologie :** INUTILE à ce stade (souvent négative).\n**Traitement :** Amoxicilline ou Doxycycline."
+        },
+        {
+          "type": "medicament",
+          "ordre": 1,
           "nomMedicament": "Amoxicilline",
-          "indication": "1ère intention",
+          "indication": "Dose Angine",
           "voie": "PO",
           "commentaire": "50 mg/kg/j en 3 prises. 14 jours."
         },
         {
           "type": "medicament",
-          "ordre": 1,
+          "ordre": 2,
           "nomMedicament": "Doxycycline",
           "indication": "Si > 8 ans",
           "voie": "PO",
-          "commentaire": "4 mg/kg/j en 2 prises. 14 jours."
+          "commentaire": "4 mg/kg/j en 2 prises. 14 jours. (CI < 8 ans : Coloration dents)."
         }
       ]
     },
     {
       "type": "section",
       "ordre": 2,
-      "titre": "2. Neuroborréliose (Phase II)",
+      "titre": "Neuroborréliose (Stade Disséminé)",
       "contenu": [
         {
           "type": "texte",
           "ordre": 0,
-          "contenu": "Paralysie faciale, Méningite lymphocytaire."
+          "contenu": "**Clinique :** Paralysie faciale (souvent périphérique), Méningite lymphocytaire, Radiculite.\n**Bilan :** PL + Sérologie Sang et LCR (Synthèse intrathécale).\n**Traitement :** Ceftriaxone IV."
         },
         {
           "type": "medicament",
           "ordre": 1,
           "nomMedicament": "Ceftriaxone",
-          "indication": "Neuroborréliose",
+          "indication": "Infections bactériennes",
           "voie": "IV",
           "commentaire": "80 mg/kg/j (Max 2g). 21 à 28 jours."
         }
