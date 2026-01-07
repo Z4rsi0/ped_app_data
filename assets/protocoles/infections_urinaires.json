@@ -1,8 +1,8 @@
 {
   "titre": "Infections Urinaires",
-  "description": "Cystite et Pyélonéphrite Aiguë (PNA).",
+  "description": "Cystite et Pyélonéphrite Aiguë (PNA). Bilan et Traitement.",
   "auteur": "Dr I. Kahn, GPIP",
-  "version": "2023.2",
+  "version": "2023.3",
   "dateModification": "2023-02-01T00:00:00.000Z",
   "blocs": [
     {
@@ -14,31 +14,31 @@
         {
           "type": "texte",
           "ordre": 0,
-          "contenu": "**Critères Hospi :** < 3 mois, Sepsis, Uropathie, Vomissements.\n**Bilan :** ECBU, Echo Rénale (< 24h si PNA < 3 mois ou hyperalgique)."
+          "contenu": "**Diagnostic :** Fièvre élevée + BU positive (Leuco/Nitrites) + ECBU positif.\n**Bilan :** ECBU, Echo Rénale (Urgente si < 3 mois, hyperalgique ou retention).\n**Hospitalisation :** Age < 3 mois, Sepsis, Uropathie connue, Vomissements.\n**Traitement Attaque :** Ceftriaxone IV 50 mg/kg/j."
         },
         {
           "type": "medicament",
           "ordre": 1,
           "nomMedicament": "Ceftriaxone",
-          "indication": "Traitement d'attaque (IV)",
+          "indication": "Infections bactériennes",
           "voie": "IV/IM",
-          "commentaire": "50 mg/kg/j en 1 injection."
+          "commentaire": "50 mg/kg/j en 1 injection. (Si allergie : Gentamicine ou Ciprofloxacine)."
         },
         {
           "type": "medicament",
           "ordre": 2,
           "nomMedicament": "Amikacine",
-          "indication": "Si Sepsis sévère / Uropathie",
+          "indication": "Pyélonéphrite aiguë",
           "voie": "IV",
-          "commentaire": "20-30 mg/kg/j (Ajout à C3G)."
+          "commentaire": "20-30 mg/kg/j. À ajouter si sepsis sévère ou uropathie obstructive."
         },
         {
           "type": "medicament",
           "ordre": 3,
           "nomMedicament": "Céfixime",
-          "indication": "Traitement PO (Relai ou d'emblée si > 3 mois stable)",
+          "indication": "Relai PO (ou d'emblée si > 3 mois)",
           "voie": "PO",
-          "commentaire": "4 mg/kg/12h (soit 8mg/kg/j). Durée totale : 10 jours."
+          "commentaire": "4 mg/kg/12h (soit 8mg/kg/j). Relai à 48h d'apyrexie. Durée totale 10j."
         }
       ]
     },
@@ -48,28 +48,25 @@
       "titre": "Cystite Aiguë",
       "contenu": [
         {
-          "type": "medicament",
+          "type": "texte",
           "ordre": 0,
-          "nomMedicament": "Cotrimoxazole",
-          "indication": "1ère intention (si E. Coli sensible)",
-          "voie": "PO",
-          "commentaire": "30 mg/kg/j (SMX) en 2 prises. 3 à 5 jours."
+          "contenu": "**Clinique :** Pollakiurie, Brûlures, Pas de fièvre, BU +.\n**Traitement :** Cotrimoxazole ou Augmentin ou Cefixime."
         },
         {
           "type": "medicament",
           "ordre": 1,
-          "nomMedicament": "Amoxicilline-Acide Clavulanique",
-          "indication": "2ème intention",
+          "nomMedicament": "Sulfaméthoxazole-triméthoprime",
+          "indication": "Infections (dose en TMP)",
           "voie": "PO",
-          "commentaire": "80 mg/kg/j en 3 prises. 5 jours."
+          "commentaire": "Cotrimoxazole. 30 mg/kg/j (SMX) en 2 prises. 3-5 jours."
         },
         {
           "type": "medicament",
           "ordre": 2,
-          "nomMedicament": "Céfixime",
-          "indication": "Si résistance",
+          "nomMedicament": "Amoxicilline + acide clavulanique",
+          "indication": "Dose Standard",
           "voie": "PO",
-          "commentaire": "4 mg/kg/12h. 5 jours."
+          "commentaire": "2ème intention. 5 jours."
         }
       ]
     }
