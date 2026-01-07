@@ -3,7 +3,7 @@
   "description": "Prise en charge de l'état de mal épileptique chez l'enfant (Algorithme temporel).",
   "auteur": "GPIP / SFP",
   "version": "2024.1",
-  "dateModification": "2026-01-07T12:36:51.311331",
+  "dateModification": "2026-01-07T12:37:49.713126",
   "blocs": [
     {
       "type": "alerte",
@@ -213,7 +213,9 @@
             },
             {
               "type": "medicament",
-              "nomMedicament": "Célocurine",
+              "nomMedicament": "Suxaméthonium",
+              "indication": "Intubation séquence rapide",
+              "voie": "IV",
               "ordre": 2,
               "id": "23094596-ed81-4126-ba58-5856bb326d95"
             }
