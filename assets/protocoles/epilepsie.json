@@ -3,7 +3,7 @@
   "description": "Prise en charge de l'état de mal épileptique chez l'enfant (Algorithme temporel).",
   "auteur": "GPIP / SFP",
   "version": "2024.1",
-  "dateModification": "2026-01-07T12:19:31.719774",
+  "dateModification": "2026-01-07T12:23:35.949056",
   "blocs": [
     {
       "type": "alerte",
@@ -36,7 +36,7 @@
     },
     {
       "type": "section",
-      "titre": "T0 à T5 : 1ère Ligne (Si pas d'accès IV)",
+      "titre": "T0 à T5 : 1ère Ligne",
       "initialementOuvert": true,
       "contenu": [
         {
@@ -54,6 +54,12 @@
           "commentaire": "0.2 à 0.3 mg/kg. Buccal (entre gencive et joue) ou Nasal (atomiseur).",
           "ordre": 0,
           "id": "1388f21a-5abb-4f16-966a-755bf68c5d07"
+        },
+        {
+          "type": "medicament",
+          "nomMedicament": "Midazolam",
+          "ordre": 2,
+          "id": "00cd07ad-8399-4569-aa7d-5bf60ac03e07"
         }
       ],
       "ordre": 0,
