@@ -3,7 +3,7 @@
   "description": "Cours et normes pour l'évaluation hémodynamique urgente de l'enfant (Niveau 2 SFMU adapté).",
   "auteur": "Assistant IA (Validé S. Savantes)",
   "version": "2026.1",
-  "dateModification": "2026-01-11T11:30:00.000000",
+  "dateModification": "2026-01-12T00:24:42.272250",
   "blocs": [
     {
       "type": "alerte",
@@ -15,7 +15,7 @@
     {
       "type": "section",
       "titre": "Outil 1 : Tableau des Normes (Z-Scores simplifiés)",
-      "initialementOuvert": true,
+      "initialementOuvert": false,
       "contenu": [
         {
           "type": "texte",
@@ -155,15 +155,6 @@
           "contenu": "Signes d'appel échographiques :\n- Aorte sortant du VD ou vaisseaux parallèles (TGV).\n- Aorte à cheval sur le septum (Fallot).\n- Rétrécissement isthmique + flux turbulent (Coarctation).\n- VG minuscule (Hypoplasie VG).",
           "ordre": 1,
           "id": "txt-redflags"
-        },
-        {
-          "type": "medicament",
-          "nomMedicament": "Alprostadil (Prostine VR)",
-          "indication": "Maintien canal artériel",
-          "voie": "IVSE",
-          "commentaire": "Démarrer immédiatement si suspicion ducto-dépendance (0.05 à 0.1 µg/kg/min). Risque d'apnée : prévoir intubation.",
-          "ordre": 2,
-          "id": "med-prostine"
         }
       ],
       "ordre": 4,
@@ -176,7 +167,8 @@
       "contenu": [
         {
           "type": "texte",
-          "contenu": "INDICATION : [Choc / Dyspnée / Malaise]\n\n1. MORPHOLOGIE & SITUS\n- Situs Solitus. Fenêtres : [Bonnes / Moyennes].\n- Épanchement péricardique : [Absent / Présent __ mm].\n\n2. FONCTION VG\n- Cinétique globale : [Normale / Altérée].\n- MAPSE : __ mm.\n- Remplissage (E/A) : [Physio E>A / Trouble relax].\n- ITV Sous-Aortique : __ cm.\n\n3. FONCTION VD\n- Taille : [Non dilaté / Dilaté]. Ratio VD/VG < 0.6.\n- TAPSE : __ mm.\n- VCI : [Compliante / Non compliante]. Diamètre __ mm.\n\n4. GROS VAISSEAUX\n- Crosse aortique : [Flux laminaire / Turbulent]. Pas d'argument pour coarctation.\n\nCONCLUSION :\n- Echographie [Normale / Pathologique].\n- Absence de signe de détresse hémodynamique immédiate.",
+          "contenu": "INDICATION : [Choc / Dyspnée / Malaise]\n\nCONDITIONS : [calme / en pleurs / ventilé avec PEEP ... cmH2O]\n\n1. MORPHOLOGIE & SITUS\n- Situs Solitus/Inversus. Fenêtres : [Bonnes / Moyennes].\n- Épanchement péricardique : [Absent / Présent __ mm].\n\n2. FONCTION VG\n- Cinétique globale : [Normale / Altérée / Effondrée / Hyperkinetique].\n- MAPSE : __ mm.\n- Remplissage (E/A) : [Physio E>A / Trouble relax].\n- ITV Sous-Aortique : __ cm.\n- Cinétique segmentaire\n\n3. FONCTION VD\n- Taille : [Non dilaté / Dilaté]. Ratio VD/VG < 0.6.\n- TAPSE : __ mm.\n- VCI : [Compliante / Non compliante]. Diamètre __ mm.\n\n4. GROS VAISSEAUX\n- Crosse aortique : [Flux laminaire / Turbulent]. Pas d'argument pour coarctation.\n\nCONCLUSION :\n- Echographie [Normale / Pathologique].\n- Absence de signe de détresse hémodynamique immédiate.",
+          "format": {},
           "ordre": 0,
           "id": "cr-template"
         }
