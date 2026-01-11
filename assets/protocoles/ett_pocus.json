@@ -1,0 +1,188 @@
+{
+  "titre": "Écho Cardio POCUS Pédiatrie",
+  "description": "Cours et normes pour l'évaluation hémodynamique urgente de l'enfant (Niveau 2 SFMU adapté).",
+  "auteur": "Assistant IA (Validé S. Savantes)",
+  "version": "2026.1",
+  "dateModification": "2026-01-11T11:30:00.000000",
+  "blocs": [
+    {
+      "type": "alerte",
+      "contenu": "RÈGLES D'OR : 1. Utiliser une sonde Phased Array haute fréquence (S4-10 ou S8). 2. Calmer l'enfant (Sucre/Bras) : les pleurs faussent l'examen (VCI) et augmentent les pressions pulmonaires.",
+      "niveau": "critique",
+      "ordre": 0,
+      "id": "alert-001"
+    },
+    {
+      "type": "section",
+      "titre": "Outil 1 : Tableau des Normes (Z-Scores simplifiés)",
+      "initialementOuvert": true,
+      "contenu": [
+        {
+          "type": "texte",
+          "contenu": "Valeurs guides pour le triage. En cas d'intermédiaire, interpoler selon le poids.",
+          "ordre": 0,
+          "id": "txt-normes-intro"
+        },
+        {
+          "type": "tableau",
+          "titre": "Normes POCUS par Poids",
+          "colonnes": [
+            "Paramètre",
+            "Nouveau-né (3-5kg)",
+            "Nourrisson (10kg)",
+            "Enfant (20kg)",
+            "Ado/Adulte"
+          ],
+          "lignes": [
+            [
+              "FC (bpm)",
+              "110 - 160",
+              "90 - 130",
+              "70 - 110",
+              "60 - 100"
+            ],
+            [
+              "TAPSE (VD)",
+              "> 8 mm",
+              "> 12 mm",
+              "> 15 mm",
+              "> 17 mm"
+            ],
+            [
+              "MAPSE (VG)",
+              "> 7 mm",
+              "> 10 mm",
+              "> 12 mm",
+              "> 13 mm"
+            ],
+            [
+              "ITV Sous-Ao",
+              "10 - 12 cm",
+              "13 - 16 cm",
+              "15 - 18 cm",
+              "18 - 22 cm"
+            ],
+            [
+              "Épanchement",
+              "< 2 mm",
+              "< 3 mm",
+              "< 4 mm",
+              "< 5 mm"
+            ]
+          ],
+          "avecEntete": true,
+          "ordre": 1,
+          "id": "tab-normes-001"
+        }
+      ],
+      "ordre": 1,
+      "id": "sec-normes"
+    },
+    {
+      "type": "section",
+      "titre": "Outil 2 : Déroulé Coupe par Coupe",
+      "initialementOuvert": false,
+      "contenu": [
+        {
+          "type": "texte",
+          "contenu": "1. SOUS-COSTALE (Priorité Pédiatrie)\n- Analyse : Situs, Epanchement (Tamponnade ?), VCI (Volémie).\n- Astuce : Ne pas appuyer trop fort, utiliser le foie comme fenêtre.",
+          "ordre": 0,
+          "id": "step-1"
+        },
+        {
+          "type": "texte",
+          "contenu": "2. APICALE 4 CAVITÉS (A4C)\n- Analyse : Ratio VD/VG (VD doit être < 2/3 VG). Fonction globale.\n- Mesures : TAPSE/MAPSE (Mode TM sur les anneaux), Flux E/A (Doppler Pulsé bout des valves).",
+          "ordre": 1,
+          "id": "step-2"
+        },
+        {
+          "type": "texte",
+          "contenu": "3. APICALE 5 CAVITÉS (A5C)\n- Basculer la queue de sonde vers le bas.\n- Mesure : ITV Sous-aortique (Doppler Pulsé chambre de chasse). Reflet du VES.",
+          "ordre": 2,
+          "id": "step-3"
+        },
+        {
+          "type": "texte",
+          "contenu": "4. PARASTERNALES (PLAX & PSAX)\n- PLAX : Aorte ascendante, continuité septale.\n- PSAX (Petit axe) : Contractilité globale (\"Donut\"). Si forme en \"D\" = Surcharge pression VD.",
+          "ordre": 3,
+          "id": "step-4"
+        },
+        {
+          "type": "texte",
+          "contenu": "5. SUPRASTERNALE\n- Analyse : Crosse aortique.\n- Recherche : Coarctation (Rétrécissement isthmique + Flux turbulent continu).",
+          "ordre": 4,
+          "id": "step-5"
+        }
+      ],
+      "ordre": 2,
+      "id": "sec-protocol"
+    },
+    {
+      "type": "section",
+      "titre": "Arbres Diagnostiques (Urgences)",
+      "initialementOuvert": false,
+      "contenu": [
+        {
+          "type": "texte",
+          "contenu": "SITUATION A : ÉTAT DE CHOC\n1. Hypovolémique : Cœur vide + Hyperkinétique + VCI plate.\n2. Cardiogénique : Cœur hypokinétique + VCI dilatée + ITV basse.\n3. Septique (Chaud) : Cœur hyperkinétique + ITV haute.\n4. Obstructif : Tamponnade ou VD dilaté (Embolie/Asthme grave).",
+          "ordre": 0,
+          "id": "diag-choc"
+        },
+        {
+          "type": "texte",
+          "contenu": "SITUATION B : DÉTRESSE RESPIRATOIRE\n1. OAP : Lignes B diffuses + E/E' élevé (>14).\n2. Respiratoire (Asthme/Bronchio) : Lignes A + Glissement + Profil cardiaque normal.",
+          "ordre": 1,
+          "id": "diag-respi"
+        }
+      ],
+      "ordre": 3,
+      "id": "sec-arbres"
+    },
+    {
+      "type": "section",
+      "titre": "Red Flags : Cardiopathies Congénitales",
+      "initialementOuvert": false,
+      "contenu": [
+        {
+          "type": "alerte",
+          "contenu": "Si suspicion de cardiopathie ducto-dépendante (Cyanose réfractaire ou Choc néonatal avec pouls fémoraux abolis) : Ne pas attendre l'écho complète pour agir.",
+          "niveau": "critique",
+          "ordre": 0,
+          "id": "alert-ducto"
+        },
+        {
+          "type": "texte",
+          "contenu": "Signes d'appel échographiques :\n- Aorte sortant du VD ou vaisseaux parallèles (TGV).\n- Aorte à cheval sur le septum (Fallot).\n- Rétrécissement isthmique + flux turbulent (Coarctation).\n- VG minuscule (Hypoplasie VG).",
+          "ordre": 1,
+          "id": "txt-redflags"
+        },
+        {
+          "type": "medicament",
+          "nomMedicament": "Alprostadil (Prostine VR)",
+          "indication": "Maintien canal artériel",
+          "voie": "IVSE",
+          "commentaire": "Démarrer immédiatement si suspicion ducto-dépendance (0.05 à 0.1 µg/kg/min). Risque d'apnée : prévoir intubation.",
+          "ordre": 2,
+          "id": "med-prostine"
+        }
+      ],
+      "ordre": 4,
+      "id": "sec-congenital"
+    },
+    {
+      "type": "section",
+      "titre": "Compte Rendu Type",
+      "initialementOuvert": false,
+      "contenu": [
+        {
+          "type": "texte",
+          "contenu": "INDICATION : [Choc / Dyspnée / Malaise]\n\n1. MORPHOLOGIE & SITUS\n- Situs Solitus. Fenêtres : [Bonnes / Moyennes].\n- Épanchement péricardique : [Absent / Présent __ mm].\n\n2. FONCTION VG\n- Cinétique globale : [Normale / Altérée].\n- MAPSE : __ mm.\n- Remplissage (E/A) : [Physio E>A / Trouble relax].\n- ITV Sous-Aortique : __ cm.\n\n3. FONCTION VD\n- Taille : [Non dilaté / Dilaté]. Ratio VD/VG < 0.6.\n- TAPSE : __ mm.\n- VCI : [Compliante / Non compliante]. Diamètre __ mm.\n\n4. GROS VAISSEAUX\n- Crosse aortique : [Flux laminaire / Turbulent]. Pas d'argument pour coarctation.\n\nCONCLUSION :\n- Echographie [Normale / Pathologique].\n- Absence de signe de détresse hémodynamique immédiate.",
+          "ordre": 0,
+          "id": "cr-template"
+        }
+      ],
+      "ordre": 5,
+      "id": "sec-cr"
+    }
+  ]
+}
