@@ -4,7 +4,7 @@
   "auteur": "A. Amiot",
   "version": "2026.1",
   "categorie": "POCUS",
-  "dateModification": "2026-01-14T13:02:52.602122",
+  "dateModification": "2026-01-14T13:23:55.364515",
   "blocs": [
     {
       "type": "alerte",
@@ -29,10 +29,10 @@
           "titre": "Normes POCUS par Poids",
           "colonnes": [
             "Paramètre",
-            "Nouveau-né (3-5kg)",
-            "Nourrisson (10kg)",
-            "Enfant (20kg)",
-            "Ado/Adulte"
+            "Nouveau-né (0-1 mois)",
+            "Nourrisson (1-12 mois)",
+            "Petit enfant (1-5 ans)",
+            "Colonne 5"
           ],
           "lignes": [
             [
@@ -40,35 +40,35 @@
               "110 - 160",
               "90 - 130",
               "70 - 110",
-              "60 - 100"
+              ""
             ],
             [
               "TAPSE (VD)",
               "> 8 mm",
               "> 12 mm",
               "> 15 mm",
-              "> 17 mm"
+              ""
             ],
             [
               "MAPSE (VG)",
               "> 7 mm",
               "> 10 mm",
               "> 12 mm",
-              "> 13 mm"
+              ""
             ],
             [
               "ITV Sous-Ao",
               "10 - 12 cm",
               "13 - 16 cm",
               "15 - 18 cm",
-              "18 - 22 cm"
+              ""
             ],
             [
               "Épanchement",
               "< 2 mm",
               "< 3 mm",
               "< 4 mm",
-              "< 5 mm"
+              ""
             ]
           ],
           "avecEntete": true,
