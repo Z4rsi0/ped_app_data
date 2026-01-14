@@ -3,7 +3,8 @@
   "description": "Algorithmes de prise en charge de l'ACR pédiatrique (Défibrillable et Non-Défibrillable).",
   "auteur": "Urgences Pédiatriques Béclère",
   "version": "2022.1",
-  "dateModification": "2026-01-04T16:17:17.185891",
+  "categorie": "Urgences",
+  "dateModification": "2026-01-14T12:52:08.962215",
   "blocs": [
     {
       "type": "alerte",
