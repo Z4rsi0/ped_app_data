@@ -1,0 +1,202 @@
+{
+  "titre": "Écho Abdominale et Réno-vésicale",
+  "description": "Traumato (FAST), Urgences Néphro et Digestives.",
+  "auteur": "A. Amiot",
+  "version": "2026.1",
+  "categorie": "POCUS",
+  "dateModification": "2026-01-14T15:00:00.000000",
+  "blocs": [
+    {
+      "type": "alerte",
+      "contenu": "SONDE : Utiliser une sonde CONVEXE (Abdominale) pour la vue d'ensemble, et une sonde LINÉAIRE (Haute Fréquence) pour l'appendice, l'invagination ou le rein du nourrisson.",
+      "niveau": "info",
+      "ordre": 0,
+      "id": "alert-sonde-abdo"
+    },
+    {
+      "type": "section",
+      "titre": "1. E-FAST (Trauma)",
+      "initialementOuvert": true,
+      "contenu": [
+        {
+          "type": "texte",
+          "titre": "Les 4 Coupes Standard",
+          "contenu": "1. **Morisson (Hépato-rénal)** : Le plus declive. Recherche épanchement entre foie et rein.\n2. **Spléno-rénal** : Entre rate et rein (souvent plus difficile, passer très postérieur).\n3. **Pelvienne (Douglas)** : Coupe transversale et sagittale rétro-vésicale.\n4. **Sous-xiphoïdienne** : Pour l'épanchement péricardique.",
+          "ordre": 0,
+          "id": "fast-coupes"
+        },
+        {
+          "type": "alerte",
+          "contenu": "SUBTILITÉ PÉDIATRIQUE :\n- Une lame d'épanchement isolée dans le Douglas chez l'adolescente pubère est souvent **physiologique** (ovulation/règles).\n- En revanche, une lame dans le Morisson est toujours pathologique (Hémopéritoine en contexte trauma).",
+          "niveau": "attention",
+          "ordre": 1,
+          "id": "fast-subtilite"
+        }
+      ],
+      "ordre": 1,
+      "id": "sec-fast"
+    },
+    {
+      "type": "section",
+      "titre": "2. Réno-Vésical",
+      "initialementOuvert": false,
+      "contenu": [
+        {
+          "type": "section",
+          "titre": "A) Reins",
+          "initialementOuvert": false,
+          "contenu": [
+            {
+              "type": "tableau",
+              "titre": "Taille Rénale (Long grand axe)",
+              "colonnes": [
+                "Age",
+                "Taille Moyenne (cm)",
+                "Limite Sup (cm)"
+              ],
+              "lignes": [
+                ["Nouveau-né (0-1m)", "4.5 cm", "5.5 cm"],
+                ["Nourrisson (1-12m)", "5 - 6 cm", "7.0 cm"],
+                ["Petit (1-5 ans)", "6 - 7.5 cm", "8.5 cm"],
+                ["Grand (6-12 ans)", "8 - 10 cm", "11.0 cm"],
+                ["Ado (> 13 ans)", "10 - 11 cm", "12.0 cm"]
+              ],
+              "avecEntete": true,
+              "ordre": 0,
+              "id": "tab-rein-taille"
+            },
+            {
+              "type": "texte",
+              "titre": "Classification Dilatation (SFU / UTD)",
+              "contenu": "On ne voit pas le reflux, mais sa conséquence (Hydronéphrose).\n\n- **Grade 1** : Bassinet dilaté (> 10mm antéro-post), calices normaux.\n- **Grade 2** : Bassinet dilaté + Calices majeurs dilatés.\n- **Grade 3** : Dilatation calicielle diffuse (Majeurs + Mineurs).\n- **Grade 4** : Grade 3 + **Amincissement du parenchyme** (< 5mm) -> Risque rénal majeur.",
+              "ordre": 1,
+              "id": "rein-sfu"
+            },
+            {
+              "type": "texte",
+              "titre": "Malformations Fréquentes",
+              "contenu": "- **Duplicité** : Rein plus grand, avec une bande de parenchyme coupant le sinus central en deux.\n- **Rein en Fer à Cheval** : Pôle inférieurs fusionnés devant l'aorte (vue médiane).",
+              "ordre": 2,
+              "id": "rein-malfo"
+            }
+          ],
+          "ordre": 0,
+          "id": "sub-rein"
+        },
+        {
+          "type": "section",
+          "titre": "B) Vessie",
+          "initialementOuvert": false,
+          "contenu": [
+            {
+              "type": "texte",
+              "contenu": "Formule Volume : **(L x l x H) x 0.52**\n(En urgence, multiplier les 3 distances et diviser par 2).",
+              "ordre": 0,
+              "id": "vessie-formule"
+            },
+            {
+              "type": "tableau",
+              "titre": "Capacité Vésicale Estimée",
+              "colonnes": [
+                "Age",
+                "Volume Attendu (ml)"
+              ],
+              "lignes": [
+                ["Nouveau-né", "20 - 50 ml"],
+                ["1 an", "60 - 90 ml"],
+                ["5 ans", "150 - 200 ml"],
+                ["10 ans", "300 - 400 ml"],
+                ["Ado", "400 - 600 ml"]
+              ],
+              "avecEntete": true,
+              "ordre": 1,
+              "id": "tab-vessie"
+            },
+            {
+              "type": "alerte",
+              "contenu": "Rechercher un globe urinaire en cas de douleurs abdominales basses inexpliquées.",
+              "niveau": "info",
+              "ordre": 2,
+              "id": "alert-globe"
+            }
+          ],
+          "ordre": 1,
+          "id": "sub-vessie"
+        }
+      ],
+      "ordre": 2,
+      "id": "sec-reno"
+    },
+    {
+      "type": "section",
+      "titre": "3. Organes Péritonéaux",
+      "initialementOuvert": false,
+      "contenu": [
+        {
+          "type": "section",
+          "titre": "A) Foie & Voies Biliaires",
+          "initialementOuvert": false,
+          "contenu": [
+            {
+              "type": "texte",
+              "titre": "Foie (Flèche hépatique)",
+              "contenu": "Mesure sur ligne médio-claviculaire.\n- Nouveau-né : < 6 cm\n- 5 ans : < 10 cm\n- Ado : < 14 cm\n\n**Signes d'alerte** : Bords inférieurs mousses (arrondis), Echostructure hétérogène, **Aéroportie** (bulles d'air mobiles dans le foie -> entérocolite/ischémie sévère).",
+              "ordre": 0,
+              "id": "foie-gen"
+            },
+            {
+              "type": "texte",
+              "titre": "Vésicule Biliaire",
+              "contenu": "**Cholécystite Aiguë** si :\n- Paroi épaissie **> 3 mm** (ou feuilletée).\n- Distension (Hydrocholécyste).\n- Murphy échographique (douleur au passage de la sonde).\n- Sludge (boue) ou calcul.",
+              "ordre": 1,
+              "id": "foie-vb"
+            }
+          ],
+          "ordre": 0,
+          "id": "sub-foie"
+        },
+        {
+          "type": "section",
+          "titre": "B) Rate",
+          "initialementOuvert": false,
+          "contenu": [
+            {
+              "type": "texte",
+              "contenu": "Organe fragile (Trauma). Doit être homogène.\n\n**Taille (Grand axe)** :\n- < 6 cm (Nourrisson)\n- < 9 cm (Petit enfant)\n- < 12 cm (Ado)\n\n**Rupture/Hématome** : Recherche de liquide péri-splénique ou d'une hétérogénéité intra-parenchymateuse.",
+              "ordre": 0,
+              "id": "rate-gen"
+            }
+          ],
+          "ordre": 1,
+          "id": "sub-rate"
+        },
+        {
+          "type": "section",
+          "titre": "C) Tube Digestif (Urgences)",
+          "initialementOuvert": false,
+          "contenu": [
+            {
+              "type": "texte",
+              "titre": "Invagination Intestinale Aiguë (IIA)",
+              "contenu": "Urgence fréquente (6 mois - 3 ans). Crises de pleurs + pâleur.\n\n**Signes Écho (Sonde Linéaire)** :\n- Coupe Transversale : **Image en Cocard** ou \"Donut\" (diamètre > 2.5 cm).\n- Coupe Longitudinale : Image en \"Sandwich\" ou \"Fourche\".\n- Localisation fréquente : Hépatique droit / Flanc droit.",
+              "ordre": 0,
+              "id": "dig-iia"
+            },
+            {
+              "type": "alerte",
+              "titre": "Expert / Radiologue : Appendicite",
+              "contenu": "L'échographie de la fosse iliaque droite est difficile.\n\n**Critères Appendicite** :\n- Structure tubulaire borgne, non compressible.\n- Diamètre **> 6 mm**.\n- Graisse péri-appendiculaire infiltrée (blanche).\n\n**Critères Adénolymphite** :\n- Ganglions multiples, arrondis, douloureux au passage de sonde, sans appendice visualisé.",
+              "niveau": "attention",
+              "ordre": 1,
+              "id": "dig-appendice"
+            }
+          ],
+          "ordre": 2,
+          "id": "sub-dig"
+        }
+      ],
+      "ordre": 3,
+      "id": "sec-perito"
+    }
+  ]
+}
