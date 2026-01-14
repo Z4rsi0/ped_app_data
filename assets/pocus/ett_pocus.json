@@ -2,9 +2,9 @@
   "titre": "Écho Cardio POCUS Pédiatrie",
   "description": "Cours et normes pour l'évaluation hémodynamique urgente de l'enfant (Niveau 2 SFMU adapté).",
   "auteur": "A. Amiot",
-  "version": "2026.3",
+  "version": "2026.4",
   "categorie": "POCUS",
-  "dateModification": "2026-01-14T14:15:00.000000",
+  "dateModification": "2026-01-14T14:10:00.000000",
   "blocs": [
     {
       "type": "alerte",
@@ -16,7 +16,7 @@
     {
       "type": "section",
       "titre": "Outil 1 : Déroulé Coupe par Coupe",
-      "initialementOuvert": true,
+      "initialementOuvert": false,
       "contenu": [
         {
           "type": "section",
@@ -47,6 +47,12 @@
               "avecEntete": true,
               "ordre": 1,
               "id": "tab-sc"
+            },
+            {
+              "type": "texte",
+              "contenu": "VCI plate (< 5mm) ou collapsus > 50% = **Hypovolémie** (Répondeur au remplissage).\nVCI dilatée fixe (> 15-20mm) = **Surcharge** ou Tamponnade.\n**Piège des Pleurs/Cris** : Augmentation de la pression intrathoracique -> **Fausse dilatation** de la VCI (ne pas conclure à une surcharge si l'enfant hurle).",
+              "ordre": 2,
+              "id": "interpret-sc"
             }
           ],
           "ordre": 0,
@@ -87,6 +93,12 @@
               "avecEntete": true,
               "ordre": 1,
               "id": "tab-apic"
+            },
+            {
+              "type": "texte",
+              "contenu": "TAPSE/MAPSE bas = **Dysfonction systolique** (Choc cardiogénique).\nITV Sous-Ao < 10-12 cm = **VES bas** (Volume d'Éjection Systolique effondré).\nRatio E/E' > 12-14 = **PRVG élevées** (Pressions de Remplissage VG -> OAP).\n**Asthme Grave** : Variation respiratoire > 25% des flux mitraux ou aortiques (Signe de lutte / Tamponnade gazeuse).",
+              "ordre": 2,
+              "id": "interpret-apic"
             }
           ],
           "ordre": 1,
@@ -122,6 +134,12 @@
               "avecEntete": true,
               "ordre": 1,
               "id": "tab-para"
+            },
+            {
+              "type": "texte",
+              "contenu": "Parois épaissies (> Z+2) = **Hypertrophie**.\nVG hyperkinétique (« Kissing walls ») = **Hypovolémie sévère**.\nSeptum paradoxal (VG écrasé en forme de « D ») = **Surcharge Pression VD** (HTAP, Embolie ou Asthme aigu grave).",
+              "ordre": 2,
+              "id": "interpret-para"
             }
           ],
           "ordre": 2,
@@ -189,6 +207,12 @@
           "avecEntete": true,
           "ordre": 1,
           "id": "tab-normes-full"
+        },
+        {
+          "type": "texte",
+          "contenu": "Débit : Chez le nourrisson, le débit est **FC-dépendant** (VG rigide, VES peu variable).\nDiastole : **Surperformance diastolique** physiologique entre 6 et 12 ans (Relaxation « explosive », E' maximal).\nPièges : Les pleurs augmentent les résistances pulmonaires (faux signes d'HTAP) et gênent le retour veineux.",
+          "ordre": 2,
+          "id": "interpret-normes-full"
         }
       ],
       "ordre": 2,
