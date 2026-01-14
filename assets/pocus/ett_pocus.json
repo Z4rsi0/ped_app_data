@@ -2,9 +2,9 @@
   "titre": "Écho Cardio POCUS Pédiatrie",
   "description": "Cours et normes pour l'évaluation hémodynamique urgente de l'enfant (Niveau 2 SFMU adapté).",
   "auteur": "A. Amiot",
-  "version": "2026.2",
+  "version": "2026.3",
   "categorie": "POCUS",
-  "dateModification": "2026-01-14T13:52:09.924036",
+  "dateModification": "2026-01-14T14:15:00.000000",
   "blocs": [
     {
       "type": "alerte",
@@ -16,178 +16,131 @@
     {
       "type": "section",
       "titre": "Outil 1 : Déroulé Coupe par Coupe",
-      "initialementOuvert": false,
+      "initialementOuvert": true,
       "contenu": [
         {
-          "type": "texte",
-          "contenu": "Priorité en pédiatrie. Utiliser le foie comme fenêtre acoustique.\n\nANALYSE :\n- Situs (position estomac/cœur).\n- Épanchement péricardique (lame ou tamponnade ?).\n- VCI : Variabilité respiratoire (Index > 50% = Répondeur).",
+          "type": "section",
+          "titre": "A) Sous-Costale",
+          "initialementOuvert": false,
+          "contenu": [
+            {
+              "type": "texte",
+              "contenu": "Priorité en pédiatrie. Utiliser le foie comme fenêtre acoustique.\n\nANALYSE :\n- Situs (position estomac/cœur).\n- Épanchement péricardique (lame ou tamponnade ?).\n- VCI : Variabilité respiratoire (Index > 50% = Répondeur).",
+              "ordre": 0,
+              "id": "desc-sc"
+            },
+            {
+              "type": "tableau",
+              "titre": "Normes Sous-Costale",
+              "colonnes": [
+                "Paramètre",
+                "Nouveau-né (0-1m)",
+                "Nourrisson (1-12m)",
+                "Petit (1-5a)",
+                "Grand (6-12a)",
+                "Ado (>13a)"
+              ],
+              "lignes": [
+                ["Diam. VCI (mm)", "3 - 5", "4 - 8", "6 - 10", "10 - 15", "15 - 22"],
+                ["Épanch. Physio", "< 2 mm", "< 2 mm", "< 3 mm", "< 3 mm", "< 4 mm"]
+              ],
+              "avecEntete": true,
+              "ordre": 1,
+              "id": "tab-sc"
+            }
+          ],
           "ordre": 0,
-          "id": "step-1-desc"
+          "id": "sec-sc"
         },
         {
-          "type": "tableau",
-          "titre": "Normes Sous-Costale",
-          "colonnes": [
-            "Paramètre",
-            "Nouveau-né (0-1m)",
-            "Nourrisson (1-12m)",
-            "Petit (1-5a)",
-            "Grand (6-12a)",
-            "Ado (>13a)"
+          "type": "section",
+          "titre": "B) Apicale 4 & 5 Cavités",
+          "initialementOuvert": false,
+          "contenu": [
+            {
+              "type": "texte",
+              "contenu": "Coupe reine pour la fonction et les débits.\n\nANALYSE :\n- Visuelle : Ratio VD/VG (VD doit être < 0.6 VG).\n- Mesures A4C : Onde E/A (Doppler Pulsé mitral), E' (TDI anneau lat), TAPSE/MAPSE (Mode TM).\n- Mesure A5C : ITV Sous-aortique (Reflet du VES) en dégageant la chambre de chasse.",
+              "ordre": 0,
+              "id": "desc-apic"
+            },
+            {
+              "type": "tableau",
+              "titre": "Normes Apicales (Fonction & Débit)",
+              "colonnes": [
+                "Paramètre",
+                "Nouveau-né",
+                "Nourrisson",
+                "Petit",
+                "Grand",
+                "Ado"
+              ],
+              "lignes": [
+                ["TAPSE (mm)", "> 8", "> 10", "> 14", "> 16", "> 18"],
+                ["MAPSE (mm)", "> 6", "> 8", "> 10", "> 12", "> 14"],
+                ["Onde E (cm/s)", "40 - 70", "60 - 90", "70 - 100", "80 - 110", "70 - 100"],
+                ["Onde A (cm/s)", "40 - 60", "40 - 70", "40 - 70", "40 - 60", "40 - 60"],
+                ["E' latéral (cm/s)", "8 - 12", "10 - 14", "12 - 15", "15 - 20", "15 - 22"],
+                ["Ratio E/A", "0.8 - 1.2", "1.2 - 1.8", "1.5 - 2.5", "1.8 - 2.5", "1.5 - 2.0"],
+                ["Ratio E/E'", "< 12", "< 10", "< 8", "< 7", "< 8"],
+                ["ITV SAo (cm)", "8 - 13", "12 - 18", "15 - 20", "18 - 22", "18 - 25"]
+              ],
+              "avecEntete": true,
+              "ordre": 1,
+              "id": "tab-apic"
+            }
           ],
-          "lignes": [
-            [
-              "Diam. VCI (mm)",
-              "3 - 5",
-              "4 - 8",
-              "6 - 10",
-              "10 - 15",
-              "15 - 22"
-            ],
-            [
-              "Épanch. Physio",
-              "< 2 mm",
-              "< 2 mm",
-              "< 3 mm",
-              "< 3 mm",
-              "< 4 mm"
-            ]
-          ],
-          "avecEntete": true,
           "ordre": 1,
-          "id": "tab-step-1"
+          "id": "sec-apic"
         },
         {
-          "type": "texte",
-          "contenu": "Coupe reine pour la fonction et les débits.\n\nANALYSE :\n- Visuelle : Ratio VD/VG (VD doit être < 0.6 VG).\n- Mesures A4C : Onde E/A (Doppler Pulsé mitral), E' (TDI anneau lat), TAPSE.\n- Mesure A5C : ITV Sous-aortique (Reflet du VES) en dégageant la chambre de chasse.",
+          "type": "section",
+          "titre": "C) Parasternales (Grand & Petit Axe)",
+          "initialementOuvert": false,
+          "contenu": [
+            {
+              "type": "texte",
+              "contenu": "ANALYSE :\n- PLAX (Grand Axe) : Mesure TM (Septum, Paroi Post, CCVG).\n- PSAX (Petit Axe) : Contractilité globale (\"Donut\"). Si forme en \"D\" = Surcharge pression VD.",
+              "ordre": 0,
+              "id": "desc-para"
+            },
+            {
+              "type": "tableau",
+              "titre": "Normes Parasternales (Dimensions)",
+              "colonnes": [
+                "Paramètre",
+                "Nouveau-né",
+                "Nourrisson",
+                "Petit",
+                "Grand",
+                "Ado"
+              ],
+              "lignes": [
+                ["Septum SIVd (mm)", "2.5 - 4.5", "3.5 - 5.5", "4.5 - 6.5", "6.5 - 8.5", "7.5 - 10"],
+                ["Paroi Post. (mm)", "2.5 - 4.5", "3.5 - 5.5", "4.5 - 6.5", "6.5 - 8.5", "7.5 - 10"],
+                ["Diam. CCVG (mm)", "6 - 9", "8 - 11", "11 - 15", "15 - 19", "19 - 23"]
+              ],
+              "avecEntete": true,
+              "ordre": 1,
+              "id": "tab-para"
+            }
+          ],
           "ordre": 2,
-          "id": "step-2-desc"
+          "id": "sec-para"
         },
         {
-          "type": "tableau",
-          "titre": "Normes Apicales (Diastole & Débit)",
-          "colonnes": [
-            "Paramètre",
-            "Nouveau-né",
-            "Nourrisson",
-            "Petit",
-            "Grand",
-            "Ado"
+          "type": "section",
+          "titre": "D) Suprasternale",
+          "initialementOuvert": false,
+          "contenu": [
+            {
+              "type": "texte",
+              "contenu": "ANALYSE DE LA CROSSE :\n- Recherche de Coarctation : Rétrécissement isthmique + Flux turbulent continu (« en dents de scie »).\n- Diamètres indicatifs de l'arche aortique (proximal) : Se référer aux valeurs de CCVG ci-dessus comme limite inférieure.",
+              "ordre": 0,
+              "id": "desc-supra"
+            }
           ],
-          "lignes": [
-            [
-              "Onde E (cm/s)",
-              "40 - 70",
-              "60 - 90",
-              "70 - 100",
-              "80 - 110",
-              "70 - 100"
-            ],
-            [
-              "Onde A (cm/s)",
-              "40 - 60",
-              "40 - 70",
-              "40 - 70",
-              "40 - 60",
-              "40 - 60"
-            ],
-            [
-              "E' latéral (cm/s)",
-              "8 - 12",
-              "10 - 14",
-              "12 - 15",
-              "15 - 20",
-              "15 - 22"
-            ],
-            [
-              "Ratio E/A",
-              "0.8 - 1.2",
-              "1.2 - 1.8",
-              "1.5 - 2.5",
-              "1.8 - 2.5",
-              "1.5 - 2.0"
-            ],
-            [
-              "Ratio E/E'",
-              "< 12",
-              "< 10",
-              "< 8",
-              "< 7",
-              "< 8"
-            ],
-            [
-              "ITV SAo (cm)",
-              "8 - 13",
-              "12 - 18",
-              "15 - 20",
-              "18 - 22",
-              "18 - 25"
-            ],
-            [
-              "Insuff. Tricuspide",
-              "< 2.5 m/s",
-              "< 2.5 m/s",
-              "< 2.5 m/s",
-              "< 2.5 m/s",
-              "< 2.5 m/s"
-            ]
-          ],
-          "avecEntete": true,
           "ordre": 3,
-          "id": "tab-step-2"
-        },
-        {
-          "type": "texte",
-          "contenu": "ANALYSE :\n- PLAX (Grand Axe) : Mesure TM (Septum, Paroi Post, CCVG).\n- PSAX (Petit Axe) : Contractilité globale (\"Donut\"). Si forme en \"D\" = Surcharge pression VD.",
-          "ordre": 4,
-          "id": "step-3-desc"
-        },
-        {
-          "type": "tableau",
-          "titre": "Normes Parasternales (Dimensions)",
-          "colonnes": [
-            "Paramètre",
-            "Nouveau-né",
-            "Nourrisson",
-            "Petit",
-            "Grand",
-            "Ado"
-          ],
-          "lignes": [
-            [
-              "Septum SIVd (mm)",
-              "2.5 - 4.5",
-              "3.5 - 5.5",
-              "4.5 - 6.5",
-              "6.5 - 8.5",
-              "7.5 - 10"
-            ],
-            [
-              "Paroi Post. (mm)",
-              "2.5 - 4.5",
-              "3.5 - 5.5",
-              "4.5 - 6.5",
-              "6.5 - 8.5",
-              "7.5 - 10"
-            ],
-            [
-              "Diam. CCVG (mm)",
-              "6 - 9",
-              "8 - 11",
-              "11 - 15",
-              "15 - 19",
-              "19 - 23"
-            ]
-          ],
-          "avecEntete": true,
-          "ordre": 5,
-          "id": "tab-step-3"
-        },
-        {
-          "type": "texte",
-          "contenu": "ANALYSE DE LA CROSSE :\n- Recherche de Coarctation : Rétrécissement isthmique + Flux turbulent continu (« en dents de scie »).\n- Diamètres indicatifs de l'arche aortique (proximal) : Se référer aux valeurs de CCVG ci-dessus comme limite inférieure.",
-          "ordre": 6,
-          "id": "step-4-desc"
+          "id": "sec-supra"
         }
       ],
       "ordre": 1,
@@ -216,118 +169,22 @@
             "Ado (>13a)"
           ],
           "lignes": [
-            [
-              "Fréquence Card. (bpm)",
-              "110 - 160",
-              "100 - 150",
-              "90 - 140",
-              "70 - 110",
-              "60 - 90"
-            ],
-            [
-              "Onde E mitrale (cm/s)",
-              "40 - 70",
-              "60 - 90",
-              "70 - 100",
-              "80 - 110",
-              "70 - 100"
-            ],
-            [
-              "Onde A mitrale (cm/s)",
-              "40 - 60",
-              "40 - 70",
-              "40 - 70",
-              "40 - 60",
-              "40 - 60"
-            ],
-            [
-              "E' latéral (cm/s)",
-              "8 - 12",
-              "10 - 14",
-              "12 - 15",
-              "15 - 20",
-              "15 - 22"
-            ],
-            [
-              "Ratio E/A",
-              "0.8 - 1.2",
-              "1.2 - 1.8",
-              "1.5 - 2.5",
-              "1.8 - 2.5",
-              "1.5 - 2.0"
-            ],
-            [
-              "Ratio E/E' (moyen)",
-              "< 12",
-              "< 10",
-              "< 8",
-              "< 7",
-              "< 8"
-            ],
-            [
-              "ITV SAo (cm)",
-              "8 - 13",
-              "12 - 18",
-              "15 - 20",
-              "18 - 22",
-              "18 - 25"
-            ],
-            [
-              "Diam. CCVG (mm)",
-              "6 - 9",
-              "8 - 11",
-              "11 - 15",
-              "15 - 19",
-              "19 - 23"
-            ],
-            [
-              "Diam. VCI (mm)",
-              "3 - 5",
-              "4 - 8",
-              "6 - 10",
-              "10 - 15",
-              "15 - 22"
-            ],
-            [
-              "Septum SIVd (mm)",
-              "2.5 - 4.5",
-              "3.5 - 5.5",
-              "4.5 - 6.5",
-              "6.5 - 8.5",
-              "7.5 - 10"
-            ],
-            [
-              "Paroi Post. (d) (mm)",
-              "2.5 - 4.5",
-              "3.5 - 5.5",
-              "4.5 - 6.5",
-              "6.5 - 8.5",
-              "7.5 - 10"
-            ],
-            [
-              "Paroi Post. (s) (mm)",
-              "4.5 - 6.5",
-              "6 - 9",
-              "7 - 11",
-              "10 - 14",
-              "12 - 16"
-            ],
-            [
-              "Insuff. Tricuspide",
-              "< 2.5 m/s",
-              "< 2.5 m/s",
-              "< 2.5 m/s",
-              "< 2.5 m/s",
-              "< 2.5 m/s"
-            ],
-            [
-              "Épanch. Physio.",
-              "< 2 mm",
-              "< 2 mm",
-              "< 3 mm",
-              "< 3 mm",
-              "< 4 mm"
-            ]
+            ["Fréquence Card. (bpm)", "110 - 160", "100 - 150", "90 - 140", "70 - 110", "60 - 90"],
+            ["TAPSE (mm)", "> 8", "> 10", "> 14", "> 16", "> 18"],
+            ["MAPSE (mm)", "> 6", "> 8", "> 10", "> 12", "> 14"],
+            ["Onde E mitrale (cm/s)", "40 - 70", "60 - 90", "70 - 100", "80 - 110", "70 - 100"],
+            ["Onde A mitrale (cm/s)", "40 - 60", "40 - 70", "40 - 70", "40 - 60", "40 - 60"],
+            ["E' latéral (cm/s)", "8 - 12", "10 - 14", "12 - 15", "15 - 20", "15 - 22"],
+            ["Ratio E/A", "0.8 - 1.2", "1.2 - 1.8", "1.5 - 2.5", "1.8 - 2.5", "1.5 - 2.0"],
+            ["Ratio E/E' (moyen)", "< 12", "< 10", "< 8", "< 7", "< 8"],
+            ["ITV SAo (cm)", "8 - 13", "12 - 18", "15 - 20", "18 - 22", "18 - 25"],
+            ["Diam. CCVG (mm)", "6 - 9", "8 - 11", "11 - 15", "15 - 19", "19 - 23"],
+            ["Diam. VCI (mm)", "3 - 5", "4 - 8", "6 - 10", "10 - 15", "15 - 22"],
+            ["Septum SIVd (mm)", "2.5 - 4.5", "3.5 - 5.5", "4.5 - 6.5", "6.5 - 8.5", "7.5 - 10"],
+            ["Paroi Post. (d) (mm)", "2.5 - 4.5", "3.5 - 5.5", "4.5 - 6.5", "6.5 - 8.5", "7.5 - 10"],
+            ["Paroi Post. (s) (mm)", "4.5 - 6.5", "6 - 9", "7 - 11", "10 - 14", "12 - 16"],
+            ["Insuff. Tricuspide", "< 2.5 m/s", "< 2.5 m/s", "< 2.5 m/s", "< 2.5 m/s", "< 2.5 m/s"],
+            ["Épanch. Physio.", "< 2 mm", "< 2 mm", "< 3 mm", "< 3 mm", "< 4 mm"]
           ],
           "avecEntete": true,
           "ordre": 1,
