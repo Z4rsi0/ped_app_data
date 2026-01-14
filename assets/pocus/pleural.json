@@ -1,0 +1,199 @@
+{
+  "titre": "Écho Pleuro-Pulmonaire POCUS",
+  "description": "Atlas des pathologies respiratoires pédiatriques et diagnostics différentiels.",
+  "auteur": "A. Amiot",
+  "version": "2026.1",
+  "categorie": "POCUS",
+  "dateModification": "2026-01-14T14:45:00.000000",
+  "blocs": [
+    {
+      "type": "alerte",
+      "contenu": "SONDE : Utiliser une sonde LINÉAIRE haute fréquence (ou Hockey Stick chez le tout-petit). La sonde abdominale ne sert que pour les gros épanchements ou condensations profondes.",
+      "niveau": "info",
+      "ordre": 0,
+      "id": "alert-sonde-lung"
+    },
+    {
+      "type": "section",
+      "titre": "1. Poumon Physiologique",
+      "initialementOuvert": true,
+      "contenu": [
+        {
+          "type": "texte",
+          "titre": "Signes Normaux",
+          "contenu": "1. **Signe de la Chauve-Souris (Bat Sign)** : La ligne pleurale (hyperéchogène) se situe entre deux ombres costales.\n2. **Glissement Pleural (Sliding)** : Scintillement de la ligne pleurale synchronisé avec la respiration. Confirme que le poumon est à la paroi (Exclut le PNO).\n3. **Lignes A** : Lignes horizontales parallèles à la plèvre (artéfacts de réverbération). Signe un poumon aéré.",
+          "ordre": 0,
+          "id": "physio-base"
+        },
+        {
+          "type": "texte",
+          "titre": "Mode TM (M-Mode)",
+          "contenu": "**Signe du Bord de Mer (Seashore Sign)** :\n- Partie haute (paroi) : Lignes droites (Vagues).\n- Partie basse (poumon) : Aspect granuleux (Sable).\n= Glissement normal.",
+          "ordre": 1,
+          "id": "physio-tm"
+        }
+      ],
+      "ordre": 1,
+      "id": "sec-physio"
+    },
+    {
+      "type": "section",
+      "titre": "2. Pathologies Respiratoires",
+      "initialementOuvert": false,
+      "contenu": [
+        {
+          "type": "section",
+          "titre": "A) Bronchiolite (Viral)",
+          "initialementOuvert": false,
+          "contenu": [
+            {
+              "type": "texte",
+              "contenu": "Pathologie la plus fréquente. L'échographie est supérieure à la radio pour les petites atélectasies.\n\nSIGNES ÉCHOGRAPHIQUES :\n- **Syndrome interstitiel** : Lignes B diffuses ou localisées (œdème inflammatoire).\n- **Consolidations sous-pleurales** : Petits \"grumeaux\" hypoéchogènes < 1 cm, souvent multiples et postérieurs.\n- **Bronchogramme** : Absent ou Statique (air piégé).\n\nNOTE CLINIQUE :\nL'atteinte est souvent bilatérale et hétérogène (zones saines alternant avec zones malades).",
+              "ordre": 0,
+              "id": "patho-bronchio"
+            }
+          ],
+          "ordre": 0,
+          "id": "sec-bronchio"
+        },
+        {
+          "type": "section",
+          "titre": "B) Pneumopathie (Bactérien)",
+          "initialementOuvert": false,
+          "contenu": [
+            {
+              "type": "texte",
+              "contenu": "Recherche d'un foyer de condensation alveolaire.\n\nSIGNES ÉCHOGRAPHIQUES :\n- **Hépatisation** : Aspect tissulaire (ressemble au foie).\n- **Taille** : Consolidation profonde > 1-2 cm.\n- **Bronchogramme Aérique DYNAMIQUE** : Points blancs hyperéchogènes mobiles à l'inspiration (Pathognomonique).\n- **Shred Sign** : Bordure déchiquetée entre poumon sain et malade.\n\nCRITÈRE CLÉ :\nDoppler Couleur positif (Hypervascularisation) au sein de la condensation.",
+              "ordre": 0,
+              "id": "patho-pneumo"
+            }
+          ],
+          "ordre": 1,
+          "id": "sec-pneumo"
+        },
+        {
+          "type": "section",
+          "titre": "C) Asthme / Bronchospasme",
+          "initialementOuvert": false,
+          "contenu": [
+            {
+              "type": "texte",
+              "contenu": "L'échographie sert à éliminer les diagnostics différentiels (PNO, Pneumonie).\n\nPROFIL A (NORMAL) :\n- Présence de glissement pleural (parfois exagéré par l'effort).\n- Lignes A prédominantes.\n- Absence de consolidation ou d'épanchement.\n\nNote : Une atélectasie basale est possible si bouchon muqueux.",
+              "ordre": 0,
+              "id": "patho-asthme"
+            }
+          ],
+          "ordre": 2,
+          "id": "sec-asthme"
+        },
+        {
+          "type": "section",
+          "titre": "D) Pneumothorax (PNO)",
+          "initialementOuvert": false,
+          "contenu": [
+            {
+              "type": "texte",
+              "contenu": "Urgence vitale potentielle.\n\nTRIADE DIAGNOSTIQUE :\n1. **Abolition du glissement** pleural (Poumon figé).\n2. **Absence de lignes B** (Valeur prédictive négative 100% : si vous voyez 1 ligne B, il n'y a pas de PNO à cet endroit).\n3. **Point Poumon (Lung Point)** : Zone de transition visible entre poumon collé et décollé (Spécificité 100%).\n\nMODE TM :\n**Signe du Code-Barres (Stratosphere Sign)** : Lignes horizontales parallèles sur toute la hauteur (plus de granulosité).",
+              "ordre": 0,
+              "id": "patho-pno"
+            }
+          ],
+          "ordre": 3,
+          "id": "sec-pno"
+        },
+        {
+          "type": "section",
+          "titre": "E) Épanchement Pleural (Pleurésie)",
+          "initialementOuvert": false,
+          "contenu": [
+            {
+              "type": "texte",
+              "contenu": "Recherche aux bases (zone déclive).\n\nSIGNES :\n- **Zone Anéchogène** (Noire) séparant les deux feuillets pleuraux.\n- **Signe du Quadrilatère** (délimité par les côtes et la plèvre).\n- **Signe du Sinusoïde** (TM) : Le poumon flotte dans le liquide à l'inspiration.\n\nALERTE PÉDIATRIE (Pleurésie Purulente) :\nRechercher des échogenicités internes : Fibrine, Cloisonnements (Septas), aspect \"Plancton\". Indique souvent la nécessité d'un drainage.",
+              "ordre": 0,
+              "id": "patho-epanchement"
+            }
+          ],
+          "ordre": 4,
+          "id": "sec-epanchement"
+        },
+        {
+          "type": "section",
+          "titre": "F) STA (Drépanocytaire)",
+          "initialementOuvert": false,
+          "contenu": [
+            {
+              "type": "texte",
+              "contenu": "Syndrome Thoracique Aigu : Complication majeure.\n\nCONTEXTE :\nEnfant drépanocytaire fébrile + Douleur thoracique/Dyspnée.\n\nSIGNES ÉCHOGRAPHIQUES :\n- Consolidation alvéolaire (souvent basale bilatérale).\n- Épanchement pleural associé fréquent.\n- L'écho est plus sensible que la radio pulmonaire initiale pour détecter les foyers débutants.",
+              "ordre": 0,
+              "id": "patho-sta"
+            }
+          ],
+          "ordre": 5,
+          "id": "sec-sta"
+        },
+        {
+          "type": "section",
+          "titre": "G) SDRA Pédiatrique",
+          "initialementOuvert": false,
+          "contenu": [
+            {
+              "type": "texte",
+              "contenu": "Contexte de détresse respiratoire sévère.\n\nSIGNES :\n- \"Poumon Blanc\" : Lignes B coalescentes diffuses.\n- Anomalies bilatérales mais **hétérogènes** (zones épargnées \"saines\").\n- Consolidations sous-pleurales multiples.\n- Abolition du glissement possible dans les zones très condensées.",
+              "ordre": 0,
+              "id": "patho-sdra"
+            }
+          ],
+          "ordre": 6,
+          "id": "sec-sdra"
+        }
+      ],
+      "ordre": 2,
+      "id": "sec-pathologies"
+    },
+    {
+      "type": "section",
+      "titre": "3. Pièges & Spécificités Pédiatriques",
+      "initialementOuvert": false,
+      "contenu": [
+        {
+          "type": "tableau",
+          "titre": "Diagnostics Différentiels Écho",
+          "colonnes": [
+            "Image Piège",
+            "Ce que c'est réellement",
+            "Comment différencier"
+          ],
+          "lignes": [
+            [
+              "Masse antérieure pseudo-hépatisée",
+              "THYMUS (Normal)",
+              "Texture fine \"Ciel étoilé\". Pas de bronchogramme. Localisation fixe."
+            ],
+            [
+              "Lignes B aux bases (dorsales)",
+              "ATÉLECTASIE DÉCUBITUS",
+              "Disparaît en position assise ou après kiné/cri."
+            ],
+            [
+              "Faux PNO (pas de glissement)",
+              "APNÉE / HYPOVENTILATION",
+              "Le poumon ne bouge pas car l'enfant bloque sa respiration. Faire tousser."
+            ]
+          ],
+          "avecEntete": true,
+          "ordre": 0,
+          "id": "tab-pieges"
+        },
+        {
+          "type": "texte",
+          "titre": "Note sur les Pleurs",
+          "contenu": "Chez l'enfant qui hurle, la recherche du **Point Poumon** (PNO) est très difficile car l'excursion diaphragmatique est chaotique. Essayer de calmer l'enfant ou utiliser le mode TM.",
+          "ordre": 1,
+          "id": "txt-pleurs-lung"
+        }
+      ],
+      "ordre": 3,
+      "id": "sec-pieges"
+    }
+  ]
+}
