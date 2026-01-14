@@ -1,15 +1,15 @@
 {
   "titre": "Écho Cardio POCUS Pédiatrie",
   "description": "Cours et normes pour l'évaluation hémodynamique urgente de l'enfant (Niveau 2 SFMU adapté).",
-  "auteur": "Assistant IA (Validé S. Savantes)",
+  "auteur": "A. Amiot",
   "version": "2026.1",
   "categorie": "POCUS",
-  "dateModification": "2026-01-12T00:24:42.272250",
+  "dateModification": "2026-01-14T13:02:52.602122",
   "blocs": [
     {
       "type": "alerte",
       "contenu": "RÈGLES D'OR : 1. Utiliser une sonde Phased Array haute fréquence (S4-10 ou S8). 2. Calmer l'enfant (Sucre/Bras) : les pleurs faussent l'examen (VCI) et augmentent les pressions pulmonaires.",
-      "niveau": "critique",
+      "niveau": "attention",
       "ordre": 0,
       "id": "alert-001"
     },
