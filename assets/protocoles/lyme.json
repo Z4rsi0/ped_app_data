@@ -3,56 +3,65 @@
   "description": "Diagnostic et traitement : Erythème migrant et Neuroborréliose.",
   "auteur": "Dr I. Kahn",
   "version": "2022.2",
-  "dateModification": "2022-09-01T00:00:00.000Z",
+  "categorie": "Infectiologie",
+  "dateModification": "2026-01-16T11:17:10.559833",
   "blocs": [
     {
       "type": "section",
-      "ordre": 1,
       "titre": "Erythème Migrant (Stade Localisé)",
       "initialementOuvert": true,
       "contenu": [
         {
           "type": "texte",
+          "contenu": "**Diagnostic :** Clinique (Macule érythémateuse centrifuge > 5cm, indolore, sans fièvre) après morsure tique (3 à 30j).\n**Sérologie :** INUTILE à ce stade (souvent négative).\n**Traitement :** Amoxicilline ou Doxycycline.",
           "ordre": 0,
-          "contenu": "**Diagnostic :** Clinique (Macule érythémateuse centrifuge > 5cm, indolore, sans fièvre) après morsure tique (3 à 30j).\n**Sérologie :** INUTILE à ce stade (souvent négative).\n**Traitement :** Amoxicilline ou Doxycycline."
+          "id": "8fa096d6-05ca-4095-9845-8c51f8edf6bb"
         },
         {
           "type": "medicament",
-          "ordre": 1,
           "nomMedicament": "Amoxicilline",
           "indication": "Dose Angine",
           "voie": "PO",
-          "commentaire": "50 mg/kg/j en 3 prises. 14 jours."
+          "commentaire": "50 mg/kg/j en 3 prises. 14 jours.",
+          "ordre": 1,
+          "id": "946e26eb-e422-4296-b1e6-eb6b7822a6a7"
         },
         {
           "type": "medicament",
-          "ordre": 2,
           "nomMedicament": "Doxycycline",
-          "indication": "Si > 8 ans",
+          "indication": "Maladie de Lyme",
           "voie": "PO",
-          "commentaire": "4 mg/kg/j en 2 prises. 14 jours. (CI < 8 ans : Coloration dents)."
+          "commentaire": "4 mg/kg/j en 2 prises. 14 jours. (CI < 8 ans : Coloration dents).",
+          "ordre": 2,
+          "id": "440bbe5b-fddb-4f77-bf60-53615e7305c4"
         }
-      ]
+      ],
+      "ordre": 1,
+      "id": "6878b7ac-1aee-47fc-9b91-6f2c887bf490"
     },
     {
       "type": "section",
-      "ordre": 2,
       "titre": "Neuroborréliose (Stade Disséminé)",
+      "initialementOuvert": false,
       "contenu": [
         {
           "type": "texte",
+          "contenu": "**Clinique :** Paralysie faciale (souvent périphérique), Méningite lymphocytaire, Radiculite.\n**Bilan :** PL + Sérologie Sang et LCR (Synthèse intrathécale).\n**Traitement :** Ceftriaxone IV.",
           "ordre": 0,
-          "contenu": "**Clinique :** Paralysie faciale (souvent périphérique), Méningite lymphocytaire, Radiculite.\n**Bilan :** PL + Sérologie Sang et LCR (Synthèse intrathécale).\n**Traitement :** Ceftriaxone IV."
+          "id": "29eebcca-0a35-4f19-9a52-6570c716330b"
         },
         {
           "type": "medicament",
-          "ordre": 1,
           "nomMedicament": "Ceftriaxone",
-          "indication": "Infections bactériennes",
+          "indication": "Infections bactériennes - Céphalosporine 3ème génération",
           "voie": "IV",
-          "commentaire": "80 mg/kg/j (Max 2g). 21 à 28 jours."
+          "commentaire": "80 mg/kg/j (Max 2g). 21 à 28 jours.",
+          "ordre": 1,
+          "id": "a14480b6-41a6-4e60-a08a-9858605e8606"
         }
-      ]
+      ],
+      "ordre": 2,
+      "id": "effd8bfa-a1b8-4fd5-8d2e-472652f71b65"
     }
   ]
 }
