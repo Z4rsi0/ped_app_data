@@ -3,68 +3,78 @@
   "description": "Prise en charge d'urgence : Dexaméthasone et C3G forte dose.",
   "auteur": "GPIP, Dr I. Kahn",
   "version": "2023.2",
-  "dateModification": "2023-01-03T00:00:00.000Z",
+  "categorie": "Urgences",
+  "dateModification": "2026-01-16T11:31:47.114350",
   "blocs": [
     {
       "type": "alerte",
-      "ordre": 0,
       "contenu": "PURPURA FULMINANS = C3G IV/IM IMMÉDIATE (avant tout examen).",
-      "niveau": "critique"
+      "niveau": "critique",
+      "ordre": 0,
+      "id": "c7e55d3a-4d47-4aae-a6bd-263663638749"
     },
     {
       "type": "section",
-      "ordre": 1,
       "titre": "Traitement d'Urgence (Purpura / Méningite)",
       "initialementOuvert": true,
       "contenu": [
         {
           "type": "medicament",
-          "ordre": 0,
           "nomMedicament": "Ceftriaxone",
-          "indication": "Dose de charge (Purpura) ou Méningite",
+          "indication": "Purpura Fulminans",
           "voie": "IV/IM",
-          "commentaire": "100 mg/kg (Max 2g Purpura / 4g Méningite) en 1 ou 2 injections."
+          "commentaire": "100 mg/kg (Max 2g Purpura / 4g Méningite) en 1 ou 2 injections.",
+          "ordre": 0,
+          "id": "5e9e6c3e-aadd-46f8-a692-1f84288ce54d"
         },
         {
           "type": "medicament",
-          "ordre": 1,
           "nomMedicament": "Cefotaxime",
-          "indication": "Méningite (Alternative)",
+          "indication": "Dose à visée méningée",
           "voie": "IV",
-          "commentaire": "300 mg/kg/j (Max 12g) en 4 injections."
+          "commentaire": "300 mg/kg/j (Max 12g) en 4 injections.",
+          "ordre": 1,
+          "id": "f6f0c099-d81d-417c-a79e-a77c61708518"
         },
         {
           "type": "medicament",
-          "ordre": 2,
           "nomMedicament": "Dexaméthasone",
-          "indication": "Avant ou avec 1ère dose antibio",
+          "indication": "Méningite Bactérienne",
           "voie": "IV",
-          "commentaire": "0.15 mg/kg toutes les 6h pendant 4 jours. (Prévention surdité Pneumocoque/Haemophilus)."
+          "commentaire": "0.15 mg/kg toutes les 6h pendant 4 jours. (Prévention surdité Pneumocoque/Haemophilus).",
+          "ordre": 2,
+          "id": "1bd973fe-3c00-4aa5-8486-cec6b6111ec3"
         },
         {
           "type": "medicament",
-          "ordre": 3,
           "nomMedicament": "Vancomycine",
-          "indication": "Si Pneumocoque PSD suspecté",
+          "indication": "Aplasie fébrile (point d'appel cutané ou matériel orthopédique) - Dose de charge",
           "voie": "IV",
-          "commentaire": "60 mg/kg/j en 4 injections ou continu. (Ajout à C3G)."
+          "commentaire": "60 mg/kg/j en 4 injections ou continu. (Ajout à C3G).",
+          "ordre": 3,
+          "id": "b3ccae65-1ec5-434a-8e7a-5ce828275854"
         }
-      ]
+      ],
+      "ordre": 1,
+      "id": "2bde1a84-f2da-45a9-ac47-d7120e9f813a"
     },
     {
       "type": "section",
-      "ordre": 2,
       "titre": "Prophylaxie (Entourage)",
+      "initialementOuvert": false,
       "contenu": [
         {
           "type": "medicament",
-          "ordre": 0,
           "nomMedicament": "Rifampicine",
-          "indication": "Prophylaxie Méningocoque",
+          "indication": "Prophylaxie Méningite",
           "voie": "PO",
-          "commentaire": "10 mg/kg x 2/j pendant 2 jours (si > 1 mois)."
+          "commentaire": "10 mg/kg x 2/j pendant 2 jours (si > 1 mois).",
+          "ordre": 0,
+          "id": "1a8e585b-e179-4d34-b115-e881b10eac02"
         }
-      ]
+      ],
+      "ordre": 2,
+      "id": "f2966c9f-e2a7-4341-b794-5e9b7af45c28"
     }
   ]
 }
