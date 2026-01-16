@@ -3,82 +3,96 @@
   "description": "Diagnostic, Critères de gravité et Traitement (Simple vs Grave).",
   "auteur": "Dr F. Raimond",
   "version": "2023.2",
-  "dateModification": "2023-01-01T00:00:00.000Z",
+  "categorie": "Infectiologie",
+  "dateModification": "2026-01-16T11:34:35.335071",
   "blocs": [
     {
       "type": "alerte",
-      "ordre": 0,
       "contenu": "Toute fièvre au retour de zone endémique est un paludisme jusqu'à preuve du contraire. Urgence diagnostique (Frottis/Goutte Épaisse).",
-      "niveau": "critique"
+      "niveau": "critique",
+      "ordre": 0,
+      "id": "47f7e261-4b50-4456-b6f6-b2046d9a1a6f"
     },
     {
       "type": "section",
-      "ordre": 1,
       "titre": "Évaluation de la Gravité",
       "initialementOuvert": true,
       "contenu": [
         {
           "type": "texte",
+          "contenu": "**Critères de Paludisme Grave (OMS) :**\n- **Neuro :** Coma (Glasgow < 11), Convulsions répétées.\n- **Respi :** Détresse respiratoire, OAP.\n- **Hémodynamique :** Choc (PAS < 50-70 mmHg selon âge).\n- **Bio :** Anémie profonde (Hb < 7 g/dL), Hypoglycémie, Acidose, Lactates élevés, Parasitémie > 4%.\n- **Digestif :** Vomissements incoercibles (empêchant le traitement PO).",
           "ordre": 0,
-          "contenu": "**Critères de Paludisme Grave (OMS) :**\n- **Neuro :** Coma (Glasgow < 11), Convulsions répétées.\n- **Respi :** Détresse respiratoire, OAP.\n- **Hémodynamique :** Choc (PAS < 50-70 mmHg selon âge).\n- **Bio :** Anémie profonde (Hb < 7 g/dL), Hypoglycémie, Acidose, Lactates élevés, Parasitémie > 4%.\n- **Digestif :** Vomissements incoercibles (empêchant le traitement PO)."
+          "id": "6678074b-57b0-416c-9575-a290f154a46f"
         }
-      ]
+      ],
+      "ordre": 1,
+      "id": "a71b4b80-0263-47fd-8f56-2783a13067d4"
     },
     {
       "type": "section",
-      "ordre": 2,
       "titre": "Paludisme Simple (Ambulatoire possible)",
+      "initialementOuvert": false,
       "contenu": [
         {
           "type": "texte",
+          "contenu": "**Critères Ambulatoire :** Absence de signes de gravité, pas de vomissements, parasitémie < 2%, famille fiable, domicile proche.\n**Traitement :** Artéméther-Luméfantrine (Riamet) ou Atovaquone-Proguanil (Malarone).",
           "ordre": 0,
-          "contenu": "**Critères Ambulatoire :** Absence de signes de gravité, pas de vomissements, parasitémie < 2%, famille fiable, domicile proche.\n**Traitement :** Artéméther-Luméfantrine (Riamet) ou Atovaquone-Proguanil (Malarone)."
+          "id": "19fe8328-3b64-477a-bba0-b16fd1860fd0"
         },
         {
           "type": "medicament",
-          "ordre": 1,
           "nomMedicament": "Artéméther-Luméfantrine",
-          "indication": "1ère intention (Riamet)",
+          "indication": "Paludisme simple à falciparum",
           "voie": "PO",
-          "commentaire": "6 prises fixes : H0, H8, H24, H36, H48, H60. Dosage selon poids (ex: 1 cp si <15kg)."
+          "commentaire": "6 prises fixes : H0, H8, H24, H36, H48, H60. Dosage selon poids (ex: 1 cp si <15kg).",
+          "ordre": 1,
+          "id": "07b7b574-6b5b-4335-a4ff-32975b25d7f5"
         },
         {
           "type": "medicament",
-          "ordre": 2,
           "nomMedicament": "Atovaquone-Proguanil",
-          "indication": "Alternative (Malarone)",
+          "indication": "Paludisme simple",
           "voie": "PO",
-          "commentaire": "1 prise par jour (à heure fixe) pendant 3 jours. Dosage selon poids."
+          "commentaire": "1 prise par jour (à heure fixe) pendant 3 jours. Dosage selon poids.",
+          "ordre": 2,
+          "id": "2c7c33d5-7cc1-4003-ace2-cd375d228407"
         }
-      ]
+      ],
+      "ordre": 2,
+      "id": "bc8aa577-a8ac-4cf5-8bb4-257ff538590e"
     },
     {
       "type": "section",
-      "ordre": 3,
       "titre": "Paludisme Grave (Hospitalisation)",
+      "initialementOuvert": false,
       "contenu": [
         {
           "type": "texte",
+          "contenu": "**Hospitalisation systématique.** Si signes de gravité -> Réanimation.\n**Traitement :** Artésunate IV en 1ère intention (ATU) ou Quinine IV.",
           "ordre": 0,
-          "contenu": "**Hospitalisation systématique.** Si signes de gravité -> Réanimation.\n**Traitement :** Artésunate IV en 1ère intention (ATU) ou Quinine IV."
+          "id": "1ca2dd23-c6fd-45ca-bef6-c5ea3589b7ec"
         },
         {
           "type": "medicament",
+          "nomMedicament": "Artesunate IV",
+          "indication": "Paludisme grave",
+          "voie": "IV",
+          "commentaire": "2.4 mg/kg à H0, H12, H24 puis toutes les 24h.",
           "ordre": 1,
-          "nomMedicament": "Artésunate",
-          "indication": "Paludisme Grave (Référence)",
-          "voie": "IV",
-          "commentaire": "2.4 mg/kg à H0, H12, H24 puis toutes les 24h."
+          "id": "b8a2ab60-9fb5-4b91-92e9-115ce0e99525"
         },
         {
           "type": "medicament",
-          "ordre": 2,
-          "nomMedicament": "Quinine",
-          "indication": "Si Artésunate indisponible",
+          "nomMedicament": "Quinine IV",
+          "indication": "Paludisme grave",
           "voie": "IV",
-          "commentaire": "Charge : 16 mg/kg (base) sur 4h (G5% ou G10%). Entretien : 8 mg/kg toutes les 8h."
+          "commentaire": "Charge : 16 mg/kg (base) sur 4h (G5% ou G10%). Entretien : 8 mg/kg toutes les 8h.",
+          "ordre": 2,
+          "id": "9882a219-50b7-40e9-8c45-0d7137de3c9d"
         }
-      ]
+      ],
+      "ordre": 3,
+      "id": "da92d9ed-fe11-4dd7-b013-511ce7b1fe54"
     }
   ]
 }
