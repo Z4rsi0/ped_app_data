@@ -3,72 +3,83 @@
   "description": "Cystite et Pyélonéphrite Aiguë (PNA). Bilan et Traitement.",
   "auteur": "Dr I. Kahn, GPIP",
   "version": "2023.3",
-  "dateModification": "2023-02-01T00:00:00.000Z",
+  "categorie": "Infectiologie",
+  "dateModification": "2026-01-16T11:28:06.429995",
   "blocs": [
     {
       "type": "section",
-      "ordre": 1,
       "titre": "Pyélonéphrite Aiguë (PNA)",
       "initialementOuvert": true,
       "contenu": [
         {
           "type": "texte",
+          "contenu": "**Diagnostic :** Fièvre élevée + BU positive (Leuco/Nitrites) + ECBU positif.\n**Bilan :** ECBU, Echo Rénale (Urgente si < 3 mois, hyperalgique ou retention).\n**Hospitalisation :** Age < 3 mois, Sepsis, Uropathie connue, Vomissements.\n**Traitement Attaque :** Ceftriaxone IV 50 mg/kg/j.",
           "ordre": 0,
-          "contenu": "**Diagnostic :** Fièvre élevée + BU positive (Leuco/Nitrites) + ECBU positif.\n**Bilan :** ECBU, Echo Rénale (Urgente si < 3 mois, hyperalgique ou retention).\n**Hospitalisation :** Age < 3 mois, Sepsis, Uropathie connue, Vomissements.\n**Traitement Attaque :** Ceftriaxone IV 50 mg/kg/j."
+          "id": "13e63622-6f39-480d-8e3e-39e5ac069eee"
         },
         {
           "type": "medicament",
-          "ordre": 1,
           "nomMedicament": "Ceftriaxone",
-          "indication": "Infections bactériennes",
+          "indication": "Infections bactériennes - Céphalosporine 3ème génération",
           "voie": "IV/IM",
-          "commentaire": "50 mg/kg/j en 1 injection. (Si allergie : Gentamicine ou Ciprofloxacine)."
+          "commentaire": "50 mg/kg/j en 1 injection. (Si allergie : Gentamicine ou Ciprofloxacine).",
+          "ordre": 1,
+          "id": "383e9848-e62b-45b7-800e-79218459acf2"
         },
         {
           "type": "medicament",
-          "ordre": 2,
           "nomMedicament": "Amikacine",
-          "indication": "Pyélonéphrite aiguë",
+          "indication": "Pyélonéphrite aiguë ou Aplasie fébrile sévère",
           "voie": "IV",
-          "commentaire": "20-30 mg/kg/j. À ajouter si sepsis sévère ou uropathie obstructive."
+          "commentaire": "20-30 mg/kg/j. À ajouter si sepsis sévère ou uropathie obstructive.",
+          "ordre": 2,
+          "id": "c50d21d8-fdfc-4228-82dd-5e213d7a47eb"
         },
         {
           "type": "medicament",
-          "ordre": 3,
           "nomMedicament": "Céfixime",
           "indication": "Relai PO (ou d'emblée si > 3 mois)",
           "voie": "PO",
-          "commentaire": "4 mg/kg/12h (soit 8mg/kg/j). Relai à 48h d'apyrexie. Durée totale 10j."
+          "commentaire": "4 mg/kg/12h (soit 8mg/kg/j). Relai à 48h d'apyrexie. Durée totale 10j.",
+          "ordre": 3,
+          "id": "35975bd9-ad99-4666-bad2-6eb086c53da6"
         }
-      ]
+      ],
+      "ordre": 1,
+      "id": "0b978f05-3213-46c1-b079-77a99829aa6d"
     },
     {
       "type": "section",
-      "ordre": 2,
       "titre": "Cystite Aiguë",
+      "initialementOuvert": false,
       "contenu": [
         {
           "type": "texte",
+          "contenu": "**Clinique :** Pollakiurie, Brûlures, Pas de fièvre, BU +.\n**Traitement :** Cotrimoxazole ou Augmentin ou Cefixime.",
           "ordre": 0,
-          "contenu": "**Clinique :** Pollakiurie, Brûlures, Pas de fièvre, BU +.\n**Traitement :** Cotrimoxazole ou Augmentin ou Cefixime."
+          "id": "fc7f9007-d3d3-4194-9c18-0a52f5ad5891"
         },
         {
           "type": "medicament",
-          "ordre": 1,
           "nomMedicament": "Sulfaméthoxazole-triméthoprime",
           "indication": "Infections (dose en TMP)",
           "voie": "PO",
-          "commentaire": "Cotrimoxazole. 30 mg/kg/j (SMX) en 2 prises. 3-5 jours."
+          "commentaire": "Cotrimoxazole. 30 mg/kg/j (SMX) en 2 prises. 3-5 jours.",
+          "ordre": 1,
+          "id": "503360f0-ef56-4721-8a02-d8db476b96f0"
         },
         {
           "type": "medicament",
-          "ordre": 2,
           "nomMedicament": "Amoxicilline + acide clavulanique",
-          "indication": "Dose Standard",
+          "indication": "80",
           "voie": "PO",
-          "commentaire": "2ème intention. 5 jours."
+          "commentaire": "2ème intention. 5 jours.",
+          "ordre": 2,
+          "id": "261a4f61-7533-4c74-a68b-b3cd3633e8c8"
         }
-      ]
+      ],
+      "ordre": 2,
+      "id": "0627bfef-a1b4-42ab-b1c5-d591594e6ff7"
     }
   ]
 }
