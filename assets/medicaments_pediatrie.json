@@ -1904,6 +1904,25 @@
     "aSavoir": "Avant utilisation: réchauffer flacon jusqu'à 37°C et agiter doucement haut en bas pour solution uniforme. Prélever avec aiguille fine puis instiller en dose unique directement dans trachée basse"
   },
   {
+    "nom": "Fragments Fab d'anticorps anti-digoxine",
+    "galenique": "flacon poudre pour solution\rà perfuser",
+    "nomCommercial": "DIGIBIND",
+    "indications": [
+      {
+        "label": "Antidote Digoxine",
+        "posologies": [
+          {
+            "voie": "IV",
+            "unite": "mg",
+            "doses": "Calcul à partir de la dose supposée ingérée (QSI) : Q = DSI x F\r\nDSI (mg), F: biodisponiblité (0,6 pour la digoxine et 1 pour la digitoxine)\r\nCalcul selon la concentration plasmatique en digitalique (CDG): Q = CDG x Vd x P / 1000\r\nCDG (ng/ml), Vd: volume de distribution (5,61 l/kg pour la digoxine et 0,56 l/kg pour la digitoxine),\r\nP: poids du patient (kg)",
+            "preparation": "Diluer chaque flacon avec\r4 ml d'eau stérile pour préparations injecta\rbles. Cette solution peut être de nouveau diluée\rdans une solution de NaCI 0,9 %.\rPerfuser en 30 min. Sauf gravité immédiate\rnécessitant une injection directe"
+          }
+        ]
+      }
+    ],
+    "aSavoir": "Indication de neutralisation équimolaire, si présence d'un seul des signes de gravité suivants :\r\narythmie ventriculaire (fibrillation ou tachycardie ventriculaire), bradycardie sévère <40 /min résistante\r\nà I mg d'atropine IV, kaliémie > 5,5 mmol/l, infarctus mésentérique, choc cardiogénique\r\nIndication de neutralisation semi-molaire, si présence d'au moins 3 des facteurs de mauvais pronostic\r\nsuivants : sexe masculin, cardiopathie préexistante, âge >55 ans, BAV quelqu'en soit le degré,\r\nbradycardie <50 /mn résistante à 1 mg d'atropine IV, kaliémie >4,5 mmol/l"
+  },
+  {
     "nom": "Fumarate de fer",
     "galenique": "Sirop",
     "nomCommercial": "TARDYFERON",
@@ -2000,6 +2019,17 @@
     "nomCommercial": "GLUCAGEN KIT",
     "indications": [
       {
+        "label": "Intoxication Beta bloquant - dose de charge",
+        "posologies": [
+          {
+            "voie": "IV",
+            "unite": "µg",
+            "doseKgMin": 50.0,
+            "doseKgMax": 100.0
+          }
+        ]
+      },
+      {
         "label": "Hypoglycémie Sévère",
         "posologies": [
           {
@@ -2015,6 +2045,16 @@
                 "doses": "1 mg"
               }
             ]
+          }
+        ]
+      },
+      {
+        "label": "Intoxication Beta bloquant - dose d'entretien",
+        "posologies": [
+          {
+            "voie": "Perfusion continue",
+            "unite": "UI/kg/h",
+            "doseKg": 70.0
           }
         ]
       }
