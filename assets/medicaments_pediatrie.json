@@ -1765,7 +1765,7 @@
     "nomCommercial": "ANEXATE",
     "indications": [
       {
-        "label": "Antagoniste benzodiazépines - Titration",
+        "label": "Antidote benzodiazépines - Titration",
         "posologies": [
           {
             "voie": "IV lente",
@@ -1777,7 +1777,7 @@
         ]
       },
       {
-        "label": "Antagoniste benzodiazépines - Entretien",
+        "label": "Antidote benzodiazépines - Entretien",
         "posologies": [
           {
             "voie": "IVSE",
