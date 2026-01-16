@@ -3,7 +3,8 @@
   "description": "Diagnostic (Lipase), Scores de gravité et prise en charge.",
   "auteur": "Dr F. Raimond",
   "version": "2023.1",
-  "dateModification": "2026-01-04T18:18:01.475773",
+  "categorie": "Gastro-entérologie",
+  "dateModification": "2026-01-16T11:34:59.519670",
   "blocs": [
     {
       "type": "section",
