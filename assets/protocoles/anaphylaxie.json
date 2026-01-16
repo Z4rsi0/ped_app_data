@@ -3,7 +3,8 @@
   "description": "Prise en charge de l'hypersensibilité systémique sévère (Critères de Sampson).",
   "auteur": "Dr F. Raimond, Dr I. Kahn",
   "version": "2024.1",
-  "dateModification": "2026-01-04T00:40:20.952540",
+  "categorie": "Urgences",
+  "dateModification": "2026-01-16T11:15:33.261489",
   "blocs": [
     {
       "type": "alerte",
