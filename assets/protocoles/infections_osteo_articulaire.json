@@ -3,76 +3,89 @@
   "description": "Arthrite et Ostéomyélite. Stratégie probabiliste selon l'âge.",
   "auteur": "Dr I. Kahn, GPIP",
   "version": "2023.3",
-  "dateModification": "2023-01-03T00:00:00.000Z",
+  "categorie": "Infectiologie",
+  "dateModification": "2026-01-16T11:27:12.109248",
   "blocs": [
     {
       "type": "section",
-      "ordre": 1,
       "titre": "Diagnostic & Prise en Charge",
       "initialementOuvert": true,
       "contenu": [
         {
           "type": "texte",
+          "contenu": "**Clinique :** Boiterie, Impotence fonctionnelle, Douleur, Fièvre.\n**Urgence :** Bilan avant antibio (Hémocultures, CRP, Ponction articulaire si possible).\n**Germes :**\n- 3 mois à 5 ans : *Kingella kingae* (Prédominant).\n- > 5 ans : *Staphylococcus aureus*.",
           "ordre": 0,
-          "contenu": "**Clinique :** Boiterie, Impotence fonctionnelle, Douleur, Fièvre.\n**Urgence :** Bilan avant antibio (Hémocultures, CRP, Ponction articulaire si possible).\n**Germes :**\n- 3 mois à 5 ans : *Kingella kingae* (Prédominant).\n- > 5 ans : *Staphylococcus aureus*."
+          "id": "bd052898-4968-4535-ab80-153123548831"
         }
-      ]
+      ],
+      "ordre": 1,
+      "id": "0b62828d-44dc-435b-9283-b250d9c07f75"
     },
     {
       "type": "section",
-      "ordre": 2,
       "titre": "Enfant 3 mois - 5 ans (Cible Kingella)",
+      "initialementOuvert": false,
       "contenu": [
         {
           "type": "texte",
+          "contenu": "Traitement probabiliste par Amoxicilline-Acide Clavulanique IV (100 mg/kg/j).",
           "ordre": 0,
-          "contenu": "Traitement probabiliste par Amoxicilline-Acide Clavulanique IV (100 mg/kg/j)."
+          "id": "bc9cd3f6-8e8a-49d1-8a9b-37e95e4f2e75"
         },
         {
           "type": "medicament",
-          "ordre": 1,
           "nomMedicament": "Amoxicilline + acide clavulanique",
-          "indication": "Infections bactériennes",
+          "indication": "100",
           "voie": "IV",
-          "commentaire": "100 mg/kg/j en 3-4 injections. Relai oral possible rapidement."
+          "commentaire": "100 mg/kg/j en 3-4 injections. Relai oral possible rapidement.",
+          "ordre": 1,
+          "id": "ae4d6184-db6a-4033-835e-9b82515e16c7"
         },
         {
           "type": "medicament",
-          "ordre": 2,
           "nomMedicament": "Amoxicilline + acide clavulanique",
-          "indication": "Dose Standard",
+          "indication": "80",
           "voie": "PO",
-          "commentaire": "Relai oral. 80 mg/kg/j en 3 prises."
+          "commentaire": "Relai oral. 80 mg/kg/j en 3 prises.",
+          "ordre": 2,
+          "id": "a8484892-bf65-4c14-a516-5ac55397d918"
         }
-      ]
+      ],
+      "ordre": 2,
+      "id": "006f2b50-d825-4557-b561-91927b2682f6"
     },
     {
       "type": "section",
-      "ordre": 3,
       "titre": "Enfant > 5 ans (Cible Staphylocoque)",
+      "initialementOuvert": false,
       "contenu": [
         {
           "type": "texte",
+          "contenu": "Traitement probabiliste visant le Staph Doré (Céfamandole ou Cloxacilline).",
           "ordre": 0,
-          "contenu": "Traitement probabiliste visant le Staph Doré (Céfamandole ou Cloxacilline)."
+          "id": "7614bfef-4c83-4fde-99f6-1c856f6e84c2"
         },
         {
           "type": "medicament",
-          "ordre": 1,
           "nomMedicament": "Céfamandole",
-          "indication": "Infections ostéo-articulaires",
+          "indication": "Infection Ostéo-articulaire",
           "voie": "IV",
-          "commentaire": "100 à 150 mg/kg/j en 4 injections."
+          "commentaire": "100 à 150 mg/kg/j en 4 injections.",
+          "ordre": 1,
+          "id": "bc613a4c-8b6a-4227-b1b8-661462f776e7"
         },
         {
           "type": "medicament",
-          "ordre": 2,
           "nomMedicament": "Cloxacilline injectable",
           "indication": "Infections bactériennes - Pénicilline M",
           "voie": "IV",
-          "commentaire": "150 mg/kg/j (Max 200) en 4 injections."
+          "commentaire": "150 mg/kg/j (Max 200) en 4 injections.",
+          "ordre": 2,
+          "id": "fe2253df-d3c0-4865-8db4-e1478a1162dc"
         }
-      ]
+      ],
+      "ordre": 3,
+      "id": "27d94af9-7df1-4ef0-8478-0367d8f5d428"
     }
   ]
 }
