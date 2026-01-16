@@ -3,7 +3,8 @@
   "description": "Prise en charge de la déshydratation et indications des antibiotiques.",
   "auteur": "Dr I. Kahn, Dr F. Raimond",
   "version": "2024.2",
-  "dateModification": "2026-01-16T11:23:15.819872",
+  "categorie": "Gastro-entérologie",
+  "dateModification": "2026-01-16T11:23:22.555027",
   "blocs": [
     {
       "type": "section",
