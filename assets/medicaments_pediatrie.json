@@ -829,6 +829,18 @@
             "preparation": "PUR. 1 mEq/kg = 1 mmol/kg = 2 mL/kg de solution 4,2%"
           }
         ]
+      },
+      {
+        "label": "Intoxication avec ESM",
+        "posologies": [
+          {
+            "voie": "IV",
+            "unite": "mL",
+            "doseKgMin": 3.0,
+            "doseKgMax": 5.0,
+            "preparation": "volume dilué à\rpart égale dans Glucosé 5 % sur 2 heures\rIVSE avec un débit < 10 ml/mn"
+          }
+        ]
       }
     ],
     "aSavoir": "1 mL de solution 4,2% = 0,5 mmol de bicarbonate [cite: 17]"
@@ -2053,7 +2065,7 @@
         "posologies": [
           {
             "voie": "Perfusion continue",
-            "unite": "µg/kg/h",
+            "unite": "UI/kg/h",
             "doseKg": 70.0
           }
         ]
@@ -2343,6 +2355,26 @@
             "doseKgMax": 0.1,
             "doseMax": 10.0,
             "preparation": "0,5 mL (50 UI) + 49,5 mL NaCl 0,9% (1 UI/mL). A passer seul. Débit minimal sur la voie: 2 mL/h. Cf protocole acidocétose"
+          }
+        ]
+      },
+      {
+        "label": "Intoxication Beta bloquant et calciques - dose de charge",
+        "posologies": [
+          {
+            "voie": "IV",
+            "unite": "UI",
+            "doseKg": 1.0
+          }
+        ]
+      },
+      {
+        "label": "Intoxication Beta bloquant et calciques - dose d'entretien",
+        "posologies": [
+          {
+            "voie": "Perfusion continue",
+            "unite": "UI/kg/h",
+            "doseKg": 0.5
           }
         ]
       }
