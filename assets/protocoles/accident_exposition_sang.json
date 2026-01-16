@@ -3,46 +3,54 @@
   "description": "Conduite à tenir immédiate, Évaluation du risque VIH/VHB/VHC et Prophylaxie.",
   "auteur": "COREVIH",
   "version": "2023.2",
-  "dateModification": "2023-01-01T00:00:00.000Z",
+  "categorie": "Infectiologie",
+  "dateModification": "2026-01-16T11:13:17.124563",
   "blocs": [
     {
       "type": "alerte",
-      "ordre": 0,
       "contenu": "Urgence. Soins locaux immédiats. Évaluation médicale < 4h.",
-      "niveau": "critique"
+      "niveau": "critique",
+      "ordre": 0,
+      "id": "403eeffb-3c53-481a-b005-29c46141424d"
     },
     {
       "type": "section",
-      "ordre": 1,
       "titre": "Soins Immédiats",
       "initialementOuvert": true,
       "contenu": [
         {
           "type": "texte",
+          "contenu": "1. **Nettoyage :** Eau + Savon (ne pas faire saigner).\n2. **Rinçage :** Abondant.\n3. **Désinfection :** Dakin ou Javel 12° ou Bétadine (au moins 5 min, 10 min si Javel).\n4. **Muqueuse/Oeil :** Rinçage sérum phy abondant (5 min).",
           "ordre": 0,
-          "contenu": "1. **Nettoyage :** Eau + Savon (ne pas faire saigner).\n2. **Rinçage :** Abondant.\n3. **Désinfection :** Dakin ou Javel 12° ou Bétadine (au moins 5 min, 10 min si Javel).\n4. **Muqueuse/Oeil :** Rinçage sérum phy abondant (5 min)."
+          "id": "1bfa6c8a-5fc3-4b6c-a8e1-45ffce2ba7f8"
         }
-      ]
+      ],
+      "ordre": 1,
+      "id": "f872914a-801d-4347-b6bb-4b5039da89ea"
     },
     {
       "type": "section",
-      "ordre": 2,
       "titre": "Traitement Post-Exposition (TPE)",
+      "initialementOuvert": false,
       "contenu": [
         {
           "type": "texte",
+          "contenu": "**VIH :** Indiqué si risque identifié (Source VIH+ virémique, Piqûre profonde). Kit Trithérapie à débuter idéalement < 4h (max 48h).\n**VHB :** Vérifier Ac Anti-HBs victime. Si < 10 UI/L et source AgHBs+ : Immunoglobulines HBIg + Vaccin (Schéma rapide).",
           "ordre": 0,
-          "contenu": "**VIH :** Indiqué si risque identifié (Source VIH+ virémique, Piqûre profonde). Kit Trithérapie à débuter idéalement < 4h (max 48h).\n**VHB :** Vérifier Ac Anti-HBs victime. Si < 10 UI/L et source AgHBs+ : Immunoglobulines HBIg + Vaccin (Schéma rapide)."
+          "id": "9d8f1d11-d296-4dbd-8804-ef4c4337b166"
         },
         {
           "type": "medicament",
-          "ordre": 1,
           "nomMedicament": "Antirétroviraux (Kit)",
           "indication": "Prophylaxie VIH",
           "voie": "PO",
-          "commentaire": "Trithérapie (ex: Truvada + Isentress). Durée 28 jours si risque confirmé."
+          "commentaire": "Trithérapie (ex: Truvada + Isentress). Durée 28 jours si risque confirmé.",
+          "ordre": 1,
+          "id": "4457eba7-c82a-4a5a-8d40-0f125fc3319e"
         }
-      ]
+      ],
+      "ordre": 2,
+      "id": "7f49d0ff-7dbc-453d-9b7e-514b8d1dbad6"
     }
   ]
 }
