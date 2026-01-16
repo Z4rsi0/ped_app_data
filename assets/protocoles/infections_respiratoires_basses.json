@@ -3,60 +3,71 @@
   "description": "Diagnostic, Critères d'hospitalisation et Traitement PFLA.",
   "auteur": "GPIP 2023",
   "version": "2023.2",
-  "dateModification": "2023-01-01T00:00:00.000Z",
+  "categorie": "Infectiologie",
+  "dateModification": "2026-01-16T11:35:37.434231",
   "blocs": [
     {
       "type": "section",
-      "ordre": 1,
       "titre": "Diagnostic & Orientation",
       "initialementOuvert": true,
       "contenu": [
         {
           "type": "texte",
+          "contenu": "**Clinique :** Fièvre élevée, toux, polypnée, signes de lutte, foyer auscultatoire.\n**Radio Thorax :** Condensation alvéolaire (PFLA).\n**Critères Hospitalisation :** Age < 6 mois, Détresse respiratoire (SpO2 < 92%), Refus alimentaire, Vomissements, Failure thérapie ambulatoire.",
           "ordre": 0,
-          "contenu": "**Clinique :** Fièvre élevée, toux, polypnée, signes de lutte, foyer auscultatoire.\n**Radio Thorax :** Condensation alvéolaire (PFLA).\n**Critères Hospitalisation :** Age < 6 mois, Détresse respiratoire (SpO2 < 92%), Refus alimentaire, Vomissements, Failure thérapie ambulatoire."
+          "id": "cb29a846-b7b0-4eb9-80a9-4769708c1d12"
         }
-      ]
+      ],
+      "ordre": 1,
+      "id": "b7a5ddd6-a6dd-4124-868f-a4a6e7a309b2"
     },
     {
       "type": "section",
-      "ordre": 2,
       "titre": "Traitement Ambulatoire (1ère intention)",
+      "initialementOuvert": false,
       "contenu": [
         {
           "type": "texte",
+          "contenu": "Suspicion de Pneumocoque (forme typique, début brutal). Traitement par Amoxicilline forte dose (80-100 mg/kg/j).",
           "ordre": 0,
-          "contenu": "Suspicion de Pneumocoque (forme typique, début brutal). Traitement par Amoxicilline forte dose (80-100 mg/kg/j)."
+          "id": "df7b3e03-c65e-4cb7-9a34-5d5300a29e51"
         },
         {
           "type": "medicament",
-          "ordre": 1,
           "nomMedicament": "Amoxicilline",
-          "indication": "Dose ORL/Pneumo",
+          "indication": "80-100 mg/kg/j",
           "voie": "PO",
-          "commentaire": "80-100 mg/kg/j en 3 prises. 7 jours."
+          "commentaire": "80-100 mg/kg/j en 3 prises. 7 jours.",
+          "ordre": 1,
+          "id": "54d59b6b-de63-4f02-9652-05e01ddbb3f9"
         }
-      ]
+      ],
+      "ordre": 2,
+      "id": "e85acfb3-7cb2-4817-a454-7edd69c88e1c"
     },
     {
       "type": "section",
-      "ordre": 3,
       "titre": "Suspicion Atypiques (Mycoplasme)",
+      "initialementOuvert": false,
       "contenu": [
         {
           "type": "texte",
+          "contenu": "**Contexte :** Age > 3 ans, début progressif, radio interstitielle, échec Amoxicilline à 48h.\n**Traitement :** Macrolides.",
           "ordre": 0,
-          "contenu": "**Contexte :** Age > 3 ans, début progressif, radio interstitielle, échec Amoxicilline à 48h.\n**Traitement :** Macrolides."
+          "id": "b39c1188-a86e-45d0-9d5d-4045cdf40035"
         },
         {
           "type": "medicament",
-          "ordre": 1,
-          "nomMedicament": "Clarithromycine",
-          "indication": "Macrolide",
+          "nomMedicament": "Azithromycine",
+          "indication": "Gastro-entérite (Shigella/Campylobacter)",
           "voie": "PO",
-          "commentaire": "15 mg/kg/j en 2 prises."
+          "commentaire": "15 mg/kg/j en 2 prises.",
+          "ordre": 1,
+          "id": "03d228cd-9421-42be-8f5c-5946234e5480"
         }
-      ]
+      ],
+      "ordre": 3,
+      "id": "bc460c2a-620e-400c-8e71-97b2d504b229"
     }
   ]
 }
