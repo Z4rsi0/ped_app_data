@@ -3,7 +3,7 @@
   "description": "Algorithme décisionnel : Pile bouton, Aimants, Objets tranchants.",
   "auteur": "Dr I. Kahn",
   "version": "2025.1",
-  "dateModification": "2026-01-04T18:10:50.587808",
+  "dateModification": "2026-01-16T11:19:20.030775",
   "blocs": [
     {
       "type": "alerte",
@@ -41,7 +41,7 @@
         {
           "type": "medicament",
           "nomMedicament": "Salbutamol",
-          "indication": "Autre",
+          "indication": "Corps étranger œsophagien",
           "voie": "PO",
           "commentaire": "100 µg/kg (solution 1mL) à boire. Pour CE non dangereux coincé bas œsophage.",
           "ordre": 1,
