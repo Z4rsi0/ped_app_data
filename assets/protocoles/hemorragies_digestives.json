@@ -3,7 +3,8 @@
   "description": "Prise en charge du choc hémorragique, hématémèse et rectorragies (Nouveau-né inclus).",
   "auteur": "Dr I. Kahn, Dr F. Raimond",
   "version": "2021.2",
-  "dateModification": "2026-01-04T18:16:07.771608",
+  "categorie": "Gastro-entérologie",
+  "dateModification": "2026-01-16T11:24:04.527113",
   "blocs": [
     {
       "type": "alerte",
@@ -64,8 +65,8 @@
         },
         {
           "type": "medicament",
-          "nomMedicament": "Erythro",
-          "indication": "V",
+          "nomMedicament": "Erythromycine",
+          "indication": "Vidange gastrique",
           "voie": "IV",
           "commentaire": "5 mg/kg IVL.",
           "ordre": 5,
