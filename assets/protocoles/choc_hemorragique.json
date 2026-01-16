@@ -3,7 +3,8 @@
   "description": "Prise en charge des hémorragies digestives hautes et du choc hémorragique.",
   "auteur": "Dr I. Kahn, Dr F. Raimond",
   "version": "2021.1",
-  "dateModification": "2026-01-04T18:10:22.077279",
+  "categorie": "Urgences",
+  "dateModification": "2026-01-16T11:18:26.850909",
   "blocs": [
     {
       "type": "section",
