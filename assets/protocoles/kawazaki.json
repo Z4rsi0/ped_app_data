@@ -3,94 +3,111 @@
   "description": "Diagnostic (Critères CRASH), Bilan pré-thérapeutique et Traitement (IgIV + Aspirine).",
   "auteur": "Dr F. Raimond",
   "version": "2023.2",
-  "dateModification": "2023-05-30T00:00:00.000Z",
+  "categorie": "Rhumatologie",
+  "dateModification": "2026-01-16T11:30:55.579348",
   "blocs": [
     {
       "type": "section",
-      "ordre": 1,
       "titre": "Diagnostic (Critères Cliniques)",
       "initialementOuvert": true,
       "contenu": [
         {
           "type": "texte",
+          "contenu": "**Critère obligatoire :** Fièvre élevée ≥ 5 jours.\n**+ 4 critères parmi (CRASH) :**\n1. **C**onjonctivite bilatérale non purulente.\n2. **R**ash (Éruption cutanée polymorphe).\n3. **A**dénopathie cervicale (> 1.5cm, souvent unilatérale).\n4. **S**tomatite (Lèvres fissurées, langue framboisée, érythème pharyngé).\n5. **H**ands & Feet (Érythème/Œdème paumes/plantes, desquamation tardive).",
           "ordre": 0,
-          "contenu": "**Critère obligatoire :** Fièvre élevée ≥ 5 jours.\n**+ 4 critères parmi (CRASH) :**\n1. **C**onjonctivite bilatérale non purulente.\n2. **R**ash (Éruption cutanée polymorphe).\n3. **A**dénopathie cervicale (> 1.5cm, souvent unilatérale).\n4. **S**tomatite (Lèvres fissurées, langue framboisée, érythème pharyngé).\n5. **H**ands & Feet (Érythème/Œdème paumes/plantes, desquamation tardive)."
+          "id": "ec22b756-6f55-464b-8c2e-23baec45d0c7"
         },
         {
           "type": "alerte",
-          "ordre": 1,
           "contenu": "Forme incomplète possible (Nourrisson). Si fièvre > 5j inexpliquée + inflammation bio -> Avis Spécialisé + Echo Cœur.",
-          "niveau": "attention"
-        }
-      ]
-    },
-    {
-      "type": "section",
-      "ordre": 2,
-      "titre": "Bilan & Stratification",
-      "contenu": [
-        {
-          "type": "texte",
-          "ordre": 0,
-          "contenu": "**Bilan systématique :** NFS, CRP, VS, Iono, Albuminémie, Transaminases, ECBU (leucocyturie aseptique).\n**Imagerie :** Échographie cardiaque (Anévrismes coronaires).\n**Score de Kobayashi (Risque de résistance) :** Sodium < 133, ASAT > 100, Neutrophiles > 80%, CRP > 100, Age < 12 mois, Plaquettes < 300G."
-        }
-      ]
-    },
-    {
-      "type": "section",
-      "ordre": 3,
-      "titre": "Traitement Phase Aiguë (J1-J10)",
-      "contenu": [
-        {
-          "type": "texte",
-          "ordre": 0,
-          "contenu": "**Traitement de référence :** Immunoglobulines IV (2 g/kg en dose unique) + Aspirine dose anti-inflammatoire (50-100 mg/kg/j en 4 prises).\n**Si Haut Risque (Kobayashi ≥ 4) :** Ajouter Corticoïdes."
-        },
-        {
-          "type": "medicament",
+          "niveau": "attention",
           "ordre": 1,
-          "nomMedicament": "Immunoglobulines polyvalentes",
-          "indication": "Dose unique",
-          "voie": "IV",
-          "commentaire": "2 g/kg sur 10-12h. Surveillance tolérance."
+          "id": "eeda5d89-0370-45bc-bce7-9d859b2e5d40"
+        }
+      ],
+      "ordre": 1,
+      "id": "3d1d3cac-231b-4b1c-acdf-5fb0fd621b46"
+    },
+    {
+      "type": "section",
+      "titre": "Bilan & Stratification",
+      "initialementOuvert": false,
+      "contenu": [
+        {
+          "type": "texte",
+          "contenu": "**Bilan systématique :** NFS, CRP, VS, Iono, Albuminémie, Transaminases, ECBU (leucocyturie aseptique).\n**Imagerie :** Échographie cardiaque (Anévrismes coronaires).\n**Score de Kobayashi (Risque de résistance) :** Sodium < 133, ASAT > 100, Neutrophiles > 80%, CRP > 100, Age < 12 mois, Plaquettes < 300G.",
+          "ordre": 0,
+          "id": "98a73b1d-edcd-4614-a902-764c59904d87"
+        }
+      ],
+      "ordre": 2,
+      "id": "2c5f1995-b2e4-429d-8600-5d34db671421"
+    },
+    {
+      "type": "section",
+      "titre": "Traitement Phase Aiguë (J1-J10)",
+      "initialementOuvert": false,
+      "contenu": [
+        {
+          "type": "texte",
+          "contenu": "**Traitement de référence :** Immunoglobulines IV (2 g/kg en dose unique) + Aspirine dose anti-inflammatoire (50-100 mg/kg/j en 4 prises).\n**Si Haut Risque (Kobayashi ≥ 4) :** Ajouter Corticoïdes.",
+          "ordre": 0,
+          "id": "190e7a30-0d3a-4861-b97b-a6cc04380695"
         },
         {
           "type": "medicament",
-          "ordre": 2,
+          "nomMedicament": "Immunoglobulines polyvalentes",
+          "indication": "Kawasaki",
+          "voie": "IV",
+          "commentaire": "2 g/kg sur 10-12h. Surveillance tolérance.",
+          "ordre": 1,
+          "id": "ad8a9719-e994-481f-87dd-eab4605d0e32"
+        },
+        {
+          "type": "medicament",
           "nomMedicament": "Aspirine",
           "indication": "Anti-inflammatoire",
           "voie": "PO",
-          "commentaire": "80 à 100 mg/kg/j en 4 prises. Jusqu'à 48h d'apyrexie."
+          "commentaire": "80 à 100 mg/kg/j en 4 prises. Jusqu'à 48h d'apyrexie.",
+          "ordre": 2,
+          "id": "8d4f6fa5-f4f1-4c84-b819-55e63da2279d"
         },
         {
           "type": "medicament",
-          "ordre": 3,
           "nomMedicament": "Méthylprednisolone",
-          "indication": "Si Haut Risque (Adjunctif)",
+          "indication": "Anti-inflammatoire",
           "voie": "IV",
-          "commentaire": "0.8 mg/kg/12h ou Bolus 30 mg/kg."
+          "commentaire": "0.8 mg/kg/12h ou Bolus 30 mg/kg.",
+          "ordre": 3,
+          "id": "06e13ee4-1590-4df2-9e0e-3433b28ce76c"
         }
-      ]
+      ],
+      "ordre": 3,
+      "id": "f84e71ae-39b3-4061-9323-aa09b1367fba"
     },
     {
       "type": "section",
-      "ordre": 4,
       "titre": "Phase d'Entretien (Convalescence)",
+      "initialementOuvert": false,
       "contenu": [
         {
           "type": "texte",
+          "contenu": "**Relai Aspirine :** Passage à dose anti-agrégante (3-5 mg/kg/j) après 48h d'apyrexie. Poursuite 6 à 8 semaines (arrêt si Echo Cœur normale à 6 semaines).",
           "ordre": 0,
-          "contenu": "**Relai Aspirine :** Passage à dose anti-agrégante (3-5 mg/kg/j) après 48h d'apyrexie. Poursuite 6 à 8 semaines (arrêt si Echo Cœur normale à 6 semaines)."
+          "id": "02a4ee0d-4bb5-4282-978c-518247a5cfca"
         },
         {
           "type": "medicament",
-          "ordre": 1,
           "nomMedicament": "Aspirine",
-          "indication": "Anti-agrégant",
+          "indication": "Anti agrégant plaquettaire",
           "voie": "PO",
-          "commentaire": "3 à 5 mg/kg/j en 1 prise unique."
+          "commentaire": "3 à 5 mg/kg/j en 1 prise unique.",
+          "ordre": 1,
+          "id": "05a924aa-9c19-4c32-a8bf-afbcde9f5d88"
         }
-      ]
+      ],
+      "ordre": 4,
+      "id": "caee658f-3f8d-4c10-89cf-f399f7abf8cc"
     }
   ]
 }
