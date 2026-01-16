@@ -3,7 +3,8 @@
   "description": "Protocole de prise en charge de l'acidocétose de l'enfant (révélation ou complication).",
   "auteur": "Drs I. Kahn, K. Milcent, S. Walser",
   "version": "2022.1",
-  "dateModification": "2026-01-04T15:57:53.280225",
+  "categorie": "Endocrinologie",
+  "dateModification": "2026-01-16T11:13:39.943235",
   "blocs": [
     {
       "type": "alerte",
