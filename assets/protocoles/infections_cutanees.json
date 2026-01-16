@@ -3,55 +3,65 @@
   "description": "Impétigo et Dermohypodermite bactérienne.",
   "auteur": "GPIP 2023",
   "version": "2023.2",
-  "dateModification": "2023-01-01T00:00:00.000Z",
+  "categorie": "Infectiologie",
+  "dateModification": "2026-01-16T11:25:02.691632",
   "blocs": [
     {
       "type": "section",
-      "ordre": 1,
       "titre": "Impétigo",
+      "initialementOuvert": false,
       "contenu": [
         {
           "type": "texte",
+          "contenu": "**Forme localisée (< 2% surface, < 5 lésions) :** Soins locaux (Lavage + Mupirocine pommade 2x/j 5 jours). Pas d'ATB oral. Éviction scolaire 72h.\n**Forme étendue / Echec local :** Antibiothérapie orale (Augmentin ou Josamycine).",
           "ordre": 0,
-          "contenu": "**Forme localisée (< 2% surface, < 5 lésions) :** Soins locaux (Lavage + Mupirocine pommade 2x/j 5 jours). Pas d'ATB oral. Éviction scolaire 72h.\n**Forme étendue / Echec local :** Antibiothérapie orale (Augmentin ou Josamycine)."
+          "id": "e7acbcb9-8d44-4812-a44b-7aacc90bc889"
         },
         {
           "type": "medicament",
-          "ordre": 1,
           "nomMedicament": "Amoxicilline + acide clavulanique",
-          "indication": "Dose Standard",
+          "indication": "80",
           "voie": "PO",
-          "commentaire": "80 mg/kg/j en 3 prises. 7 jours."
+          "commentaire": "80 mg/kg/j en 3 prises. 7 jours.",
+          "ordre": 1,
+          "id": "e814b204-a56a-4343-bd6b-e1b9fa65eec1"
         },
         {
           "type": "medicament",
-          "ordre": 2,
           "nomMedicament": "Josamycine",
-          "indication": "Si allergie Péni",
+          "indication": "S",
           "voie": "PO",
-          "commentaire": "50 mg/kg/j en 2 prises. 7 jours."
+          "commentaire": "50 mg/kg/j en 2 prises. 7 jours.",
+          "ordre": 2,
+          "id": "be2321f0-0943-4911-92f3-abfdb7e53670"
         }
-      ]
+      ],
+      "ordre": 1,
+      "id": "d1b73996-78da-46e6-9f38-3810c3392bd3"
     },
     {
       "type": "section",
-      "ordre": 2,
       "titre": "Dermohypodermite (DHB)",
+      "initialementOuvert": false,
       "contenu": [
         {
           "type": "texte",
+          "contenu": "**Diagnostic :** Placard inflammatoire, douloureux, fébrile, unilatéral. Délimiter au feutre.\n**Traitement :** Augmentin. Hospitalisation si signe de gravité ou extension rapide.",
           "ordre": 0,
-          "contenu": "**Diagnostic :** Placard inflammatoire, douloureux, fébrile, unilatéral. Délimiter au feutre.\n**Traitement :** Augmentin. Hospitalisation si signe de gravité ou extension rapide."
+          "id": "432b22ee-c1b2-4ec8-b61b-6052657599ae"
         },
         {
           "type": "medicament",
-          "ordre": 1,
           "nomMedicament": "Amoxicilline + acide clavulanique",
-          "indication": "Dose Standard",
+          "indication": "80",
           "voie": "PO/IV",
-          "commentaire": "80 mg/kg/j (max 100 en IV). 7 à 10 jours."
+          "commentaire": "80 mg/kg/j (max 100 en IV). 7 à 10 jours.",
+          "ordre": 1,
+          "id": "d91ca953-a5eb-473c-a015-df2bd016981e"
         }
-      ]
+      ],
+      "ordre": 2,
+      "id": "643c3371-b8ce-4a93-9839-8d629ed62d19"
     }
   ]
 }
