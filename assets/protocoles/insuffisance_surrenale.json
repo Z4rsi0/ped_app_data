@@ -3,7 +3,8 @@
   "description": "Décompensation aiguë : Hyponatrémie, Hyperkaliémie, Choc.",
   "auteur": "Dr K. Milcent",
   "version": "2016.1",
-  "dateModification": "2026-01-04T18:17:02.108938",
+  "categorie": "Endocrinologie",
+  "dateModification": "2026-01-16T11:30:05.192921",
   "blocs": [
     {
       "type": "alerte",
@@ -55,8 +56,8 @@
       "contenu": [
         {
           "type": "medicament",
-          "nomMedicament": "Kayexalate",
-          "indication": "Kayexalate",
+          "nomMedicament": "Polystyrène sulfonate de sodium",
+          "indication": "Hyperkaliémie",
           "voie": "PO/Rectal",
           "commentaire": "1 g/kg.",
           "ordre": 0,
