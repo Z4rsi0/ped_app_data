@@ -3,7 +3,8 @@
   "description": "Diagnostic et traitement de la crise de migraine aux urgences.",
   "auteur": "Dr S. Walser",
   "version": "2021.1",
-  "dateModification": "2026-01-04T18:11:55.897742",
+  "categorie": "Neurologie",
+  "dateModification": "2026-01-16T11:19:50.981009",
   "blocs": [
     {
       "type": "section",
