@@ -3,7 +3,8 @@
   "description": "Prise en charge des infections invasives à méningocoque et méningites bactériennes.",
   "auteur": "Dr I. Kahn, Pr V. Gajdos",
   "version": "2021.1",
-  "dateModification": "2026-01-04T18:18:28.979909",
+  "categorie": "Urgences",
+  "dateModification": "2026-01-16T11:36:31.412896",
   "blocs": [
     {
       "type": "alerte",
@@ -21,7 +22,7 @@
         {
           "type": "medicament",
           "nomMedicament": "Ceftriaxone",
-          "indication": "Infections bactériennes - Céphalosporine 3ème génération",
+          "indication": "Purpura Fulminans",
           "voie": "IV ou IM",
           "commentaire": "50 mg/kg (max 2g, ou 4g selon sources, ici protocole indique 50mg/kg en urgence).",
           "ordre": 0,
@@ -54,7 +55,7 @@
         {
           "type": "medicament",
           "nomMedicament": "Dexaméthasone",
-          "indication": "Avant ou pendant 1ère dose ATB",
+          "indication": "Méningite Bactérienne",
           "voie": "IVL",
           "commentaire": "0.15 mg/kg toutes les 6h pendant 4j. Arrêt si Méningocoque confirmé.",
           "ordre": 1,
@@ -112,7 +113,7 @@
         {
           "type": "medicament",
           "nomMedicament": "Rifampicine",
-          "indication": "Prophylaxie (2 jours)",
+          "indication": "Prophylaxie Méningite",
           "voie": "PO",
           "commentaire": "Enfant : 10 mg/kg x 2/jour. Adulte : 600 mg x 2/jour. Nourrisson < 1 mois : 5 mg/kg.",
           "ordre": 1,
