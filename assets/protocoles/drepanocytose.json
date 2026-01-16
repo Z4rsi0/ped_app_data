@@ -3,7 +3,8 @@
   "description": "Prise en charge des complications aiguës: CVO, Fièvre, Anémie, STA.",
   "auteur": "Dr I. Kahn, Dr S. Walser",
   "version": "2021.1",
-  "dateModification": "2026-01-04T18:14:24.864083",
+  "categorie": "Hématologie",
+  "dateModification": "2026-01-16T11:22:11.869262",
   "blocs": [
     {
       "type": "section",
@@ -103,20 +104,11 @@
         },
         {
           "type": "medicament",
-          "nomMedicament": "Cefotaxime",
-          "indication": "Infections bactériennes - Céphalosporine 3ème génération",
-          "voie": "IV",
-          "commentaire": "300 mg/kg/j (max 12g) en 4 injections.",
-          "ordre": 2,
-          "id": "1a88c13c-252c-4223-b447-8dda1307647c"
-        },
-        {
-          "type": "medicament",
           "nomMedicament": "Gentamicine",
           "indication": "Infections bactériennes - Aminoside",
           "voie": "IV",
           "commentaire": "5 mg/kg/j en 1 injection IVL 30 min.",
-          "ordre": 3,
+          "ordre": 2,
           "id": "67091a69-9223-41f2-839a-3d19140c2f94"
         }
       ],
