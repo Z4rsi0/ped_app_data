@@ -3,7 +3,8 @@
   "description": "Protocoles de sédation procédurale, analgésie et intubation séquence rapide (ISR).",
   "auteur": "Dr F. Raimond",
   "version": "2016.1",
-  "dateModification": "2026-01-04T18:07:33.821518",
+  "categorie": "Anesthésie",
+  "dateModification": "2026-01-16T11:37:19.122332",
   "blocs": [
     {
       "type": "section",
