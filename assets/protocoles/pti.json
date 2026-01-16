@@ -3,58 +3,87 @@
   "description": "Diagnostic, Score de Buchanan et Indications thérapeutiques.",
   "auteur": "Dr L. Clech, Pr Gajdos",
   "version": "2017.1",
-  "dateModification": "2017-04-01T00:00:00.000Z",
+  "categorie": "Hématologie",
+  "dateModification": "2026-01-16T11:37:00.523929",
   "blocs": [
     {
       "type": "section",
-      "ordre": 1,
       "titre": "Score Hémorragique (Buchanan)",
+      "initialementOuvert": false,
       "contenu": [
         {
           "type": "tableau",
-          "ordre": 0,
           "titre": "Sévérité",
-          "colonnes": ["Grade", "Signes Cliniques", "Action"],
+          "colonnes": [
+            "Grade",
+            "Signes Cliniques",
+            "Action"
+          ],
           "lignes": [
-            ["1-2 (Mineur)", "Pétéchies, < 5 Ecchymoses", "Abstention"],
-            ["3 (Modéré)", "Hémorragie muqueuse (Epistaxis...)", "Traitement à discuter"],
-            ["4 (Sévère)", "Hémorragie active, Bulles buccales, FO+", "TRAITEMENT IMPÉRATIF"],
-            ["5 (Vital)", "Hémorragie Intracrânienne/Interne", "URGENCE VITALE"]
-          ]
+            [
+              "1-2 (Mineur)",
+              "Pétéchies, < 5 Ecchymoses",
+              "Abstention"
+            ],
+            [
+              "3 (Modéré)",
+              "Hémorragie muqueuse (Epistaxis...)",
+              "Traitement à discuter"
+            ],
+            [
+              "4 (Sévère)",
+              "Hémorragie active, Bulles buccales, FO+",
+              "TRAITEMENT IMPÉRATIF"
+            ],
+            [
+              "5 (Vital)",
+              "Hémorragie Intracrânienne/Interne",
+              "URGENCE VITALE"
+            ]
+          ],
+          "avecEntete": true,
+          "ordre": 0,
+          "id": "a3ab1283-99fc-4b7c-9c30-8c11c81471f1"
         }
-      ]
+      ],
+      "ordre": 1,
+      "id": "2d3270f8-b356-429b-9792-b4ea0134c586"
     },
     {
       "type": "section",
-      "ordre": 2,
       "titre": "Traitement (Si Plq < 10G ou Buchanan ≥ 3)",
       "initialementOuvert": true,
       "contenu": [
         {
           "type": "medicament",
+          "nomMedicament": "Immunoglobulines polyvalentes",
+          "indication": "PTI",
+          "voie": "IV",
+          "commentaire": "0.8 à 1 g/kg en une perfusion. Débit progressif (risque céphalées/méningite aseptique).",
           "ordre": 0,
-          "nomMedicament": "Immunoglobulines IV",
-          "indication": "1ère intention (Clairyg)",
-          "voie": "IV",
-          "commentaire": "0.8 à 1 g/kg en une perfusion. Débit progressif (risque céphalées/méningite aseptique)."
+          "id": "ffa2227e-0fd6-48e7-9e34-704c762a3f6e"
         },
         {
           "type": "medicament",
-          "ordre": 1,
           "nomMedicament": "Méthylprednisolone",
-          "indication": "Urgence Sévère (Grade 4-5)",
+          "indication": "Anti-inflammatoire",
           "voie": "IV",
-          "commentaire": "Solumédrol. 4 mg/kg/j en 2 injections (4 jours). + IgIV + Transfusion Plaquettes."
+          "commentaire": "Solumédrol. 4 mg/kg/j en 2 injections (4 jours). + IgIV + Transfusion Plaquettes.",
+          "ordre": 1,
+          "id": "21e11cc8-64de-4923-b641-f07029642c3b"
         },
         {
           "type": "medicament",
-          "ordre": 2,
           "nomMedicament": "Concentré Plaquettaire",
           "indication": "Si Menace Vitale (Grade 5)",
           "voie": "IV",
-          "commentaire": "1 Unité/5-10kg. Efficacité transitoire (destruction rapide)."
+          "commentaire": "1 Unité/5-10kg. Efficacité transitoire (destruction rapide).",
+          "ordre": 2,
+          "id": "f685a9ef-fc0b-4e59-bffa-89be4f32e538"
         }
-      ]
+      ],
+      "ordre": 2,
+      "id": "0227a6e0-98ec-4132-b96b-fe0e41bc1c3f"
     }
   ]
 }
