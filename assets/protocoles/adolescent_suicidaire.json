@@ -3,7 +3,8 @@
   "description": "Évaluation du risque suicidaire (RUD) et protocole d'hospitalisation 'ADO'.",
   "auteur": "Dr J. Jaschinski, Dr P. Wolf",
   "version": "2024.1",
-  "dateModification": "2026-01-04T18:08:23.026968",
+  "categorie": "Psychiatrie",
+  "dateModification": "2026-01-16T11:14:30.152509",
   "blocs": [
     {
       "type": "section",
