@@ -834,6 +834,26 @@
     "aSavoir": "1 mL de solution 4,2% = 0,5 mmol de bicarbonate [cite: 17]"
   },
   {
+    "nom": "Bleu De Méthylène",
+    "galenique": "Solution injectable 1 mg / 10 mL",
+    "indications": [
+      {
+        "label": "Antidote méthémoglobinémie",
+        "posologies": [
+          {
+            "voie": "IV",
+            "unite": "mg",
+            "doseKgMin": 1.0,
+            "doseKgMax": 2.0
+          }
+        ]
+      }
+    ],
+    "contreIndications": "Relative : déficit en G6PD, ne pas dépasser 4 mg/kg",
+    "surdosage": "Dose max 7 mg/kg",
+    "aSavoir": "perfusion sur 15 minutes, dilué dans du G5%"
+  },
+  {
     "nom": "Bétaméthasone",
     "galenique": "Solution buvable",
     "nomCommercial": "CELESTENE",
@@ -1554,6 +1574,27 @@
         ]
       }
     ]
+  },
+  {
+    "nom": "Déféroxcamine",
+    "galenique": "Poudre pour solution injectable",
+    "nomCommercial": "DESFERAL",
+    "indications": [
+      {
+        "label": "Antidote fer/Aluminium",
+        "posologies": [
+          {
+            "voie": "IV",
+            "unite": "mg/kg/h",
+            "doseKg": 15.0,
+            "doseMax": 6000.0,
+            "preparation": "EPPI fournie avec"
+          }
+        ]
+      }
+    ],
+    "contreIndications": "Ne pas dépasser 80 mg / kg / 24 h et 24 h\r\nde traitement.\nDébit de perfusion maximal : 15 mg/ kg/h à\r\nréduire dès que possible, après 4 à 6 h.",
+    "aSavoir": "Si les urines restent orangées en fin de perfusion,\r\nil est possible de poursuivre l'administration"
   },
   {
     "nom": "Epoprosténol",
