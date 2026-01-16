@@ -3,7 +3,8 @@
   "description": "Prise en charge de l'agitation psychomotrice et de l'adolescent suicidaire.",
   "auteur": "Dr J. Jaschinski, Dr P. Wolf",
   "version": "2024.1",
-  "dateModification": "2026-01-04T18:09:43.796583",
+  "categorie": "Psychiatrie",
+  "dateModification": "2026-01-16T11:14:59.780783",
   "blocs": [
     {
       "type": "alerte",
