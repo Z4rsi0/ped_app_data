@@ -2053,7 +2053,7 @@
         "posologies": [
           {
             "voie": "Perfusion continue",
-            "unite": "UI/kg/h",
+            "unite": "µg/kg/h",
             "doseKg": 70.0
           }
         ]
