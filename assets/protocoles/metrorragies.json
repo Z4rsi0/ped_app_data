@@ -3,7 +3,8 @@
   "description": "Prise en charge des saignements utérins abondants (SUA).",
   "auteur": "Dr S. Walser, Dr L. Duranteau",
   "version": "2025.1",
-  "dateModification": "2026-01-04T18:17:27.047517",
+  "categorie": "Hématologie",
+  "dateModification": "2026-01-16T11:32:46.494792",
   "blocs": [
     {
       "type": "section",
@@ -37,7 +38,7 @@
         {
           "type": "medicament",
           "nomMedicament": "Fumarate de fer",
-          "indication": "Anémie modérée (PO)",
+          "indication": "Carence martiale",
           "voie": "PO",
           "commentaire": "Fumafer/Tardyferon. 2 cp/jour (> 30kg) pendant 3 mois.",
           "ordre": 1,
