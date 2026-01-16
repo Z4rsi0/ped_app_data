@@ -3,7 +3,8 @@
   "description": "Prise en charge des tachycardies et bradycardies de l'enfant.",
   "auteur": "Dr I. Kahn",
   "version": "2024.1",
-  "dateModification": "2026-01-04T18:19:33.493826",
+  "categorie": "Cardiologie",
+  "dateModification": "2026-01-16T11:37:59.146902",
   "blocs": [
     {
       "type": "alerte",
