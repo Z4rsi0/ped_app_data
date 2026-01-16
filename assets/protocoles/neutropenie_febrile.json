@@ -3,81 +3,93 @@
   "description": "Prise en charge des neutropénies (< 500/mm3) post-chimiothérapie et hors chimio.",
   "auteur": "RIFHOP, Dr P. Trioche",
   "version": "2024.4",
-  "dateModification": "2024-02-01T00:00:00.000Z",
+  "categorie": "Infectiologie",
+  "dateModification": "2026-01-16T11:33:32.203058",
   "blocs": [
     {
       "type": "alerte",
-      "ordre": 0,
       "contenu": "Post-Chimio = URGENCE. Antibiothérapie < 1h (4h max). Ne pas attendre les résultats si mauvais état.",
-      "niveau": "critique"
+      "niveau": "critique",
+      "ordre": 0,
+      "id": "7845f8cd-dd32-46ec-b7de-a84846e18400"
     },
     {
       "type": "section",
-      "ordre": 1,
       "titre": "A. Contexte Post-Chimiothérapie (Onco)",
       "initialementOuvert": true,
       "contenu": [
         {
           "type": "medicament",
-          "ordre": 0,
           "nomMedicament": "Céfépime",
-          "indication": "1ère intention (si stable)",
+          "indication": "Infections bactériennes - C4G",
           "voie": "IV",
-          "commentaire": "150 mg/kg/j en 3 injections d'1h."
+          "commentaire": "150 mg/kg/j en 3 injections d'1h.",
+          "ordre": 0,
+          "id": "a7c959bb-7c71-4cd2-bb11-cb4b8d01d2fa"
         },
         {
           "type": "medicament",
-          "ordre": 1,
           "nomMedicament": "Pipéracilline-tazobactam",
-          "indication": "Si point d'appel digestif/périnéal",
+          "indication": "Aplasie fébrile",
           "voie": "IV",
-          "commentaire": "300-400 mg/kg/j (de Pipéracilline) en 4 injections."
+          "commentaire": "300-400 mg/kg/j (de Pipéracilline) en 4 injections.",
+          "ordre": 1,
+          "id": "e6efe3a1-1676-4b39-86ca-33c4bd5e6c40"
         },
         {
           "type": "medicament",
-          "ordre": 2,
           "nomMedicament": "Amikacine",
-          "indication": "Si Choc/Sepsis sévère",
+          "indication": "Pyélonéphrite aiguë ou Aplasie fébrile sévère",
           "voie": "IVL",
-          "commentaire": "20 mg/kg/j en 1 injection de 30 min. Associer à B-Lactamine."
+          "commentaire": "20 mg/kg/j en 1 injection de 30 min. Associer à B-Lactamine.",
+          "ordre": 2,
+          "id": "a321a43c-40da-4c86-87a0-23807ac8d0ac"
         },
         {
           "type": "medicament",
-          "ordre": 3,
           "nomMedicament": "Vancomycine",
-          "indication": "Si suspicion KT/Cutané/SARM",
+          "indication": "Aplasie fébrile (point d'appel cutané ou matériel orthopédique) - Dose de charge",
           "voie": "IV",
-          "commentaire": "60 mg/kg/j en 4 injections ou continu. (Alt: Teicoplanine)."
+          "commentaire": "60 mg/kg/j en 4 injections ou continu. (Alt: Teicoplanine).",
+          "ordre": 3,
+          "id": "1a8ebed3-a63b-4686-a028-064f85f555ea"
         }
-      ]
+      ],
+      "ordre": 1,
+      "id": "e216e394-8d35-4bb5-8499-694da826c38a"
     },
     {
       "type": "section",
-      "ordre": 2,
       "titre": "B. Hors Chimiothérapie (Virale/Auto-immune/Congénitale)",
+      "initialementOuvert": false,
       "contenu": [
         {
           "type": "texte",
+          "contenu": "**Critères Hospitalisation :** Mauvaise tolérance, mucite, infection focale, ou Neutropénie Congénitale.\n**Retour Domicile Possible si :** CRP/PCT basses, bon état général, famille fiable. Surveillance ambulatoire.",
           "ordre": 0,
-          "contenu": "**Critères Hospitalisation :** Mauvaise tolérance, mucite, infection focale, ou Neutropénie Congénitale.\n**Retour Domicile Possible si :** CRP/PCT basses, bon état général, famille fiable. Surveillance ambulatoire."
+          "id": "7a4d5dc5-f25e-41ac-b858-1d31da72eed3"
         },
         {
           "type": "medicament",
-          "ordre": 1,
           "nomMedicament": "Amoxicilline",
-          "indication": "Relai Oral / Ambulatoire",
+          "indication": "80-100 mg/kg/j",
           "voie": "PO",
-          "commentaire": "100 mg/kg/j (Ne jamais donner seul, associer Cipro)."
+          "commentaire": "100 mg/kg/j (Ne jamais donner seul, associer Cipro).",
+          "ordre": 1,
+          "id": "92ce4e49-0214-498a-8474-3acbbd122973"
         },
         {
           "type": "medicament",
-          "ordre": 2,
           "nomMedicament": "Ciprofloxacine",
-          "indication": "Relai Oral / Ambulatoire",
+          "indication": "Infections bactériennes - Fluoroquinolone",
           "voie": "PO",
-          "commentaire": "30 à 40 mg/kg/j (Max 1.5g/j). Couverture Pseudomonas."
+          "commentaire": "30 à 40 mg/kg/j (Max 1.5g/j). Couverture Pseudomonas.",
+          "ordre": 2,
+          "id": "2703b55e-e5bd-4f97-8ea2-a5a1e3d6ddab"
         }
-      ]
+      ],
+      "ordre": 2,
+      "id": "3d571657-dbca-401c-abe6-06bd9f9a015d"
     }
   ]
 }
