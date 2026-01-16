@@ -3,24 +3,67 @@
   "description": "Règles d'éviction pour crèches et écoles (Guide Pratique).",
   "auteur": "HCSP",
   "version": "2024.1",
-  "dateModification": "2024-01-01T00:00:00.000Z",
+  "categorie": "Infectiologie",
+  "dateModification": "2026-01-16T11:22:21.177605",
   "blocs": [
     {
       "type": "tableau",
-      "ordre": 1,
       "titre": "Maladies à Eviction",
-      "colonnes": ["Maladie", "Durée Eviction", "Retour"],
+      "colonnes": [
+        "Maladie",
+        "Durée Eviction",
+        "Retour"
+      ],
       "lignes": [
-        ["Angine Strepto A", "Oui (si non traité)", "48h après début ATB"],
-        ["Scarlatine", "Oui", "48h après début ATB"],
-        ["Coqueluche", "Oui", "3j (Azithro) ou 5j (Clarithro)"],
-        ["Gale", "Oui", "3j après traitement"],
-        ["Impétigo", "Oui (si étendu)", "72h après début ATB (ou pansement)"],
-        ["Rougeole/Oreillons", "Oui", "5j (Rougeole) / 9j (Oreillons)"],
-        ["Gastro-entérite", "Non (sauf E. Coli O157)", "Hygiène renforcée"],
-        ["Pieds-Mains-Bouche", "Non", "Sauf si état général altéré"],
-        ["Varicelle", "Non", "Fréquentation déconseillée phase aiguë"]
-      ]
+        [
+          "Angine Strepto A",
+          "Oui (si non traité)",
+          "48h après début ATB"
+        ],
+        [
+          "Scarlatine",
+          "Oui",
+          "48h après début ATB"
+        ],
+        [
+          "Coqueluche",
+          "Oui",
+          "3j (Azithro) ou 5j (Clarithro)"
+        ],
+        [
+          "Gale",
+          "Oui",
+          "3j après traitement"
+        ],
+        [
+          "Impétigo",
+          "Oui (si étendu)",
+          "72h après début ATB (ou pansement)"
+        ],
+        [
+          "Rougeole/Oreillons",
+          "Oui",
+          "5j (Rougeole) / 9j (Oreillons)"
+        ],
+        [
+          "Gastro-entérite",
+          "Non (sauf E. Coli O157)",
+          "Hygiène renforcée"
+        ],
+        [
+          "Pieds-Mains-Bouche",
+          "Non",
+          "Sauf si état général altéré"
+        ],
+        [
+          "Varicelle",
+          "Non",
+          "Fréquentation déconseillée phase aiguë"
+        ]
+      ],
+      "avecEntete": true,
+      "ordre": 1,
+      "id": "3de4730b-271b-47a2-b47f-5dfef798d134"
     }
   ]
 }
